@@ -89,4 +89,4 @@ If data in a column needs to be split into multiple columns, and the strings in 
   - To Undo create columns, look just above the scientificName cluster in the left side of the screen. Click where it says Undo / Redo. Click back one step (all steps, all changes are saved here). Just go back to the previous step and click. The extra columns will be gone.
 ````
 
-Previous: [Getting Started with OpenRefine](00-getting-started.html)  Next: [Scripts from OpenRefine](02-scripts.html)
+Previous: [Getting Started with OpenRefine](00-getting-started.md)  Next: [Scripts from OpenRefine](02-scripts.md)
