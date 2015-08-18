@@ -60,8 +60,7 @@ Typically, you create a facet on a particular column. The facet summarizes the c
 
 ## Cluster
 
-One of the most magical bits of Refine, the moment you realize what you've been missing. Refin\
-e has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work. 
+One of the most magical bits of Refine, the moment you realize what you've been missing. Refine has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work. 
 
 [More on clustering](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth)
 
