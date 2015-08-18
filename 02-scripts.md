@@ -22,7 +22,7 @@ minutes:
 
 ````
   - In the Undo / Redo section, click Extract, save the bits desired using the check boxes. 
-  - Save the code in a .txt file. 
+  - Copy the code and paste it into a text editor. Save it as a .txt file. 
 ````
 
 To run these steps on a new dataset, import the new dataset into Refine, open the Extract / Apply section, paste in the .txt file, click Apply.
