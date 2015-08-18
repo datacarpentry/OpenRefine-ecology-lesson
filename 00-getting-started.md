@@ -45,4 +45,4 @@ You can find out a lot more about Open Refine at http://openrefine.org and check
 * A large growing community, from novice to expert, ready to help.
 * Works with large-ish datasets (100,000 rows). Does not scale to many millions. (yet).
 
-Next: [Working with OpenRefine](01-working-with-openrefine.html)
+Next: [Working with OpenRefine](01-working-with-openrefine.md)
