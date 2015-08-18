@@ -32,9 +32,9 @@ minutes:
 * Note that "double-clicking" a zipped file on a windows machine sometimes results in a correctly unzipped set of files, other times, this is not successful. Try installing 7-Zip and use 7-Zip to extract all files from the zipped file to the desired directory.
 * Go to your newly created Open-Refine directory.
 * Launch Open Refine
-** Windows: Click the google-refine.exe
-** Mac: Drag icon into Applications folder and double-click it
-** Linux: Run ./refine
+  * Windows: Click the google-refine.exe
+  * Mac: Drag icon into Applications folder and double-click it
+  * Linux: Run ./refine
 * Note, this is a Java program that runs on your machine (not in the cloud). It runs inside the Firefox browser, but no web connection is needed.
 
 ## Basics of Open Refine
