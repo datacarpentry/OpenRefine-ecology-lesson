@@ -27,7 +27,7 @@ minutes:
 ## Before we get started
 
 * Check that you have Firefox browser installed. Open Refine runs in this browser. It will not run in IE.
-* Download software from [http://openrefine.org](http://openrefine) if you have not done this yet.
+* Download software from [http://openrefine.org](http://openrefine.org) if you have not done this yet.
 * Unzip the downloaded file into a directory. Name that directory something like Open-Refine
 * Note that "double-clicking" a zipped file on a windows machine sometimes results in a correctly unzipped set of files, other times, this is not successful. Try installing 7-Zip and use 7-Zip to extract all files from the zipped file to the desired directory.
 * Go to your newly created Open-Refine directory.
