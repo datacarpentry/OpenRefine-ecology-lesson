@@ -19,17 +19,20 @@ minutes:
 
 ## Creating a Project
 
-Start the program. (Double-click on the google-refine.exe file. Java services will start on your machine, and Refine will open in your Firefox browser).
+Start the program. (Double-click on the google-refine.exe file. Java services will start on your machine, and Open Refine will open in your Firefox browser).
 
 Note the file types Open Refine handles: TSV, CSF, *SV, Excel (.xls .xlsx), JSON, XML, RDF as XML, Google Data documents. Support for other formats can be added with Google Refine extensions.
 
-In this first step, we'll browse our computer to the sample data file for this lesson. In this case, I've modified the Portal_rodents csv file. I added several columns: scientificName, locality, county, state, country and I generated several more columns in the lesson itself (JSON, decimalLatitude, decimalLongitude). Data in locality, county, country, JSON, decimalLatitude and decimalLongitude are contrived and are in no way related to the original dataset. When doing this demo, the columns: JSON, decimalLatitude, decimalLongitude can be deleted, and then recreated if time, with a call to a locality service, and subsequent parsing of the JSON data returned by the service.
+In this first step, we'll browse our computer to the sample data file for this lesson. In this case, I've modified the Portal_rodents csv file. I added several columns: `scientificName`, `locality`, `county`, `state`, `country`. We'll generate some more columns in the lesson itself (`decimalLatitude`, `decimalLongitude`), by sending the locality to a geo-referencing service and parsing the JSON "answer" from this service.
+
+__Disclaimer__: Data in `locality`, `county`, `country`, and the generated columns derived from them (`decimalLatitude` and `decimalLongitude`) are contrived and are in no way related to the original dataset. 
 
 If you haven't already, download the data from:  
 [https://www.dropbox.com/s/kbb4k00eanm19lg/Portal_rodents_19772002_scinameUUIDs.csv?dl=0](https://www.dropbox.com/s/kbb4k00eanm19lg/Portal_rodents_19772002_scinameUUIDs.csv?dl=0)
 
+(If you want to skip to the end result, a version of the dataset that has some records augmented with decimal latitude and longitude can be found at `Portal_rodents_19772002_scinameUUIDs-georeferenced.csv`). 
 
-**Once Refine is open, you'll be asked if you want to Create, Open, or Import a Project.**
+**Once Open Refine is open, you'll be asked if you want to Create, Open, or Import a Project.**
 
 ````
   - Click Browse, find Portal_rodents_19772002_scinameUUIDs.csv
@@ -42,7 +45,7 @@ If you haven't already, download the data from:
 
 *Exploring data by applying multiple filters*
 
-OpenRefine supports faceted browsing as a mechanism for
+Open Refine supports faceted browsing as a mechanism for
 
 * seeing a big picture of your data, and
 * filtering down to just the subset of rows that you want to change in bulk.
@@ -64,7 +67,7 @@ One of the most magical bits of Refine, the moment you realize what you've been 
 
 [More on clustering](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth)
 
-In OpenRefine, clustering refers to the operation of "finding groups of different values that might be alternative representations of the same thing". For example, the two strings "New York" and "new york" are very likely to refer to the same concept and just have capitalization differences. Likewise, "Gödel" and "Godel" probably refer to the same person.
+In Open Refine, clustering refers to the operation of "finding groups of different values that might be alternative representations of the same thing". For example, the two strings "New York" and "new york" are very likely to refer to the same concept and just have capitalization differences. Likewise, "Gödel" and "Godel" probably refer to the same person.
 
 ````
   - In this example, in the scientificName Text Facet we created in the step above, click the _Cluster_ button.
@@ -89,4 +92,4 @@ If data in a column needs to be split into multiple columns, and the strings in 
   - To Undo create columns, look just above the scientificName cluster in the left side of the screen. Click where it says Undo / Redo. Click back one step (all steps, all changes are saved here). Just go back to the previous step and click. The extra columns will be gone.
 ````
 
-Previous: [Getting Started with OpenRefine](00-getting-started.html)  Next: [Scripts from OpenRefine](02-scripts.html)
+Previous: [Getting Started with Open Refine](00-getting-started.html)  Next: [Scripts from Open Refine](02-scripts.html)
