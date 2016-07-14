@@ -52,41 +52,56 @@ Typically, you create a facet on a particular column. The facet summarizes the c
 [More on faceting](https://github.com/OpenRefine/OpenRefine/wiki/Faceting)
 
 ````
-  - Scroll over to the scientificName column
-  - Click the down arrow and choose > Facet > Text facet
-  - In the left margin, you'll see a box containing every unique, distinct value in the scientificName column and Refine shows you how many times that value occurs in the column (a count), and allows you to sort (order) your facets by name or count.
-  - Edit. Note that at any time, in any cell of the Facet box, or data cell in the Refine window, you have access to "edit" and can fix an error immediately. Refine will even ask you if you'd like to make that same correction to every value it finds like that one (or not).
+  - Scroll over to the scientificName column.
+  - Click the down arrow and choose > Facet > Text facet.
+  - In the left margin, you'll see a box containing every unique, distinct value in the scientificName column and how many times that value occurs in the column.
+  - Try sorting this facet by name and by count. Do you notice any problems with the data? What are they?
+  - Hover the mouse over one of the names in the Facet list. You should see that you have an "edit" function available. You could use this to fix an error immediately, and OpenRefine will ask if you want to make the same correction to every value it finds like that one (or not). But OpenRefine offers even better ways to find and fix these errors, which we'll use instead.
 ````
 
 ## Cluster
 
-One of the most magical bits of Refine, the moment you realize what you've been missing. Refine has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work. 
+In OpenRefine, clustering means "finding groups of different values that might be alternative representations of the same thing". For example, the two strings "New York" and "new york" are very likely to refer to the same concept and just have capitalization differences. Likewise, "Gödel" and "Godel" probably refer to the same person. Clustering is a very powerful tool for cleaning datasets which contain misspelled or mistyped entries.
+OpenRefine has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work. 
 
 [More on clustering](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth)
 
-In OpenRefine, clustering refers to the operation of "finding groups of different values that might be alternative representations of the same thing". For example, the two strings "New York" and "new york" are very likely to refer to the same concept and just have capitalization differences. Likewise, "Gödel" and "Godel" probably refer to the same person.
-
 ````
-  - In this example, in the scientificName Text Facet we created in the step above, click the _Cluster_ button.
-  - In the resulting pop-up window, you can change the algorithm method, and keying function. Try different combinations to see the difference.
-  - For example, with this dataset, the _nearest neighbor_ method with the _PPM_ keying function shows the power of clustering the best. 
-  - Intentional errors in these scientific names have been introduced to show how errors (typos) in any position can be found with this method. All errors can then be fixed by simply entering the correct value in the box on the right. Often, the algorithm has guessed correctly. 
-  - After corrections are made in this window, you can either Merge and Close the Cluster pop-up, or Merge and Re-cluster.
+  - In the scientificName Text Facet we created in the step above, click the _Cluster_ button.
+  - In the resulting pop-up window, you can change the Method and the Keying Function. Try different combinations to see what different mergers of values are suggested.
+  - Select the _key collision_ method and _metaphone3_ keying function. It should identify three clusters. Click the _Merge?_ box beside each, then click _Merge Selected and Recluster_ to apply the corrections to the dataset.
+  - Try selecting different Methods and Keying Functions again, to see what new mergers are suggested. You may find there are still improvements that can be made, but don't Merge again; just Close when you're done.  We'll now see other operations that will help us detect and correct the remaining problems, and that have more general uses besides.
 ````
 
-## Split / Leading - Trailing Whitespace / Undo - Redo
+## Split
 
-If data in a column needs to be split into multiple columns, and the strings in the cells are separated by a common separator (say a comma, or a space), you can use that separator to divide up the bits into their own columns.
+If data in a column needs to be split into multiple columns, and the parts are separated by a common separator (say a comma, or a space), you can use that separator to divide up the bits into their own columns.
 
 ````
-  - Go to the drop-down tab at the top of the column that you need to split into multiple columns
-  - For example, go to the scientificName column > from drop-down choose Edit Column > Split into several columns
-  - In the pop-up, for separator, remove the comma, put in a space
-  - Remove the check in the box that says "remove column after splitting"
-  - You'll get two extra columns called, in this case: scientificName 1, scientificName 2
-  - This will reveal an error in a few names that have spaces at the beginning (so-called leading white space).
-  - These can be easily removed with another Refine feature in the column drop-down choices. See drop-down: Edit cells > Common transforms > Remove leading and trailing whitespace
-  - To Undo create columns, look just above the scientificName cluster in the left side of the screen. Click where it says Undo / Redo. Click back one step (all steps, all changes are saved here). Just go back to the previous step and click. The extra columns will be gone.
+  - Go to the drop-down tab at the top of the scientificName column. Choose Edit Column > Split into several columns.
+  - In the pop-up, in the Separator box, replace the comma with a space.
+  - Remove the check in the box that says "Remove the column".
+  - Click "OK". You'll get some new columns called _scientificName 1_, _scientificName 2_, and so on.
+  - Notice that in some cases _scientificName 1_ and _scientificName 2_ are empty. Why is this? What do you think we should do about it?
+````
+
+## Undo / Redo
+
+Strings with spaces at the beginning or end are particularly hard for humans to distinguish from strings without. Having identified a few such cases while we were trying to split a column, let's go back and correct those error in the original column before we try to split it again.
+
+````
+  - Click where it says Undo / Redo on the left side of the screen. All the changes you have made so far are listed here.
+  - Click on the previous step that you want to go back to. The added columns will disappear.
+````
+
+## Trim Leading and Trailing Whitespace
+
+We'd like to remove extra blank characters from the beginning of any scientificNames that have them. We'll also get rid of blank characters from the ends at the same time.
+
+````
+  - In the header for the column _scientificName_, choose Edit cells > Common transforms > Trim leading and trailing whitespace.
+  - Notice that the Split step has now disappeared from the Undo / Redo pane on the left. 
+  - Perform the same Split operation on scientificName that you undid earlier. This time you should only get two new columns.
 ````
 
 Previous: [Getting Started with OpenRefine](00-getting-started.html)  Next: [Scripts from OpenRefine](02-scripts.html)
