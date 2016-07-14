@@ -78,6 +78,7 @@ OpenRefine has several clustering algorithms built in. Experiment with them, and
 If data in a column needs to be split into multiple columns, and the parts are separated by a common separator (say a comma, or a space), you can use that separator to divide up the bits into their own columns.
 
 ````
+  - Let us suppose we want to split the scientificName column into separate colums for genus and for species. 
   - Go to the drop-down tab at the top of the scientificName column. Choose Edit Column > Split into several columns.
   - In the pop-up, in the Separator box, replace the comma with a space.
   - Remove the check in the box that says "Remove the column".
@@ -87,16 +88,18 @@ If data in a column needs to be split into multiple columns, and the parts are s
 
 ## Undo / Redo
 
-Strings with spaces at the beginning or end are particularly hard for humans to distinguish from strings without. Having identified a few such cases while we were trying to split a column, let's go back and correct those error in the original column before we try to split it again.
+It's common while exploring and cleaning a dataset to discover after you've made a change that you really should have done something else first. OpenRefine provides Undo and Redo operations to make this easy.
 
 ````
   - Click where it says Undo / Redo on the left side of the screen. All the changes you have made so far are listed here.
-  - Click on the previous step that you want to go back to. The added columns will disappear.
+  - Click on the step that you want to go back to, in this case the previous step. The added columns will disappear.
+  - Notice that you can still click on the last step and make the columns reappear, and back, and forth. 
+  - Leave the dataset in the state in which the scientificNames were clustered, but not yet split.
 ````
 
 ## Trim Leading and Trailing Whitespace
 
-We'd like to remove extra blank characters from the beginning of any scientificNames that have them. We'll also get rid of blank characters from the ends at the same time.
+Strings with spaces at the beginning or end are particularly hard for we humans to tell from strings without, but the blank characters will make a difference to the computer. We usually want to remove these. OpenRefine provides a tool to remove blank characters from the beginning and end of any entries that have them.
 
 ````
   - In the header for the column _scientificName_, choose Edit cells > Common transforms > Trim leading and trailing whitespace.
