@@ -2,7 +2,7 @@
 layout: lesson
 root: .
 title: Getting Started with Open Refine
-minutes: 
+minutes:
 ---
 
 # Learning Objectives
@@ -26,23 +26,24 @@ minutes:
 
 ## Before we get started
 
-* Check that you have Firefox browser installed. Open Refine runs in this browser. It will not run in IE.
+* Check that you have Firefox or Chrome browsers installed. Open Refine runs in your default browser. It will not run correctly in Internet Explorer.
 * Download software from [http://openrefine.org](http://openrefine.org) if you have not done this yet.
-* Unzip the downloaded file into a directory. Name that directory something like Open-Refine
-* Note that "double-clicking" a zipped file on a windows machine sometimes results in a correctly unzipped set of files, other times, this is not successful. Try installing 7-Zip and use 7-Zip to extract all files from the zipped file to the desired directory.
+* Unzip the downloaded file into a directory. Name that directory something like Open-Refine.
+* Note that just "double-clicking" a zipped file on a windows machine does not properly unzip the files. Try installing 7-Zip and use 7-Zip to extract all files from the zipped file to the desired directory.
 * Go to your newly created Open-Refine directory.
 * Launch Open Refine
-  * Windows: Click the google-refine.exe
+  * Windows: Click the google-refine.exe (this will launch a command prompt window, but you can ignore that and wait for the browser to launch)
   * Mac: Drag icon into Applications folder and double-click it
-  * Linux: Run ./refine
-* Note, this is a Java program that runs on your machine (not in the cloud). It runs inside the Firefox browser, but no web connection is needed.
-* If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at http://127.0.0.1:3333/ to launch the program.
+  * Linux: Type `./refine` into the terminal within the OpenRefine directory
+* Note: this is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed.
+* If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at [http://127.0.0.1:3333/]() to launch the program.
 
 ## Basics of Open Refine
 
-You can find out a lot more about Open Refine at http://openrefine.org and check out some great introductory videos. There is also an Open Refine Google Plus community https://plus.google.com/communities/117280693504889048168 where you can find a lot of help and a lot of folks from the life sciences are members. As with other programs of this type, Open Refine libraries are available too, where you can find a script you need and copy it into your Refine instance to run it on your dataset.
+You can find out a lot more about Open Refine at [http://openrefine.org]() and check out some great introductory videos. There is a [Google Group](https://groups.google.com/forum/?hl=en#!forum/openrefine) that can answer a lot of beginner questions and problems. There is also an [Open Refine Google Plus community](https://plus.google.com/communities/117280693504889048168) where you can find a lot of help and a lot of folks from the life sciences are members. As with other programs of this type, Open Refine libraries are available too, where you can find a script you need and copy it into your Refine instance to run it on your dataset.
 
-* Open source.
+## Features
+* Open source ([source on GitHub](https://github.com/OpenRefine/OpenRefine)).
 * A large growing community, from novice to expert, ready to help.
 * Works with large-ish datasets (100,000 rows). Does not scale to many millions. (yet).
 
