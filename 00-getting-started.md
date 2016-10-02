@@ -36,7 +36,7 @@ minutes:
   * Mac: Drag icon into Applications folder and double-click it
   * Linux: Type `./refine` into the terminal within the OpenRefine directory
 * Note: this is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed.
-* If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at [http://127.0.0.1:3333/]() to launch the program.
+* If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at [http://127.0.0.1:3333/]() or http://localhost:3333" to launch the program.
 
 ## Basics of Open Refine
 
