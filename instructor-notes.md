@@ -23,6 +23,9 @@ minutes:
 
 # Lesson
 
+## Opening Refine
+If you are using a different browser, or OpenRefine does not automatically open for you when you click the .exe file, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
+
 ## Creating a Project
 
 Start the program. (Double-click on the google-refine.exe file. Java services will start on your machine, and Refine will open in your Firefox browser).
