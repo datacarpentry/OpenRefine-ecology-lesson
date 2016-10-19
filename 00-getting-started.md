@@ -28,12 +28,11 @@ minutes:
 
 * Check that you have Firefox or Chrome browsers installed. Open Refine runs in your default browser. It will not run correctly in Internet Explorer.
 * Download software from [http://openrefine.org](http://openrefine.org) if you have not done this yet.
-* Unzip the downloaded file into a directory. Name that directory something like Open-Refine.
-* Note that just "double-clicking" a zipped file on a windows machine does not properly unzip the files. Try installing 7-Zip and use 7-Zip to extract all files from the zipped file to the desired directory.
+* Unzip the downloaded file into a directory by double-clicking it (Mac) or right-clicking and selecting "Extract..." on Windows. Name that directory something like Open-Refine.
 * Go to your newly created Open-Refine directory.
 * Launch Open Refine
   * Windows: Click the google-refine.exe (this will launch a command prompt window, but you can ignore that and wait for the browser to launch)
-  * Mac: Drag icon into Applications folder and double-click it
+  * Mac: Drag icon into Applications folder, and Ctrl-click/Open... it. (See [this article](https://support.apple.com/kb/PH21769?locale=en_US) for more information on what you're doing here.)
   * Linux: Type `./refine` into the terminal within the OpenRefine directory
 * Note: this is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed.
 * If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
