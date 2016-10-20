@@ -32,6 +32,8 @@ If you haven't already, download the data from:
 **Once Refine is open, you'll be asked if you want to Create, Open, or Import a Project.**
 
 ```
+  To create a project,
+  - click Create... and it will bring you to "Get data from this computer."
   - Click Browse, find Portal_rodents_19772002_scinameUUIDs.csv
   - Click next to open Portal_rodents_19772002_scinameUUIDs.csv
   - Refine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click "update preview."
