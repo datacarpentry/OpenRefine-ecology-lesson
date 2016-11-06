@@ -7,11 +7,13 @@ minutes:
 
 # Learning Objectives
 
-* Introduce concept of facets
-* Show split columns by defined separator
-* Show power of include / exclude, sort by name / count
-* Show the power of clustering algorithms to reveal data patterns, data snafus
-* Show the power of undo / redo.
+* Create a new OpenRefine project from a `CSV` file
+* Recognize how facets can be used to have an overview of the data 
+* Use sort and include/exclude to identify and understand possible mistakes in the data
+* Apply clustering algorithms to correct multiple typos in a variable at once
+* Show how undo/redo allows to recreate previous steps of the data manipulations
+* Show how to split the values from one column into multiple columns
+* Show how to solve the common mistake of trailing/leading white spaces
 
 ----------------------------------------------------
 
