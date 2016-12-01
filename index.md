@@ -50,6 +50,7 @@ in working with {{page.domain %}} data in {{page.topic %}}.
 
 #### Optional
 - [Using Services with OpenRefine](04-services.html)
+- [Other Resources](05-resources.html)
 
 ## Data
 

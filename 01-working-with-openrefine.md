@@ -2,7 +2,7 @@
 layout: lesson
 root: .
 title: Working with Open Refine
-minutes: 
+minutes: .
 ---
 
 # Learning Objectives
@@ -21,26 +21,24 @@ minutes:
 
 ## Creating a Project
 
-Start the program. (Double-click on the google-refine.exe file. Java services will start on your machine, and Refine will open in your Firefox browser).
+Launch OpenRefine (see [Getting Started with OpenRefine](00-getting-started.html).
 
-Note the file types Open Refine handles: TSV, CSF, *SV, Excel (.xls .xlsx), JSON, XML, RDF as XML, Google Data documents. Support for other formats can be added with Google Refine extensions.
+OpenRefine can import a variety of file types, including tab separated (`*.tsv`), comma separated (`*.csv`), Excel (`*.xls`, `*.xlsx`), JSON, XML, RDF as XML, Google Spreadsheets. See the [OpenRefine Importers page](https://github.com/OpenRefine/OpenRefine/wiki/Importers) for more information.
 
-In this first step, we'll browse our computer to the sample data file for this lesson. In this case, I've modified the Portal_rodents csv file. I added several columns: scientificName, locality, county, state, country and I generated several more columns in the lesson itself (JSON, decimalLatitude, decimalLongitude). Data in locality, county, country, JSON, decimalLatitude and decimalLongitude are contrived and are in no way related to the original dataset. When doing this demo, the columns: JSON, decimalLatitude, decimalLongitude can be deleted, and then recreated if time, with a call to a locality service, and subsequent parsing of the JSON data returned by the service.
+In this first step, we'll browse our computer to the sample data file for this lesson. In this case, We modified the `Portal_rodents` CSV file, adding several columns: `scientificName`, `locality`, `county`, `state`, `country` and generating several more columns in the lesson itself (`JSON`, `decimalLatitude`, `decimalLongitude`). Data in `locality`, `county`, `country`, `JSON`, `decimalLatitude` and `decimalLongitude` are contrived and are in no way related to the original dataset. 
 
 If you haven't already, download the data from:  
-[https://www.dropbox.com/s/kbb4k00eanm19lg/Portal_rodents_19772002_scinameUUIDs.csv?dl=0](https://www.dropbox.com/s/kbb4k00eanm19lg/Portal_rodents_19772002_scinameUUIDs.csv?dl=0)
+[https://www.dropbox.com/s/kbb4k00eanm19lg/Portal_rodents_19772002_scinameUUIDs.csv](https://www.dropbox.com/s/kbb4k00eanm19lg/Portal_rodents_19772002_scinameUUIDs.csv)
 
+Once OpenRefine is launched in your browser, the left margin as options to **Create Project**, **Open Project**, or **Import Project**. Here we create a project, which just takes a couple steps:
 
-**Once Refine is open, you'll be asked if you want to Create, Open, or Import a Project.**
+1. click **Create Project** to bring you to "Get data from" "**This Computer**".
+2. Click **Browse...** and select file `Portal_rodents_19772002_scinameUUIDs.csv`. Click **Open** in the browse window to finish selection 
+3. Click **Next>>** under the browse button to upload data into OpenRefine.
+4. Refine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click **Update Preview** (look in bottom panel). If this is the wrong file, click **<<Start Over** (look in upper left region).
+5. If all looks well, click **Create Project>>** (look in upper right corner).
 
-```
-  To create a project,
-  - click Create... and it will bring you to "Get data from this computer."
-  - Click Browse, find Portal_rodents_19772002_scinameUUIDs.csv
-  - Click next to open Portal_rodents_19772002_scinameUUIDs.csv
-  - Refine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click "update preview."
-  - If all looks well, click _Create Project._
-```
+Note that at step 1, you could upload data in a standard form from a web address by using "Get data from" "**Web Addresses (URLs)**". However, this will not work on a dropbox address as above.
 
 ## Faceting
 
@@ -51,46 +49,41 @@ OpenRefine supports faceted browsing as a mechanism for
 * seeing a big picture of your data, and
 * filtering down to just the subset of rows that you want to change in bulk.
 
-Typically, you create a facet on a particular column. The facet summarizes the cells in that column to give you a big picture on that column, and allows you to filter to some subset of rows for which their cells in that column satisfy some constraint. That's a bit abstract, so let's jump into some examples.
+Typically, you create a facet on a particular column. The facet summarizes the cells in that column to give you a big picture on that column, and allows you to filter to some subset of rows for which their cells in that column satisfy some constraint. That's a bit abstract, so let's jump into some examples. Here are steps for one particular column:
+
+1. Scroll over to the **scientificName** column.
+2. Click the down arrow and choose **> Facet > Text facet**.
+3. In the left margin, you'll see a box containing every unique, distinct value in the **scientificName** column. OpenRefine shows you how many times that value occurs in the column (a count), and allows you to sort (order) your facets by **name** or **count**.
+3. Edit an entry. Note that at any time, in any cell of the Facet box, or data cell in the Refine window, you have access to **edit** and can fix an error immediately. OpenRefine will even ask you if you'd like to make that same correction to every value it finds like that one (or not).
 
 [More on faceting](https://github.com/OpenRefine/OpenRefine/wiki/Faceting)
-
-````
-  - Scroll over to the scientificName column
-  - Click the down arrow and choose > Facet > Text facet
-  - In the left margin, you'll see a box containing every unique, distinct value in the scientificName column and Refine shows you how many times that value occurs in the column (a count), and allows you to sort (order) your facets by name or count.
-  - Edit. Note that at any time, in any cell of the Facet box, or data cell in the Refine window, you have access to "edit" and can fix an error immediately. Refine will even ask you if you'd like to make that same correction to every value it finds like that one (or not).
-````
 
 ## Cluster
 
 One of the most magical bits of Refine, the moment you realize what you've been missing. Refine has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work. 
 
+In OpenRefine, clustering refers to the operation of "finding groups of different values that might be alternative representations of the same thing". For example, the two strings "New York" and "new york" are very likely to refer to the same concept and just have capitalization differences. Likewise, "Gödel" and "Godel" probably refer to the same person. Here are the steps for clustering scientific names:
+
+1. In this example, in the **scientificName** Text Facet box we created in the step above, click the **Cluster** button.
+2. In the resulting pop-up window, you can change the algorithm method, and keying function. Try different combinations to see the difference. For example, with this dataset, the **nearest neighbor** method with the **PPM** keying function shows the power of clustering the best. 
+3. Intentional errors in these scientific names have been introduced to show how errors (typos) in any position can be found with this method. All errors can then be fixed by simply entering the correct value in the box on the right. Often, the algorithm has guessed correctly. 
+4. After corrections are made in this window, you can either **Merge Selected & Close** or **Merge Selected & Re-Cluster**. Close the pop-up with the **Close** button if it does not otherwise disappear.
+
 [More on clustering](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth)
-
-In OpenRefine, clustering refers to the operation of "finding groups of different values that might be alternative representations of the same thing". For example, the two strings "New York" and "new york" are very likely to refer to the same concept and just have capitalization differences. Likewise, "Gödel" and "Godel" probably refer to the same person.
-
-````
-  - In this example, in the scientificName Text Facet we created in the step above, click the _Cluster_ button.
-  - In the resulting pop-up window, you can change the algorithm method, and keying function. Try different combinations to see the difference.
-  - For example, with this dataset, the _nearest neighbor_ method with the _PPM_ keying function shows the power of clustering the best. 
-  - Intentional errors in these scientific names have been introduced to show how errors (typos) in any position can be found with this method. All errors can then be fixed by simply entering the correct value in the box on the right. Often, the algorithm has guessed correctly. 
-  - After corrections are made in this window, you can either Merge and Close the Cluster pop-up, or Merge and Re-cluster.
-````
 
 ## Split / Leading - Trailing Whitespace / Undo - Redo
 
-If data in a column needs to be split into multiple columns, and the strings in the cells are separated by a common separator (say a comma, or a space), you can use that separator to divide up the bits into their own columns.
+If data in a column needs to be split into multiple columns, and the strings in the cells are separated by a common separator (say a comma, or a space), you can use that separator to divide up the bits into their own columns. Here are steps to separate out genus and species from the scientific name.
 
-````
-  - Go to the drop-down tab at the top of the column that you need to split into multiple columns
-  - For example, go to the scientificName column > from drop-down choose Edit Column > Split into several columns
-  - In the pop-up, for separator, remove the comma, put in a space
-  - Remove the check in the box that says "remove column after splitting"
-  - You'll get two extra columns called, in this case: scientificName 1, scientificName 2
-  - This will reveal an error in a few names that have spaces at the beginning (so-called leading white space).
-  - These can be easily removed with another Refine feature in the column drop-down choices. See drop-down: Edit cells > Common transforms > Remove leading and trailing whitespace
-  - To Undo create columns, look just above the scientificName cluster in the left side of the screen. Click where it says Undo / Redo. Click back one step (all steps, all changes are saved here). Just go back to the previous step and click. The extra columns will be gone.
-````
+1. Go to the drop-down tab at the top of the column that you need to split into multiple columns. For example, go to the **scientificName** column and choose from drop-down **> Edit Column > Split into several columns...**.
+2. In the pop-up, for **Separator**, replace the comma "," with a space
+3. Remove the check in the box that says **Remove this column**.
+4. Click **OK** to split the column into two new columns.
+5. You'll get two extra columns called, in this case: **scientificName 1** and **scientificName 2**.
+
+
+If you did this column split on the original **scientificName** column (before facet and cluster changes), the new columns would reveal an error in a few names that have spaces at the beginning (so-called leading white space). These can be easily removed with another Refine feature in the column drop-down choices. In the drop-down arrow for a column select **> Edit cells > Common transforms > Trim leading and trailing whitespace**.
+
+To **Undo** the creation of new columns, or any number of earlier changes, look in the left margin and notice there is a tab for **Undo / Redo**. Click the **Undo / Redo** and select back one step to remove the most recent change (all steps, all changes are saved here). Just go back to the previous step and click. The extra columns will be gone.
 
 Previous: [Getting Started with OpenRefine](00-getting-started.html)  Next: [Scripts from OpenRefine](02-scripts.html)
