@@ -106,4 +106,4 @@ If you did this column split on the original **scientificName** column (before f
 
 To **Undo** the creation of new columns, or any number of earlier changes, look in the left margin and notice there is a tab for **Undo / Redo**. Click the **Undo / Redo** and select back one step to remove the most recent change (all steps, all changes are saved here). Just click the previous step to go back. The extra columns will be gone.
 
-Previous: [Getting Started with OpenRefine](00-getting-started.html)  Next: [Sort, Filter and Exclude](02-sort-filter-exclude.html)
+Previous: [Getting Started with OpenRefine](00-getting-started.html)  Next: [Filtering, Excluding and Sorting](02-filter-exclude-sort.html)
