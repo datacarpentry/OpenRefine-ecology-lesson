@@ -45,7 +45,7 @@ in working with {{page.domain %}} data in {{page.topic %}}.
 
 1. [Getting Started with OpenRefine](00-getting-started.html)
 2. [Working with OpenRefine - faceting, clustering & splitting](01-working-with-openrefine.html)
-3. [Sort, Filter and Exclude](02-sort-filter-exclude.html)
+3. [Filtering, Excluding and Sorting](02-filter-exclude-sort.html)
 4. [Scripts](03-scripts.html)
 5. [Saving and Exporting Projects and Files](04-save-export.html)
 

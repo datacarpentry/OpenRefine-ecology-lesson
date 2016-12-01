@@ -27,5 +27,5 @@ minutes: .
 
 To run these steps on a new dataset, import the new dataset into Refine, open the Extract / Apply section, paste in the .txt file, click Apply.
 
-Previous:  [Sort, Filter and Exclude](02-sort-filter-exclude.html)  Next: [Saving and Exporting files and projects](04-save-export.html)
+Previous:  [Filtering, Excluding and Sorting](02-filter-exclude-sort.html)  Next: [Saving and Exporting files and projects](04-save-export.html)
 
