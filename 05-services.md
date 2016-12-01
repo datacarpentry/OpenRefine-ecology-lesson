@@ -19,4 +19,6 @@ minutes:
 
 * For this demo, the instructor may find a web service appropriate to demonstrate.
 
-Previous: [Saving and Exporting files and projects](03-save-export.html)
+Previous: [Saving and Exporting files and projects](04-save-export.html)  Optional Next: [Other Resources in OpenRefine](06-resources.html)
+
+

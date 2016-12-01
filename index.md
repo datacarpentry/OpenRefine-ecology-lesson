@@ -45,12 +45,13 @@ in working with {{page.domain %}} data in {{page.topic %}}.
 
 1. [Getting Started with OpenRefine](00-getting-started.html)
 2. [Working with OpenRefine - faceting, clustering & splitting](01-working-with-openrefine.html)
-3. [Scripts](02-scripts.html)
-4. [Saving and Exporting Projects and Files](03-save-export.html)
+3. [Sort, Filter and Exclude](02-sort-filter-exclude.html)
+4. [Scripts](03-scripts.html)
+5. [Saving and Exporting Projects and Files](04-save-export.html)
 
 #### Optional
-- [Using Services with OpenRefine](04-services.html)
-- [Other Resources](05-resources.html)
+- [Using Services with OpenRefine](05-services.html)
+- [Other Resources](06-resources.html)
 
 ## Data
 
