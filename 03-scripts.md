@@ -2,7 +2,7 @@
 layout: lesson
 root: .
 title: Scripts from OpenRefine
-minutes: 
+minutes: .
 ---
 
 # Learning Objectives
@@ -27,4 +27,5 @@ minutes:
 
 To run these steps on a new dataset, import the new dataset into Refine, open the Extract / Apply section, paste in the .txt file, click Apply.
 
-Previous: [Working with OpenRefine](01-working-with-openrefine.html)  Next: [Saving and Exporting files and projects](03-save-export.html)
+Previous:  [Sort, Filter and Exclude](02-sort-filter-exclude.html)  Next: [Saving and Exporting files and projects](04-save-export.html)
+

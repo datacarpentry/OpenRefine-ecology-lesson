@@ -49,7 +49,11 @@ OpenRefine supports faceted browsing as a mechanism for
 * seeing a big picture of your data, and
 * filtering down to just the subset of rows that you want to change in bulk.
 
-Typically, you create a facet on a particular column. The facet summarizes the cells in that column to give you a big picture on that column, and allows you to filter to some subset of rows for which their cells in that column satisfy some constraint. That's a bit abstract, so let's jump into some examples. Here are steps for one particular column:
+Typically, you create a facet on a particular column. The facet summarizes the cells in that column to give you a big picture on that column, and allows you to filter to some subset of rows for which their cells in that column satisfy some constraint. That's a bit abstract, so let's jump into some examples. 
+
+> ## Challenge
+>
+> Use **Facet** to examine the scientific names. Below are some suggested steps.
 
 1. Scroll over to the **scientificName** column.
 2. Click the down arrow and choose **> Facet > Text facet**.
@@ -62,28 +66,44 @@ Typically, you create a facet on a particular column. The facet summarizes the c
 
 One of the most magical bits of Refine, the moment you realize what you've been missing. Refine has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work. 
 
-In OpenRefine, clustering refers to the operation of "finding groups of different values that might be alternative representations of the same thing". For example, the two strings "New York" and "new york" are very likely to refer to the same concept and just have capitalization differences. Likewise, "Gödel" and "Godel" probably refer to the same person. Here are the steps for clustering scientific names:
+In OpenRefine, clustering refers to the operation of "finding groups of different values that might be alternative representations of the same thing". For example, the two strings "New York" and "new york" are very likely to refer to the same concept and just have capitalization differences. Likewise, "Gödel" and "Godel" probably refer to the same person. 
+
+> ## Challenge
+>
+> Use **Cluster** to check for errors in scientific names. Below are some suggested steps.
 
 1. In this example, in the **scientificName** Text Facet box we created in the step above, click the **Cluster** button.
-2. In the resulting pop-up window, you can change the algorithm method, and keying function. Try different combinations to see the difference. For example, with this dataset, the **nearest neighbor** method with the **PPM** keying function shows the power of clustering the best. 
+2. In the resulting pop-up window, you can change the algorithm method, and keying function. Try different combinations to see what happens. For example, with this dataset, the **nearest neighbor** method with the **PPM** keying function shows the power of clustering the best. 
 3. Intentional errors in these scientific names have been introduced to show how errors (typos) in any position can be found with this method. All errors can then be fixed by simply entering the correct value in the box on the right. Often, the algorithm has guessed correctly. 
 4. After corrections are made in this window, you can either **Merge Selected & Close** or **Merge Selected & Re-Cluster**. Close the pop-up with the **Close** button if it does not otherwise disappear.
 
 [More on clustering](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth)
 
-## Split / Leading - Trailing Whitespace / Undo - Redo
+## Split columns into multiple columns
 
-If data in a column needs to be split into multiple columns, and the strings in the cells are separated by a common separator (say a comma, or a space), you can use that separator to divide up the bits into their own columns. Here are steps to separate out genus and species from the scientific name.
+If data in a column needs to be split into multiple columns, and the strings in the cells are separated by a common separator (say a comma, or a space), you can use that separator to divide up the bits into their own columns.
+
+> ## Challenge
+>
+> Use **Split** to split scientific names in two. Below are some suggested steps.
 
 1. Go to the drop-down tab at the top of the column that you need to split into multiple columns. For example, go to the **scientificName** column and choose from drop-down **> Edit Column > Split into several columns...**.
 2. In the pop-up, for **Separator**, replace the comma "," with a space
 3. Remove the check in the box that says **Remove this column**.
 4. Click **OK** to split the column into two new columns.
 5. You'll get two extra columns called, in this case: **scientificName 1** and **scientificName 2**.
+6. Change the name of the first column to "Genus" by using the drop-down arrow: **> Edit Column > Rename this column**, changing the name, and clicking **OK**.
 
+> ## Challenge
+>
+> Try to change the name of the second new column to "species". How can you correct the problem you encounter?
+
+## Leading or trailing white space
 
 If you did this column split on the original **scientificName** column (before facet and cluster changes), the new columns would reveal an error in a few names that have spaces at the beginning (so-called leading white space). These can be easily removed with another Refine feature in the column drop-down choices. In the drop-down arrow for a column select **> Edit cells > Common transforms > Trim leading and trailing whitespace**.
 
-To **Undo** the creation of new columns, or any number of earlier changes, look in the left margin and notice there is a tab for **Undo / Redo**. Click the **Undo / Redo** and select back one step to remove the most recent change (all steps, all changes are saved here). Just go back to the previous step and click. The extra columns will be gone.
+## Undo changes
 
-Previous: [Getting Started with OpenRefine](00-getting-started.html)  Next: [Scripts from OpenRefine](02-scripts.html)
+To **Undo** the creation of new columns, or any number of earlier changes, look in the left margin and notice there is a tab for **Undo / Redo**. Click the **Undo / Redo** and select back one step to remove the most recent change (all steps, all changes are saved here). Just click the previous step to go back. The extra columns will be gone.
+
+Previous: [Getting Started with OpenRefine](00-getting-started.html)  Next: [Sort, Filter and Exclude](02-sort-filter-exclude.html)
