@@ -7,13 +7,13 @@ minutes:
 
 # Learning Objectives
 
-* Create a new OpenRefine project from a `CSV` file
-* Recognize how facets can be used to have an overview of the data 
-* Use sort and include/exclude to identify and understand possible mistakes in the data
-* Apply clustering algorithms to correct multiple typos in a variable at once
-* Show how undo/redo allows to recreate previous steps of the data manipulations
-* Show how to split the values from one column into multiple columns
-* Show how to solve the common mistake of trailing/leading white spaces
+* Create a new OpenRefine project from a CSV file.
+* Recall what facets are and how they are used to sort and summarize data.
+* Recall what clustering is and how it is applied to group and edit typos.
+* Manipulate data using previous steps with undo/redo.
+* Employ drop-downs to split values from one column into multiple columns.
+* Employ drop-downs to remove white spaces from cells.
+
 
 ----------------------------------------------------
 
