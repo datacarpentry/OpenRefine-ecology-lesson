@@ -7,9 +7,10 @@ minutes:
 
 # Learning Objectives
 
-* Motivate participants to clean, organize, enhance data before inserting it into a database or merging it with other data files.
-* Introduce participants to Open Refine as a powerful data-cleaning tool.
-* Encourage dataset exploration; look at the data with the visualization tools in Open Refine.
+* Describe OpenRefine’s uses and applications.
+* Differentiate data cleaning from data organization.
+* Experiment with OpenRefine’s user interface.
+* Locate helpful resources to learn more about OpenRefine.
 
 ----------------------------------------------------
 
