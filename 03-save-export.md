@@ -7,14 +7,15 @@ minutes:
 
 # Learning Objectives
 
-* Show how to save the Project
-* Show how to Export cleaned data from OpenRefine
+* Save an OpenRefine project.
+* Export cleaned data from an OpenRefine project.
+
 
 ----------------------------------------------------
 
 # Lesson
 
-## Saving or Exporting a Project
+## Saving and Exporting a Project
 
 In OpenRefine you can save or export the project. This means you're saving the data and all the 
 information about the cleaing steps you've done. Once you've saved a Project, you can
