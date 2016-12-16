@@ -40,7 +40,7 @@ minutes:
 
 ## Basics of Open Refine
 
-You can find out a lot more about Open Refine at [http://openrefine.org]() and check out some great introductory videos. There is a [Google Group](https://groups.google.com/forum/?hl=en#!forum/openrefine) that can answer a lot of beginner questions and problems. There is also an [Open Refine Google Plus community](https://plus.google.com/communities/117280693504889048168) where you can find a lot of help and a lot of folks from the life sciences are members. As with other programs of this type, Open Refine libraries are available too, where you can find a script you need and copy it into your Refine instance to run it on your dataset.
+You can find out a lot more about Open Refine at [http://openrefine.org](http://openrefine.org) and check out some great introductory videos. There is a [Google Group](https://groups.google.com/forum/?hl=en#!forum/openrefine) that can answer a lot of beginner questions and problems. There is also an [Open Refine Google Plus community](https://plus.google.com/communities/117280693504889048168) where you can find a lot of help and a lot of folks from the life sciences are members. As with other programs of this type, Open Refine libraries are available too, where you can find a script you need and copy it into your Refine instance to run it on your dataset.
 
 ## Features
 * Open source ([source on GitHub](https://github.com/OpenRefine/OpenRefine)).
