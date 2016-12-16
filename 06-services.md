@@ -2,7 +2,7 @@
 layout: lesson
 root: .
 title: Services in OpenRefine
-minutes: 
+minutes: .
 ---
 
 # Learning Objectives
@@ -19,6 +19,6 @@ minutes:
 
 * For this demo, the instructor may find a web service appropriate to demonstrate.
 
-Previous: [Saving and Exporting files and projects](04-save-export.html)  Optional Next: [Other Resources in OpenRefine](06-resources.html)
+Previous: [Saving and Exporting files and projects](05-save-export.html)  Optional Next: [Other Resources in OpenRefine](07-resources.html)
 
 

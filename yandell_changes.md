@@ -8,7 +8,8 @@ minutes: .
 The main changes that Brian Yandell has done to OpenRefine lesson are as follows:
 
 * added 3. [Filtering, Excluding and Sorting](02-filter-exclude-sort.html) lesson
-* added 6. [Other Resources in OpenRefine](06-resources.html) page
+* added 4. [Examining Numeric Data](03-numbers.html) lesson
+* added 8. [Other Resources in OpenRefine](08-resources.html) page
 * renumbered lessons to put these in sequence
 * reworte 2. [Working with OpenRefine](01-working-with-openrefine.html) to improve flow
 

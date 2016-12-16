@@ -77,4 +77,4 @@ If you go back to one of the already sorted colunms and select **> Sort > Remove
 > Use **> Sort > Remove sort** to remove the sort on the second of three columns. Notice how that changes the order.
 
 
-Previous: [Working with OpenRefine](01-working-with-openrefine.html)  Next: [Scripts from OpenRefine](03-scripts.html)
+Previous: [Working with OpenRefine](01-working-with-openrefine.html)  Next: [Examining Numeric Data](03-numbers.html)
