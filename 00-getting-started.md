@@ -31,6 +31,7 @@ minutes:
 * Download software from [http://openrefine.org](http://openrefine.org) if you have not done this yet.
 * Unzip the downloaded file into a directory by double-clicking it (Mac) or right-clicking and selecting "Extract..." on Windows. Name that directory something like OpenRefine.
 * Go to your newly created OpenRefine directory.
+
 * Launch OpenRefine
   * Windows: Click the google-refine.exe (this will launch a command prompt window, but you can ignore that and wait for the browser to launch)
   * Mac: Drag icon into Applications folder, and Ctrl-click/Open... it. (See [this article](https://support.apple.com/kb/PH21769?locale=en_US) for more information on what you're doing here.)
@@ -41,6 +42,7 @@ minutes:
 ## Basics of OpenRefine
 
 You can find out a lot more about OpenRefine at [http://openrefine.org]() and check out some great introductory videos. There is a [Google Group](https://groups.google.com/forum/?hl=en#!forum/openrefine) that can answer a lot of beginner questions and problems. There is also an [OpenRefine Google Plus community](https://plus.google.com/communities/117280693504889048168) where you can find a lot of help and a lot of folks from the life sciences are members. As with other programs of this type, OpenRefine libraries are available too, where you can find a script you need and copy it into your OpenRefine instance to run it on your dataset.
+
 
 ## Features
 * Open source ([source on GitHub](https://github.com/OpenRefine/OpenRefine)).
