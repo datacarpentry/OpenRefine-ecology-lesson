@@ -31,7 +31,6 @@ minutes:
 * Download software from [http://openrefine.org](http://openrefine.org) if you have not done this yet.
 * Unzip the downloaded file into a directory by double-clicking it (Mac) or right-clicking and selecting "Extract..." on Windows. Name that directory something like OpenRefine.
 * Go to your newly created OpenRefine directory.
-
 * Launch OpenRefine
   * Windows: Click the google-refine.exe (this will launch a command prompt window, but you can ignore that and wait for the browser to launch)
   * Mac: Drag icon into Applications folder, and Ctrl-click/Open... it. (See [this article](https://support.apple.com/kb/PH21769?locale=en_US) for more information on what you're doing here.)
