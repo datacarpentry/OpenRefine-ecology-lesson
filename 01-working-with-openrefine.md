@@ -62,6 +62,11 @@ Typically, you create a facet on a particular column. The facet summarizes the c
   - Edit. Note that at any time, in any cell of the Facet box, or data cell in the Refine window, you have access to "edit" and can fix an error immediately. Refine will even ask you if you'd like to make that same correction to every value it finds like that one (or not).
 ````
 
+> ### Challenge
+>
+> Using faceting, find out how many years are represented in the census
+> Which years have the most and least observations?
+
 ## Cluster
 
 One of the most magical bits of Refine, the moment you realize what you've been missing. Refine has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work. 
