@@ -2,7 +2,7 @@
 layout: lesson
 root: .
 title: Getting Started with OpenRefine
-minutes:
+minutes: 
 ---
 
 # Learning Objectives
