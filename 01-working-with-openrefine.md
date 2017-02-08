@@ -21,7 +21,7 @@ minutes:
 
 ## Creating a Project
 
-Start the program. (Double-click on the google-refine.exe file. Java services will start on your machine, and Refine will open in your Firefox browser).
+Start the program. (Double-click on the google-refine.exe file ![OpenRefine Icon]({{ site.url }}/img/01/logo.jpeg). Java services will start on your machine, and Refine will open in your Firefox browser). 
 
 Note the file types Open Refine handles: TSV, CSV, *SV, Excel (.xls .xlsx), JSON, XML, RDF as XML, Google Data documents. Support for other formats can be added with Google Refine extensions.
 
@@ -34,12 +34,12 @@ If you haven't already, download the data from:
 **Once Refine is open, you'll be asked if you want to Create, Open, or Import a Project.**
 
 ```
-  To create a project,
-  - click Create... and it will bring you to "Get data from this computer."
-  - Click Browse, find Portal_rodents_19772002_scinameUUIDs.csv
+  To create a project, 
+  - click Create ![OpenRefine Create Button Image]({{ site.url }}/img/01/create-button.jpeg) ... and it will bring you to "Get data from this computer."
+  - Click Browse ![OpenRefine Browse Button Image]({{ site.url }}/img/01/browse-button.jpeg), find Portal_rodents_19772002_scinameUUIDs.csv
   - Click next to open Portal_rodents_19772002_scinameUUIDs.csv
-  - Refine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click "update preview."
-  - If all looks well, click _Create Project._
+  - Refine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click "update preview." ![OpenRefine Update Preview Button Image]({{ site.url }}/img/01/update-preview-button.jpeg)
+  - If all looks well, click _Create Project._ ![OpenRefine Create Button Image]({{ site.url }}/img/01/create-project-button.jpeg)
 ```
 
 ## Faceting
@@ -56,7 +56,7 @@ Typically, you create a facet on a particular column. The facet summarizes the c
 [More on faceting](https://github.com/OpenRefine/OpenRefine/wiki/Faceting)
 
 ````
-  - Scroll over to the scientificName column
+  - Scroll over to the scientificName column ![OpenRefine Create Button Image]({{ site.url }}/img/01/scientificName-column.jpeg)
   - Click the down arrow and choose > Facet > Text facet
   - In the left margin, you'll see a box containing every unique, distinct value in the scientificName column and Refine shows you how many times that value occurs in the column (a count), and allows you to sort (order) your facets by name or count.
   - Edit. Note that at any time, in any cell of the Facet box, or data cell in the Refine window, you have access to "edit" and can fix an error immediately. Refine will even ask you if you'd like to make that same correction to every value it finds like that one (or not).
@@ -76,11 +76,11 @@ One of the most magical bits of Refine, the moment you realize what you've been 
 In OpenRefine, clustering refers to the operation of "finding groups of different values that might be alternative representations of the same thing". For example, the two strings "New York" and "new york" are very likely to refer to the same concept and just have capitalization differences. Likewise, "Gödel" and "Godel" probably refer to the same person.
 
 ````
-  - In this example, in the scientificName Text Facet we created in the step above, click the _Cluster_ button.
+  - In this example, in the scientificName Text Facet we created in the step above, click the _Cluster_ button ![OpenRefine Cluster Button Image]({{ site.url }}/img/01/cluster-button.jpeg).
   - In the resulting pop-up window, you can change the algorithm method, and keying function. Try different combinations to see the difference.
   - For example, with this dataset, the _nearest neighbor_ method with the _PPM_ keying function shows the power of clustering the best. 
   - Intentional errors in these scientific names have been introduced to show how errors (typos) in any position can be found with this method. All errors can then be fixed by simply entering the correct value in the box on the right. Often, the algorithm has guessed correctly. 
-  - After corrections are made in this window, you can either Merge and Close the Cluster pop-up, or Merge and Re-cluster.
+  - After corrections are made in this window, you can either Merge and Close the Cluster pop-up, or Merge and Re-cluster. ![OpenRefine Cluster Button Options Image]({{ site.url }}/img/01/cluster-button-options.jpeg)
 ````
 
 ## Split / Leading - Trailing Whitespace / Undo - Redo
@@ -95,7 +95,7 @@ If data in a column needs to be split into multiple columns, and the strings in 
   - You'll get two extra columns called, in this case: scientificName 1, scientificName 2
   - This will reveal an error in a few names that have spaces at the beginning (so-called leading white space).
   - These can be easily removed with another Refine feature in the column drop-down choices. See drop-down: Edit cells > Common transforms > Remove leading and trailing whitespace
-  - To Undo create columns, look just above the scientificName cluster in the left side of the screen. Click where it says Undo / Redo. Click back one step (all steps, all changes are saved here). Just go back to the previous step and click. The extra columns will be gone.
+  - To Undo create columns, look just above the scientificName cluster in the left side of the screen. Click where it says Undo / Redo ![OpenRefine Undo Redo Button Image]({{ site.url }}/img/01/undo-redo-button.jpeg). Click back one step (all steps, all changes are saved here). Just go back to the previous step and click. The extra columns will be gone.
 ````
-
+y
 Previous: [Getting Started with OpenRefine](00-getting-started.html)  Next: [Scripts from OpenRefine](02-scripts.html)
