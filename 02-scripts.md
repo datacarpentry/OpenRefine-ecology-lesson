@@ -7,9 +7,11 @@ minutes:
 
 # Learning Objectives
 
-* Show how OpenRefine generates JSON code 
-* Save JSON code from an analysis
-* Use saved JSON code to repeat an analysis 
+* Describe how OpenRefine generates JSON code.
+* Demonstrate ability to export JSON code from OpenRefine.
+* Save JSON code from an analysis.
+* Apply saved JSON code to an analysis.
+ 
 
 ----------------------------------------------------
 
