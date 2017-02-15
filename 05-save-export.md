@@ -2,7 +2,7 @@
 layout: lesson
 root: .
 title: Working with Open Refine
-minutes: 
+minutes: .
 ---
 
 # Learning Objectives
@@ -48,4 +48,4 @@ spreadsheet program
 or imported into programs like R or Python.
 
 
-Previous: [Scripts](02-scripts.html) Optional Next: [Services in OpenRefine](04-services.html)
+Previous: [Scripts](04-scripts.html) Optional Next: [Services in OpenRefine](06-services.html)
