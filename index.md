@@ -23,13 +23,13 @@ Data Carpentry {{ page.topic }} for {{ page.domain }}
 Data Carpentry's aim is to teach researchers basic concepts, skills,
 and tools for working more effectively with data.
 The lessons below were designed for those interested
-in working with {{page.domain %}} data in {{page.topic %}}.
+in working with {{page.domain }} data in {{page.topic }}.
 
 
-**Content Contributors: {{page.contributors | join: ', ' %}}**
+**Content Contributors: {{page.contributors | join: ', ' }}**
 
 
-**Lesson Maintainers: {{page.maintainers | join: ', ' %}}**
+**Lesson Maintainers: {{page.maintainers | join: ', ' }}**
 
 
 **Lesson status: {{ page.status }}**
@@ -56,7 +56,7 @@ in working with {{page.domain %}} data in {{page.topic %}}.
 
 ## Data
 
-Data files for the lesson are available here: [{{page.dataurl %}}]({{page.dataurl %}})
+Data files for the lesson are available here: [{{page.dataurl }}]({{page.dataurl }})
 
 
 ### Requirements
