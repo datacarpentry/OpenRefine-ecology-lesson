@@ -76,6 +76,8 @@ even better ways to find and fix these errors, which we'll use instead.
 >
 > Using faceting, find out how many years are represented in the census.  
 >
+> Is the column formatted as Number, Date, or Text? How does chaning the format change the faceting display?
+>
 > Which years have the most and least observations?
 
 
