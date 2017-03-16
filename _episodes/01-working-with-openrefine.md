@@ -152,5 +152,3 @@ Strings with spaces at the beginning or end are particularly hard for we humans 
 >  - Perform the same Split operation on scientificName that you undid earlier. This time you should only get two new columns.
 
 
-Previous: [Getting Started with OpenRefine](00-getting-started/)  Next: [Scripts from OpenRefine](02-scripts/)
-
