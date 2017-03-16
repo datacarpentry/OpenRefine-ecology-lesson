@@ -1,8 +1,7 @@
 ---
-layout: lesson
-root: .
-title: Working with Open Refine
-minutes: 
+layout: page
+title: "Instructor Notes"
+permalink: /guide/
 ---
 
 # Learning Objectives

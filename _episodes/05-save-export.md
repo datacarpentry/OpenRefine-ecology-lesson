@@ -1,8 +1,14 @@
 ---
-layout: lesson
-root: .
-title: Working with Open Refine
-minutes: .
+title: "Exporting and Saving Data from OpenRefine"
+teaching: 20
+exercises: 0
+questions:
+- "How to save and export data from OpenRefine"
+objectives:
+- "Save an OpenRefine project."
+- "Export cleaned data from an OpenRefine project."
+keypoints:
+- "Data can be exported from OpenRefine or the whole project saved."
 ---
 
 # Learning Objectives
@@ -30,17 +36,17 @@ you'll see a list of your projects. You can click on any one of them to open it 
 
 You can also export a project, for instance if you wanted to send it to someone else. 
 
-````
-  - Go to the 'Export' button in the top right. Click 'Export project'. This will save a compressed file that you can then open in OpenRefine that contains all the data and steps. 
-````
+
+>  - Go to the 'Export' button in the top right. Click 'Export project'. This will save a compressed file that you can then open in OpenRefine that contains all the data and steps. 
+
 
 ## Exporting Cleaned Data 
 
 Save your work when you are done by exporting it in the desire format. Save your files with meaningful names, no spaces. Refine does not change your original dataset (hooray!).
 
-````
-  - Go to 'Export' in the top right. Click on the file type you want to export the data in. 'Tab-separated values' or 'Comma-separated values' would be good choices. 
-````
+
+>  - Go to 'Export' in the top right. Click on the file type you want to export the data in. 'Tab-separated values' or 'Comma-separated values' would be good choices. 
+
 
 That file will get
 exported to your default Download directory. That file can then be eaily opened in a 
@@ -48,4 +54,4 @@ spreadsheet program
 or imported into programs like R or Python.
 
 
-Previous: [Scripts](04-scripts.html) Optional Next: [Services in OpenRefine](06-services.html)
+Previous: [Scripts](04-scripts/) | Next: [OpenRefine Resources](07-resources/)

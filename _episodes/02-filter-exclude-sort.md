@@ -1,8 +1,15 @@
 ---
-layout: lesson
-root: .
-title: Filtering, Excluding and Sorting with OpenRefine
-minutes: .
+title: "Filtering and Sorting with OpenRefine"
+teaching: 10
+exercises: 0
+questions:
+- "Filtering and sorting data"
+objectives:
+- "Filter to a subset of rows by text filter or include/exclude."
+- "Sort table by a column."
+- "Sort by multiple columns."
+keypoints:
+- "OpenRefine provides a way to sort and filter data without affecting the raw data."
 ---
 
 # Learning Objectives
@@ -28,6 +35,7 @@ There are many entries in the rodent table. We can filter it to work on a subset
 >
 > What scientific names (genus and species) are selected by this procedure?
 > How would you restrict this to one of the species selected?
+{: .challenge}
 
 ### Excluding entries
 
@@ -36,6 +44,7 @@ While we could type more letters of text, or click **case sensitive**, another w
 > ## Challenge
 >
 > Use **include / exclude** to exclude one of the scientific names. Below are some suggested steps.
+{: .challenge}
 
 1. In the facet (left margin), click on one of the names, such as **Baiomys taylori**. Notice that when you click on the name, or hover over it, there are entries to the right for *edit* and *include*. 
 2. Click **include**. This will explicitly include this specie, and exclude others that are not expicitly included. Notice that to option now changes to **exclude**.
@@ -51,6 +60,7 @@ If this is your first time sorting this table, then the drop-down menu for the s
 > ## Challenge
 >
 > Sort by month. How can you ensure that months are in order?
+{: .challenge}
 
 If you try to resort a column that you have already used, the drop-down menu changes slightly, to **> Sort** without the *...*, to remind you that you have already used this column. It will give you additional options:
 
@@ -67,6 +77,7 @@ You can sort by multiple columns by performing sort on additional columns. The s
 > Try sorting by a **year** after you have sorted by **month**. What happens to ordering?
 >
 > Try sorting first by **year** and then by **month**. Be sure to check the **sort by this column alone** box when sorting by **year** to remove earlier sorts.
+{: .challenge}
 
 If you go back to one of the already sorted colunms and select **> Sort > Remove sort**, that column is removed from your multiple sort. If it is the only column sorted, then data reverts to its original order.
 
@@ -75,6 +86,6 @@ If you go back to one of the already sorted colunms and select **> Sort > Remove
 > Sort by **year**, **month** and **day** in some order. Be creative: try sorting as **numbers** or **text**, and in reverse order (**largest to smallest** or **z to a**).
 >
 > Use **> Sort > Remove sort** to remove the sort on the second of three columns. Notice how that changes the order.
+{: .challenge}
 
-
-Previous: [Working with OpenRefine](01-working-with-openrefine.html)  Next: [Examining Numeric Data](03-numbers.html)
+Previous: [Working with OpenRefine](01-working-with-openrefine/)  Next: [Examining Numeric Data](03-numbers/)
