@@ -1,8 +1,17 @@
 ---
-layout: lesson
-root: .
-title: Getting Started with OpenRefine
-minutes: 
+title: "Introduction"
+teaching: 10
+exercises: 0
+questions:
+- "Motivation for using OpenRefine"
+objectives:
+- "Describe OpenRefine’s uses and applications."
+- "Differentiate data cleaning from data organization."
+- "Experiment with OpenRefine’s user interface."
+- "Locate helpful resources to learn more about OpenRefine."
+keypoints:
+- "OpenRefine is a powerful, free and open source tool that can be used for data cleaning."
+- "OpenRefine will automatically track any steps you take in working with your data."
 ---
 
 # Learning Objectives
@@ -27,16 +36,12 @@ minutes:
 
 ## Before we get started
 
-* Check that you have Firefox or Chrome browsers installed and set as your default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
-* Download software from [http://openrefine.org](http://openrefine.org) if you have not done this yet.
-* Unzip the downloaded file into a directory by double-clicking it (Mac) or right-clicking and selecting "Extract..." on Windows. Name that directory something like OpenRefine.
-* Go to your newly created OpenRefine directory.
-* Launch OpenRefine
-  * Windows: Click the google-refine.exe (this will launch a command prompt window, but you can ignore that and wait for the browser to launch)
-  * Mac: Drag icon into Applications folder, and Ctrl-click/Open... it. (See [this article](https://support.apple.com/kb/PH21769?locale=en_US) for more information on what you're doing here.)
-  * Linux: Type `./refine` into the terminal within the OpenRefine directory
-* Note: this is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed.
-* If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
+Note: this is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed.
+
+Follow the [Setup](setup/) instructions to install OpenRefine.
+
+If after installation and running OpenRefine, it does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
+
 
 ## Basics of OpenRefine
 
@@ -48,4 +53,4 @@ You can find out a lot more about OpenRefine at [http://openrefine.org]() and ch
 * A large growing community, from novice to expert, ready to help.
 * Works with large-ish datasets (100,000 rows). Does not scale to many millions. (yet).
 
-Next: [Working with OpenRefine](01-working-with-openrefine.html)
+Next: [Working with OpenRefine](01-working-with-openrefine/)

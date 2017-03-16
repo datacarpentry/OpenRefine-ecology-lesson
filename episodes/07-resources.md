@@ -1,13 +1,20 @@
 ---
-layout: lesson
-root: .
-title: Other Resources in OpenRefine
-minutes: .
+title: "Other Resources in OpenRefine"
+teaching: 20
+exercises: 0
+questions:
+- "Other resources available for working with OpenRefine"
+objectives:
+- "Understand that there are many online resources available for more information on OpenRefine."
+keypoints:
+- "Other examples and resources online are good for learning more about OpenRefine"
 ---
 
 # Learning Objectives
 
-**Optional material, and under development**
+* Understand that there are many online resources available for more information on OpenRefine.
+
+OpenRefine has other features and there are good resources for learning more.
 
 * identify other resources about OpenRefine 
 * search the web to find more resources
@@ -38,5 +45,6 @@ There are more advanced uses of Open Refine, such as bringing in column or cell 
 > ## Challenge
 >
 > Visit one of these sites and share what you find with another person.
+{: .challenge}
 
-Optional Previous: [Services in OpenRefine](06-services.html)
+Previous: [Services in OpenRefine](05-save-export/)
