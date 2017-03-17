@@ -38,7 +38,7 @@ keypoints:
 
 Note: this is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed.
 
-Follow the [Setup](setup/) instructions to install OpenRefine.
+Follow the [Setup](/setup/) instructions to install OpenRefine.
 
 If after installation and running OpenRefine, it does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
 
