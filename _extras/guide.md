@@ -99,8 +99,7 @@ If data in a column needs to be split into multiple columns, and the strings in 
 * Save your work when you are done by exporting it in the desire format. Save your files with meaningful names, no spaces. OpenRefine does not change your original dataset.
 
 #### Time estimate for this demo.
-* Takes about 20 - 30 minutes to do a good demo.
-* If students are going to install and then try this tool out on the provided dataset or their own dataset, it will take longer.
+* Takes about 45-50 minutes to do a good demo with learners installing the tool and working through the demo.
 * Mac users with the newest operating system will have to allow this to run by "allowing everything" to run. They can change the setting back after the exercise.
 * Some students will run into issues with
   - unzipping
