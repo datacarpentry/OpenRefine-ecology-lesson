@@ -8,7 +8,8 @@ objectives:
 - "Save an OpenRefine project."
 - "Export cleaned data from an OpenRefine project."
 keypoints:
-- "Data can be exported from OpenRefine or the whole project saved."
+- "Cleaned data or entire projects can be exported from OpenRefine."
+- "Projects can be shared with collaborators, enabling them to see, reproduce and check all data cleaning steps you performed."
 ---
 
 # Learning Objectives
