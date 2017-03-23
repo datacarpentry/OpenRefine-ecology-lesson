@@ -32,7 +32,7 @@ Start the program. (Double-click on the google-refine.exe file. Java services wi
 Note the file types OpenRefine handles: TSV, CSF, *SV, Excel (.xls .xlsx), JSON, XML, RDF as XML, Google Data documents. Support for other formats can be added with OpenRefine extensions.
 
 In this first step, we'll browse our computer to the sample data file for this lesson (If you haven't already, download the data from:
-https://www.dropbox.com/s/kbb4k00eanm19lg/Portal_rodents_19772002_scinameUUIDs.csv). In this case, I've modified the Portal_rodents.csv file. I added several columns: scientificName, locality, county, state, country and I generated several more columns in the lesson itself (JSON, decimalLatitude, decimalLongitude). Data in locality, county, country, JSON, decimalLatitude and decimalLongitude are contrived and are in no way related to the original dataset. When doing this demo, the columns: JSON, decimalLatitude, decimalLongitude can be deleted, and then recreated if time, with a call to a locality service, and subsequent parsing of the JSON data returned by the service.
+https://www.dropbox.com/s/kbb4k00eanm19lg/Portal_rodents_19772002_scinameUUIDs.csv). In this case, I've modified the Portal_rodents.csv file. I added several columns: scientificName, locality, county, state, country and I generated several more columns in the lesson itself (JSON, decimalLatitude, decimalLongitude). Data in locality, county, country, JSON, decimalLatitude and decimalLongitude are contrived and are in no way related to the original dataset. 
 
 **Once OpenRefine is open, you'll be asked if you want to Create, Open, or Import a Project.**
 
@@ -87,10 +87,6 @@ If data in a column needs to be split into multiple columns, and the strings in 
   - This will reveal an error in a few names that have spaces at the beginning (so-called leading white space).
   - These can be easily removed with another OpenRefine feature in the column drop-down choices. See drop-down: Edit cells > Common transforms > Remove leading and trailing whitespace
   - To Undo create columns, look just above the scientificName cluster in the left side of the screen. Click where it says Undo / Redo. Click back one step (all steps, all changes are saved here). Just go back to the previous step and click. The extra columns will be gone.
-
-## Call a Service (this example is set up to georeference locality data, but could use any service).
-
-* For this demo, the instructor may find a web service appropriate to demonstrate.
 
 ## Scripts
 
