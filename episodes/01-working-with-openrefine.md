@@ -15,18 +15,6 @@ keypoints:
 - "Faceting and clustering approaches can identify errors or outliers in data."
 ---
 
-# Learning Objectives
-
-* Create a new OpenRefine project from a CSV file.
-* Recall what facets are and how they are used to sort and summarize data.
-* Recall what clustering is and how it is applied to group and edit typos.
-* Manipulate data using previous steps with undo/redo.
-* Employ drop-downs to split values from one column into multiple columns.
-* Employ drop-downs to remove white spaces from cells.
-
-
-----------------------------------------------------
-
 # Lesson
 
 ## Creating a Project
