@@ -1,7 +1,7 @@
 ---
 title: "Working with OpenRefine"
 teaching: 10
-exercises: 0
+exercises: 20
 questions:
 - "Getting started working with OpenRefine"
 objectives:
@@ -15,33 +15,18 @@ keypoints:
 - "Faceting and clustering approaches can identify errors or outliers in data."
 ---
 
-# Learning Objectives
-
-* Create a new OpenRefine project from a CSV file.
-* Recall what facets are and how they are used to sort and summarize data.
-* Recall what clustering is and how it is applied to group and edit typos.
-* Manipulate data using previous steps with undo/redo.
-* Employ drop-downs to split values from one column into multiple columns.
-* Employ drop-downs to remove white spaces from cells.
-
-
-----------------------------------------------------
-
 # Lesson
 
 ## Creating a Project
 
 
-Start the program. (Double-click on the openrefine.exe file (or google-refine.exe if using an older version). Java services will start on your machine, and Refine will open in your Firefox browser).
+Start the program. (Double-click on the openrefine.exe file (or google-refine.exe if using an older version). Java services will start on your machine, and OpenRefine will open in your Firefox browser).
 
-Launch OpenRefine (see [Getting Started with OpenRefine](00-getting-started.html).
+Launch OpenRefine (see [Getting Started with OpenRefine](00-getting-started.html)).
 
 OpenRefine can import a variety of file types, including tab separated (`*.tsv`), comma separated (`*.csv`), Excel (`*.xls`, `*.xlsx`), JSON, XML, RDF as XML, Google Spreadsheets. See the [OpenRefine Importers page](https://github.com/OpenRefine/OpenRefine/wiki/Importers) for more information.
 
 In this first step, we'll browse our computer to the sample data file for this lesson. In this case, We modified the `Portal_rodents` CSV file, adding several columns: `scientificName`, `locality`, `county`, `state`, `country` and generating several more columns in the lesson itself (`JSON`, `decimalLatitude`, `decimalLongitude`). Data in `locality`, `county`, `country`, `JSON`, `decimalLatitude` and `decimalLongitude` are contrived and are in no way related to the original dataset. 
-
-[**This part should probably be in 03-scripts.md file with follow-up:** When doing this demo, the columns: JSON, decimalLatitude, decimalLongitude can be deleted, and then recreated if time, with a call to a locality service, and subsequent parsing of the JSON data returned by the service.]
-
 
 If you haven't already, download the data from:  
 [https://www.dropbox.com/s/kbb4k00eanm19lg/Portal_rodents_19772002_scinameUUIDs.csv](https://www.dropbox.com/s/kbb4k00eanm19lg/Portal_rodents_19772002_scinameUUIDs.csv)
@@ -52,7 +37,7 @@ Once OpenRefine is launched in your browser, the left margin as options to **Cre
 1. click **Create Project** to bring you to "Get data from" "**This Computer**".
 2. Click **Browse...** and select file `Portal_rodents_19772002_scinameUUIDs.csv`. Click **Open** in the browse window to finish selection 
 3. Click **Next>>** under the browse button to upload data into OpenRefine.
-4. Refine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click **Update Preview** (look in bottom panel). If this is the wrong file, click **<<Start Over** (look in upper left region).
+4. OpenRefine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click **Update Preview** (look in bottom panel). If this is the wrong file, click **<<Start Over** (look in upper left region).
 5. If all looks well, click **Create Project>>** (look in upper right corner).
 
 Note that at step 1, you could upload data in a standard form from a web address by using "Get data from" "**Web Addresses (URLs)**". However, this will not work on a dropbox address as above.
@@ -87,18 +72,14 @@ and how many times that value occurs in the column.
 >
 > Using faceting, find out how many years are represented in the census.  
 >
-> Is the column formatted as Number, Date, or Text? How does chaning the format change the faceting display?
+> Is the column formatted as Number, Date, or Text? How does changing the format change the faceting display?
 >
 > Which years have the most and least observations?
 {: .challenge}
 
 ## Cluster
 
-In OpenRefine, clustering means "finding groups of different values that might be alternative representations of the same thing". For example, the two strings "New York" and "new york" are very likely to refer to the same concept and just have capitalization differences. Likewise, "Gödel" and "Godel" probably refer to the same person. Clustering is a very powerful tool for cleaning datasets which contain misspelled or mistyped entries.
-OpenRefine has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work. 
-
-In OpenRefine, clustering refers to the operation of "finding groups of different values that might be alternative representations of the same thing". For example, the two strings "New York" and "new york" are very likely to refer to the same concept and just have capitalization differences. Likewise, "Gödel" and "Godel" probably refer to the same person. 
-
+In OpenRefine, clustering means "finding groups of different values that might be alternative representations of the same thing". For example, the two strings "New York" and "new york" are very likely to refer to the same concept and just have capitalization differences. Likewise, "Gödel" and "Godel" probably refer to the same person. Clustering is a very powerful tool for cleaning datasets which contain misspelled or mistyped entries. OpenRefine has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work. 
 
 >  - In the scientificName Text Facet we created in the step above, click the _Cluster_ button.
 >  - In the resulting pop-up window, you can change the Method and the Keying Function. Try different combinations to 
