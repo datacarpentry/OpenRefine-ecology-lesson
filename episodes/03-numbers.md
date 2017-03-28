@@ -1,7 +1,7 @@
 ---
 title: "Examining Numbers in OpenRefine"
 teaching: 10
-exercises: 0
+exercises: 10
 questions:
 - "Examing numerical data"
 objectives:
