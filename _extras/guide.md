@@ -4,22 +4,6 @@ title: "Instructor Notes"
 permalink: /guide/
 ---
 
-# Learning Objectives
-
-* Introduce concept of facets
-* Show split columns by defined separator
-* Show power of include / exclude, sort by name / count
-* Show the power of clustering algorithms to reveal data patterns, data snafus
-* If time, show call to an API, a web service (JSON example here from a locality georeferencing service)
-* If time, show how to parse the JSON returned from the service.
-* Show the power of undo / redo.
-* Can be used to introduce
- - scripting
- - regular expressions
- - APIs
-
-----------------------------------------------------
-
 # Lesson
 
 ## Opening OpenRefine
