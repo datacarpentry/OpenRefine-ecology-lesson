@@ -14,15 +14,6 @@ keypoints:
 - "OpenRefine will automatically track any steps you take in working with your data."
 ---
 
-# Learning Objectives
-
-* Describe OpenRefine’s uses and applications.
-* Differentiate data cleaning from data organization.
-* Experiment with OpenRefine’s user interface.
-* Locate helpful resources to learn more about OpenRefine.
-
-----------------------------------------------------
-
 # Lesson
 
 ## Motivations for the OpenRefine Lesson

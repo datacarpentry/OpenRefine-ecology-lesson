@@ -13,16 +13,6 @@ keypoints:
 - "All changes are being tracked in OpenRefine, and this information can be used for scripts for future analyses or reproducing an analysis."
 ---
 
-# Learning Objectives
-
-* Describe how OpenRefine generates JSON code.
-* Demonstrate ability to export JSON code from OpenRefine.
-* Save JSON code from an analysis.
-* Apply saved JSON code to an analysis.
- 
-
-----------------------------------------------------
-
 # Lesson
 
 ## Scripts
