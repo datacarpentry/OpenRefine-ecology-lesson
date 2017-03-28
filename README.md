@@ -2,7 +2,7 @@
 Lesson on OpenRefine for ecology
 
 ### Data set notes.
-* This data set is derived from [The Portal Project Long-term desert ecology] (http://portal.weecology.org/) project data. [This data file](http://www.esapubs.org/archive/ecol/E090/118/Portal_rodents_19772002.csv") was downloaded and then modified specifically for use with Open Refine.
+* This data set is derived from [The Portal Project Long-term desert ecology](http://portal.weecology.org/) project data. [This data file](http://www.esapubs.org/archive/ecol/E090/118/Portal_rodents_19772002.csv") was downloaded and then modified specifically for use with Open Refine.
 * Taxon names were put back into the file.
 * Globally Unique Identifiers (in the form of UUIDs) were added.
 * These modifications were made in order to illustrate some features of Open Refine.
