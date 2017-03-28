@@ -34,7 +34,7 @@ keypoints:
 
 Start the program. (Double-click on the openrefine.exe file (or google-refine.exe if using an older version). Java services will start on your machine, and Refine will open in your Firefox browser).
 
-Launch OpenRefine (see [Getting Started with OpenRefine](00-getting-started.html).
+Launch OpenRefine (see [Getting Started with OpenRefine](00-getting-started.html)).
 
 OpenRefine can import a variety of file types, including tab separated (`*.tsv`), comma separated (`*.csv`), Excel (`*.xls`, `*.xlsx`), JSON, XML, RDF as XML, Google Spreadsheets. See the [OpenRefine Importers page](https://github.com/OpenRefine/OpenRefine/wiki/Importers) for more information.
 
