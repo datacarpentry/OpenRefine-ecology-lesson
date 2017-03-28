@@ -20,7 +20,7 @@ keypoints:
 ## Creating a Project
 
 
-Start the program. (Double-click on the openrefine.exe file (or google-refine.exe if using an older version). Java services will start on your machine, and Refine will open in your Firefox browser).
+Start the program. (Double-click on the openrefine.exe file (or google-refine.exe if using an older version). Java services will start on your machine, and OpenRefine will open in your Firefox browser).
 
 Launch OpenRefine (see [Getting Started with OpenRefine](00-getting-started.html)).
 
@@ -37,7 +37,7 @@ Once OpenRefine is launched in your browser, the left margin as options to **Cre
 1. click **Create Project** to bring you to "Get data from" "**This Computer**".
 2. Click **Browse...** and select file `Portal_rodents_19772002_scinameUUIDs.csv`. Click **Open** in the browse window to finish selection 
 3. Click **Next>>** under the browse button to upload data into OpenRefine.
-4. Refine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click **Update Preview** (look in bottom panel). If this is the wrong file, click **<<Start Over** (look in upper left region).
+4. OpenRefine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click **Update Preview** (look in bottom panel). If this is the wrong file, click **<<Start Over** (look in upper left region).
 5. If all looks well, click **Create Project>>** (look in upper right corner).
 
 Note that at step 1, you could upload data in a standard form from a web address by using "Get data from" "**Web Addresses (URLs)**". However, this will not work on a dropbox address as above.
