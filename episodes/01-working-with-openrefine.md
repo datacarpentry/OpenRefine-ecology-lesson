@@ -1,6 +1,6 @@
 ---
 title: "Working with OpenRefine"
-teaching: 10
+teaching: 15
 exercises: 20
 questions:
 - "Getting started working with OpenRefine"
