@@ -72,7 +72,7 @@ and how many times that value occurs in the column.
 >
 > Using faceting, find out how many years are represented in the census.  
 >
-> Is the column formatted as Number, Date, or Text? How does chaning the format change the faceting display?
+> Is the column formatted as Number, Date, or Text? How does changing the format change the faceting display?
 >
 > Which years have the most and least observations?
 {: .challenge}
