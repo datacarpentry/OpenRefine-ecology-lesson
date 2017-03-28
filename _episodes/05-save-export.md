@@ -12,14 +12,6 @@ keypoints:
 - "Projects can be shared with collaborators, enabling them to see, reproduce and check all data cleaning steps you performed."
 ---
 
-# Learning Objectives
-
-* Save an OpenRefine project.
-* Export cleaned data from an OpenRefine project.
-
-
-----------------------------------------------------
-
 # Lesson
 
 ## Saving and Exporting a Project

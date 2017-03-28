@@ -12,14 +12,6 @@ keypoints:
 - "OpenRefine also provides ways to get overviews of numerical data."
 ---
 
-# Learning Objectives
-
-* Transform a text column in to a number column.
-* Identify and modify non-numeric values in a column using facets.
-* Use scatterplot facet to examine relationships among columns.
-
-----------------------------------------------------
-
 # Lesson
 
 ## Numbers
