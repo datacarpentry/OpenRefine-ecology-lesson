@@ -35,7 +35,7 @@ You can also export a project, for instance if you wanted to send it to someone 
 
 ## Exporting Cleaned Data 
 
-Save your work when you are done by exporting it in the desired format. Save your files with meaningful names, no spaces. Refine does not change your original dataset (hooray!).
+Save your work when you are done by exporting it in the desired format. Save your files with meaningful names, no spaces. OpenRefine does not change your original dataset (hooray!).
 
 
 >  - Go to 'Export' in the top right. Click on the file type you want to export the data in. 'Tab-separated values' (TSV) or 'Comma-separated values' (CSV) would be good choices. 
