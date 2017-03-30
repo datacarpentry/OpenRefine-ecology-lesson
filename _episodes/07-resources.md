@@ -30,9 +30,9 @@ In addition, see these other useful resources:
 * [Grateful Data](https://github.com/scottythered/gratefuldata/wiki) is a fun sight with many resources devoted to OpenRefine, including a nice tutorial.
 * [Margaret Heller](http://www.gloriousgeneralist.com/) shows how she uses OpenRefine for [Measuring and Counting Impact in Repositories](http://www.gloriousgeneralist.com/2014/12/notes-on-measuring-and-calculating-impact-in-institutional-repositories/).
 * [Intersect Course Resources](http://www.intersect.org.au/course-resources) has Jared Berghold's **Cleaning & Exploring your data with Open Refine** (scroll down page to find). 
-* [Enipedia Open Refine Tutorial](http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial)
+* [Enipedia OpenRefine Tutorial](http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial)
 
-There are more advanced uses of Open Refine, such as bringing in column or cell data using web locators (URLs or APIs). The links above can give you a start on your journey.
+There are more advanced uses of OpenRefine, such as bringing in column or cell data using web locators (URLs or APIs). The links above can give you a start on your journey.
 
 > ## Challenge
 >
