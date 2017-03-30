@@ -16,7 +16,7 @@ keypoints:
 
 ## Numbers
 
-When a table is imported into Open Refine, all columns are treated as having text values. We saw earlier how we can sort interpreting column values as numbers, but this did not change the cells in a column from text to numbers.
+When a table is imported into OpenRefine, all columns are treated as having text values. We saw earlier how we can sort interpreting column values as numbers, but this did not change the cells in a column from text to numbers.
 
 Be sure to remove an **Text filter** facets from the left margin so that we can examine the whole rodent dataset.
 
