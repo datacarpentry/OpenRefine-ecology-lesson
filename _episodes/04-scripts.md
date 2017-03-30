@@ -1,7 +1,7 @@
 ---
 title: "Scripts from OpenRefine"
-teaching: 20
-exercises: 0
+teaching: 10
+exercises: 5
 questions:
 - "Code generation from OpenRefine"
 objectives:

@@ -1,7 +1,7 @@
 ---
 title: "Other Resources in OpenRefine"
-teaching: 20
-exercises: 0
+teaching: 5
+exercises: 5
 questions:
 - "Other resources available for working with OpenRefine"
 objectives:
