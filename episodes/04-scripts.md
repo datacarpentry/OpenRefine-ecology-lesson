@@ -27,5 +27,3 @@ keypoints:
 
 To run these steps on a new dataset, import the new dataset into OpenRefine, open the Extract / Apply section, paste in the .txt file, click Apply.
 
-Previous:  [Examining Numeric Data](03-numbers/)  Next: [Saving and Exporting files and projects](05-save-export/)
-
