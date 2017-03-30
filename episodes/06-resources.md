@@ -38,5 +38,3 @@ There are more advanced uses of OpenRefine, such as bringing in column or cell d
 >
 > Visit one of these sites and share what you find with another person.
 {: .challenge}
-
-Previous: [Services in OpenRefine](05-save-export/)

@@ -47,6 +47,3 @@ spreadsheet program
 or imported into programs like R or Python, which we'll be discussing later in our workshop. 
 Remember from our lesson on Spreadsheets that using widely-supported, 
 non-proprietary file formats like TSV or CSV improves the ability of yourself and others to use your data. 
-
-
-Previous: [Scripts](04-scripts/) | Next: [OpenRefine Resources](07-resources/)
