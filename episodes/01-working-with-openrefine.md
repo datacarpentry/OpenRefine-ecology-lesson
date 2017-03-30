@@ -29,8 +29,7 @@ OpenRefine can import a variety of file types, including tab separated (`*.tsv`)
 In this first step, we'll browse our computer to the sample data file for this lesson. In this case, We modified the `Portal_rodents` CSV file, adding several columns: `scientificName`, `locality`, `county`, `state`, `country` and generating several more columns in the lesson itself (`JSON`, `decimalLatitude`, `decimalLongitude`). Data in `locality`, `county`, `country`, `JSON`, `decimalLatitude` and `decimalLongitude` are contrived and are in no way related to the original dataset. 
 
 If you haven't already, download the data from:  
-[https://www.dropbox.com/s/kbb4k00eanm19lg/Portal_rodents_19772002_scinameUUIDs.csv](https://www.dropbox.com/s/kbb4k00eanm19lg/Portal_rodents_19772002_scinameUUIDs.csv)
-
+[https://ndownloader.figshare.com/files/7823341](https://ndownloader.figshare.com/files/7823341)
 
 Once OpenRefine is launched in your browser, the left margin as options to **Create Project**, **Open Project**, or **Import Project**. Here we create a project, which just takes a couple steps:
 
@@ -40,7 +39,7 @@ Once OpenRefine is launched in your browser, the left margin as options to **Cre
 4. OpenRefine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click **Update Preview** (look in bottom panel). If this is the wrong file, click **<<Start Over** (look in upper left region).
 5. If all looks well, click **Create Project>>** (look in upper right corner).
 
-Note that at step 1, you could upload data in a standard form from a web address by using "Get data from" "**Web Addresses (URLs)**". However, this will not work on a dropbox address as above.
+Note that at step 1, you could upload data in a standard form from a web address by using "Get data from" "**Web Addresses (URLs)**". However, this won't work for all URLs.
 
 ## Faceting
 
