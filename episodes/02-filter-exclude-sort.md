@@ -79,5 +79,3 @@ If you go back to one of the already sorted colunms and select **> Sort > Remove
 >
 > Use **> Sort > Remove sort** to remove the sort on the second of three columns. Notice how that changes the order.
 {: .challenge}
-
-Previous: [Working with OpenRefine](01-working-with-openrefine/)  Next: [Examining Numeric Data](03-numbers/)
