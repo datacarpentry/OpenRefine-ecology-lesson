@@ -36,11 +36,14 @@ While we could type more letters of text, or click **case sensitive**, another w
 > ## Challenge
 >
 > Use **include / exclude** to exclude one of the scientific names. Below are some suggested steps.
+>
+> 1. In the facet (left margin), click on one of the names, such as **Baiomys taylori**. Notice that when you click on the name, or hover
+> over it, there are entries to the right for *edit* and *include*. 
+> 2. Click **include**. This will explicitly include this species, and exclude others that are not expicitly included. Notice that the
+> option now changes to **exclude**.
+> 3. Click **include** and **exclude** on the other species (**Chaetodipus baileyi**) and notice how the two entries appear and disappear
+> from the table.
 {: .challenge}
-
-1. In the facet (left margin), click on one of the names, such as **Baiomys taylori**. Notice that when you click on the name, or hover over it, there are entries to the right for *edit* and *include*. 
-2. Click **include**. This will explicitly include this specie, and exclude others that are not expicitly included. Notice that to option now changes to **exclude**.
-3. Click **include** and **exclude** on the other species (**Chaetodipus baileyi**) and notice how the two entries appear and disappear from the table.
 
 ## Sort
 
