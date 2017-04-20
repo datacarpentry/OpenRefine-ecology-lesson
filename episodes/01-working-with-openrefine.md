@@ -31,13 +31,13 @@ In this first step, we'll browse our computer to the sample data file for this l
 If you haven't already, download the data from:  
 [https://ndownloader.figshare.com/files/7823341](https://ndownloader.figshare.com/files/7823341)
 
-Once OpenRefine is launched in your browser, the left margin as options to **Create Project**, **Open Project**, or **Import Project**. Here we create a project, which just takes a couple steps:
+Once OpenRefine is launched in your browser, the left margin has options to `Create Project`, `Open Project`, or `Import Project`. Here we will create a new project:
 
-1. click **Create Project** to bring you to "Get data from" "**This Computer**".
-2. Click **Browse...** and select file `Portal_rodents_19772002_scinameUUIDs.csv`. Click **Open** in the browse window to finish selection 
-3. Click **Next>>** under the browse button to upload data into OpenRefine.
-4. OpenRefine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click **Update Preview** (look in bottom panel). If this is the wrong file, click **<<Start Over** (look in upper left region).
-5. If all looks well, click **Create Project>>** (look in upper right corner).
+1. click `Create Project` and select `Get data from` `This Computer`.  
+2. Click `Choose Files` and select the file `Portal_rodents_19772002_scinameUUIDs.csv`. Click `Open` or double-click on the filename.
+3. Click `Next>>` under the browse button to upload the data into OpenRefine.  
+4. OpenRefine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click `Update Preview` (bottom left). If this is the wrong file, click `<<Start Over` (upper left).  
+5. If all looks well, click `Create Project>>` (upper right). 
 
 Note that at step 1, you could upload data in a standard form from a web address by using "Get data from" "**Web Addresses (URLs)**". However, this won't work for all URLs.
 
