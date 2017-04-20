@@ -39,7 +39,7 @@ Once OpenRefine is launched in your browser, the left margin has options to `Cre
 4. OpenRefine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click `Update Preview` (bottom left). If this is the wrong file, click `<<Start Over` (upper left).  
 5. If all looks well, click `Create Project>>` (upper right). 
 
-Note that at step 1, you could upload data in a standard form from a web address by using "Get data from" "**Web Addresses (URLs)**". However, this won't work for all URLs.
+Note that at step 1, you could upload data in a standard form from a web address by selecting `Get data from` `Web Addresses (URLs)`. However, this won't work for all URLs.
 
 ## Faceting
 
@@ -54,29 +54,24 @@ Typically, you create a facet on a particular column. The facet summarizes the c
 
 [More on faceting](https://github.com/OpenRefine/OpenRefine/wiki/Faceting)
 
->  - Scroll over to the scientificName column.
->  - Click the down arrow and choose > Facet > Text facet.
->  - In the left margin, you'll see a box containing every unique, distinct value in the scientificName column 
-and how many times that value occurs in the column.
->  - Try sorting this facet by name and by count. Do you notice any problems with the data? What are they?
->  - Hover the mouse over one of the names in the Facet list. You should see that you have an "edit" function available. 
-> You could use this to fix an error immediately, and OpenRefine will ask if you want 
-> to make the same correction to every value it finds like that one (or not). But OpenRefine offers 
-> even better ways to find and fix these errors, which we'll use instead.
-
-
-
+1. Scroll over to the `scientificName` column.
+2. Click the down arrow and choose `Facet` > `Text facet`.
+3. In the left panel, you'll now see a box containing every unique value in the `scientificName` column 
+along with a number representing how many times that value occurs in the column.
+4. Try sorting this facet by name and by count. Do you notice any problems with the data? What are they?
+5. Hover the mouse over one of the names in the Facet list. You should see that you have an "edit" function available. 
+6. You could use this to fix an error immediately, and OpenRefine will ask whether you want to make the same correction to every value it finds like that one. But OpenRefine offers even better ways to find and fix these errors, which we'll use instead. We'll learn about these when we talk about clustering.
 
 > ## Exercise
 >
-> Using faceting, find out how many years are represented in the census.  
+> 1. Using faceting, find out how many years are represented in the census.  
 >
-> Is the column formatted as Number, Date, or Text? How does changing the format change the faceting display?
+> 2. Is the column formatted as Number, Date, or Text? How does changing the format change the faceting display?
 >
-> Which years have the most and least observations?
+> 3. Which years have the most and least observations?
 {: .challenge}
 
-## Cluster
+## Clustering
 
 In OpenRefine, clustering means "finding groups of different values that might be alternative representations of the same thing". For example, the two strings "New York" and "new york" are very likely to refer to the same concept and just have capitalization differences. Likewise, "Gödel" and "Godel" probably refer to the same person. Clustering is a very powerful tool for cleaning datasets which contain misspelled or mistyped entries. OpenRefine has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work. 
 
