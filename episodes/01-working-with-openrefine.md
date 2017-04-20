@@ -73,19 +73,16 @@ along with a number representing how many times that value occurs in the column.
 
 ## Clustering
 
-In OpenRefine, clustering means "finding groups of different values that might be alternative representations of the same thing". For example, the two strings "New York" and "new york" are very likely to refer to the same concept and just have capitalization differences. Likewise, "Gödel" and "Godel" probably refer to the same person. Clustering is a very powerful tool for cleaning datasets which contain misspelled or mistyped entries. OpenRefine has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work. 
+In OpenRefine, clustering means "finding groups of different values that might be alternative representations of the same thing". For example, the two strings `New York` and `new york` are very likely to refer to the same concept and just have capitalization differences. Likewise, `Gödel` and `Godel` probably refer to the same person. Clustering is a very powerful tool for cleaning datasets which contain misspelled or mistyped entries. OpenRefine has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work. 
 
->  - In the scientificName Text Facet we created in the step above, click the _Cluster_ button.
->  - In the resulting pop-up window, you can change the Method and the Keying Function. Try different combinations to 
-> see what different mergers of values are suggested.
->  - Select the _key collision_ method and _metaphone3_ keying function. It should identify three clusters. 
-> Click the _Merge?_ box beside each, then click _Merge Selected and Recluster_ to 
-> apply the corrections to the dataset.
-> - Try selecting different Methods and Keying Functions again, to see what new mergers are suggested. You may find there are 
-> still improvements that can be made, but don't Merge again; just Close when you're done.  We'll now 
-> see other operations that will help us detect and correct the remaining problems, 
-> and that have more general uses besides.
-
+1. In the `scientificName` Text Facet we created in the step above, click the `Cluster` button.
+2. In the resulting pop-up window, you can change the `Method` and the `Keying Function`. Try different combinations to 
+ see what different mergers of values are suggested.
+3. Select the `key collision` method and `metaphone3` keying function. It should identify three clusters. 
+4. Click the `Merge?` box beside each, then click `Merge Selected and Recluster` to apply the corrections to the dataset.
+4. Try selecting different `Methods` and `Keying Functions` again, to see what new merges are suggested. You may find there are 
+ still improvements that can be made, but don't `Merge` again; just `Close` when you're done.  We'll now 
+ see other operations that will help us detect and correct the remaining problems, and that have other, more general uses.
 
 [More on clustering](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth)
 
@@ -93,14 +90,13 @@ In OpenRefine, clustering means "finding groups of different values that might b
 
 If data in a column needs to be split into multiple columns, and the parts are separated by a common separator (say a comma, or a space), you can use that separator to divide up the bits into their own columns.
 
-
->  - Let us suppose we want to split the scientificName column into separate colums for genus and for species. 
->  - Go to the drop-down tab at the top of the scientificName column. Choose Edit Column > Split into several columns.
->  - In the pop-up, in the Separator box, replace the comma with a space.
->  - Remove the check in the box that says "Remove the column".
->  - Click "OK". You'll get some new columns called _scientificName 1_, _scientificName 2_, and so on.
->  - Notice that in some cases _scientificName 1_ and _scientificName 2_ are empty. Why is this? What do you think we 
-should do about it?
+1. Let us suppose we want to split the `scientificName` column into separate colums for genus and for species. 
+2. Click the down arrow at the top of the `scientificName` column. Choose `Edit Column` > `Split into several columns...`
+3. In the pop-up, in the `Separator` box, replace the comma with a space.
+4. Uncheck the box that says `Remove this column`.
+5. Click `OK`. You'll get some new columns called `scientificName 1`, `scientificName 2`, and so on.
+6. Notice that in some cases `scientificName 1` and `scientificName 2` are empty. Why is this? What do you think we 
+can do to fix this?
 
 > ## Exercise
 >
