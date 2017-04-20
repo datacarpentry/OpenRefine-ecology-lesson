@@ -80,7 +80,7 @@ If data in a column needs to be split into multiple columns, and the strings in 
 
 ## Export 
 
-* Save your work when you are done by exporting it in the desire format. Save your files with meaningful names, no spaces. OpenRefine does not change your original dataset.
+* Save your work when you are done by exporting it in the desired format. Save your files with meaningful names, no spaces. OpenRefine does not change your original dataset.
 
 #### Time estimate for this demo.
 * Takes about 100-115 minutes to do a good demo with learners installing the tool and working through the demo.
