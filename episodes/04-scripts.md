@@ -21,9 +21,8 @@ keypoints:
 * If you had 20 files to clean, and they all had the same type of errors, and all files had the same columns, you could save the script, open a new file to clean, paste in the script and run it. Voila, clean data.
 
 
->  - In the Undo / Redo section, click Extract, save the bits desired using the check boxes. 
->  - Copy the code and paste it into a text editor. Save it as a .txt file. 
+>  1. In the `Undo / Redo` section, click `Extract`, save the bits desired using the check boxes. 
+>  2. Copy the code and paste it into a text editor. Save it as a `.txt` file. 
 
-
-To run these steps on a new dataset, import the new dataset into OpenRefine, open the Extract / Apply section, paste in the .txt file, click Apply.
+To run these steps on a new dataset, import the new dataset into OpenRefine, open the `Extract / Apply` section, paste in the `.txt` file, click `Apply`.
 
