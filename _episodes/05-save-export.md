@@ -30,7 +30,7 @@ you'll see a list of your projects. You can click on any one of them to open it 
 You can also export a project, for instance if you wanted to send it to someone else. 
 
 
->  - Go to the 'Export' button in the top right. Click 'Export project'. This will save a compressed file that you can then open in OpenRefine that contains all the data and steps. 
+>  - Go to the `Export` button in the top right. Click `Export project`. This will save a compressed file that you can then open in OpenRefine that contains all the data and steps. 
 
 
 ## Exporting Cleaned Data 
@@ -38,12 +38,12 @@ You can also export a project, for instance if you wanted to send it to someone 
 Save your work when you are done by exporting it in the desired format. Save your files with meaningful names, no spaces. OpenRefine does not change your original dataset (hooray!).
 
 
->  - Go to 'Export' in the top right. Click on the file type you want to export the data in. 'Tab-separated values' (TSV) or 'Comma-separated values' (CSV) would be good choices. 
+>  - Go to `Export` in the top right. Click on the file type you want to export the data in. `Tab-separated values` (`tsv`) or `Comma-separated values` (`csv`) would be good choices. 
 
 
 That file will get
-exported to your default Download directory. That file can then be opened in a 
+exported to your default `Download` directory. That file can then be opened in a 
 spreadsheet program
 or imported into programs like R or Python, which we'll be discussing later in our workshop. 
 Remember from our lesson on Spreadsheets that using widely-supported, 
-non-proprietary file formats like TSV or CSV improves the ability of yourself and others to use your data. 
+non-proprietary file formats like `tsv` or `csv` improves the ability of yourself and others to use your data. 
