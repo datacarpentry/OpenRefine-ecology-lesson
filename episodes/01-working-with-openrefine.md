@@ -105,21 +105,21 @@ can do to fix this?
 
 ## Undo / Redo
 
-It's common while exploring and cleaning a dataset to discover after you've made a change that you really should have done something else first. OpenRefine provides Undo and Redo operations to make this easy.
+It's common while exploring and cleaning a dataset to discover after you've made a change that you really should have done something else first. OpenRefine provides `Undo` and `Redo` operations to make this easy.
 
 
->  - Click where it says Undo / Redo on the left side of the screen. All the changes you have made so far are listed here.
->  - Click on the step that you want to go back to, in this case the previous step. The added columns will disappear.
->  - Notice that you can still click on the last step and make the columns reappear, and back, and forth. 
->  - Leave the dataset in the state in which the scientificNames were clustered, but not yet split.
+1. Click where it says `Undo / Redo` on the left side of the screen. All the changes you have made so far are listed here.
+2. Click on the step that you want to go back to, in this case the previous step. The added columns will disappear.
+3. Notice that you can still click on the last step and make the columns reappear, and toggle back and forth between these states.
+4. Leave the dataset in the state in which the `scientificNames` were clustered, but not yet split.
 
 ## Trim Leading and Trailing Whitespace
 
 Strings with spaces at the beginning or end are particularly hard for we humans to tell from strings without, but the blank characters will make a difference to the computer. We usually want to remove these. OpenRefine provides a tool to remove blank characters from the beginning and end of any entries that have them.
 
 
->  - In the header for the column _scientificName_, choose Edit cells > Common transforms > Trim leading and trailing whitespace.
->  - Notice that the Split step has now disappeared from the Undo / Redo pane on the left. 
->  - Perform the same Split operation on scientificName that you undid earlier. This time you should only get two new columns.
+1. In the header for the column `scientificName`, choose `Edit cells` > `Common transforms` > `Trim leading and trailing whitespace`.
+2. Notice that the `Split` step has now disappeared from the `Undo / Redo` pane on the left and is replaced with a `Text transform on 3 cells`
+3. Perform the same `Split` operation on `scientificName` that you undid earlier. This time you should only get two new columns. Why?
 
 
