@@ -59,7 +59,7 @@ Typically, you create a facet on a particular column. The facet summarizes the c
 3. In the left panel, you'll now see a box containing every unique value in the `scientificName` column 
 along with a number representing how many times that value occurs in the column.
 4. Try sorting this facet by name and by count. Do you notice any problems with the data? What are they?
-5. Hover the mouse over one of the names in the Facet list. You should see that you have an "edit" function available. 
+5. Hover the mouse over one of the names in the `Facet` list. You should see that you have an `edit` function available. 
 6. You could use this to fix an error immediately, and OpenRefine will ask whether you want to make the same correction to every value it finds like that one. But OpenRefine offers even better ways to find and fix these errors, which we'll use instead. We'll learn about these when we talk about clustering.
 
 > ## Exercise
