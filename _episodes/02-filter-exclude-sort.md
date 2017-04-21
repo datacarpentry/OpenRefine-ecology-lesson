@@ -18,10 +18,9 @@ keypoints:
 
 There are many entries in the rodent table. We can filter it to work on a subset of the data in the list for the next set of operations. Please ensure you perform this step to save time during the class.
 
-1. Select **scientificName** drop-down menu **> Text filter**. Note that a **scientificName** facet will appear on the left margin.
-2. Type in **bai** and press return. There are 48 matching rows of the original 35549 row
-(and are selected for the subsequent steps).
-3. At the top, change the view to **Show** 50 **rows**. This way you will see all the rows.
+1. Click the down arrow next to `scientificName` > `Text filter`. A `scientificName` facet will appear on the left margin.
+2. Type in `bai` and press return. There are 48 matching rows of the original 35549 rows (and these rows are selected for the subsequent steps).
+3. At the top, change the view to `Show` 50 `rows`. This way you will see all the matching rows.
 
 > ## Challenge
 >
