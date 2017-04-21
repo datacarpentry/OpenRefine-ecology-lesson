@@ -4,12 +4,16 @@ title: "Instructor Notes"
 permalink: /guide/
 ---
 
-# Lesson
+## Lesson motivation and learning objectives
 
-## Opening OpenRefine
-If you are using a browser other than Firefox, or OpenRefine does not automatically open for you when you click the .exe file, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
 
-## Creating a Project
+## Lesson design
+
+* This lesson takes about 100-115 minutes with learners installing the tool and working through the examples and challenges.
+
+## Technical tips and tricks
+
+### Creating a Project
 
 Start the program. (Double-click on the google-refine.exe file. Java services will start on your machine, and OpenRefine will open in your Firefox browser).
 
@@ -20,13 +24,12 @@ https://www.dropbox.com/s/kbb4k00eanm19lg/Portal_rodents_19772002_scinameUUIDs.c
 
 **Once OpenRefine is open, you'll be asked if you want to Create, Open, or Import a Project.**
 
-
   - Click Browse, find Portal_rodents_19772002_scinameUUIDs.csv
   - Click next to open Portal_rodents_19772002_scinameUUIDs.csv
   - OpenRefine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click "update preview."
   - If all looks well, click _Create Project._
 
-## Faceting
+### Faceting
 
 *Exploring data by applying multiple filters*
 
@@ -39,13 +42,12 @@ Typically, you create a facet on a particular column. The facet summarizes the c
 
 [More on faceting](https://github.com/OpenRefine/OpenRefine/wiki/Faceting)
 
-
   - Scroll over to the scientificName column
   - Click the down arrow and choose Facet > Text facet
   - In the left margin, you'll see a box containing every unique value in the scientificName column and OpenRefine shows you how many times that value occurs in the column (a count), and allows you to sort (order) your facets by name or count.
   - Edit. Note that at any time, in any cell of the Facet box, or data cell in the OpenRefine window, you have access to "edit" and can fix an error immediately. OpenRefine will even ask you if you'd like to make that same correction to every value it finds like that one (or not).
 
-## Cluster
+### Clustering
 In OpenRefine, clustering refers to the operation of "finding groups of different values that might be alternative representations of the same thing". For example, the two strings "New York" and "new york" are very likely to refer to the same concept and just have capitalization differences. Likewise, "Gödel" and "Godel" probably refer to the same person.
 
 One of the most magical bits of OpenRefine, the moment you realize what you've been missing. OpenRefine has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work. 
@@ -58,8 +60,7 @@ One of the most magical bits of OpenRefine, the moment you realize what you've b
   - Intentional errors in these scientific names have been introduced to show how errors (typos) in any position can be found with this method. All errors can then be fixed by simply entering the correct value in the box on the right. Often, the algorithm has guessed correctly. 
   - After corrections are made in this window, you can either Merge and Close the Cluster pop-up, or Merge and Re-cluster.
 
-
-## Split / Leading - Trailing Whitespace / Undo - Redo
+### Split / Leading - Trailing Whitespace / Undo - Redo
 
 If data in a column needs to be split into multiple columns, and the strings in the cells are separated by a common separator (say a comma, or a space), you can use that separator to divide up the bits into their own columns.
 
@@ -72,19 +73,12 @@ If data in a column needs to be split into multiple columns, and the strings in 
   - These can be easily removed with another OpenRefine feature in the column drop-down choices. See drop-down: Edit cells > Common transforms > Remove leading and trailing whitespace
   - To Undo create columns, look just above the scientificName cluster in the left side of the screen. Click where it says Undo / Redo. Click back one step (all steps, all changes are saved here). Just go back to the previous step and click. The extra columns will be gone.
 
-## Scripts
+## Common problems
 
-* OpenRefine saves every change, every edit you make to the dataset in a file you can save on your machine.
-* IF you had 20 files to clean, and they all had the same type of errors, and all files had the same columns, you could save the script, open a new file to clean, paste in the script and run it. Voila, clean data.
-* In the Undo / Redo section, click Extract, save the bits desired using the check boxes. Save the code in a .txt file. To run these steps on a new dataset, import the new dataset into OpenRefine, open the Extract / Apply section, paste in the .txt file, click Apply.
+* If learners are using a browser other than Firefox, or OpenRefine does not automatically open for them when they click the .exe file, have them point their browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
 
-## Export 
-
-* Save your work when you are done by exporting it in the desired format. Save your files with meaningful names, no spaces. OpenRefine does not change your original dataset.
-
-#### Time estimate for this demo.
-* Takes about 100-115 minutes to do a good demo with learners installing the tool and working through the demo.
 * Mac users with the newest operating system will have to allow this to run by "allowing everything" to run. They can change the setting back after the exercise.
+
 * Some students will run into issues with
   - unzipping
   - finding the .exe file once the software has been unzipped
