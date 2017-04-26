@@ -102,10 +102,3 @@ You can sort by multiple columns by performing sort on additional columns. The s
 {: .challenge}
 
 If you go back to one of the already sorted colunms and select > `Sort` > `Remove sort`, that column is removed from your multiple sort. If it is the only column sorted, then data reverts to its original order.
-
-> ## Challenge
->
-> Sort by `year`, `month` and `day` in some order. Be creative: try sorting as `numbers` or `text`, and in reverse order (`largest to smallest` or `z to a`).
->
-> Use > `Sort` > `Remove sort` to remove the sort on the second of three columns. Notice how that changes the order.
-{: .challenge}
