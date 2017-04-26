@@ -63,10 +63,10 @@ along with a number representing how many times that value occurs in the column.
 4. Try sorting this facet by name and by count. Do you notice any problems with the data? What are they?
 5. Hover the mouse over one of the names in the `Facet` list. You should see that you have an `edit` function available. 
 6. You could use this to fix an error immediately, and OpenRefine will ask whether you want to make the same correction to every value it finds like that one. But OpenRefine offers even better ways to find and fix these errors, which we'll use instead. We'll learn about these when we talk about clustering.
-> 
+> ## Solution
 > There will be several near-identical entries in `scientificName`. For example, there is one entry for `Ammospermophilis harrisi` and
 > one entry for `Ammospermophilus harrisii`. These are both misspellings of `Ammospermophilus harrisi`. We will see how to correct these 
-> misspelled and mistyped entries in a later exercise.
+> misspelled and mistyped entries in a later exercise.  
 {: .solution}
 
 > ## Exercise
@@ -76,6 +76,15 @@ along with a number representing how many times that value occurs in the column.
 > 2. Is the column formatted as Number, Date, or Text? How does changing the format change the faceting display?
 >
 > 3. Which years have the most and least observations?
+> > ## Solution
+> > 1. For the column `yr` do `Facet` > `Text facet`. A box will appear in the left panel showing that there are 26 unique entries in
+> > this column.  
+> > 2. By default, the column `yr` is formatted as Text. You can change the format by doing `Edit cells` > `Common transforms` > 
+> > `To number`. Doing `Facet` > `Numeric facet` creates a box in the left panel that shows a histogram of the number of 
+> > entries per year. Notice that the data is shown as a number, not a date. If you instead transform the column to a date, the 
+> > program will assume all entries are on January 1st of the year.   
+> > 3. After creating a facet, click `Sort by count` in the facet box. The year with the most observations is 1997. The least is 1977.   
+> {: .solution}
 {: .challenge}
 
 ## Clustering
