@@ -18,7 +18,7 @@ keypoints:
 
 In OpenRefine you can save or export the project. This means you're saving the data and all the 
 information about the cleaing steps you've done. Once you've saved a Project, you can
-open it up again and be just where you left off.
+open it up again and be just where you stopped before.
 
 ### Saving
 

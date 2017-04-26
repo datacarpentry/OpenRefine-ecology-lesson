@@ -22,13 +22,13 @@ keypoints:
 ## Creating a Project
 
 
-Start the program. (Double-click on the openrefine.exe file (or google-refine.exe if using an older version). Java services will start on your machine, and OpenRefine will open in your Firefox browser).
+Start the program. (Double-click on the openrefine.exe file (or google-refine.exe if using an older version). Java services will start on your machine, and OpenRefine will open in your browser).
 
 Launch OpenRefine (see [Getting Started with OpenRefine](http://www.datacarpentry.org/OpenRefine-ecology-lesson/00-getting-started/)).
 
-OpenRefine can import a variety of file types, including tab separated (`*.tsv`), comma separated (`*.csv`), Excel (`*.xls`, `*.xlsx`), JSON, XML, RDF as XML, Google Spreadsheets. See the [OpenRefine Importers page](https://github.com/OpenRefine/OpenRefine/wiki/Importers) for more information.
+OpenRefine can import a variety of file types, including tab separated (`tsv`), comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, Google Spreadsheets. See the [OpenRefine Importers page](https://github.com/OpenRefine/OpenRefine/wiki/Importers) for more information.
 
-In this first step, we'll browse our computer to the sample data file for this lesson. In this case, We modified the `Portal_rodents` CSV file, adding several columns: `scientificName`, `locality`, `county`, `state`, `country` and generating several more columns in the lesson itself (`JSON`, `decimalLatitude`, `decimalLongitude`). Data in `locality`, `county`, `country`, `JSON`, `decimalLatitude` and `decimalLongitude` are contrived and are in no way related to the original dataset. 
+In this first step, we'll browse our computer to the sample data file for this lesson. In this case, we modified the `Portal_rodents` CSV file, adding several columns: `scientificName`, `locality`, `county`, `state`, `country` and generating several more columns in the lesson itself (`JSON`, `decimalLatitude`, `decimalLongitude`). Data in `locality`, `county`, `country`, `JSON`, `decimalLatitude` and `decimalLongitude` are contrived and are in no way related to the original dataset. 
 
 If you haven't already, download the data from:  
 [https://ndownloader.figshare.com/files/7823341](https://ndownloader.figshare.com/files/7823341)
@@ -52,9 +52,11 @@ OpenRefine supports faceted browsing as a mechanism for
 * seeing a big picture of your data, and
 * filtering down to just the subset of rows that you want to change in bulk.
 
-Typically, you create a facet on a particular column. The facet summarizes the cells in that column to give you a big picture on that column, and allows you to filter to some subset of rows for which their cells in that column satisfy some constraint. That's a bit abstract, so let's jump into some examples. 
+Typically, you create a facet on a particular column. The facet summarizes the cells in that column to give you a big picture of that column, and allows you to filter to some subset of rows for which the cells in that column satisfy some constraint. That's a bit abstract, so let's jump into some examples. 
 
 [More on faceting](https://github.com/OpenRefine/OpenRefine/wiki/Faceting)
+
+Here we will use faceting to look for potential errors in data entry in the `scientificName` column.
 
 1. Scroll over to the `scientificName` column.
 2. Click the down arrow and choose `Facet` > `Text facet`.
@@ -90,7 +92,7 @@ In OpenRefine, clustering means "finding groups of different values that might b
 
 ## Split
 
-If data in a column needs to be split into multiple columns, and the parts are separated by a common separator (say a comma, or a space), you can use that separator to divide up the bits into their own columns.
+If data in a column needs to be split into multiple columns, and the parts are separated by a common separator (for example a comma, or a space), you can use that separator to divide up the bits into their own columns.
 
 1. Let us suppose we want to split the `scientificName` column into separate colums for genus and for species. 
 2. Click the down arrow at the top of the `scientificName` column. Choose `Edit Column` > `Split into several columns...`
