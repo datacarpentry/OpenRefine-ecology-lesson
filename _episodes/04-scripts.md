@@ -19,7 +19,7 @@ keypoints:
 ## Scripts
 
 * OpenRefine saves every change, every edit you make to the dataset in a file you can save on your machine.
-* If you had 20 files to clean, and they all had the same type of errors, and all files had the same columns, you could save the script, open a new file to clean, paste in the script and run it. Voila, clean data.
+* If you had 20 files to clean, and they all had the same type of errors, and all files had the same columns, you could save the script, open a new file to clean, paste in the script and run it. This gives you a quick way to clean all of your related data.
 
 
 >  1. In the `Undo / Redo` section, click `Extract`, save the bits desired using the check boxes. 
