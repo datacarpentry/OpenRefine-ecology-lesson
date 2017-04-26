@@ -100,11 +100,14 @@ In OpenRefine, clustering means "finding groups of different values that might b
  still improvements that can be made, but don't `Merge` again; just `Close` when you're done.  We'll now 
  see other operations that will help us detect and correct the remaining problems, and that have other, more general uses.
 
+Important: If you `Merge` using a different method or keying function, or more times than described in the instructions above, 
+your solutions for later exercises will not be the same as shown in those exercise solutions.
+
 [More on clustering](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth)
 
 ## Split
 
-If data in a column needs to be split into multiple columns, and the parts are separated by a common separator (say a comma, or a space), you can use that separator to divide up the bits into their own columns.
+If data in a column needs to be split into multiple columns, and the parts are separated by a common separator (say a comma, or a space), you can use that separator to divide up the pieces into their own columns.
 
 1. Let us suppose we want to split the `scientificName` column into separate colums for genus and for species. 
 2. Click the down arrow at the top of the `scientificName` column. Choose `Edit Column` > `Split into several columns...`
@@ -113,10 +116,24 @@ If data in a column needs to be split into multiple columns, and the parts are s
 5. Click `OK`. You'll get some new columns called `scientificName 1`, `scientificName 2`, and so on.
 6. Notice that in some cases `scientificName 1` and `scientificName 2` are empty. Why is this? What do you think we 
 can do to fix this?
+> ## Solution
+> 
+> The entries that have data in `scientificName 3` and `scientificName 4` but not the first two `scientificName` columns 
+> had an extra space at the beginning of the entry. Leading white spaces are very difficult to notice when cleaning data
+> manually. This is another advantage of using OpenRefine to clean your data. We'll look at how to 
+> fix leading and trailing white spaces in a later exercise.
+{: .solution}
 
 > ## Exercise
 >
 > Try to change the name of the second new column to "species". How can you correct the problem you encounter?
+> > ## Solution
+> > 
+> > On the `scientificName 2` column, click the down arrow and then `Edit column` > `Rename this column`. Type "species" into the box
+> > that appears. A pop-up will appear that says `Another column already named species`. This is because there is another column
+> > where we've recorded the species abbreviation. You can choose another name like `speciesName` for this column or change the other 
+> > `species` column you can change the name to `speciesAbbreviation`.
+> {: .solution}
 {: .challenge}
 
 ## Undo / Redo
