@@ -17,7 +17,7 @@ keypoints:
 
 ## Filtering
 
-There are many entries in the rodent table. We can filter it to work on a subset of the data in the list for the next set of operations. Please ensure you perform this step to save time during the class.
+There are many entries in our data table. We can filter it to work on a subset of the data in the list for the next set of operations. Please ensure you perform this step to save time during the class.
 
 1. Click the down arrow next to `scientificName` > `Text filter`. A `scientificName` facet will appear on the left margin.
 2. Type in `bai` and press return. There are 48 matching rows of the original 35549 rows (and these rows are selected for the subsequent steps).
@@ -31,7 +31,7 @@ There are many entries in the rodent table. We can filter it to work on a subset
 
 ### Excluding entries
 
-While we could type more letters of text, or click `case sensitive`, another way to filter is to `include` and/or `exclude` entries in a facet. If you still have your facet for `scientificName`, you can use it, or use drop-down menu > `Facet` > `Text facet` to create a new facet. Only the entries with names that agree with your `Text filter` will be included in this facet.
+While we could type more letters of text, or click `case sensitive` to restrict our filter to one of the species selected, another way to filter is to `include` and/or `exclude` entries in a facet. If you still have your facet for `scientificName`, you can use it, or use drop-down menu > `Facet` > `Text facet` to create a new facet. Only the entries with names that agree with your `Text filter` will be included in this facet.
 
 > ## Challenge
 >
