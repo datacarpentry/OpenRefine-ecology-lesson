@@ -3,7 +3,7 @@ title: "Introduction"
 teaching: 10
 exercises: 0
 questions:
-- "Motivation for using OpenRefine"
+- "What is OpenRefine useful for?"
 objectives:
 - "Describe OpenRefine’s uses and applications."
 - "Differentiate data cleaning from data organization."
