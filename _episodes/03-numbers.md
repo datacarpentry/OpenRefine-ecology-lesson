@@ -3,7 +3,8 @@ title: "Examining Numbers in OpenRefine"
 teaching: 10
 exercises: 10
 questions:
-- "Examing numerical data"
+- "How can we convert a column from one data type to another?"
+- "How can we visualize relationships among columns?"
 objectives:
 - "Transform a text column in to a number column."
 - "Identify and modify non-numeric values in a column using facets."
