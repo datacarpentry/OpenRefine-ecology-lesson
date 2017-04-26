@@ -25,13 +25,23 @@ There are many entries in the rodent table. We can filter it to work on a subset
 
 > ## Challenge
 >
-> What scientific names (genus and species) are selected by this procedure?
-> How would you restrict this to one of the species selected?
+> 1. What scientific names (genus and species) are selected by this procedure?  
+> 2. How would you restrict this to one of the species selected?  
+> > ## Solution
+> > 1. Do `Facet` > `Text facet` on the `scientificName` column after filtering. This will show that
+> > two names match your filter criteria. They are `Baiomys taylori` and `Chaetodipus baileyi`.   
+> > 2. To restrict to only one of these two species, you could make the search case sensitive or 
+> > you could split the `scientificName` column into species and genus before filtering or
+> > you could include more letters in your filter.
+> {: .solution}
 {: .challenge}
 
 ### Excluding entries
 
-While we could type more letters of text, or click `case sensitive`, another way to filter is to `include` and/or `exclude` entries in a facet. If you still have your facet for `scientificName`, you can use it, or use drop-down menu > `Facet` > `Text facet` to create a new facet. Only the entries with names that agree with your `Text filter` will be included in this facet.
+In addition to the solutions included above, another way to narrow our filter is to `include` and/or `exclude` entries in a facet. If you still have your facet for `scientificName`, you can use it, or use drop-down menu > `Facet` > `Text facet` to create a new facet. Only the entries with names that agree with your `Text filter` will be included in this facet.
+
+Faceting and filtering look very similar. A good distinction is that faceting gives you an overview description of all of the data that 
+is currently selected, while filtering allows you to select a subset of your data for analysis. 
 
 > ## Challenge
 >
