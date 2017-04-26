@@ -3,7 +3,9 @@ title: "Working with OpenRefine"
 teaching: 15
 exercises: 20
 questions:
-- "Getting started working with OpenRefine"
+- "How can we bring our data into OpenRefine?"
+- "How can we sort and summarize our data?"
+- "How can we find and correct errors in our raw data?"
 objectives:
 - "Create a new OpenRefine project from a CSV file."
 - "Recall what facets are and how they are used to sort and summarize data."
