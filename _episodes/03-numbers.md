@@ -23,7 +23,7 @@ Be sure to remove any `Text filter` facets you have enabled from the left panel 
 
 To transform cells in the `recordID` column to numbers, click the down arrow for that column, then `Edit cells` > `Common transforms…` > `To number`. You will notice the `recordID` values change from left-justified to right-justified, and black to green color.
 
-> ## Challenge
+> ## Exercise
 >
 > Transform three more columns, including `period`, from text to numbers.
 {: .challenge}
@@ -31,7 +31,7 @@ To transform cells in the `recordID` column to numbers, click the down arrow for
 ### Numeric facet
 Sometimes there are non-number values or blanks in a column and we want to find them. We can do that with a `Numeric facet`.
 
-> ## Challenge
+> ## Exercise
 >
 > 1. For a column you transformed to numbers, edit one or two cells, replacing the numbers with text (such as `abc`) or blank (no number or text).
 > 2. Use the pulldown menu to apply a numeric facet to the column you edited. The facet will appear in the left panel.
@@ -45,7 +45,7 @@ When done examining the numeric data, remove this facet by clicking the `x` in t
 
 Now that we have multiple columns represented numbers, we can see how they relate to one another using the scatterplot facet. Select a numeric column, for example `recordID`, and use the pulldown menu to > `Facet` > `Scatterplot facet`. A new window called `Scatterplot Matrix` will appear. There are squares for each pair of numeric columns organized in an upper right triangle. Each square has little dots for the cell values from each row.
 
-> ## Challenge
+> ## Exercise
 >
 > 1. Examine the scatterplots overall. Do the patterns make sense?
 > 2. If you have `recordID` and `period`, why does it have the pattern it does?
@@ -55,12 +55,12 @@ Now that we have multiple columns represented numbers, we can see how they relat
 
 We can examine one pair of columns by clicking on its square in the `Scatterplot Matrix`` A new facet with only that pair will appear in the left margin. 
 
-> ## Challenge
+> ## Exercise
 >
 > Click in the scatterplot facet in the margin and drag to highlight a rectangle. This will subset the data to those entries.
 {: .challenge}
 
-> ## Challenge
+> ## Exercise
 > 
 > - Click on the `Scatterplot Matrix` square for `recordID` and `period` to get that as a facet in the left margin.
 > - Redo the `Text filter` on `scientificName` to show only entries including the letters `bai`.
