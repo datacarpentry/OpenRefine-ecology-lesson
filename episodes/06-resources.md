@@ -3,7 +3,7 @@ title: "Other Resources in OpenRefine"
 teaching: 5
 exercises: 5
 questions:
-- "Other resources available for working with OpenRefine"
+- "What other resources are available for working with OpenRefine?"
 objectives:
 - "Understand that there are many online resources available for more information on OpenRefine."
 - "Identify other resources about OpenRefine."
