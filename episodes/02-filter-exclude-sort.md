@@ -67,6 +67,24 @@ There you can sort by `text`, `numbers`, `dates` or `booleans` (`TRUE` or `FALSE
 
 If this is your first time sorting this table, then the drop-down menu for the selected column shows `Sort...`. Select what you would like to sort by (such as `numbers`). Additional options will then appear for you to fine-tune your sorting.
 
+If you try to re-sort a column that you have already used, the drop-down menu changes slightly, to > `Sort` without the `...`, to remind you that you have already used this column. It will give you additional options:
+
+* > `Sort` > `Sort...` - This option enables you to modify your original sort. 
+* > `Sort` > `Reverse` - This option allows you to reverse the order of the sort.
+* > `Sort` > `Remove sort` - This option allows you to undo your sort.
+
+> ## Exercise
+> Sort the data by `plot`. What year(s) were observations recorded for plot 1 in this filtered dataset. 
+> > ## Solution
+> > In the `plot` column, select `Sort...` > `numbers` and select `smallest first`. The years represented are 1990 and 1995.
+> {: .solution}
+{: .challenge}
+
+
+### Sorting by multiple columns.
+
+You can sort by multiple columns by performing sort on additional columns. The sort will depend on the order in which you select columns to sort. To restart the sorting process with a particular column, check the `sort by this column alone` box in the `Sort` pop-up menu.
+
 > ## Challenge
 >
 > You might like to look for trends in your data by month of collection across years.     
@@ -81,23 +99,6 @@ If this is your first time sorting this table, then the drop-down menu for the s
 > > for the `mo` column, click on `Sort` > `numbers` but do not select `sort by this column alone`. To ensure that all entries are shown 
 > > chronologically, you will need to add a third sorting step by day within month.  
 > {: .solution}  
-{: .challenge}
-
-If you try to re-sort a column that you have already used, the drop-down menu changes slightly, to > `Sort` without the `...`, to remind you that you have already used this column. It will give you additional options:
-
-* > `Sort` > `Sort...`
-* > `Sort` > `Reverse`
-* > `Sort` > `Remove sort`
-
-### Sorting by multiple columns.
-
-You can sort by multiple columns by performing sort on additional columns. The sort will depend on the order in which you select columns to sort. To restart the sorting process with a particular column, check the `sort by this column alone` box in the `Sort` pop-up menu.
-
-> ## Challenge
->
-> Try sorting by a `year` after you have sorted by `month`. What happens to ordering?
->
-> Try sorting first by `year` and then by `month`. Be sure to check the `sort by this column alone` box when sorting by `year` to remove earlier sorting operations.
 {: .challenge}
 
 If you go back to one of the already sorted colunms and select > `Sort` > `Remove sort`, that column is removed from your multiple sort. If it is the only column sorted, then data reverts to its original order.
