@@ -34,7 +34,7 @@ In addition, see these other useful resources:
 
 There are more advanced uses of OpenRefine, such as bringing in column or cell data using web locators (URLs or APIs). The links above can give you a start on your journey.
 
-> ## Challenge
+> ## Exercise
 >
 > Visit one of these sites and share what you find with another person.
 {: .challenge}
