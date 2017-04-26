@@ -3,7 +3,8 @@ title: "Filtering and Sorting with OpenRefine"
 teaching: 10
 exercises: 10
 questions:
-- "Filtering and sorting data"
+- "How can we select only a subset of our data to work with?"
+- "How can we sort our data?"
 objectives:
 - "Filter to a subset of rows by text filter or include/exclude."
 - "Sort table by a column."
