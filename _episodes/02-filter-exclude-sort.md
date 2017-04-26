@@ -45,14 +45,17 @@ is currently selected, while filtering allows you to select a subset of your dat
 
 > ## Challenge
 >
-> Use `include / exclude` to exclude one of the scientific names. Below are some suggested steps.
+> Use `include / exclude` to select only entries from one of these two species.
 >
-> 1. In the facet (left margin), click on one of the names, such as `Baiomys taylori`. Notice that when you click on the name, or hover
-> over it, there are entries to the right for `edit` and `include`. 
-> 2. Click `include`. This will explicitly include this species, and exclude others that are not expicitly included. Notice that the
+> > ## Solution
+> > 
+> > 1. In the facet (left margin), click on one of the names, such as `Baiomys taylori`. Notice that when you click on the name, or hover
+> > over it, there are entries to the right for `edit` and `include`. 
+> > 2. Click `include`. This will explicitly include this species, and exclude others that are not expicitly included. Notice that the
 > option now changes to `exclude`.
-> 3. Click `include` and `exclude` on the other species (`Chaetodipus baileyi`) and notice how the two entries appear and disappear
+> > 3. Click `include` and `exclude` on the other species (`Chaetodipus baileyi`) and notice how the two entries appear and disappear
 > from the table.
+> {: .solution}
 {: .challenge}
 
 ## Sort
