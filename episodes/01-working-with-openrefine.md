@@ -162,3 +162,6 @@ Words with spaces at the beginning or end are particularly hard for we humans to
 > Therefore, when you split with space as the separator, you will get only two columns.
 {: .solution}
 
+Important: `Undo` the splitting step before moving on to the next lesson. If you skip this step, your solutions 
+for later exercises will not be the same as shown in those exercise solutions.
+
