@@ -6,7 +6,7 @@ questions:
 - "How can we convert a column from one data type to another?"
 - "How can we visualize relationships among columns?"
 objectives:
-- "Transform a text column in to a number column."
+- "Transform a text column into a number column."
 - "Identify and modify non-numeric values in a column using facets."
 - "Use scatterplot facet to examine relationships among columns."
 keypoints:
@@ -19,7 +19,7 @@ keypoints:
 
 When a table is imported into OpenRefine, all columns are treated as having text values. We saw earlier how we can sort interpreting column values as numbers, but this did not change the cells in a column from text to numbers.
 
-Be sure to remove any `Text filter` facets you have enabled from the left panel so that we can examine the whole rodent dataset. You can remove an existing facet by clicking the `x` in the upper left of that facet window.
+Be sure to remove any `Text filter` facets you have enabled from the left panel so that we can examine our whole dataset. You can remove an existing facet by clicking the `x` in the upper left of that facet window.
 
 To transform cells in the `recordID` column to numbers, click the down arrow for that column, then `Edit cells` > `Common transforms…` > `To number`. You will notice the `recordID` values change from left-justified to right-justified, and black to green color.
 
@@ -43,7 +43,7 @@ When done examining the numeric data, remove this facet by clicking the `x` in t
 
 ## Scatterplot facet
 
-Now that we have multiple columns represented numbers, we can see how they relate to one another using the scatterplot facet. Select a numeric column, for example `recordID`, and use the pulldown menu to > `Facet` > `Scatterplot facet`. A new window called `Scatterplot Matrix` will appear. There are squares for each pair of numeric columns organized in an upper right triangle. Each square has little dots for the cell values from each row.
+Now that we have multiple columns representing numbers, we can see how they relate to one another using the scatterplot facet. Select a numeric column, for example `recordID`, and use the pulldown menu to > `Facet` > `Scatterplot facet`. A new window called `Scatterplot Matrix` will appear. There are squares for each pair of numeric columns organized in an upper right triangle. Each square has little dots for the cell values from each row.
 
 > ## Exercise
 >
