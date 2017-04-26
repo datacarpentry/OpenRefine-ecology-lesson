@@ -58,6 +58,8 @@ is currently selected, while filtering allows you to select a subset of your dat
 > {: .solution}
 {: .challenge}
 
+Important: Select both species for your filtered dataset before continuing with the rest of the exercises.
+
 ## Sort
 
 You can sort the data by a column by using the drop-down menu in that column.
@@ -67,7 +69,18 @@ If this is your first time sorting this table, then the drop-down menu for the s
 
 > ## Challenge
 >
-> Sort by month. How can you ensure that months are in order?
+> You might like to look for trends in your data by month of collection across years.     
+> 1. How do you sort your data by month?   
+> 2. How would you do this differently if you were instead trying to see all of your entries in chronological order?  
+> > ## Solution
+> > 
+> > 1. For the `mo` column, click on `Sort...` and then `numbers`. This will group all entries made in, for example, January,
+> > together, regardless of the year that entry was collected.  
+> > 2. For the `yr` column, click on `Sort` > `Sort...` > `numbers` and select `sort by this column alone`. This will undo the 
+> > sorting by month step. Once you've sorted by `yr` you can then apply another sorting step to sort by month within year. To do this
+> > for the `mo` column, click on `Sort` > `numbers` but do not select `sort by this column alone`. To ensure that all entries are shown 
+> > chronologically, you will need to add a third sorting step by day within month.  
+> {: .solution}  
 {: .challenge}
 
 If you try to re-sort a column that you have already used, the drop-down menu changes slightly, to > `Sort` without the `...`, to remind you that you have already used this column. It will give you additional options:
