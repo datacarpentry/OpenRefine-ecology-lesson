@@ -3,7 +3,8 @@ title: "Scripts from OpenRefine"
 teaching: 10
 exercises: 5
 questions:
-- "Code generation from OpenRefine"
+- "How can we document the data-cleaning steps we've applied to our data?"
+- "How can we apply these steps to additional data sets?"
 objectives:
 - "Describe how OpenRefine generates JSON code."
 - "Demonstrate ability to export JSON code from OpenRefine."
