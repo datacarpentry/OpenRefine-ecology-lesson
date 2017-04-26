@@ -5,7 +5,7 @@ permalink: /setup/
 ---
 
 > ## Data
-> **Download** this data file to your computer: [https://www.dropbox.com/s/kbb4k00eanm19lg/Portal_rodents_19772002_scinameUUIDs.csv](https://www.dropbox.com/s/kbb4k00eanm19lg/Portal_rodents_19772002_scinameUUIDs.csv)
+> **Download** this data file to your computer: [https://ndownloader.figshare.com/files/2252083](https://ndownloader.figshare.com/files/2252083)
 >
 > #### About the data
 > The data for this lesson is a part of the Data Carpentry Ecology workshop. 
