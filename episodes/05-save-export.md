@@ -49,15 +49,10 @@ project file. This project will include all of the raw data and cleaning steps t
 
 ## Exporting Cleaned Data 
 
-Save your work when you are done by exporting it in the desired format. Save your files with meaningful names, no spaces. OpenRefine does not change your original dataset (hooray!).
+You can also export just your cleaned data, rather than the entire project.
 
+1. Click `Export` in the top right and select the file type you want to export the data in. `Tab-separated values` (`tsv`) or `Comma-separated values` (`csv`) would be good choices.
+2. That file will be exported to your default `Download` directory. That file can then be opened in a spreadsheet program or imported
+into programs like R or Python, which we'll be discussing later in our workshop.
 
->  - Go to `Export` in the top right. Click on the file type you want to export the data in. `Tab-separated values` (`tsv`) or `Comma-separated values` (`csv`) would be good choices. 
-
-
-That file will get
-exported to your default `Download` directory. That file can then be opened in a 
-spreadsheet program
-or imported into programs like R or Python, which we'll be discussing later in our workshop. 
-Remember from our lesson on Spreadsheets that using widely-supported, 
-non-proprietary file formats like `tsv` or `csv` improves the ability of yourself and others to use your data. 
+Remember from our lesson on Spreadsheets that using widely-supported, non-proprietary file formats like `tsv` or `csv` improves the ability of yourself and others to use your data. 
