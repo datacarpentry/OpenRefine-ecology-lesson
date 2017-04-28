@@ -25,11 +25,17 @@ To transform cells in the `recordID` column to numbers, click the down arrow for
 
 > ## Exercise
 >
-> Transform three more columns, including `period`, from text to numbers.
+> Transform three more columns, including `period`, from text to numbers. Can all columns be transformed to numbers?
+> > ## Solution
+> > Only observations that include only numerals (0-9) can be transformed to numbers. If you apply a number transformation to 
+> > a column that doesn't meet this criteria, and then click the `Undo / Redo` tab, you will see a step that starts with 
+> > `Text transform on 0 cells`. This means that the data in that column was not transformed.
+> {: .solution}
 {: .challenge}
 
 ### Numeric facet
-Sometimes there are non-number values or blanks in a column and we want to find them. We can do that with a `Numeric facet`.
+Sometimes there are non-number values or blanks in a column which may represent errors in data entry and we want to find them. 
+We can do that with a `Numeric facet`.
 
 > ## Exercise
 >
@@ -48,7 +54,7 @@ Now that we have multiple columns representing numbers, we can see how they rela
 > ## Exercise
 >
 > 1. Examine the scatterplots overall. Do the patterns make sense?
-> 2. If you have `recordID` and `period`, why does it have the pattern it does?
+> 2. Why does the scatterplot for `recordID` vs `period` have the pattern it does?
 {: .challenge}
 
 ## Examine pair of columns in detail
@@ -57,7 +63,7 @@ We can examine one pair of columns by clicking on its square in the `Scatterplot
 
 > ## Exercise
 >
-> Click in the scatterplot facet in the margin and drag to highlight a rectangle. This will subset the data to those entries.
+> Click in the scatterplot facet in the left margin and drag to highlight a rectangle. This will subset the data to those entries.
 {: .challenge}
 
 > ## Exercise
