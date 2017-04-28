@@ -83,3 +83,11 @@ If data in a column needs to be split into multiple columns, and the strings in 
   - unzipping
   - finding the .exe file once the software has been unzipped
   - finding the data file on their computers after downloading
+  
+ * If OpenRefine crashs when launched from a network share drive, do the following:
+    - Copy the OpenRefine folder to a local drive not mapped to a network share, e.g. "C:\Users\JaneDoe".
+    - Open cmd, e.g. Windows black screen.
+    - Change the working directory to the OpenRefine folder at "C:\Users\JaneDoe".
+    - Run openrefine.exe.
+    - For unknown reason, double clicking on openrefine.exe at the local drive also result in crash but calling from the command line doesn't.
+    - This bug was reported before at OpenRefine/OpenRefine#1004.
