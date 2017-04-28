@@ -27,12 +27,14 @@ There are many entries in our data table. We can filter it to work on a subset o
 >
 > 1. What scientific names (genus and species) are selected by this procedure?  
 > 2. How would you restrict this to one of the species selected?  
+> 
 > > ## Solution
 > > 1. Do `Facet` > `Text facet` on the `scientificName` column after filtering. This will show that
 > > two names match your filter criteria. They are `Baiomys taylori` and `Chaetodipus baileyi`.   
 > > 2. To restrict to only one of these two species, you could make the search case sensitive or 
 > > you could split the `scientificName` column into species and genus before filtering or
 > > you could include more letters in your filter.
+> > 
 > {: .solution}
 {: .challenge}
 
@@ -56,7 +58,8 @@ is currently selected, while filtering allows you to select a subset of your dat
 > > 2. Click `include`. This will explicitly include this species, and exclude others that are not expicitly included. Notice that the
 > option now changes to `exclude`.
 > > 3. Click `include` and `exclude` on the other species (`Chaetodipus baileyi`) and notice how the two entries appear and disappear
-> from the table.
+> >  from the table.
+> > 
 > {: .solution}
 {: .challenge}
 
@@ -82,9 +85,12 @@ If you try to re-sort a column that you have already used, the drop-down menu ch
 * > `Sort` > `Remove sort` - This option allows you to undo your sort.
 
 > ## Exercise
+> 
 > Sort the data by `plot`. What year(s) were observations recorded for plot 1 in this filtered dataset. 
+> 
 > > ## Solution
 > > In the `plot` column, select `Sort...` > `numbers` and select `smallest first`. The years represented are 1990 and 1995.
+> > 
 > {: .solution}
 {: .challenge}
 
@@ -98,6 +104,7 @@ You can sort by multiple columns by performing sort on additional columns. The s
 > You might like to look for trends in your data by month of collection across years.     
 > 1. How do you sort your data by month?   
 > 2. How would you do this differently if you were instead trying to see all of your entries in chronological order?  
+> 
 > > ## Solution
 > > 
 > > 1. For the `mo` column, click on `Sort...` and then `numbers`. This will group all entries made in, for example, January,
@@ -105,7 +112,8 @@ You can sort by multiple columns by performing sort on additional columns. The s
 > > 2. For the `yr` column, click on `Sort` > `Sort...` > `numbers` and select `sort by this column alone`. This will undo the 
 > > sorting by month step. Once you've sorted by `yr` you can then apply another sorting step to sort by month within year. To do this
 > > for the `mo` column, click on `Sort` > `numbers` but do not select `sort by this column alone`. To ensure that all entries are shown 
-> > chronologically, you will need to add a third sorting step by day within month.  
+> > chronologically, you will need to add a third sorting step by day within month. 
+> > 
 > {: .solution}  
 {: .challenge}
 
