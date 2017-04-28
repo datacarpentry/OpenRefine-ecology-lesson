@@ -65,6 +65,11 @@ along with a number representing how many times that value occurs in the column.
 4. Try sorting this facet by name and by count. Do you notice any problems with the data? What are they?
 5. Hover the mouse over one of the names in the `Facet` list. You should see that you have an `edit` function available. 
 6. You could use this to fix an error immediately, and OpenRefine will ask whether you want to make the same correction to every value it finds like that one. But OpenRefine offers even better ways to find and fix these errors, which we'll use instead. We'll learn about these when we talk about clustering.
+> ## Solution
+> There will be several near-identical entries in `scientificName`. For example, there is one entry for `Ammospermophilis harrisi` and
+> one entry for `Ammospermophilus harrisii`. These are both misspellings of `Ammospermophilus harrisi`. We will see how to correct these 
+> misspelled and mistyped entries in a later exercise.  
+{: .solution}
 
 > ## Exercise
 >
@@ -73,6 +78,15 @@ along with a number representing how many times that value occurs in the column.
 > 2. Is the column formatted as Number, Date, or Text? How does changing the format change the faceting display?
 >
 > 3. Which years have the most and least observations?
+> > ## Solution
+> > 1. For the column `yr` do `Facet` > `Text facet`. A box will appear in the left panel showing that there are 26 unique entries in
+> > this column.  
+> > 2. By default, the column `yr` is formatted as Text. You can change the format by doing `Edit cells` > `Common transforms` > 
+> > `To number`. Doing `Facet` > `Numeric facet` creates a box in the left panel that shows a histogram of the number of 
+> > entries per year. Notice that the data is shown as a number, not a date. If you instead transform the column to a date, the 
+> > program will assume all entries are on January 1st of the year.   
+> > 3. After creating a facet, click `Sort by count` in the facet box. The year with the most observations is 1997. The least is 1977.   
+> {: .solution}
 {: .challenge}
 
 ## Clustering
@@ -88,11 +102,16 @@ In OpenRefine, clustering means "finding groups of different values that might b
  still improvements that can be made, but don't `Merge` again; just `Close` when you're done.  We'll now 
  see other operations that will help us detect and correct the remaining problems, and that have other, more general uses.
 
+Important: If you `Merge` using a different method or keying function, or more times than described in the instructions above, 
+your solutions for later exercises will not be the same as shown in those exercise solutions.
+
 [More on clustering](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth)
 
 ## Split
 
-If data in a column needs to be split into multiple columns, and the parts are separated by a common separator (for example a comma, or a space), you can use that separator to divide up the bits into their own columns.
+
+If data in a column needs to be split into multiple columns, and the parts are separated by a common separator (say a comma, or a space), you can use that separator to divide up the pieces into their own columns.
+
 
 1. Let us suppose we want to split the `scientificName` column into separate colums for genus and for species. 
 2. Click the down arrow at the top of the `scientificName` column. Choose `Edit Column` > `Split into several columns...`
@@ -101,10 +120,24 @@ If data in a column needs to be split into multiple columns, and the parts are s
 5. Click `OK`. You'll get some new columns called `scientificName 1`, `scientificName 2`, and so on.
 6. Notice that in some cases `scientificName 1` and `scientificName 2` are empty. Why is this? What do you think we 
 can do to fix this?
+> ## Solution
+> 
+> The entries that have data in `scientificName 3` and `scientificName 4` but not the first two `scientificName` columns 
+> had an extra space at the beginning of the entry. Leading white spaces are very difficult to notice when cleaning data
+> manually. This is another advantage of using OpenRefine to clean your data. We'll look at how to 
+> fix leading and trailing white spaces in a later exercise.
+{: .solution}
 
 > ## Exercise
 >
 > Try to change the name of the second new column to "species". How can you correct the problem you encounter?
+> > ## Solution
+> > 
+> > On the `scientificName 2` column, click the down arrow and then `Edit column` > `Rename this column`. Type "species" into the box
+> > that appears. A pop-up will appear that says `Another column already named species`. This is because there is another column
+> > where we've recorded the species abbreviation. You can choose another name like `speciesName` for this column or change the other 
+> > `species` column you can change the name to `speciesAbbreviation`.
+> {: .solution}
 {: .challenge}
 
 ## Undo / Redo
@@ -117,13 +150,22 @@ It's common while exploring and cleaning a dataset to discover after you've made
 3. Notice that you can still click on the last step and make the columns reappear, and toggle back and forth between these states.
 4. Leave the dataset in the state in which the `scientificNames` were clustered, but not yet split.
 
+Important: If you skip this step, your solutions for later exercises will not be the same as shown in those exercise solutions.
+
 ## Trim Leading and Trailing Whitespace
 
-Strings with spaces at the beginning or end are particularly hard for we humans to tell from strings without, but the blank characters will make a difference to the computer. We usually want to remove these. OpenRefine provides a tool to remove blank characters from the beginning and end of any entries that have them.
+Words with spaces at the beginning or end are particularly hard for we humans to tell from strings without, but the blank characters will make a difference to the computer. We usually want to remove these. OpenRefine provides a tool to remove blank characters from the beginning and end of any entries that have them.
 
 
 1. In the header for the column `scientificName`, choose `Edit cells` > `Common transforms` > `Trim leading and trailing whitespace`.
 2. Notice that the `Split` step has now disappeared from the `Undo / Redo` pane on the left and is replaced with a `Text transform on 3 cells`
 3. Perform the same `Split` operation on `scientificName` that you undid earlier. This time you should only get two new columns. Why?
+> ## Solution
+> 
+> Removing the leading white spaces means that each entry in this column has exactly one space (between the genus and species names). 
+> Therefore, when you split with space as the separator, you will get only two columns.
+{: .solution}
 
+Important: `Undo` the splitting step before moving on to the next lesson. If you skip this step, your solutions 
+for later exercises will not be the same as shown in those exercise solutions.
 
