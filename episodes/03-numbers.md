@@ -26,10 +26,13 @@ To transform cells in the `recordID` column to numbers, click the down arrow for
 > ## Exercise
 >
 > Transform three more columns, including `period`, from text to numbers. Can all columns be transformed to numbers?
+> 
 > > ## Solution
+> > 
 > > Only observations that include only numerals (0-9) can be transformed to numbers. If you apply a number transformation to 
 > > a column that doesn't meet this criteria, and then click the `Undo / Redo` tab, you will see a step that starts with 
 > > `Text transform on 0 cells`. This means that the data in that column was not transformed.
+> > 
 > {: .solution}
 {: .challenge}
 
@@ -59,7 +62,7 @@ Now that we have multiple columns representing numbers, we can see how they rela
 
 ## Examine pair of columns in detail
 
-We can examine one pair of columns by clicking on its square in the `Scatterplot Matrix`` A new facet with only that pair will appear in the left margin. 
+We can examine one pair of columns by clicking on its square in the `Scatterplot Matrix` A new facet with only that pair will appear in the left margin. 
 
 > ## Exercise
 >
