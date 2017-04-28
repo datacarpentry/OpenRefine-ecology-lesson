@@ -2,14 +2,12 @@
 Lesson on OpenRefine for ecology
 
 ### Data set notes.
-* This data set is derived from [The Portal Project Long-term desert ecology](http://portal.weecology.org/) project data. [This data file](http://www.esapubs.org/archive/ecol/E090/118/Portal_rodents_19772002.csv") was downloaded and then modified specifically for use with Open Refine.
-* Taxon names were put back into the file.
-* Globally Unique Identifiers (in the form of UUIDs) were added.
+* This data set is derived from [The Portal Project Long-term desert ecology](http://portal.weecology.org/) project data. [This data file](http://www.esapubs.org/archive/ecol/E090/118/Portal_rodents_19772002.csv) was downloaded and then modified specifically for use with OpenRefine.
+    * Taxon names were put back into the file.
+    * Globally Unique Identifiers (in the form of UUIDs) were added.
 * These modifications were made in order to illustrate some features of Open Refine.
- - using clustering algorithms on the taxon names column, shows the power of the algorithms to find discrepancies quickly and make it simple to fix all issues found, very quickly.
- - using UUIDs highlights the importance of being able to merge many data sets together without the possibility to garble data.
-* Known errors in the taxon names were added, again to show off what Open Refine can do.
-* Also, we have done a version where we introduce a duplicate UUID - to highlight the importance of checking for uniqueness.
-
+    - Errors were added to the taxon names (`scientificName` field), to demonstrate OpenRefine's ability to find likely mis-entered data.
+    - These errors can be found using clustering algorithms on the `scientificName` column, showing the power of the algorithms to find discrepancies quickly and making it simple to fix all issues found.
+    
 ### Options.
-* For someone already familiar with Open Refine, it would be a very simple matter to substitute a different data set, as desired.
+* For someone already familiar with OpenRefine, it would be a very simple matter to substitute a different data set, as desired.
