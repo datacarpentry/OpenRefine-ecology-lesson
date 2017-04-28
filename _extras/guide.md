@@ -15,12 +15,12 @@ permalink: /guide/
 
 ### Creating a Project
 
-Start the program. (Double-click on the google-refine.exe file. Java services will start on your machine, and OpenRefine will open in your Firefox browser).
+Start the program. (Double-click on the google-refine.exe file. Java services will start on your machine, and OpenRefine will open in your browser).
 
 Note the file types OpenRefine handles: TSV, CSF, *SV, Excel (.xls .xlsx), JSON, XML, RDF as XML, Google Data documents. Support for other formats can be added with OpenRefine extensions.
 
 In this first step, we'll browse our computer to the sample data file for this lesson (If you haven't already, download the data from:
-https://www.dropbox.com/s/kbb4k00eanm19lg/Portal_rodents_19772002_scinameUUIDs.csv). In this case, I've modified the Portal_rodents.csv file. I added several columns: scientificName, locality, county, state, country and I generated several more columns in the lesson itself (JSON, decimalLatitude, decimalLongitude). Data in locality, county, country, JSON, decimalLatitude and decimalLongitude are contrived and are in no way related to the original dataset. 
+https://ndownloader.figshare.com/files/2252083). In this case, I've modified the Portal_rodents.csv file. I added several columns: scientificName, locality, county, state, country and I generated several more columns in the lesson itself (JSON, decimalLatitude, decimalLongitude). Data in locality, county, country, JSON, decimalLatitude and decimalLongitude are contrived and are in no way related to the original dataset. 
 
 **Once OpenRefine is open, you'll be asked if you want to Create, Open, or Import a Project.**
 
@@ -83,3 +83,11 @@ If data in a column needs to be split into multiple columns, and the strings in 
   - unzipping
   - finding the .exe file once the software has been unzipped
   - finding the data file on their computers after downloading
+  
+ * If OpenRefine crashs when launched from a network share drive, do the following:
+    - Copy the OpenRefine folder to a local drive not mapped to a network share, e.g. "C:\Users\JaneDoe".
+    - Open cmd, e.g. Windows black screen.
+    - Change the working directory to the OpenRefine folder at "C:\Users\JaneDoe".
+    - Run openrefine.exe.
+    - For unknown reason, double clicking on openrefine.exe at the local drive also result in crash but calling from the command line doesn't.
+    - This bug was reported before at OpenRefine/OpenRefine#1004.
