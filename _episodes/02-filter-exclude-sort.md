@@ -67,7 +67,7 @@ Important: Select both species for your filtered dataset before continuing with 
 
 ## Sort
 
-You can sort the data by a column by using the drop-down menu in that column.
+You can sort the data in a column by using the drop-down menu available in that column.
 There you can sort by `text`, `numbers`, `dates` or `booleans` (`TRUE` or `FALSE` values). You can also specify what order to put `Blanks` and `Errors` in the sorted results.
 
 If this is your first time sorting this table, then the drop-down menu for the selected column shows `Sort...`. Select what you would like to sort by (such as `numbers`). Additional options will then appear for you to fine-tune your sorting.
