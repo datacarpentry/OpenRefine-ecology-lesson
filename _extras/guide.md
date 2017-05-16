@@ -20,7 +20,7 @@ Start the program. (Double-click on the google-refine.exe file. Java services wi
 Note the file types OpenRefine handles: TSV, CSF, *SV, Excel (.xls .xlsx), JSON, XML, RDF as XML, Google Data documents. Support for other formats can be added with OpenRefine extensions.
 
 In this first step, we'll browse our computer to the sample data file for this lesson (If you haven't already, download the data from:
-https://ndownloader.figshare.com/files/2252083). In this case, I've modified the Portal_rodents.csv file. I added several columns: scientificName, locality, county, state, country and I generated several more columns in the lesson itself (JSON, decimalLatitude, decimalLongitude). Data in locality, county, country, JSON, decimalLatitude and decimalLongitude are contrived and are in no way related to the original dataset. 
+https://ndownloader.figshare.com/files/7823341). In this case, I've modified the Portal_rodents.csv file. I added several columns: scientificName, locality, county, state, country and I generated several more columns in the lesson itself (JSON, decimalLatitude, decimalLongitude). Data in locality, county, country, JSON, decimalLatitude and decimalLongitude are contrived and are in no way related to the original dataset. 
 
 **Once OpenRefine is open, you'll be asked if you want to Create, Open, or Import a Project.**
 
