@@ -117,7 +117,7 @@ You can sort by multiple columns by performing sort on additional columns. The s
 > {: .solution}  
 {: .challenge}
 
-If you go back to one of the already sorted colunms and select > `Sort` > `Remove sort`, that column is removed from your multiple sort. If it is the only column sorted, then data reverts to its original order.
+If you go back to one of the already sorted columns and select > `Sort` > `Remove sort`, that column is removed from your multiple sort. If it is the only column sorted, then data reverts to its original order.
 
 > ## Exercise
 >
