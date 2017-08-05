@@ -31,7 +31,7 @@ OpenRefine can import a variety of file types, including tab separated (`tsv`), 
 In this first step, we'll browse our computer to the sample data file for this lesson. In this case, we modified the `Portal_rodents` CSV file, adding several columns: `scientificName`, `locality`, `county`, `state`, `country` and generating several more columns in the lesson itself (`JSON`, `decimalLatitude`, `decimalLongitude`). Data in `locality`, `county`, `country`, `JSON`, `decimalLatitude` and `decimalLongitude` are contrived and are in no way related to the original dataset. 
 
 If you haven't already, download the data from:  
-[https://ndownloader.figshare.com/files/7823341](https://ndownloader.figshare.com/files/7823341)
+{{site.csv_download}}
 
 Once OpenRefine is launched in your browser, the left margin has options to `Create Project`, `Open Project`, or `Import Project`. Here we will create a new project:
 

@@ -5,7 +5,7 @@ permalink: /setup/
 ---
 
 > ## Data
-> **Download** this data file to your computer: [https://ndownloader.figshare.com/files/7823341](https://ndownloader.figshare.com/files/7823341)
+> **Download** this data file to your computer: {{site.csv_download}}
 >
 > #### About the data
 > The data for this lesson is a part of the Data Carpentry Ecology workshop. 
@@ -64,4 +64,3 @@ that directory something like OpenRefine.
 - Launch OpenRefine
 - Type ./refine into the terminal within the OpenRefine directory
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
-
