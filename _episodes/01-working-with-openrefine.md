@@ -36,7 +36,7 @@ If you haven't already, download the data from:
 Once OpenRefine is launched in your browser, the left margin has options to `Create Project`, `Open Project`, or `Import Project`. Here we will create a new project:
 
 1. click `Create Project` and select `Get data from` `This Computer`.  
-2. Click `Choose Files` and select the file `Portal_rodents_19772002_scinameUUIDs.csv`. Click `Open` or double-click on the filename.
+2. Click `Choose Files` and select the file `{{site.csv_filename}}`. Click `Open` or double-click on the filename.
 3. Click `Next>>` under the browse button to upload the data into OpenRefine.  
 4. OpenRefine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click `Update Preview` (bottom left). If this is the wrong file, click `<<Start Over` (upper left).  
 5. If all looks well, click `Create Project>>` (upper right). 
@@ -176,4 +176,3 @@ Words with spaces at the beginning or end are particularly hard for we humans to
 
 Important: `Undo` the splitting step before moving on to the next lesson. If you skip this step, your solutions 
 for later exercises will not be the same as shown in those exercise solutions.
-
