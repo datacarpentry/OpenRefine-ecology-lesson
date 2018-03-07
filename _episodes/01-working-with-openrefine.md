@@ -83,7 +83,7 @@ As well as 'Text facets' Refine also supports a range of other types of facet. T
 * Custom facets
 * Scatterplot facets
 
-**Numeric and Scatterplot facets** display graphs instead of lists of values. The graph includes 'drag and drop' controls you can use to set a start and end range to filter the data displayed. These facets are explored further in [Examining Numbers in OpenRefine](http://www.datacarpentry.org/OpenRefine-ecology-lesson/03-numbers/)
+**Numeric and Scatterplot facets** display graphs instead of lists of values. The numeric facet graph includes 'drag and drop' controls you can use to set a start and end range to filter the data displayed. These facets are explored further in [Examining Numbers in OpenRefine](http://www.datacarpentry.org/OpenRefine-ecology-lesson/03-numbers/)
 
 **Custom facets** are a range of different types of facets. Some of the default custom facets are:
 
