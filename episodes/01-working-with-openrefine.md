@@ -47,14 +47,14 @@ Note that at step 1, you could upload data in a standard form from a web address
 
 *Exploring data by applying multiple filters*
 
-OpenRefine supports faceted browsing as a mechanism for
+Facets are one of the most useful features of OpenRefine and can help both get an overview of the data in a project as well as helping you bring more consistency to the data. OpenRefine supports faceted browsing as a mechanism for
 
 * seeing a big picture of your data, and
 * filtering down to just the subset of rows that you want to change in bulk.
 
-Typically, you create a facet on a particular column. The facet summarizes the cells in that column to give you a big picture of that column, and allows you to filter to some subset of rows for which the cells in that column satisfy some constraint. That's a bit abstract, so let's jump into some examples. 
+A 'Facet' groups all the like values that appear in a column, and then allow you to filter the data by these values and edit values across many records at the same time.
 
-[More on faceting](https://github.com/OpenRefine/OpenRefine/wiki/Faceting)
+One type of Facet is called a 'Text facet'. This groups all the identical text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left hand panel in the OpenRefine interface.
 
 Here we will use faceting to look for potential errors in data entry in the `scientificName` column.
 
@@ -72,6 +72,27 @@ along with a number representing how many times that value occurs in the column.
 > one entry for `Ammospermophilus harrisii`. These are both misspellings of `Ammospermophilus harrisi`. We will see how to correct these 
 > misspelled and mistyped entries in a later exercise.  
 {: .solution}
+
+### More on Facets
+[OpenRefine Wiki: Faceting](https://github.com/OpenRefine/OpenRefine/wiki/Faceting)
+
+As well as 'Text facets' Refine also supports a range of other types of facet. These include:
+
+* Numeric facets
+* Timeline facets (for dates)
+* Custom facets
+* Scatterplot facets
+
+**Numeric and Scatterplot facets** display graphs instead of lists of values. The numeric facet graph includes 'drag and drop' controls you can use to set a start and end range to filter the data displayed. These facets are explored further in [Examining Numbers in OpenRefine](http://www.datacarpentry.org/OpenRefine-ecology-lesson/03-numbers/)
+
+**Custom facets** are a range of different types of facets. Some of the default custom facets are:
+
+* Word facet - this breaks down text into words and counts the number of records each word appears in
+* Duplicates facet - this results in a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if the value in the selected column is an exact match for a value in the same column in another row
+* Text length facet - creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g. if the values are expected to be years, any row with a text length more than 4 for that column is likely to be incorrect)
+* Facet by blank - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for rows missing key data.
+
+Facets are intended to group together common values and OpenRefine limits the number of values allowed in a single facet to ensure the software does not perform slowly or run out of memory. If you create a facet where there are many unique values (for example, a facet on a 'book title' column in a data set that has one row per book) the facet created will be very large and may either slow down the application, or OpenRefine will not create the facet.
 
 > ## Exercise
 >
@@ -176,4 +197,3 @@ Words with spaces at the beginning or end are particularly hard for we humans to
 
 Important: `Undo` the splitting step before moving on to the next lesson. If you skip this step, your solutions 
 for later exercises will not be the same as shown in those exercise solutions.
-
