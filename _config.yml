@@ -43,6 +43,9 @@ pre_survey: "https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id="
 post_survey: "https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id="
 training_post_survey: "https://www.surveymonkey.com/r/post-instructor-training"
 
+# common links
+csv_download: '[https://ndownloader.figshare.com/files/7823341](https://ndownloader.figshare.com/files/7823341)'
+csv_filename: 'Portal_rodents_19772002_scinameUUIDs.csv'
 # Start time in minutes (0 to be clock-independent, 540 to show a start at 09:00 am).
 start_time: 0
 

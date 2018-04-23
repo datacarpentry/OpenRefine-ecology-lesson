@@ -28,10 +28,9 @@ This gives you a quick way to clean all of your related data.
 
 Let's practice running these steps on a new dataset. We'll test this on an uncleaned version of the dataset we've been working with. 
 
-1. Download an uncleaned version of the dataset: [https://ndownloader.figshare.com/files/7823341](https://ndownloader.figshare.com/files/7823341) or use the version of the raw dataset you saved to your computer.  
+1. Download an uncleaned version of the dataset: {{site.csv_download}} or use the version of the raw dataset you saved to your computer.  
 2. Start a new project in OpenRefine with this file and name it something different from your existing project.  
 3. Click the `Undo / Redo` tab > `Apply` and paste in the contents of `txt` file with the JSON code. 
 4. Click `Perform operations`. The dataset should now be the same as your other cleaned dataset.
 
 For convenience, we used the same dataset. In reality you could use this process to clean related datasets. For example, data that you had collected over different fieldwork periods or data that was collected by different researchers (provided everyone uses the same column headings). 
-
