@@ -19,7 +19,7 @@ keypoints:
 ## Motivations for the OpenRefine Lesson
 
 * It is important to know what you did to your data. Additionally, journals, granting agencies, and other institutions are requiring documentation of the steps you took when working with your data. With OpenRefine, you can capture all actions applied to your raw data and share them with your publication as supplemental material.
-* All actions are easily reversed in OpenRefine.
+* Any operation that changes the data in OpenRefine can be easily reversed or undone.
 * You _must_ save your work to a new file; OpenRefine _does not_ modify your original dataset.
 * Data is often very messy, and this tool saves a lot of time on cleaning headaches.
 * Data cleaning steps often need repeating with multiple files. OpenRefine is perfect for speeding up repetitive tasks by replaying previous actions on multiple datasets.
@@ -36,7 +36,7 @@ If after installation and running OpenRefine, it does not automatically open for
 
 ## Basics of OpenRefine
 
-You can find out a lot more about OpenRefine at [http://openrefine.org](http://openrefine.org) and check out some great introductory videos. There is a [Google Group](https://groups.google.com/forum/?hl=en#!forum/openrefine) that can answer a lot of beginner questions and problems. There is also an [OpenRefine Google Plus community](https://plus.google.com/communities/117280693504889048168) where you can find a lot of help and a lot of folks from the life sciences are members. As with other programs of this type, OpenRefine libraries are available too, where you can find a script you need and copy it into your OpenRefine instance to run it on your dataset.
+You can find out a lot more about OpenRefine at [http://openrefine.org](http://openrefine.org) and check out some great [introductory videos](https://www.youtube.com/channel/UCqwSVsJ8CWD9pQUZDbJC1ew). There is a [Google Group](https://groups.google.com/forum/?hl=en#!forum/openrefine) that can answer a lot of beginner questions and problems. There is also an [OpenRefine Google Plus community](https://plus.google.com/communities/117280693504889048168) where you can find a lot of help, especially from community members from the life sciences. OpenRefine [recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes), scripts, projects, and extensions are available too, where you can find and copy them into your OpenRefine instance to run on your dataset.
 
 
 ## Features
