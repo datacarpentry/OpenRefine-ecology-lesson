@@ -1,7 +1,7 @@
-# Data Carpentry OpenRefine Lesson for Archaeologists
+# OpenRefine Lesson for SCI
 
 This repository is a fork of the Data Carpentry OpenRefine material based on ecological
-data, currently being adapted to serve as an introductory lesson to OpenRefine for Scholarly Communications at UNLV Libraries.
+data, currently being adapted to serve as an introductory lesson to OpenRefine for Scholarly Communications Initiatives at UNLV Libraries.
 
 ## Maintainers
 
