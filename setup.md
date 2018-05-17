@@ -75,8 +75,8 @@ If you are installing OpenRefine on Windows, you may want to check the thread on
 
 There are also general and specialist tutorials about using OpenRefine available on the web, including:
 
-* [Library Carpentry OpenRefine] (https://librarycarpentry.github.io/lc-open-refine/)
-* [OpenRefine Google Group] (https://groups.google.com/forum/#!forum/openrefine)
+* [Library Carpentry OpenRefine](https://librarycarpentry.github.io/lc-open-refine/)
+* [OpenRefine Google Group](https://groups.google.com/forum/#!forum/openrefine)
 * [Getting started with OpenRefine by Thomas Padilla](http://thomaspadilla.org/dataprep/)
 * [Cleaning Data with OpenRefine by Seth van Hooland, Ruben Verborgh and Max De Wilde](http://programminghistorian.org/lessons/cleaning-data-with-openrefine)
 * [Blog posts on using OpenRefine from Owen Stephens](http://www.meanboyfriend.com/overdue_ideas/tag/openrefine/?orderby=date&order=ASC)
