@@ -12,6 +12,7 @@ objectives:
 - "Apply saved JSON code to an analysis."
 keypoints:
 - "All changes are being tracked in OpenRefine, and this information can be used for scripts for future analyses or reproducing an analysis."
+- "Scripts can (and should) be published together with the dataset as part of the digital appendix of the research output."
 ---
 
 # Lesson
@@ -35,3 +36,8 @@ Let's practice running these steps on a new dataset. We'll test this on an uncle
 
 For convenience, we used the same dataset. In reality you could use this process to clean related datasets. For example, data that you had collected over different fieldwork periods or data that was collected by different researchers (provided everyone uses the same column headings). 
 
+## Reproducible science
+
+Now, that you know how scripts work, you may wonder how to use them in your own scientific research. For inspiration, you can read more about the succesful application of the reproducible science principles in archaeology or marine ecology:
+1. Marwick et al. (2017) [Computational Reproducibility in Archaeological Research: Basic Principles and a Case Study of Their Implementation](https://link.springer.com/article/10.1007/s10816-015-9272-9)
+2. Stewart Lowndes et al. (2017) [Our path to better science in less time using open data science tools](https://www.nature.com/articles/s41559-017-0160)
