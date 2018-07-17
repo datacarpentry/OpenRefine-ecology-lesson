@@ -35,7 +35,7 @@ If you haven't already, download the data from:
 
 Once OpenRefine is launched in your browser, the left margin has options to `Create Project`, `Open Project`, or `Import Project`. Here we will create a new project:
 
-1. click `Create Project` and select `Get data from` `This Computer`.  
+1. Click `Create Project` and select `Get data from` `This Computer`.  
 2. Click `Choose Files` and select the file `Portal_rodents_19772002_scinameUUIDs.csv`. Click `Open` or double-click on the filename.
 3. Click `Next>>` under the browse button to upload the data into OpenRefine.  
 4. OpenRefine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click `Update Preview` (bottom left). If this is the wrong file, click `<<Start Over` (upper left).  
@@ -76,7 +76,7 @@ along with a number representing how many times that value occurs in the column.
 > ## More on Facets
 > [OpenRefine Wiki: Faceting](https://github.com/OpenRefine/OpenRefine/wiki/Faceting)
 > 
-> As well as 'Text facets' Refine also supports a range of other types of facet. These include:
+> As well as 'Text facets' OpenRefine also supports a range of other types of facet. These include:
 > 
 > * Numeric facets
 > * Timeline facets (for dates)
@@ -140,7 +140,7 @@ your solutions for later exercises will not be the same as shown in those exerci
 If data in a column needs to be split into multiple columns, and the parts are separated by a common separator (say a comma, or a space), you can use that separator to divide up the pieces into their own columns.
 
 
-1. Let us suppose we want to split the `scientificName` column into separate colums for genus and for species. 
+1. Let us suppose we want to split the `scientificName` column into separate columns for genus and for species. 
 2. Click the down arrow at the top of the `scientificName` column. Choose `Edit Column` > `Split into several columns...`
 3. In the pop-up, in the `Separator` box, replace the comma with a space.
 4. Uncheck the box that says `Remove this column`.
