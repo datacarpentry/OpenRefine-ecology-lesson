@@ -38,7 +38,7 @@ Once OpenRefine is launched in your browser, the left margin has options to `Cre
 1. Click `Create Project` and select `Get data from` `This Computer`.  
 2. Click `Choose Files` and select the file `Portal_rodents_19772002_scinameUUIDs.csv`. Click `Open` or double-click on the filename.
 3. Click `Next>>` under the browse button to upload the data into OpenRefine.  
-4. OpenRefine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click `Update Preview` (bottom left). If this is the wrong file, click `<<Start Over` (upper left).  
+4. OpenRefine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click `Update Preview` (bottom right). If this is the wrong file, click `<<Start Over` (upper left).
 5. If all looks well, click `Create Project>>` (upper right). 
 
 Note that at step 1, you could upload data in a standard form from a web address by selecting `Get data from` `Web Addresses (URLs)`. However, this won't work for all URLs.
@@ -165,10 +165,9 @@ can do to fix this?
 > > On the `scientificName 2` column, click the down arrow and then `Edit column` > `Rename this column`. Type "species" into the box
 > > that appears. A pop-up will appear that says `Another column already named species`. This is because there is another column
 > > where we've recorded the species abbreviation. You can choose another name like `speciesName` for this column or change the other 
-> > `species` column you can change the name to `speciesAbbreviation`.
+> > `species` column name to `speciesAbbreviation`.
 > {: .solution}
 {: .challenge}
-
 ## Undo / Redo
 
 It's common while exploring and cleaning a dataset to discover after you've made a change that you really should have done something else first. OpenRefine provides `Undo` and `Redo` operations to make this easy.
