@@ -21,7 +21,6 @@ keypoints:
 
 ## Creating a Project
 
-
 Start the program. (Double-click on the openrefine.exe file (or google-refine.exe if using an older version). Java services will start on your machine, and OpenRefine will open in your browser).
 
 Launch OpenRefine (see [Getting Started with OpenRefine](http://www.datacarpentry.org/OpenRefine-ecology-lesson/00-getting-started/)).
@@ -47,7 +46,7 @@ Note that at step 1, you could upload data in a standard form from a web address
 
 *Exploring data by applying multiple filters*
 
-Facets are one of the most useful features of OpenRefine and can help both get an overview of the data in a project as well as helping you bring more consistency to the data. OpenRefine supports faceted browsing as a mechanism for
+Facets are one of the most useful features of OpenRefine and can help both get an overview of the data in a project as well as helping you bring more consistency to the data. Facets will likely be familiar to anyone who has done online shopping. For example, if you are buying a shirt, many websites will allow you to view a list of available clothing types and colors in the panel on the left of the page. There may be shorts, pants, shirts, hats, and accessories: these are clothing type *facets*. There may be 20 blue items, 12 red, and 5 gray: these are *color* facets. OpenRefine supports faceted browsing as a mechanism for
 
 * seeing a big picture of your data, and
 * filtering down to just the subset of rows that you want to change in bulk.
@@ -136,9 +135,7 @@ your solutions for later exercises will not be the same as shown in those exerci
 
 ## Split
 
-
 If data in a column needs to be split into multiple columns, and the parts are separated by a common separator (say a comma, or a space), you can use that separator to divide up the pieces into their own columns.
-
 
 1. Let us suppose we want to split the `scientificName` column into separate columns for genus and for species. 
 2. Click the down arrow at the top of the `scientificName` column. Choose `Edit Column` > `Split into several columns...`
@@ -173,7 +170,6 @@ can do to fix this?
 
 It's common while exploring and cleaning a dataset to discover after you've made a change that you really should have done something else first. OpenRefine provides `Undo` and `Redo` operations to make this easy.
 
-
 1. Click where it says `Undo / Redo` on the left side of the screen. All the changes you have made so far are listed here.
 2. Click on the step that you want to go back to, in this case the previous step. The added columns will disappear.
 3. Notice that you can still click on the last step and make the columns reappear, and toggle back and forth between these states.
@@ -184,7 +180,6 @@ Important: If you skip this step, your solutions for later exercises will not be
 ## Trim Leading and Trailing Whitespace
 
 Words with spaces at the beginning or end are particularly hard for we humans to tell from strings without, but the blank characters will make a difference to the computer. We usually want to remove these. OpenRefine provides a tool to remove blank characters from the beginning and end of any entries that have them.
-
 
 1. In the header for the column `scientificName`, choose `Edit cells` > `Common transforms` > `Trim leading and trailing whitespace`.
 2. Notice that the `Split` step has now disappeared from the `Undo / Redo` pane on the left and is replaced with a `Text transform on 3 cells`
