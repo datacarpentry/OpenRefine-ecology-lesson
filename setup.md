@@ -36,8 +36,7 @@ default browser. OpenRefine runs in your default browser, but will not run corre
  - Learn how to set your browser as default by clicking on this link for [Google Chrome](https://support.google.com/chrome/answer/95417?co=GENIE.Platform%3DDesktop&hl=en-GB) and this link for [Firefox](https://support.mozilla.org/en-US/kb/make-firefox-your-default-browser).
 - Download software from [http://openrefine.org/download.html](http://openrefine.org)
  - Select the most recent version of OpenRefine (do not select beta versions or the release candidates). The version that you should download will be at the top of the page and named OpenRefine 2.8 for example.
-- Unzip the downloaded file into a directory by right-clicking and 
-selecting “Extract…”. Name that directory something like OpenRefine.
+- Unzip the downloaded file into a directory by right-clicking and selecting “Extract…”. Name that directory something like OpenRefine.
 - Go to your newly created OpenRefine directory.
 - Launch OpenRefine by clicking on openrefine.exe (this will launch a command prompt window first, but you can ignore that and wait for OpenRefine to launch in the web browser, which is where you will interact with the program).
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
@@ -61,8 +60,7 @@ that directory something like OpenRefine.
 default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
 - Download software from [http://openrefine.org](http://openrefine.org)
 - Select the most recent version of OpenRefine (do not select beta versions or the release candidates). The version that you should download will be at the top of the page and named OpenRefine 2.8 for example.
-- Unzip the downloaded file into a directory. Name 
-that directory something like OpenRefine.
+- Unzip the downloaded file into a directory. Name that directory something like OpenRefine.
 - Go to your newly created OpenRefine directory.
 - Launch OpenRefine
 - Type ./refine into the terminal within the OpenRefine directory
