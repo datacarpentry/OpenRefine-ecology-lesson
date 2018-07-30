@@ -38,7 +38,7 @@ default browser. OpenRefine runs in your default browser, but will not run corre
  - Select the most recent version of OpenRefine (do not select beta versions or the release candidates). The version that you should download will be at the top of the page and named OpenRefine 2.8 for example.
 - Unzip the downloaded file into a directory by right-clicking and selecting “Extract…”. Name that directory something like OpenRefine.
 - Go to your newly created OpenRefine directory.
-- Launch OpenRefine by clicking on openrefine.exe (this will launch a command prompt window first, but you can ignore that and wait for OpenRefine to launch in the web browser, which is where you will interact with the program).
+- Launch OpenRefine by clicking on openrefine.exe (this will launch a command prompt window first; ignore that, and wait for OpenRefine to launch in the web browser, which is where you will interact with the program).
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
 
 #### Mac
