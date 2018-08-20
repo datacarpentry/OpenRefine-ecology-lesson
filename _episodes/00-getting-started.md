@@ -27,11 +27,35 @@ keypoints:
 
 ## Before we get started
 
-Note: this is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed.
 
-Follow the [Setup](../setup.html) instructions to install OpenRefine.
+The following setup is necessary before we can get started (instructions [here](../setup.html).
 
-If after installation and running OpenRefine, it does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333/ to launch the program.
+Do you need help with any of the following?
+
+- Mozilla Firefox or Google Chrome is set as your default browser.
+- Download and install software from http://openrefine.org/download.html
+- Download this [data file](https://ndownloader.figshare.com/files/7823341) and save to your desktop
+- If after installation and running OpenRefine, it does not automatically open for you, point your browser at <http://127.0.0.1:3333/> or <http://localhost:3333/> to launch the program.
+
+
+What is OpenRefine?
+
+  - OpenRefine is a Java program that runs on your machine rather than in the cloud. Although it runs inside your browser, no web connection is needed.
+  - OpenRefine does not modify your original dataset. All actions are easily reversed in OpenRefine and you can capture all the actions applied to your data and share this documentation with your publication as supplemental material.OpenRefine saves as you go. You can return to the project at any time to pick up where you left off, or export your data to a new file.
+ - OpenRefine can be used to standardise and clean data across your file.
+    
+It can help you:
+
+- Get an overview of a data set
+- Resolve inconsistencies in a data set
+- Help you split data up into more granular parts
+- Match local data up to other data sets
+- Enhance a data set with data from other sources
+- Save a set of data cleaning steps to replay on multiple files
+
+
+OpenRefine is a powerful, free and open source tool with a large growing community of practice. More help can be found at <http://openrefine.org>.
+
 
 
 ## Basics of OpenRefine
