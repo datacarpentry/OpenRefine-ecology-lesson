@@ -33,7 +33,7 @@ Note: this is a Java program that runs on your machine (not in the cloud). It ru
 - If you have Internet Explorer (or Edge) set as your default web browser, check that you have Firefox or Chrome installed and set either of them as your 
 default browser. OpenRefine runs in your default browser, but will not run correctly in Internet Explorer.
  - Learn how to set your browser as default by clicking on this link for [Google Chrome](https://support.google.com/chrome/answer/95417?co=GENIE.Platform%3DDesktop&hl=en-GB) and this link for [Firefox](https://support.mozilla.org/en-US/kb/make-firefox-your-default-browser).
-- Download software from [http://openrefine.org/download.html](http://openrefine.org)
+- Download software from [http://openrefine.org/download.html](OpenRefine)
  - Select the most recent version of OpenRefine (do not select beta versions or the release candidates). The version that you should download will be at the top of the page and named OpenRefine 2.8 for example.
 - Unzip the downloaded file into a directory by right-clicking and selecting “Extract…”. Name that directory something like OpenRefine.
 - Go to your newly created OpenRefine directory.
@@ -44,7 +44,7 @@ default browser. OpenRefine runs in your default browser, but will not run corre
 
 - Check that you have Firefox or Chrome browsers installed and set as your 
 default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
-- Download software from [http://openrefine.org](http://openrefine.org)
+- Download software from [http://openrefine.org/download.html](OpenRefine)
 - Select the most recent version of OpenRefine (do not select beta versions or the release candidates). The version that you should download will be at the top of the page and named OpenRefine 2.8 for example.
 - Unzip the downloaded file into a directory by double-clicking it. Name 
 that directory something like OpenRefine.
@@ -57,7 +57,7 @@ that directory something like OpenRefine.
 
 - Check that you have Firefox or Chrome browsers installed and set as your 
 default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
-- Download software from [http://openrefine.org](http://openrefine.org)
+- Download software from [http://openrefine.org/download.html](OpenRefine)
 - Select the most recent version of OpenRefine (do not select beta versions or the release candidates). The version that you should download will be at the top of the page and named OpenRefine 2.8 for example.
 - Unzip the downloaded file into a directory. Name that directory something like OpenRefine.
 - Go to your newly created OpenRefine directory.
