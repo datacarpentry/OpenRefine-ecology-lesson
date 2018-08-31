@@ -22,7 +22,7 @@ keypoints:
 ## Creating a Project
 
 
-Start the program. (Double-click on the openrefine.exe file (or google-refine.exe if using an older version). Java services will start on your machine, and OpenRefine will open in your browser).
+Start the program. (Double-click on the openrefine.exe. Java services will start on your machine, and OpenRefine will open in your browser).
 
 Launch OpenRefine (see [Getting Started with OpenRefine](http://www.datacarpentry.org/OpenRefine-ecology-lesson/00-getting-started/)).
 
