@@ -14,7 +14,7 @@ title: "Instructor Notes"
 
 ### Creating a Project
 
-Start the program. (Double-click on the google-refine.exe file. Java services will start on your machine, and OpenRefine will open in your browser).
+Start the program. (Double-click on the openrefine.exe file. Java services will start on your machine, and OpenRefine will open in your browser).
 
 Note the file types OpenRefine handles: TSV, CSF, *SV, Excel (.xls .xlsx), JSON, XML, RDF as XML, Google Data documents. Support for other formats can be added with OpenRefine extensions.
 
