@@ -10,7 +10,7 @@
 carpentry: "dc"
 
 # Overall title for pages.
-title: "Openrefine for Ecology data"
+title: "Data Cleaning with OpenRefine for Ecologists"
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
