@@ -9,9 +9,7 @@ or formatting
 made consistent. This step must be taken with the same care and attention
 to reproducibility as the analysis.
 
-OpenRefine (formerly Google Refine) is a powerful free and open source tool 
-for working with messy 
-data: cleaning it and transforming it from one format into another.
+OpenRefine (formerly Google Refine, and originally known as Freebase Gridworks developed by Metaweb in 2010) is a powerful free and open source tool for working with messy data: cleaning it and transforming it from one format into another.
 
 This lesson will teach you to use OpenRefine to effectively clean and format
 data and automatically track any changes that you make. Many people comment
@@ -30,8 +28,8 @@ edits by hand.
 >
 > #### Prerequisites
 >
-> This lesson requires a working copy of OpenRefine (also called 
-> GoogleRefine).    
+> This lesson requires a working copy of OpenRefine (previously called 
+> GoogleRefine, and originally known as Freebase Gridworks).    
 > <br>To most effectively use these materials, please make sure to install 
 > everything *before* working through this lesson.
 {: .prereq}
