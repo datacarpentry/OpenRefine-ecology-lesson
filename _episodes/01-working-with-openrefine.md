@@ -52,7 +52,7 @@ Facets are one of the most useful features of OpenRefine and can help both get a
 * seeing a big picture of your data, and
 * filtering down to just the subset of rows that you want to change in bulk.
 
-A 'Facet' groups all the like values that appear in a column, and then allow you to filter the data by these values and edit values across many records at the same time.
+A `Facet` groups all the like values that appear in a column, and allows you to filter the data by those values. It also allows you to edit values across many records at the same time.
 
 One type of Facet is called a 'Text facet'. This groups all the identical text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left hand panel in the OpenRefine interface.
 
@@ -120,7 +120,7 @@ Facets are intended to group together common values and OpenRefine limits the nu
 
 In OpenRefine, clustering means "finding groups of different values that might be alternative representations of the same thing". For example, the two strings `New York` and `new york` are very likely to refer to the same concept and just have capitalization differences. Likewise, `Gödel` and `Godel` probably refer to the same person. Clustering is a very powerful tool for cleaning datasets which contain misspelled or mistyped entries. OpenRefine has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work. 
 
-1. In the `scientificName` Text Facet we created in the step above, click the `Cluster` button.
+1. In the `scientificName` Text Facet we created in the step above, click the `Cluster` button (or select `Edit cells` > `Cluster and edt`).
 2. In the resulting pop-up window, you can change the `Method` and the `Keying Function`. Try different combinations to 
  see what different mergers of values are suggested.
 3. Select the `key collision` method and `metaphone3` keying function. It should identify three clusters. 
