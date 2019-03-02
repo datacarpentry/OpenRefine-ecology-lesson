@@ -72,7 +72,7 @@ OpenRefine is a powerful, free and open source tool with a large growing communi
 
 ## Basics of OpenRefine
 
-You can find out a lot more about OpenRefine at [http://openrefine.org](http://openrefine.org) and check out some great [introductory videos](https://www.youtube.com/channel/UCqwSVsJ8CWD9pQUZDbJC1ew). There is a [Google Group](https://groups.google.com/forum/?hl=en#!forum/openrefine) that can answer a lot of beginner questions and problems. There is also an [OpenRefine Google Plus community](https://plus.google.com/communities/117280693504889048168) where you can find a lot of help, especially from community members from the life sciences. OpenRefine [recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes), scripts, projects, and extensions are available too, where you can find and copy them into your OpenRefine instance to run on your dataset.
+You can find out a lot more about OpenRefine at [http://openrefine.org](http://openrefine.org) and check out some great [introductory videos](https://www.youtube.com/channel/UCqwSVsJ8CWD9pQUZDbJC1ew). There is a [Google Group](https://groups.google.com/forum/#!forum/openrefine) that can answer a lot of beginner questions and problems. OpenRefine [recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes), scripts, projects, and extensions are available too, where you can find and copy them into your OpenRefine instance to run on your dataset.
 
 The OpenRefine GitHub wiki page has a [reference](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions) of the General Refine Expression Language (GREL).
 
