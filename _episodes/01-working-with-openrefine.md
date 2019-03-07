@@ -147,6 +147,10 @@ If data in a column needs to be split into multiple columns, and the parts are s
 5. Click `OK`. You'll get some new columns called `scientificName 1`, `scientificName 2`, and so on.
 6. Notice that in some cases `scientificName 1` and `scientificName 2` are empty. Why is this? What do you think we 
 can do to fix this?
+7. Note that the character on which the split is performed could be anything.  The default is a comma, and you changed 
+that to a space in this case, but you could make it any letter or number or special character.  The only requirements
+are that A) it appears in every row of the column, and B) it appears consistently in the place where you want the column
+to be split.
 
 > ## Solution
 > 
@@ -158,14 +162,14 @@ can do to fix this?
 
 > ## Exercise
 >
-> Try to change the name of the second new column to "species". How can you correct the problem you encounter?
+> Try to change the name of the second new column to "species". Are you able to do this?  Or do you encounter a problem?
 > 
 > > ## Solution
 > > 
-> > On the `scientificName 2` column, click the down arrow and then `Edit column` > `Rename this column`. Type "species" into the box
-> > that appears. A pop-up will appear that says `Another column already named species`. This is because there is another column
-> > where we've recorded the species abbreviation. You can choose another name like `speciesName` for this column or change the other 
-> > `species` column name to `speciesAbbreviation`.
+> > On the `scientificName 2` column, click the down arrow and then `Edit column` > `Rename this column`. Type "species" into 
+> > the boxthat appears. A pop-up will appear that says `Another column already named species`. This is because there is another 
+> > column where we've recorded the species abbreviation. If you capitalize the S, it will work.  Or you can choose another name  
+> > like `speciesName` for this column or change the other `species` column name to `speciesAbbreviation`.
 > {: .solution}
 {: .challenge}
 ## Undo / Redo
