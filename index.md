@@ -13,8 +13,8 @@ OpenRefine (formerly Google Refine) is a powerful free and open source tool
 for working with messy 
 data: cleaning it and transforming it from one format into another.
 
-This lesson will teach you to use OpenRefine to effectively clean and format
-data and automatically track any changes that you make. Many people comment
+This lesson will teach you to use OpenRefine to clean and format
+data effectively and automatically track any changes that you make. Many people comment
 that this tool saves them literally months of work trying to make these
 edits by hand.
 
