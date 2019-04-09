@@ -52,7 +52,7 @@ Facets are one of the most useful features of OpenRefine and can help get an ove
 * seeing the big picture of your data, and
 * filtering down to just the subset of rows that you want to change in bulk.
 
-A 'Facet' groups all the identical values that appear in a column, and then allows you to filter the data by these values and edit values across many records at the same time.
+A 'Facet' groups the values that appear in a column according to some criterion, and then allows you to filter the groups and edit values across many records at the same time.
 
 One type of Facet is called a 'Text facet'. This groups all the identical text values in a column and lists each value with the number of records in which it appears. The facet information always appears in the left hand panel in the OpenRefine interface.
 
