@@ -43,7 +43,7 @@ There are many entries in our data table. We can filter it to work on a subset o
 
 In addition to the solutions included above, another way to narrow our filter is to `include` and/or `exclude` entries in a facet. If you still have your facet for `scientificName`, you can use it, or use drop-down menu > `Facet` > `Text facet` to create a new facet. Only the entries with names that agree with your `Text filter` will be included in this facet.
 
-Faceting and filtering look very similar. A good distinction is that faceting gives you an overview description of all of the data that 
+Faceting and filtering look very similar. A good distinction is that faceting gives you an overview description of all the data that 
 is currently selected, while filtering allows you to select a subset of your data for analysis. 
 
 
