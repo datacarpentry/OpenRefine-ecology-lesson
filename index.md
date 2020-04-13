@@ -4,7 +4,7 @@ root: .
 ---
 
 A part of the data workflow is preparing the data for analysis. Some of this
-involves data cleaning, where errors in the data are identifed and corrected 
+involves data cleaning, where errors in the data are identified and corrected 
 or formatting
 made consistent. This step must be taken with the same care and attention
 to reproducibility as the analysis.
