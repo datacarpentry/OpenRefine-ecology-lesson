@@ -44,9 +44,9 @@ The following setup is necessary before we can get started (instructions [here](
 
 Do you need help with any of the following?
 
-- Mozilla Firefox or Google Chrome is set as your default browser.
-- Download and install software from http://openrefine.org/download.html
+- Download and install software from <http://openrefine.org/download.html>
 - Download this [data file](https://ndownloader.figshare.com/files/7823341) and save to your desktop
+- Launch OpenRefine in Mozilla Firefox or Google Chrome
 - If after installation and running OpenRefine, it does not automatically open for you, point your browser at <http://127.0.0.1:3333/> or <http://localhost:3333/> to launch the program.
 
 
