@@ -31,8 +31,7 @@ You can also export a project. This is helpful, for instance, if you wanted to s
 or share this information as a supplement to a publication. 
 
 1. Click the `Export` button in the top right and select `Export project`.
-2. A `tar.gz` file will download to your default `Download` directory. The `tar.gz` extension tells you that this is a compressed file.
-Which means that this file contains multiple files. You can double-click on the `tar.gz` file and it will expand into a directory. A 
+2. A `tar.gz` file will download to your default `Download` directory. The `tar.gz` extension tells you that this is a compressed file, which means that this file contains multiple files. You can double-click on the `tar.gz` file and it will expand into a directory. A 
 folder icon will now appear.
   - On Windows, opening `tar.gz` files requires additional software such as [7-zip](http://www.7-zip.org/) or [WinZip](http://www.winzip.com/).
     Download and run the installer of your choice.
