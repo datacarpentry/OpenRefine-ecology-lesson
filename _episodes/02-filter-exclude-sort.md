@@ -86,7 +86,7 @@ If you try to re-sort a column that you have already used, the drop-down menu ch
 
 > ## Exercise
 > 
-> Sort the data by `plot`. What year(s) were observations recorded for plot 1 in this filtered dataset. 
+> Sort the data by `plot`. What year(s) were observations recorded for plot 1 in this filtered dataset?
 > 
 > > ## Solution
 > > In the `plot` column, select `Sort...` > `numbers` and select `smallest first`. The years represented are 1990 and 1995.
