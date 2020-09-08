@@ -40,7 +40,7 @@ keypoints:
 ## Before we get started
 
 
-The following setup is necessary before we can get started (instructions [here](../setup.html).
+The following setup is necessary before we can get started (instructions [here](../setup.html)).
 
 Do you need help with any of the following?
 
