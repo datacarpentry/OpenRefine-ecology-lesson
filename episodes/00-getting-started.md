@@ -53,7 +53,7 @@ Do you need help with any of the following?
 What is OpenRefine?
 
   - OpenRefine is a Java program that runs on your machine (not in the cloud): it is a desktop application that uses your web browser as a graphical interface. No internet connection is needed, and none of the data or commands you enter in OpenRefine are sent to a remote server.
-  - OpenRefine does not modify your original dataset. All actions are easily reversed in OpenRefine and you can capture all the actions applied to your data and share this documentation with your publication as supplemental material.OpenRefine saves as you go. You can return to the project at any time to pick up where you left off, or export your data to a new file.
+  - OpenRefine does not modify your original dataset. All actions are easily reversed in OpenRefine and you can capture all the actions applied to your data and share this documentation with your publication as supplemental material. OpenRefine saves as you go. You can return to the project at any time to pick up where you left off, or export your data to a new file.
  - OpenRefine can be used to standardise and clean data across your file.
     
 It can help you:
