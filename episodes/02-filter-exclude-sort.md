@@ -95,7 +95,7 @@ If you try to re-sort a column that you have already used, the drop-down menu ch
 {: .challenge}
 
 
-### Sorting by multiple columns.
+### Sorting by multiple columns
 
 You can sort by multiple columns by performing sort on additional columns. The sort will depend on the order in which you select columns to sort. To restart the sorting process with a particular column, check the `sort by this column alone` box in the `Sort` pop-up menu.
 
