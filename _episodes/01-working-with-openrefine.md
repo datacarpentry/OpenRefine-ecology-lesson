@@ -167,7 +167,7 @@ to be split.
 > > ## Solution
 > > 
 > > On the `scientificName 2` column, click the down arrow and then `Edit column` > `Rename this column`. Type "species" into 
-> > the boxthat appears. A pop-up will appear that says `Another column already named species`. This is because there is another 
+> > the box that appears. A pop-up will appear that says `Another column already named species`. This is because there is another 
 > > column where we've recorded the species abbreviation. If you capitalize the S, it will work.  Or you can choose another name  
 > > like `speciesName` for this column or change the other `species` column name to `speciesAbbreviation`.
 > {: .solution}
