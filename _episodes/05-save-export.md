@@ -30,7 +30,7 @@ you'll see a list of your projects. You can click on any one of them to open it 
 You can also export a project. This is helpful, for instance, if you wanted to send your raw data and cleaning steps to a collaborator, 
 or share this information as a supplement to a publication. 
 
-1. Click the `Export` button in the top right and select `Export project`.
+1. Click the `Export` button in the top right and select `OpenRefine project archive to file`.
 2. A `tar.gz` file will download to your default `Download` directory. The `tar.gz` extension tells you that this is a compressed file, which means that this file contains multiple files. 
   - On Mac and Linux, you can double-click on the `tar.gz` file and it will expand into a directory. A 
 folder icon will now appear.
