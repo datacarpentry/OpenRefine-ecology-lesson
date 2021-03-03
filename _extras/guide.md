@@ -39,7 +39,7 @@ OpenRefine supports faceted browsing as a mechanism for
 
 Typically, you create a facet on a particular column. The facet summarizes the cells in that column to give you a big picture of that column, and allows you to filter to some subset of rows for which their cells in that column satisfy some constraint. That's a bit abstract, so let's jump into some examples.
 
-[More on faceting](https://github.com/OpenRefine/OpenRefine/wiki/Faceting)
+[More on faceting](https://docs.openrefine.org/manual/facets/)
 
   - Scroll over to the scientificName column
   - Click the down arrow and choose Facet > Text facet
