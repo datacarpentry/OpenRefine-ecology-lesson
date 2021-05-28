@@ -26,7 +26,7 @@ Start the program. Double-click on the openrefine.exe file (or google-refine.exe
 
 Launch OpenRefine (see [Getting Started with OpenRefine](http://www.datacarpentry.org/OpenRefine-ecology-lesson/00-getting-started/)).
 
-OpenRefine can import a variety of file types, including tab separated (`tsv`), comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, and Google Spreadsheets. See the [OpenRefine Importers page](https://github.com/OpenRefine/OpenRefine/wiki/Importers) for more information.
+OpenRefine can import a variety of file types, including tab separated (`tsv`), comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, and Google Spreadsheets. See the [OpenRefine Create a Project by Importing Data page](https://docs.openrefine.org/manual/starting/#create-a-project-by-importing-data) for more information.
 
 In this first step, we'll browse our computer to the sample data file for this lesson. In this case, we modified the `Portal_rodents` CSV file, adding several columns: `scientificName`, `locality`, `county`, `state`, `country` and generating several more columns in the lesson itself (`JSON`, `decimalLatitude`, `decimalLongitude`). Data in `locality`, `county`, `country`, `JSON`, `decimalLatitude` and `decimalLongitude` are contrived and are in no way related to the original dataset. 
 
@@ -74,7 +74,7 @@ along with a number representing how many times that value occurs in the column.
 {: .solution}
 
 > ## More on Facets
-> [OpenRefine Wiki: Faceting](https://github.com/OpenRefine/OpenRefine/wiki/Faceting)
+> [OpenRefine Manual: Facets](https://docs.openrefine.org/manual/facets)
 > 
 > As well as 'Text facets' OpenRefine also supports a range of other types of facet. These include:
 > 
