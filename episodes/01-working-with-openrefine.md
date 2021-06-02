@@ -8,11 +8,12 @@ questions:
 - "How can we find and correct errors in our raw data?"
 objectives:
 - "Create a new OpenRefine project from a CSV file."
-- "Recall what facets are and how they are used to sort and summarize data."
-- "Recall what clustering is and how it is applied to group and edit typos."
-- "Manipulate data using previous steps with undo/redo."
-- "Employ drop-downs to split values from one column into multiple columns."
-- "Employ drop-downs to remove white spaces from cells."
+- "Sort and summarize data using facets."
+- "Experiment with clustering options in order to group similar data values."
+- "Batch edit typos by merging clusters in the clustering window."
+- "Step back the workflow using undo/redo."
+- "Split values from one column into multiple columns."
+- "Remove white spaces from cells."
 keypoints:
 - "Faceting and clustering approaches can identify errors or outliers in data."
 ---
