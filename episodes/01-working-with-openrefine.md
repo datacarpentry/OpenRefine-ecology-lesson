@@ -8,11 +8,12 @@ questions:
 - "How can we find and correct errors in our raw data?"
 objectives:
 - "Create a new OpenRefine project from a CSV file."
-- "Recall what facets are and how they are used to sort and summarize data."
-- "Recall what clustering is and how it is applied to group and edit typos."
-- "Manipulate data using previous steps with undo/redo."
-- "Employ drop-downs to split values from one column into multiple columns."
-- "Employ drop-downs to remove white spaces from cells."
+- "Sort and summarize data using facets."
+- "Experiment with clustering options in order to group similar data values."
+- "Batch edit typos by merging clusters in the clustering window."
+- "Step back the workflow using undo/redo."
+- "Split values from one column into multiple columns."
+- "Remove white spaces from cells."
 keypoints:
 - "Faceting and clustering approaches can identify errors or outliers in data."
 ---
@@ -26,7 +27,7 @@ Start the program. (Double-click on the openrefine.exe. Java services will start
 
 Launch OpenRefine (see [Getting Started with OpenRefine](http://www.datacarpentry.org/OpenRefine-ecology-lesson/00-getting-started/)).
 
-OpenRefine can import a variety of file types, including tab separated (`tsv`), comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, Google Spreadsheets. See the [OpenRefine Importers page](https://github.com/OpenRefine/OpenRefine/wiki/Importers) for more information.
+OpenRefine can import a variety of file types, including tab separated (`tsv`), comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, and Google Spreadsheets. See the [OpenRefine Create a Project by Importing Data page](https://docs.openrefine.org/manual/starting/#create-a-project-by-importing-data) for more information.
 
 In this first step, we'll browse our computer to the sample data file for this lesson. In this case, we modified the `Portal_rodents` CSV file, adding several columns: `scientificName`, `locality`, `county`, `state`, `country` and generating several more columns in the lesson itself (`JSON`, `decimalLatitude`, `decimalLongitude`). Data in `locality`, `county`, `country`, `JSON`, `decimalLatitude` and `decimalLongitude` are contrived and are in no way related to the original dataset. 
 
@@ -47,14 +48,14 @@ Note that at step 1, you could upload data in a standard form from a web address
 
 *Exploring data by applying multiple filters*
 
-Facets are one of the most useful features of OpenRefine and can help both get an overview of the data in a project as well as helping you bring more consistency to the data. OpenRefine supports faceted browsing as a mechanism for
+Facets are one of the most useful features of OpenRefine and can help get an overview of the data in a project as well as helping you bring more consistency to the data. OpenRefine supports faceted browsing as a mechanism for
 
-* seeing a big picture of your data, and
+* seeing the big picture of your data, and
 * filtering down to just the subset of rows that you want to change in bulk.
 
-A 'Facet' groups all the like values that appear in a column, and then allow you to filter the data by these values and edit values across many records at the same time.
+A 'Facet' groups the values that appear in a column according to some criterion, and then allows you to filter the groups and edit values across many records at the same time.
 
-One type of Facet is called a 'Text facet'. This groups all the identical text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left hand panel in the OpenRefine interface.
+One type of Facet is called a 'Text facet'. This groups all the identical text values in a column and lists each value with the number of records in which it appears. The facet information always appears in the left hand panel in the OpenRefine interface.
 
 Here we will use faceting to look for potential errors in data entry in the `scientificName` column.
 
@@ -74,7 +75,7 @@ along with a number representing how many times that value occurs in the column.
 {: .solution}
 
 > ## More on Facets
-> [OpenRefine Wiki: Faceting](https://github.com/OpenRefine/OpenRefine/wiki/Faceting)
+> [OpenRefine Manual: Facets](https://docs.openrefine.org/manual/facets)
 > 
 > As well as 'Text facets' OpenRefine also supports a range of other types of facet. These include:
 > 
@@ -87,7 +88,7 @@ along with a number representing how many times that value occurs in the column.
 >
 > **Custom facets** are a range of different types of facets. Some of the default custom facets are:
 >
-> * Word facet - this breaks down text into words and counts the number of records each word appears in
+> * Word facet - this breaks down text into words and counts the number of records in which each word appears
 > * Duplicates facet - this results in a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if the value in the selected column is an exact match for a value in the same column in another row
 > * Text length facet - creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g. if the values are expected to be years, any row with a text length more than 4 for that column is likely to be incorrect)
 > * Facet by blank - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for rows missing key data.
@@ -142,11 +143,15 @@ If data in a column needs to be split into multiple columns, and the parts are s
 
 1. Let us suppose we want to split the `scientificName` column into separate columns for genus and for species. 
 2. Click the down arrow at the top of the `scientificName` column. Choose `Edit Column` > `Split into several columns...`
-3. In the pop-up, in the `Separator` box, replace the comma with a space.
+3. In the pop-up, in the `Separator` box, replace the comma with a space. (use the spacebar to create a space, don't just delete the comma)
 4. Uncheck the box that says `Remove this column`.
 5. Click `OK`. You'll get some new columns called `scientificName 1`, `scientificName 2`, and so on.
 6. Notice that in some cases `scientificName 1` and `scientificName 2` are empty. Why is this? What do you think we 
 can do to fix this?
+7. Note that the character on which the split is performed could be anything.  The default is a comma, and you changed 
+that to a space in this case, but you could make it any letter or number or special character.  The only requirements
+are that A) it appears in every row of the column, and B) it appears consistently in the place where you want the column
+to be split.
 
 > ## Solution
 > 
@@ -158,14 +163,14 @@ can do to fix this?
 
 > ## Exercise
 >
-> Try to change the name of the second new column to "species". How can you correct the problem you encounter?
+> Try to change the name of the second new column to "species". Are you able to do this?  Or do you encounter a problem?
 > 
 > > ## Solution
 > > 
-> > On the `scientificName 2` column, click the down arrow and then `Edit column` > `Rename this column`. Type "species" into the box
-> > that appears. A pop-up will appear that says `Another column already named species`. This is because there is another column
-> > where we've recorded the species abbreviation. You can choose another name like `speciesName` for this column or change the other 
-> > `species` column name to `speciesAbbreviation`.
+> > On the `scientificName 2` column, click the down arrow and then `Edit column` > `Rename this column`. Type "species" into 
+> > the box that appears. A pop-up will appear that says `Another column already named species`. This is because there is another 
+> > column where we've recorded the species abbreviation. If you capitalize the S, it will work.  Or you can choose another name  
+> > like `speciesName` for this column or change the other `species` column name to `speciesAbbreviation`.
 > {: .solution}
 {: .challenge}
 ## Undo / Redo
