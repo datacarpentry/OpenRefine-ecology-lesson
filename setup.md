@@ -19,13 +19,11 @@ title: Setup
 {: .prereq}
 
 > ## Software
+> 
+> For this lesson you will need **OpenRefine** (formerly Google Refine) and a web browser.
+> 
+> Note: this is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed.
 {: .prereq}
-
-For this lesson you will need **OpenRefine** (formerly Google Refine) and a
-web browser.
-
-Note: this is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed.
-
 
 
 #### Windows
