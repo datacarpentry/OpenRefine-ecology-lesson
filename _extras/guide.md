@@ -14,7 +14,7 @@ title: "Instructor Notes"
 
 ### Creating a Project
 
-Start the program. (Double-click on the google-refine.exe file. Java services will start on your machine, and OpenRefine will open in your browser).
+Start the program. (Double-click on the openrefine.exe file. Java services will start on your machine, and OpenRefine will open in your browser).
 
 Note the file types OpenRefine handles: TSV, CSF, *SV, Excel (.xls .xlsx), JSON, XML, RDF as XML, Google Data documents. Support for other formats can be added with OpenRefine extensions.
 
@@ -39,7 +39,7 @@ OpenRefine supports faceted browsing as a mechanism for
 
 Typically, you create a facet on a particular column. The facet summarizes the cells in that column to give you a big picture of that column, and allows you to filter to some subset of rows for which their cells in that column satisfy some constraint. That's a bit abstract, so let's jump into some examples.
 
-[More on faceting](https://github.com/OpenRefine/OpenRefine/wiki/Faceting)
+[More on faceting](https://docs.openrefine.org/manual/facets/)
 
   - Scroll over to the scientificName column
   - Click the down arrow and choose Facet > Text facet
@@ -85,7 +85,7 @@ If data in a column needs to be split into multiple columns, and the strings in 
   - finding the .exe file once the software has been unzipped
   - finding the data file on their computers after downloading
   
- * If OpenRefine crashs when launched from a network share drive, do the following:
+ * If OpenRefine crashes when launched from a network share drive, do the following:
     - Copy the OpenRefine folder to a local drive not mapped to a network share, e.g. "C:\Users\JaneDoe".
     - Open cmd, e.g. Windows black screen.
     - Change the working directory to the OpenRefine folder at "C:\Users\JaneDoe".

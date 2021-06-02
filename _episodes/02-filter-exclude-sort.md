@@ -43,7 +43,7 @@ There are many entries in our data table. We can filter it to work on a subset o
 
 In addition to the solutions included above, another way to narrow our filter is to `include` and/or `exclude` entries in a facet. If you still have your facet for `scientificName`, you can use it, or use drop-down menu > `Facet` > `Text facet` to create a new facet. Only the entries with names that agree with your `Text filter` will be included in this facet.
 
-Faceting and filtering look very similar. A good distinction is that faceting gives you an overview description of all of the data that 
+Faceting and filtering look very similar. A good distinction is that faceting gives you an overview description of all the data that 
 is currently selected, while filtering allows you to select a subset of your data for analysis. 
 
 
@@ -86,7 +86,7 @@ If you try to re-sort a column that you have already used, the drop-down menu ch
 
 > ## Exercise
 > 
-> Sort the data by `plot`. What year(s) were observations recorded for plot 1 in this filtered dataset. 
+> Sort the data by `plot`. What year(s) were observations recorded for plot 1 in this filtered dataset?
 > 
 > > ## Solution
 > > In the `plot` column, select `Sort...` > `numbers` and select `smallest first`. The years represented are 1990 and 1995.
@@ -95,7 +95,7 @@ If you try to re-sort a column that you have already used, the drop-down menu ch
 {: .challenge}
 
 
-### Sorting by multiple columns.
+### Sorting by multiple columns
 
 You can sort by multiple columns by performing sort on additional columns. The sort will depend on the order in which you select columns to sort. To restart the sorting process with a particular column, check the `sort by this column alone` box in the `Sort` pop-up menu.
 
