@@ -142,7 +142,7 @@ If data in a column needs to be split into multiple columns, and the parts are s
 
 1. Let us suppose we want to split the `scientificName` column into separate columns for genus and for species. 
 2. Click the down arrow at the top of the `scientificName` column. Choose `Edit Column` > `Split into several columns...`
-3. In the pop-up, in the `Separator` box, replace the comma with a space.
+3. In the pop-up, in the `Separator` box, replace the comma with a space. (use the spacebar to create a space, don't just delete the comma)
 4. Uncheck the box that says `Remove this column`.
 5. Click `OK`. You'll get some new columns called `scientificName 1`, `scientificName 2`, and so on.
 6. Notice that in some cases `scientificName 1` and `scientificName 2` are empty. Why is this? What do you think we 
