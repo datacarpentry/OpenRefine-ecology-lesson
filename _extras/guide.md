@@ -76,8 +76,6 @@ If data in a column needs to be split into multiple columns, and the strings in 
 
 * If learners are using a browser other than Firefox, or OpenRefine does not automatically open for them when they click the .exe file, have them point their browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
 
-* Some have issues getting OpenRefine to run on Windows. The fix seems to be to install Java (JDK + JRE) and add "JAVA_HOME" and "JDK_HOME" to the environment. This thread includes steps to diagnose possible issues, and links on how to set up environment variables.
-
 * Mac users with the newest operating system will have to allow this to run by "allowing everything" to run. They can change the setting back after the exercise.
 
 * Some students will run into issues with
