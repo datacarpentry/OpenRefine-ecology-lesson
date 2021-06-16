@@ -23,15 +23,13 @@ keypoints:
 ## Creating a Project
 
 
-Start the program. (Double-click on the openrefine.exe. Java services will start on your machine, and OpenRefine will open in your browser).
-
-Launch OpenRefine (see [Getting Started with OpenRefine](http://www.datacarpentry.org/OpenRefine-ecology-lesson/00-getting-started/)).
+Launch OpenRefine (see the [setup guide](https://datacarpentry.org/OpenRefine-ecology-lesson/setup.html) for details).
 
 OpenRefine can import a variety of file types, including tab separated (`tsv`), comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, and Google Spreadsheets. See the [OpenRefine Create a Project by Importing Data page](https://docs.openrefine.org/manual/starting/#create-a-project-by-importing-data) for more information.
 
 In this first step, we'll browse our computer to the sample data file for this lesson. In this case, we modified the `Portal_rodents` CSV file, adding several columns: `scientificName`, `locality`, `county`, `state`, `country` and generating several more columns in the lesson itself (`JSON`, `decimalLatitude`, `decimalLongitude`). Data in `locality`, `county`, `country`, `JSON`, `decimalLatitude` and `decimalLongitude` are contrived and are in no way related to the original dataset. 
 
-If you haven't already, download the data from:  
+If you haven't already, download the data file `Portal_rodents_19772002_scinameUUIDs.csv` from:  
 [https://ndownloader.figshare.com/files/7823341](https://ndownloader.figshare.com/files/7823341)
 
 Once OpenRefine is launched in your browser, the left margin has options to `Create Project`, `Open Project`, or `Import Project`. Here we will create a new project:
@@ -125,7 +123,7 @@ In OpenRefine, clustering means "finding groups of different values that might b
 1. In the `scientificName` Text Facet we created in the step above, click the `Cluster` button.
 2. In the resulting pop-up window, you can change the `Method` and the `Keying Function`. Try different combinations to 
  see what different mergers of values are suggested.
-3. Select the `key collision` method and `metaphone3` keying function. It should identify three clusters. 
+3. Select the `key collision` method and `metaphone3` keying function. It should identify two clusters. 
 4. Click the `Merge?` box beside each, then click `Merge Selected and Recluster` to apply the corrections to the dataset.
 4. Try selecting different `Methods` and `Keying Functions` again, to see what new merges are suggested. You may find there are 
  still improvements that can be made, but don't `Merge` again; just `Close` when you're done.  We'll now 
@@ -147,20 +145,10 @@ If data in a column needs to be split into multiple columns, and the parts are s
 3. In the pop-up, in the `Separator` box, replace the comma with a space. (use the spacebar to create a space, don't just delete the comma)
 4. Uncheck the box that says `Remove this column`.
 5. Click `OK`. You'll get some new columns called `scientificName 1`, `scientificName 2`, and so on.
-6. Notice that in some cases `scientificName 1` and `scientificName 2` are empty. Why is this? What do you think we 
-can do to fix this?
-7. Note that the character on which the split is performed could be anything.  The default is a comma, and you changed 
+6. Note that the character on which the split is performed could be anything.  The default is a comma, and you changed 
 that to a space in this case, but you could make it any letter or number or special character.  The only requirements
 are that A) it appears in every row of the column, and B) it appears consistently in the place where you want the column
 to be split.
-
-> ## Solution
-> 
-> The entries that have data in `scientificName 3` and `scientificName 4` but not the first two `scientificName` columns 
-> had an extra space at the beginning of the entry. Leading white spaces are very difficult to notice when cleaning data
-> manually. This is another advantage of using OpenRefine to clean your data. We'll look at how to 
-> fix leading and trailing white spaces in a later exercise.
-{: .solution}
 
 > ## Exercise
 >
@@ -183,8 +171,6 @@ It's common while exploring and cleaning a dataset to discover after you've made
 2. Click on the step that you want to go back to, in this case the previous step. The added columns will disappear.
 3. Notice that you can still click on the last step and make the columns reappear, and toggle back and forth between these states.
 4. Leave the dataset in the state in which the `scientificNames` were clustered, but not yet split.
-
-Important: If you skip this step, your solutions for later exercises will not be the same as shown in those exercise solutions.
 
 
 Important: `Undo` the splitting step before moving on to the next lesson. If you skip this step, your solutions 
