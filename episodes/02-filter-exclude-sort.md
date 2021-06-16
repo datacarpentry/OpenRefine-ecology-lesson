@@ -21,7 +21,7 @@ There are many entries in our data table. We can filter it to work on a subset o
 
 1. Click the down arrow next to `scientificName` > `Text filter`. A `scientificName` facet will appear on the left margin.
 2. Type in `bai` and press return. There are 48 matching rows of the original 35549 rows (and these rows are selected for the subsequent steps).
-3. At the top, change the view to `Show` 50 `rows`. This way you will see all the matching rows.
+3. At the top, click on `50` in the `Show` section. This way you will see all the matching rows.
 
 > ## Exercise
 >
@@ -76,6 +76,10 @@ If this is your first time sorting this table, then the drop-down menu for the s
 > ## Exercise
 >
 > Sort by month. How can you ensure that months are in order?
+> > ## Solution
+> > In the `Sort by mo` window, select `numbers` under `Sort cell values as`.
+> > 
+> {: .solution}
 {: .challenge}
 
 If you try to re-sort a column that you have already used, the drop-down menu changes slightly, to > `Sort` without the `...`, to remind you that you have already used this column. It will give you additional options:
@@ -89,7 +93,7 @@ If you try to re-sort a column that you have already used, the drop-down menu ch
 > Sort the data by `plot`. What year(s) were observations recorded for plot 1 in this filtered dataset?
 > 
 > > ## Solution
-> > In the `plot` column, select `Sort...` > `numbers` and select `smallest first`. The years represented are 1990 and 1995.
+> > In the `plot` column, select `Sort...` > `numbers` and select `smallest first`. The years represented are between 1989 and 1995.
 > > 
 > {: .solution}
 {: .challenge}
