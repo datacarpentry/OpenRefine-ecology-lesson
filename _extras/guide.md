@@ -12,6 +12,10 @@ title: "Instructor Notes"
 
 ## Technical tips and tricks
 
+### OpenRefine version
+
+The current version of the lesson has been tested with OpenRefine 3.4.1. Using older versions is not recommended, behavior may be different and cause confusion in the learners.
+
 ### Creating a Project
 
 Start the program. (Double-click on the openrefine.exe file. Java services will start on your machine, and OpenRefine will open in your browser).
