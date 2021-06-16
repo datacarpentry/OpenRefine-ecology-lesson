@@ -4,7 +4,12 @@
 # OpenRefine-ecology
 Lesson on OpenRefine for ecology
 
-### Data set notes.
+## Version
+
+The current version has been tested with OpenRefine 3.4.1.
+
+## Data set notes
+
 * This data set is derived from [The Portal Project Long-term desert ecology](http://portal.weecology.org/) project data. [This data file](http://www.esapubs.org/archive/ecol/E090/118/Portal_rodents_19772002.csv) was downloaded and then modified specifically for use with OpenRefine.
     * Taxon names were put back into the file.
     * Globally Unique Identifiers (in the form of UUIDs) were added.
@@ -12,7 +17,7 @@ Lesson on OpenRefine for ecology
     - Errors were added to the taxon names (`scientificName` field), to demonstrate OpenRefine's ability to find likely mis-entered data.
     - These errors can be found using clustering algorithms on the `scientificName` column, showing the power of the algorithms to find discrepancies quickly and making it simple to fix all issues found.
     
-### Contributing
+## Contributing
 
 We welcome all contributions to improve the lesson! Maintainers will do their best to help you if you have any questions, concerns, or experience any difficulties along the way.
 We'd like to ask you to familiarize yourself with our [Contribution Guide](CONTRIBUTING.md).
