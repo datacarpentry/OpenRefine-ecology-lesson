@@ -24,7 +24,7 @@ title: Setup
 > 
 > Note: OpenRefine is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed.
 > 
-> Download OpenRefine from [http://openrefine.org/download.html](http://openrefine.org/download.html). The most recent version is 3.4.1.
+> Download OpenRefine version 3.4.1 from [http://openrefine.org/download.html](http://openrefine.org/download.html).
 > * Do not select beta versions or the release candidates. 
 > * If you are on Windows and do not have Java installed, download the version `Windows kit with embedded Java`. 
 > * Unzip the downloaded file into a directory and name that directory something like OpenRefine.
