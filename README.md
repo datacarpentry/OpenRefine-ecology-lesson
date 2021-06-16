@@ -4,6 +4,16 @@
 # OpenRefine-ecology
 Lesson on OpenRefine for ecology
 
+## Maintainers
+
+### Current Maintainers
+
+Coming soon...
+
+### Past Maintainers
+
+Coming soon...
+
 ## Version
 
 The current version has been tested with OpenRefine 3.4.1.
