@@ -35,11 +35,11 @@ or share this information as a supplement to a publication.
   - On Mac and Linux, you can double-click on the `tar.gz` file and it will expand into a directory. A 
 folder icon will now appear.
   - On Windows, opening `tar.gz` files requires additional software such as [7-zip](http://www.7-zip.org/) or [WinZip](http://www.winzip.com/).
-    - Download and run the installer of your choice.
-    - Double-click the exported `tar.gz` file. If Windows asks how you want to open the file, check the 'Always use this app to open `.gz` files'
+     - Download and run the installer of your choice.
+     - Double-click the exported `tar.gz` file. If Windows asks how you want to open the file, check the 'Always use this app to open `.gz` files'
     box, then select "More apps".
-    - If your chosen application is not listed, select 'Look for another app on this PC'.
-    - In the file browser, navigate to `C:\Program Files`, find the application you installed, and double-click on its executable
+     - If your chosen application is not listed, select 'Look for another app on this PC'.
+     - In the file browser, navigate to `C:\Program Files`, find the application you installed, and double-click on its executable
     (`7zFM`, for example).
 3. Look at the files that appear in this folder. What files are here? What information do you think these files contain?
 
