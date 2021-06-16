@@ -40,7 +40,8 @@ Once OpenRefine is launched in your browser, the left margin has options to `Cre
 2. Click `Choose Files` and select the file `Portal_rodents_19772002_scinameUUIDs.csv`. Click `Open` or double-click on the filename.
 3. Click `Next>>` under the browse button to upload the data into OpenRefine.  
 4. OpenRefine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click `Update Preview` (bottom right). If this is the wrong file, click `<<Start Over` (upper left).
-5. If all looks well, click `Create Project>>` (upper right). 
+5. From OpenRefine 3.4 onwards, there is an option to Trim leading & trailing whitespace from strings when importing separator-based files. Keeping this checked will ensure that values like `English` and `English `, which differ by a single trailing space, are not treated as different values after the import.
+6. If all looks well, click `Create Project>>` (upper right). 
 
 Note that at step 1, you could upload data in a standard form from a web address by selecting `Get data from` `Web Addresses (URLs)`. However, this won't work for all URLs.
 
@@ -185,20 +186,6 @@ It's common while exploring and cleaning a dataset to discover after you've made
 
 Important: If you skip this step, your solutions for later exercises will not be the same as shown in those exercise solutions.
 
-## Trim Leading and Trailing Whitespace
-
-Words with spaces at the beginning or end are particularly hard for we humans to tell from strings without, but the blank characters will make a difference to the computer. We usually want to remove these. OpenRefine provides a tool to remove blank characters from the beginning and end of any entries that have them.
-
-
-1. In the header for the column `scientificName`, choose `Edit cells` > `Common transforms` > `Trim leading and trailing whitespace`.
-2. Notice that the `Split` step has now disappeared from the `Undo / Redo` pane on the left and is replaced with a `Text transform on 3 cells`
-3. Perform the same `Split` operation on `scientificName` that you undid earlier. This time you should only get two new columns. Why?
-
-> ## Solution
-> 
-> Removing the leading white spaces means that each entry in this column has exactly one space (between the genus and species names). 
-> Therefore, when you split with space as the separator, you will get only two columns.
-{: .solution}
 
 Important: `Undo` the splitting step before moving on to the next lesson. If you skip this step, your solutions 
 for later exercises will not be the same as shown in those exercise solutions.
