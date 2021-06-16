@@ -44,9 +44,8 @@ The following setup is necessary before we can get started (see the [instruction
 
 Do you need help with any of the following?
 
-- Download and install software from <https://openrefine.org/download.html>
+- Download and install OpenRefine 3.4.1 from <https://openrefine.org/download.html>
 - Download this [data file](https://ndownloader.figshare.com/files/7823341) and save to your desktop
-- Launch OpenRefine in Mozilla Firefox or Google Chrome
 - If after installation and running OpenRefine, it does not automatically open for you, point your browser at <http://127.0.0.1:3333/> or <http://localhost:3333/> to launch the program.
   
   
@@ -73,7 +72,7 @@ OpenRefine is a powerful, free, and open source tool with a large growing commun
 
 ## Basics of OpenRefine
 
-You can find out a lot more about OpenRefine at [openrefine.org](https://openrefine.org) and check out some great [introductory videos](https://www.youtube.com/channel/UCqwSVsJ8CWD9pQUZDbJC1ew). There is a [Google Group](https://groups.google.com/forum/?hl=en#!forum/openrefine) that can answer a lot of beginner questions and problems. OpenRefine [recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes), scripts, projects, and extensions are available too, where you can find and copy them into your OpenRefine instance to run on your dataset.
+You can find out a lot more about OpenRefine at the official user manual [docs.openrefine.org](https://docs.openrefine.org/). There is a [Google Group](https://groups.google.com/forum/?hl=en#!forum/openrefine) that can answer a lot of beginner questions and problems. OpenRefine [recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes), scripts, projects, and extensions are available too, where you can find and copy them into your OpenRefine instance to run on your dataset.
 
 The OpenRefine user manual provides a [reference for the General Refine Expression Language (GREL)](https://docs.openrefine.org/manual/grelfunctions).
 
