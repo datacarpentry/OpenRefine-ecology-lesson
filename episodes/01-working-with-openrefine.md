@@ -185,20 +185,6 @@ It's common while exploring and cleaning a dataset to discover after you've made
 
 Important: If you skip this step, your solutions for later exercises will not be the same as shown in those exercise solutions.
 
-## Trim Leading and Trailing Whitespace
-
-Words with spaces at the beginning or end are particularly hard for we humans to tell from strings without, but the blank characters will make a difference to the computer. We usually want to remove these. OpenRefine provides a tool to remove blank characters from the beginning and end of any entries that have them.
-
-
-1. In the header for the column `scientificName`, choose `Edit cells` > `Common transforms` > `Trim leading and trailing whitespace`.
-2. Notice that the `Split` step has now disappeared from the `Undo / Redo` pane on the left and is replaced with a `Text transform on 3 cells`
-3. Perform the same `Split` operation on `scientificName` that you undid earlier. This time you should only get two new columns. Why?
-
-> ## Solution
-> 
-> Removing the leading white spaces means that each entry in this column has exactly one space (between the genus and species names). 
-> Therefore, when you split with space as the separator, you will get only two columns.
-{: .solution}
 
 Important: `Undo` the splitting step before moving on to the next lesson. If you skip this step, your solutions 
 for later exercises will not be the same as shown in those exercise solutions.
