@@ -5,7 +5,7 @@ root: .
 
 Before you can analyze data you need to clean it. Data cleaning identifies errors and corrects formatting to create consistent data. This step must be taken with extreme care and attention because without clean data the results of analysis may be false and non-reproducible.
 
-OpenRefine (formerly Google Refine) is a powerful free and open source tool for working with messy data: cleaning it and transforming it from one format into another.
+OpenRefine is a powerful free and open source tool for working with messy data: cleaning it and transforming it from one format into another.
 
 This lesson will teach you to use OpenRefine to clean and format
 data effectively and automatically track any changes that you make. Many people comment
@@ -24,8 +24,7 @@ edits by hand.
 >
 > #### Prerequisites
 >
-> This lesson requires a working copy of OpenRefine (also called 
-> GoogleRefine).    
+> This lesson requires a working copy of OpenRefine 3.4.1.
 > <br>To most effectively use these materials, please make sure to install 
 > everything *before* working through this lesson.
 {: .prereq}
