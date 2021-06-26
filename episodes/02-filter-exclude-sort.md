@@ -31,9 +31,9 @@ There are many entries in our data table. We can filter it to work on a subset o
 > > ## Solution
 > > 1. Do `Facet` > `Text facet` on the `scientificName` column after filtering. This will show that
 > > two names match your filter criteria. They are `Baiomys taylori` and `Chaetodipus baileyi`.   
-> > 2. To restrict to only one of these two species, you could make the search case sensitive or 
-> > you could split the `scientificName` column into species and genus before filtering or
-> > you could include more letters in your filter.
+> > 2. To restrict to only one of these two species, you could:
+> > * Check the `case sensitive` box within the `scientificName` facet. Once you do this, you will see that using the upper-case `Bai` will only > > return `Baiomys taylori`, while using lower-case `bai` will only return `Chaetodipus baileyi`.
+> > * You could include more letters in your filter (i.e. typing `baio` will exclusively return `Baiomys taylori`, while `bail` will only return `Chaetodipus baileyi`).
 > > 
 > {: .solution}
 {: .challenge}
@@ -76,9 +76,9 @@ If this is your first time sorting this table, then the drop-down menu for the s
 > ## Exercise
 >
 > Sort by month. How can you ensure that months are in order?
+> >
 > > ## Solution
-> > In the `Sort by mo` window, select `numbers` under `Sort cell values as`.
-> > 
+> > In the `mo` column, select `Sort...` > `numbers` and select `smallest first`. The months are listed from 1 (for January) through 12 (December).
 > {: .solution}
 {: .challenge}
 
@@ -116,7 +116,7 @@ You can sort by multiple columns by performing sort on additional columns. The s
 > > 2. For the `yr` column, click on `Sort` > `Sort...` > `numbers` and select `sort by this column alone`. This will undo the 
 > > sorting by month step. Once you've sorted by `yr` you can then apply another sorting step to sort by month within year. To do this
 > > for the `mo` column, click on `Sort` > `numbers` but do not select `sort by this column alone`. To ensure that all entries are shown 
-> > chronologically, you will need to add a third sorting step by day within month. 
+> > chronologically, you will need to also sort by days within each month.  Click on the `dy` column then `Sort` > `numbers`.  Your data should now be in chronological order. 
 > > 
 > {: .solution}  
 {: .challenge}
