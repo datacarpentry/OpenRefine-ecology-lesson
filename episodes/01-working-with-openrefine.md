@@ -8,12 +8,11 @@ questions:
 - "How can we find and correct errors in our raw data?"
 objectives:
 - "Create a new OpenRefine project from a CSV file."
-- "Sort and summarize data using facets."
-- "Experiment with clustering options in order to group similar data values."
-- "Batch edit typos by merging clusters in the clustering window."
-- "Step back the workflow using undo/redo."
-- "Split values from one column into multiple columns."
-- "Remove white spaces from cells."
+- "Recall what facets are and how they are used to sort and summarize data."
+- "Recall what clustering is and how it is applied to group and edit typos."
+- "Manipulate data using previous steps with undo/redo."
+- "Employ drop-downs to split values from one column into multiple columns."
+- "Employ drop-downs to remove white spaces from cells."
 keypoints:
 - "Faceting and clustering approaches can identify errors or outliers in data."
 ---
@@ -23,13 +22,15 @@ keypoints:
 ## Creating a Project
 
 
-Launch OpenRefine (see the [setup guide](https://datacarpentry.org/OpenRefine-ecology-lesson/setup.html) for details).
+Start the program. (Double-click on the openrefine.exe file (or google-refine.exe if using an older version). Java services will start on your machine, and OpenRefine will open in your browser).
 
-OpenRefine can import a variety of file types, including tab separated (`tsv`), comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, and Google Spreadsheets. See the [OpenRefine Create a Project by Importing Data page](https://docs.openrefine.org/manual/starting/#create-a-project-by-importing-data) for more information.
+Launch OpenRefine (see [Getting Started with OpenRefine](http://www.datacarpentry.org/OpenRefine-ecology-lesson/00-getting-started/)).
+
+OpenRefine can import a variety of file types, including tab separated (`tsv`), comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, Google Spreadsheets. See the [OpenRefine Importers page](https://github.com/OpenRefine/OpenRefine/wiki/Importers) for more information.
 
 In this first step, we'll browse our computer to the sample data file for this lesson. In this case, we modified the `Portal_rodents` CSV file, adding several columns: `scientificName`, `locality`, `county`, `state`, `country` and generating several more columns in the lesson itself (`JSON`, `decimalLatitude`, `decimalLongitude`). Data in `locality`, `county`, `country`, `JSON`, `decimalLatitude` and `decimalLongitude` are contrived and are in no way related to the original dataset. 
 
-If you haven't already, download the data file `Portal_rodents_19772002_scinameUUIDs.csv` from:  
+If you haven't already, download the data from:  
 [https://ndownloader.figshare.com/files/7823341](https://ndownloader.figshare.com/files/7823341)
 
 Once OpenRefine is launched in your browser, the left margin has options to `Create Project`, `Open Project`, or `Import Project`. Here we will create a new project:
@@ -38,8 +39,7 @@ Once OpenRefine is launched in your browser, the left margin has options to `Cre
 2. Click `Choose Files` and select the file `Portal_rodents_19772002_scinameUUIDs.csv`. Click `Open` or double-click on the filename.
 3. Click `Next>>` under the browse button to upload the data into OpenRefine.  
 4. OpenRefine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click `Update Preview` (bottom right). If this is the wrong file, click `<<Start Over` (upper left).
-5. From OpenRefine 3.4 onwards, there is an option to Trim leading & trailing whitespace from strings when importing separator-based files. Keeping this checked will ensure that values like `English` and `English `, which differ by a single trailing space, are not treated as different values after the import.
-6. If all looks well, click `Create Project>>` (upper right). 
+5. If all looks well, click `Create Project>>` (upper right). 
 
 Note that at step 1, you could upload data in a standard form from a web address by selecting `Get data from` `Web Addresses (URLs)`. However, this won't work for all URLs.
 
@@ -47,14 +47,14 @@ Note that at step 1, you could upload data in a standard form from a web address
 
 *Exploring data by applying multiple filters*
 
-Facets are one of the most useful features of OpenRefine and can help get an overview of the data in a project as well as helping you bring more consistency to the data. OpenRefine supports faceted browsing as a mechanism for
+Facets are one of the most useful features of OpenRefine and can help both get an overview of the data in a project as well as helping you bring more consistency to the data. OpenRefine supports faceted browsing as a mechanism for
 
-* seeing the big picture of your data, and
+* seeing a big picture of your data, and
 * filtering down to just the subset of rows that you want to change in bulk.
 
-A 'Facet' groups the values that appear in a column according to some criterion, and then allows you to filter the groups and edit values across many records at the same time.
+A `Facet` groups all the like values that appear in a column, and allows you to filter the data by those values. It also allows you to edit values across many records at the same time.
 
-One type of Facet is called a 'Text facet'. This groups all the identical text values in a column and lists each value with the number of records in which it appears. The facet information always appears in the left hand panel in the OpenRefine interface.
+One type of Facet is called a 'Text facet'. This groups all the identical text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left hand panel in the OpenRefine interface.
 
 Here we will use faceting to look for potential errors in data entry in the `scientificName` column.
 
@@ -74,7 +74,7 @@ along with a number representing how many times that value occurs in the column.
 {: .solution}
 
 > ## More on Facets
-> [OpenRefine Manual: Facets](https://docs.openrefine.org/manual/facets)
+> [OpenRefine Wiki: Faceting](https://github.com/OpenRefine/OpenRefine/wiki/Faceting)
 > 
 > As well as 'Text facets' OpenRefine also supports a range of other types of facet. These include:
 > 
@@ -87,7 +87,7 @@ along with a number representing how many times that value occurs in the column.
 >
 > **Custom facets** are a range of different types of facets. Some of the default custom facets are:
 >
-> * Word facet - this breaks down text into words and counts the number of records in which each word appears
+> * Word facet - this breaks down text into words and counts the number of records each word appears in
 > * Duplicates facet - this results in a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if the value in the selected column is an exact match for a value in the same column in another row
 > * Text length facet - creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g. if the values are expected to be years, any row with a text length more than 4 for that column is likely to be incorrect)
 > * Facet by blank - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for rows missing key data.
@@ -120,10 +120,10 @@ Facets are intended to group together common values and OpenRefine limits the nu
 
 In OpenRefine, clustering means "finding groups of different values that might be alternative representations of the same thing". For example, the two strings `New York` and `new york` are very likely to refer to the same concept and just have capitalization differences. Likewise, `Gödel` and `Godel` probably refer to the same person. Clustering is a very powerful tool for cleaning datasets which contain misspelled or mistyped entries. OpenRefine has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work. 
 
-1. In the `scientificName` Text Facet we created in the step above, click the `Cluster` button.
+1. In the `scientificName` Text Facet we created in the step above, click the `Cluster` button (or select `Edit cells` > `Cluster and edit`).
 2. In the resulting pop-up window, you can change the `Method` and the `Keying Function`. Try different combinations to 
  see what different mergers of values are suggested.
-3. Select the `key collision` method and `metaphone3` keying function. It should identify two clusters. 
+3. Select the `key collision` method and `metaphone3` keying function. It should identify three clusters. 
 4. Click the `Merge?` box beside each, then click `Merge Selected and Recluster` to apply the corrections to the dataset.
 4. Try selecting different `Methods` and `Keying Functions` again, to see what new merges are suggested. You may find there are 
  still improvements that can be made, but don't `Merge` again; just `Close` when you're done.  We'll now 
@@ -142,24 +142,30 @@ If data in a column needs to be split into multiple columns, and the parts are s
 
 1. Let us suppose we want to split the `scientificName` column into separate columns for genus and for species. 
 2. Click the down arrow at the top of the `scientificName` column. Choose `Edit Column` > `Split into several columns...`
-3. In the pop-up, in the `Separator` box, replace the comma with a space. (use the spacebar to create a space, don't just delete the comma)
+3. In the pop-up, in the `Separator` box, replace the comma with a space.
 4. Uncheck the box that says `Remove this column`.
 5. Click `OK`. You'll get some new columns called `scientificName 1`, `scientificName 2`, and so on.
-6. Note that the character on which the split is performed could be anything.  The default is a comma, and you changed 
-that to a space in this case, but you could make it any letter or number or special character.  The only requirements
-are that A) it appears in every row of the column, and B) it appears consistently in the place where you want the column
-to be split.
+6. Notice that in some cases `scientificName 1` and `scientificName 2` are empty. Why is this? What do you think we 
+can do to fix this?
+
+> ## Solution
+> 
+> The entries that have data in `scientificName 3` and `scientificName 4` but not the first two `scientificName` columns 
+> had an extra space at the beginning of the entry. Leading white spaces are very difficult to notice when cleaning data
+> manually. This is another advantage of using OpenRefine to clean your data. We'll look at how to 
+> fix leading and trailing white spaces in a later exercise.
+{: .solution}
 
 > ## Exercise
 >
-> Try to change the name of the second new column to "species". Are you able to do this?  Or do you encounter a problem?
+> Try to change the name of the second new column to "species". How can you correct the problem you encounter?
 > 
 > > ## Solution
 > > 
-> > On the `scientificName 2` column, click the down arrow and then `Edit column` > `Rename this column`. Type "species" into 
-> > the box that appears. A pop-up will appear that says `Another column already named species`. This is because there is another 
-> > column where we've recorded the species abbreviation. If you capitalize the S, it will work.  Or you can choose another name  
-> > like `speciesName` for this column or change the other `species` column name to `speciesAbbreviation`.
+> > On the `scientificName 2` column, click the down arrow and then `Edit column` > `Rename this column`. Type "species" into the box
+> > that appears. A pop-up will appear that says `Another column already named species`. This is because there is another column
+> > where we've recorded the species abbreviation. You can choose another name like `speciesName` for this column or change the other 
+> > `species` column name to `speciesAbbreviation`.
 > {: .solution}
 {: .challenge}
 ## Undo / Redo
@@ -172,6 +178,22 @@ It's common while exploring and cleaning a dataset to discover after you've made
 3. Notice that you can still click on the last step and make the columns reappear, and toggle back and forth between these states.
 4. Leave the dataset in the state in which the `scientificNames` were clustered, but not yet split.
 
+Important: If you skip this step, your solutions for later exercises will not be the same as shown in those exercise solutions.
+
+## Trim Leading and Trailing Whitespace
+
+Words with spaces at the beginning or end are particularly hard for we humans to tell from strings without, but the blank characters will make a difference to the computer. We usually want to remove these. OpenRefine provides a tool to remove blank characters from the beginning and end of any entries that have them.
+
+
+1. In the header for the column `scientificName`, choose `Edit cells` > `Common transforms` > `Trim leading and trailing whitespace`.
+2. Notice that the `Split` step has now disappeared from the `Undo / Redo` pane on the left and is replaced with a `Text transform on 3 cells`
+3. Perform the same `Split` operation on `scientificName` that you undid earlier. This time you should only get two new columns. Why?
+
+> ## Solution
+> 
+> Removing the leading white spaces means that each entry in this column has exactly one space (between the genus and species names). 
+> Therefore, when you split with space as the separator, you will get only two columns.
+{: .solution}
 
 Important: `Undo` the splitting step before moving on to the next lesson. If you skip this step, your solutions 
 for later exercises will not be the same as shown in those exercise solutions.
