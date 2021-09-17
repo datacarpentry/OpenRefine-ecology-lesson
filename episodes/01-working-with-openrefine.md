@@ -58,7 +58,7 @@ Facets are one of the most useful features of OpenRefine and can help both get a
 * seeing a big picture of your data, and
 * filtering down to just the subset of rows that you want to change in bulk.
 
-A 'Facet' groups all the like values that appear in a column, and then allow you to filter the data by these values and edit values across many records at the same time.
+A `Facet` groups all the like values that appear in a column, and allows you to filter the data by those values. It also allows you to edit values across many records at the same time.
 
 One type of Facet is called a 'Text facet'. This groups all the identical text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left hand panel in the OpenRefine interface.
 
@@ -128,7 +128,7 @@ Facets are intended to group together common values and OpenRefine limits the nu
 
 In OpenRefine, clustering means "finding groups of different values that might be alternative representations of the same thing". For example, the two strings `New York` and `new york` are very likely to refer to the same concept and just have capitalization differences. Likewise, `Gödel` and `Godel` probably refer to the same person. Clustering is a very powerful tool for cleaning datasets which contain misspelled or mistyped entries. OpenRefine has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work. 
 
-1. In the `scientificName` Text Facet we created in the step above, click the `Cluster` button.
+1. In the `scientificName` Text Facet we created in the step above, click the `Cluster` button (or select `Edit cells` > `Cluster and edit`).
 2. In the resulting pop-up window, you can change the `Method` and the `Keying Function`. Try different combinations to 
  see what different mergers of values are suggested.
 3. Select the `key collision` method and `metaphone3` keying function. It should identify three clusters. 
@@ -190,23 +190,6 @@ It's common while exploring and cleaning a dataset to discover after you've made
 3. Notice that you can still click on the last step and make the columns reappear, and toggle back and forth between these states.
 4. Leave the dataset in the state in which the `scientificNames` were clustered, but not yet split.
 
-Important: If you skip this step, your solutions for later exercises will not be the same as shown in those exercise solutions.
-
-## Trim Leading and Trailing Whitespace
-
-Words with spaces at the beginning or end are particularly hard for we humans to tell from strings without, but the blank characters will make a difference to the computer. We usually want to remove these. OpenRefine provides a tool to remove blank characters from the beginning and end of any entries that have them.
-
-
-1. In the header for the column `scientificName`, choose `Edit cells` > `Common transforms` > `Trim leading and trailing whitespace`.
-![Trim whitespace menu](../fig/OREditCellsTransformMenu.png)
-2. Notice that the `Split` step has now disappeared from the `Undo / Redo` pane on the left and is replaced with a `Text transform on 3 cells`
-3. Perform the same `Split` operation on `scientificName` that you undid earlier. This time you should only get two new columns. Why?
-
-> ## Solution
-> 
-> Removing the leading white spaces means that each entry in this column has exactly one space (between the genus and species names). 
-> Therefore, when you split with space as the separator, you will get only two columns.
-{: .solution}
 
 Important: `Undo` the splitting step before moving on to the next lesson. If you skip this step, your solutions 
 for later exercises will not be the same as shown in those exercise solutions.
