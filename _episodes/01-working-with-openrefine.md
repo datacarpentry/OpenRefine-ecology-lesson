@@ -33,12 +33,18 @@ In this first step, we'll browse our computer to the sample data file for this l
 If you haven't already, download the data from:  
 [https://ndownloader.figshare.com/files/7823341](https://ndownloader.figshare.com/files/7823341)
 
-Once OpenRefine is launched in your browser, the left margin has options to `Create Project`, `Open Project`, or `Import Project`. Here we will create a new project:
+Once OpenRefine is launched in your browser, the left margin has options to `Create Project`, `Open Project`, or `Import Project`. 
+
+
+Here we will create a new project:
 
 1. Click `Create Project` and select `Get data from` `This Computer`.  
-2. Click `Choose Files` and select the file `Portal_rodents_19772002_scinameUUIDs.csv`. Click `Open` or double-click on the filename.
+![OpenRefine starting screen](../fig/ORStartScreen.png)
+2. Click `Browse` and select the file `Portal_rodents_19772002_scinameUUIDs.csv`. Click `Open` or double-click on the filename.
 3. Click `Next>>` under the browse button to upload the data into OpenRefine.  
-4. OpenRefine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click `Update Preview` (bottom right). If this is the wrong file, click `<<Start Over` (upper left).
+4. OpenRefine gives you a preview - a chance to show you it understood the file. 
+![OpenRefine import preview](../fig/ORImportScreen.png)
+If, for example, your file was really tab-delimited, the preview might look strange, in which case you would choose the correct separator under "Columns are separated by" (bottom left) and click `Update Preview` (bottom right). If this is the wrong file, click `<<Start Over` (upper left).
 5. If all looks well, click `Create Project>>` (upper right). 
 
 Note that at step 1, you could upload data in a standard form from a web address by selecting `Get data from` `Web Addresses (URLs)`. However, this won't work for all URLs.
@@ -60,8 +66,10 @@ Here we will use faceting to look for potential errors in data entry in the `sci
 
 1. Scroll over to the `scientificName` column.
 2. Click the down arrow and choose `Facet` > `Text facet`.
+![OpenRefine Facet menu](../fig/ORFacetMenu.png)
 3. In the left panel, you'll now see a box containing every unique value in the `scientificName` column 
 along with a number representing how many times that value occurs in the column.
+![Faceting results on scientificName column](..fig/ORFacetedScientificName.png)
 4. Try sorting this facet by name and by count. Do you notice any problems with the data? What are they?
 5. Hover the mouse over one of the names in the `Facet` list. You should see that you have an `edit` function available. 
 6. You could use this to fix an error immediately, and OpenRefine will ask whether you want to make the same correction to every value it finds like that one. But OpenRefine offers even better ways to find and fix these errors, which we'll use instead. We'll learn about these when we talk about clustering.
@@ -124,6 +132,7 @@ In OpenRefine, clustering means "finding groups of different values that might b
 2. In the resulting pop-up window, you can change the `Method` and the `Keying Function`. Try different combinations to 
  see what different mergers of values are suggested.
 3. Select the `key collision` method and `metaphone3` keying function. It should identify three clusters. 
+![Cluster results on the scientificName column](../fig/ORClusteredScientificName.png)
 4. Click the `Merge?` box beside each, then click `Merge Selected and Recluster` to apply the corrections to the dataset.
 4. Try selecting different `Methods` and `Keying Functions` again, to see what new merges are suggested. You may find there are 
  still improvements that can be made, but don't `Merge` again; just `Close` when you're done.  We'll now 
@@ -142,8 +151,10 @@ If data in a column needs to be split into multiple columns, and the parts are s
 
 1. Let us suppose we want to split the `scientificName` column into separate columns for genus and for species. 
 2. Click the down arrow at the top of the `scientificName` column. Choose `Edit Column` > `Split into several columns...`
+ ![OpenRefine Edit Column menu](../fig/OREditColumnMenu.png)
 3. In the pop-up, in the `Separator` box, replace the comma with a space.
 4. Uncheck the box that says `Remove this column`.
+![Split Column screen](../fig/ORSplitColumnScreen.png)
 5. Click `OK`. You'll get some new columns called `scientificName 1`, `scientificName 2`, and so on.
 6. Notice that in some cases `scientificName 1` and `scientificName 2` are empty. Why is this? What do you think we 
 can do to fix this?
@@ -174,9 +185,11 @@ It's common while exploring and cleaning a dataset to discover after you've made
 
 
 1. Click where it says `Undo / Redo` on the left side of the screen. All the changes you have made so far are listed here.
+![Example undo/redo screen](../fig/ORUndoRedoScreen.png)
 2. Click on the step that you want to go back to, in this case the previous step. The added columns will disappear.
 3. Notice that you can still click on the last step and make the columns reappear, and toggle back and forth between these states.
 4. Leave the dataset in the state in which the `scientificNames` were clustered, but not yet split.
+
 
 Important: `Undo` the splitting step before moving on to the next lesson. If you skip this step, your solutions 
 for later exercises will not be the same as shown in those exercise solutions.
