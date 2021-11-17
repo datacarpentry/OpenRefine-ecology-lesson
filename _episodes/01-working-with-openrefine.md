@@ -58,20 +58,20 @@ Facets are one of the most useful features of OpenRefine and can help both get a
 * seeing a big picture of your data, and
 * filtering down to just the subset of rows that you want to change in bulk.
 
-A `Facet` groups all the like values that appear in a column, and allows you to filter the data by those values. It also allows you to edit values across many records at the same time.
+A `facet` groups all the like values that appear in a column, and allows you to filter the data by those values. It also allows you to edit values across many records at the same time.
 
-One type of Facet is called a 'Text facet'. This groups all the identical text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left hand panel in the OpenRefine interface.
+One type of facet is called a 'Text facet'. This groups all the identical text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left hand panel in the OpenRefine interface.
 
 Here we will use faceting to look for potential errors in data entry in the `scientificName` column.
 
 1. Scroll over to the `scientificName` column.
-2. Click the down arrow and choose `Facet` > `Text facet`.
+2. Click the down arrow and choose `facet` > `Text facet`.
 ![OpenRefine Facet menu](../fig/ORFacetMenu.png)
 3. In the left panel, you'll now see a box containing every unique value in the `scientificName` column 
 along with a number representing how many times that value occurs in the column.
 ![Faceting results on scientificName column](..fig/ORFacetedScientificName.png)
 4. Try sorting this facet by name and by count. Do you notice any problems with the data? What are they?
-5. Hover the mouse over one of the names in the `Facet` list. You should see that you have an `edit` function available. 
+5. Hover the mouse over one of the names in the `facet` list. You should see that you have an `edit` function available. 
 6. You could use this to fix an error immediately, and OpenRefine will ask whether you want to make the same correction to every value it finds like that one. But OpenRefine offers even better ways to find and fix these errors, which we'll use instead. We'll learn about these when we talk about clustering.
 
 > ## Solution
@@ -113,10 +113,10 @@ Facets are intended to group together common values and OpenRefine limits the nu
 > 
 > > ## Solution
 > > 
-> > 1. For the column `yr` do `Facet` > `Text facet`. A box will appear in the left panel showing that there are 26 unique entries in
+> > 1. For the column `yr` do `facet` > `Text facet`. A box will appear in the left panel showing that there are 26 unique entries in
 > > this column.  
 > > 2. By default, the column `yr` is formatted as Text. You can change the format by doing `Edit cells` > `Common transforms` > 
-> > `To number`. Doing `Facet` > `Numeric facet` creates a box in the left panel that shows a histogram of the number of 
+> > `To number`. Doing `facet` > `Numeric facet` creates a box in the left panel that shows a histogram of the number of 
 > > entries per year. Notice that the data is shown as a number, not a date. If you instead transform the column to a date, the 
 > > program will assume all entries are on January 1st of the year.   
 > > 3. After creating a facet, click `Sort by count` in the facet box. The year with the most observations is 1997. The least is 1977. 
@@ -128,7 +128,7 @@ Facets are intended to group together common values and OpenRefine limits the nu
 
 In OpenRefine, clustering means "finding groups of different values that might be alternative representations of the same thing". For example, the two strings `New York` and `new york` are very likely to refer to the same concept and just have capitalization differences. Likewise, `Gödel` and `Godel` probably refer to the same person. Clustering is a very powerful tool for cleaning datasets which contain misspelled or mistyped entries. OpenRefine has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work. 
 
-1. In the `scientificName` Text Facet we created in the step above, click the `Cluster` button (or select `Edit cells` > `Cluster and edit`).
+1. In the `scientificName` Text facet we created in the step above, click the `Cluster` button (or select `Edit cells` > `Cluster and edit`).
 2. In the resulting pop-up window, you can change the `Method` and the `Keying Function`. Try different combinations to 
  see what different mergers of values are suggested.
 3. Select the `key collision` method and `metaphone3` keying function. It should identify three clusters. 
