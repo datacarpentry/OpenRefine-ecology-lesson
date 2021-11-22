@@ -19,17 +19,17 @@ OpenRefine is more than a simple data cleaning tool. People are using it for all
 
 OpenRefine has documentation and other resources:
 
-* [OpenRefine web site](http://openrefine.org/)
+* [OpenRefine web site](https://openrefine.org/)
 * [OpenRefine User Manual](https://docs.openrefine.org/)
 * [OpenRefine Blog](https://openrefine.org/category/blog.html)
 * Official wiki [List of OpenRefine External Resources](https://github.com/OpenRefine/OpenRefine/wiki/External-Resources)
 
 In addition, see these other useful resources:
 
-* [Getting started with OpenRefine by Thomas Padilla](http://thomaspadilla.org/dataprep/)
-* [Cleaning Data with OpenRefine by Seth van Hooland, Ruben Verborgh and Max De Wilde](http://programminghistorian.org/lessons/cleaning-data-with-openrefine)
-* [Identifying potential headings for Authority work using III Sierra, MS Excel and OpenRefine](http://epublications.marquette.edu/lib_fac/81/)
-* [Free your metadata website](http://freeyourmetadata.org)
+* [Getting started with OpenRefine by Thomas Padilla](https://thomaspadilla.org/dataprep/)
+* [Cleaning Data with OpenRefine by Seth van Hooland, Ruben Verborgh and Max De Wilde](https://programminghistorian.org/en/lessons/cleaning-data-with-openrefine)
+* [Identifying potential headings for Authority work using III Sierra, MS Excel and OpenRefine](https://epublications.marquette.edu/lib_fac/81/)
+* [Free your metadata website](https://freeyourmetadata.org/)
 * [Cleaning Data with OpenRefine by John Little](https://libjohn.github.io/openrefine/)
 * [Grateful Data](https://github.com/scottythered/gratefuldata/wiki) is a fun site with many resources devoted to OpenRefine, including a nice tutorial.
 
