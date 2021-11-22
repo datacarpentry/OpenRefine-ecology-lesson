@@ -17,18 +17,21 @@ keypoints:
 
 OpenRefine is more than a simple data cleaning tool. People are using it for all sorts of activities. Here are some other resources that might prove useful.
 
-OpenRefine has its own web site with documentation and a book:
+OpenRefine has documentation and other resources:
 
-* [OpenRefine web site](http://openrefine.org/)
+* [OpenRefine web site](https://openrefine.org/)
 * [OpenRefine User Manual](https://docs.openrefine.org/)
-* [Using OpenRefine](http://www.worldcat.org/title/using-openrefine-the-essential-openrefine-guide-that-takes-you-from-data-analysis-and-error-fixing-to-linking-your-dataset-to-the-web/oclc/889271264) book by Ruben Verborgh, Max De Wilde and Aniket Sawant
-* [OpenRefine history from Wikipedia](https://en.wikipedia.org/wiki/OpenRefine)
+* [OpenRefine Blog](https://openrefine.org/category/blog.html)
+* Official wiki [List of OpenRefine External Resources](https://github.com/OpenRefine/OpenRefine/wiki/External-Resources)
 
 In addition, see these other useful resources:
 
+* [Getting started with OpenRefine by Thomas Padilla](https://thomaspadilla.org/dataprep/)
+* [Cleaning Data with OpenRefine by Seth van Hooland, Ruben Verborgh and Max De Wilde](https://programminghistorian.org/en/lessons/cleaning-data-with-openrefine)
+* [Identifying potential headings for Authority work using III Sierra, MS Excel and OpenRefine](https://epublications.marquette.edu/lib_fac/81/)
+* [Free your metadata website](https://freeyourmetadata.org/)
+* [Cleaning Data with OpenRefine by John Little](https://libjohn.github.io/openrefine/)
 * [Grateful Data](https://github.com/scottythered/gratefuldata/wiki) is a fun site with many resources devoted to OpenRefine, including a nice tutorial.
-* [Margaret Heller](http://www.gloriousgeneralist.com/) shows how she uses OpenRefine for [Measuring and Counting Impact in Repositories](http://www.gloriousgeneralist.com/2014/12/notes-on-measuring-and-calculating-impact-in-institutional-repositories/).
-* [Intersect Course Resources](https://github.com/IntersectAustralia/TrainingMaterials/tree/master/or) has Jared Berghold's **Cleaning & Exploring your data with Open Refine**. 
 
 There are more advanced uses of OpenRefine, such as bringing in column or cell data using web locators (URLs or APIs). The links above can give you a start on your journey.
 
