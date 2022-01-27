@@ -26,18 +26,18 @@ To transform cells in the `recordID` column to numbers, click the down arrow for
 > ## Exercise
 >
 > Transform three more columns, including `period`, from text to numbers. Can all columns be transformed to numbers?
-> 
+>
 > > ## Solution
-> > 
-> > Only observations that include only numerals (0-9) can be transformed to numbers. If you apply a number transformation to 
-> > a column that doesn't meet this criteria, and then click the `Undo / Redo` tab, you will see a step that starts with 
+> >
+> > Only observations that include only numerals (0-9) can be transformed to numbers. If you apply a number transformation to
+> > a column that doesn't meet this criteria, and then click the `Undo / Redo` tab, you will see a step that starts with
 > > `Text transform on 0 cells`. This means that the data in that column was not transformed.
-> > 
+> >
 > {: .solution}
 {: .challenge}
 
 ### Numeric facet
-Sometimes there are non-number values or blanks in a column which may represent errors in data entry and we want to find them. 
+Sometimes there are non-number values or blanks in a column which may represent errors in data entry and we want to find them.
 We can do that with a `Numeric facet`.
 
 > ## Exercise
@@ -52,7 +52,7 @@ When done examining the numeric data, remove this facet by clicking the `x` in t
 
 ## Scatterplot facet
 
-Now that we have multiple columns representing numbers, we can see how they relate to one another using the scatterplot facet. Select a numeric column, for example `recordID`, and use the pulldown menu to > `facet` > `Scatterplot facet`. A new window called `Scatterplot Matrix` will appear. There are squares for each pair of numeric columns organized in an upper right triangle. Each square has little dots for the cell values from each row.
+Now that we have multiple columns representing numbers, we can see how they relate to one another using the scatterplot facet. Select a numeric column, for example `recordID`, and use the pulldown menu to > `Facet` > `Scatterplot facet`. A new window called `Scatterplot Matrix` will appear. There are squares for each pair of numeric columns organized in an upper right triangle. Each square has little dots for the cell values from each row.
 
 > ## Exercise
 >
@@ -62,7 +62,7 @@ Now that we have multiple columns representing numbers, we can see how they rela
 
 ## Examine pair of columns in detail
 
-We can examine one pair of columns by clicking on its square in the `Scatterplot Matrix` A new facet with only that pair will appear in the left margin. 
+We can examine one pair of columns by clicking on its square in the `Scatterplot Matrix` A new facet with only that pair will appear in the left margin.
 
 > ## Exercise
 >
@@ -70,7 +70,7 @@ We can examine one pair of columns by clicking on its square in the `Scatterplot
 {: .challenge}
 
 > ## Exercise
-> 
+>
 > - Click on the `Scatterplot Matrix` square for `recordID` and `period` to get that as a facet in the left margin.
 > - Redo the `Text filter` on `scientificName` to show only entries including the letters `bai`.
 > Notice the change in the scatterplot. It might be easier to see if you click `export plot` to put it on a new browser tab.

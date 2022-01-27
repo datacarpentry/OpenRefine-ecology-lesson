@@ -29,7 +29,7 @@ There are many entries in our data table. We can filter it to work on a subset o
 > 2. How would you restrict this to one of the species selected?  
 >
 > > ## Solution
-> > 1. Do `facet` > `Text facet` on the `scientificName` column after filtering. This will show that
+> > 1. Do `Facet` > `Text facet` on the `scientificName` column after filtering. This will show that
 > > two names match your filter criteria. They are `Baiomys taylori` and `Chaetodipus baileyi`.   
 > > 2. To restrict to only one of these two species, you could:
 > > * Check the `case sensitive` box within the `scientificName` facet. Once you do this, you will see that using the upper-case `Bai` will only > > return `Baiomys taylori`, while using lower-case `bai` will only return `Chaetodipus baileyi`.
@@ -41,7 +41,7 @@ There are many entries in our data table. We can filter it to work on a subset o
 ### Excluding entries
 
 
-In addition to the solutions included above, another way to narrow our filter is to `include` and/or `exclude` entries in a facet. If you still have your facet for `scientificName`, you can use it, or use drop-down menu > `facet` > `Text facet` to create a new facet. Only the entries with names that agree with your `Text filter` will be included in this facet.
+In addition to the solutions included above, another way to narrow our filter is to `include` and/or `exclude` entries in a facet. If you still have your facet for `scientificName`, you can use it, or use drop-down menu > `Facet` > `Text facet` to create a new facet. Only the entries with names that agree with your `Text filter` will be included in this facet.
 
 Faceting and filtering look very similar. A good distinction is that faceting gives you an overview description of all the data that
 is currently selected, while filtering allows you to select a subset of your data for analysis.

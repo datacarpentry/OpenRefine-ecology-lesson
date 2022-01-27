@@ -69,7 +69,7 @@ One type of facet is called a 'Text facet'. This groups all the identical text v
 Here we will use faceting to look for potential errors in data entry in the `scientificName` column.
 
 1. Scroll over to the `scientificName` column.
-2. Click the down arrow and choose `facet` > `Text facet`.
+2. Click the down arrow and choose `Facet` > `Text facet`.
 
     ![OpenRefine Facet menu](../fig/ORFacetMenu.png)
 
@@ -121,10 +121,10 @@ Facets are intended to group together common values and OpenRefine limits the nu
 >
 > > ## Solution
 > >
-> > 1. For the column `yr` do `facet` > `Text facet`. A box will appear in the left panel showing that there are 26 unique entries in
+> > 1. For the column `yr` do `Facet` > `Text facet`. A box will appear in the left panel showing that there are 26 unique entries in
 > > this column.  
 > > 2. By default, the column `yr` is formatted as Text. You can change the format by doing `Edit cells` > `Common transforms` >
-> > `To number`. Doing `facet` > `Numeric facet` creates a box in the left panel that shows a histogram of the number of
+> > `To number`. Doing `Facet` > `Numeric facet` creates a box in the left panel that shows a histogram of the number of
 > > entries per year. Notice that the data is shown as a number, not a date. If you instead transform the column to a date, the
 > > program will assume all entries are on January 1st of the year.   
 > > 3. After creating a facet, click `Sort by count` in the facet box. The year with the most observations is 1997. The least is 1977.
@@ -143,7 +143,7 @@ In OpenRefine, clustering means "finding groups of different values that might b
 
     ![Cluster results on the scientificName column](../fig/ORClusteredScientificName.png)
 
-4. Click the `Merge?` box beside each, then click `Merge Selected and Recluster` to apply the corrections to the dataset.
+4. Click the `Merge?` box beside each, then click `Merge Selected & Re-Cluster` to apply the corrections to the dataset.
 4. Try selecting different `Methods` and `Keying Functions` again, to see what new merges are suggested. You may find there are
  still improvements that can be made, but don't `Merge` again; just `Close` when you're done.  We'll now
  see other operations that will help us detect and correct the remaining problems, and that have other, more general uses.
@@ -160,7 +160,7 @@ If data in a column needs to be split into multiple columns, and the parts are s
 
 
 1. Let us suppose we want to split the `scientificName` column into separate columns for genus and for species.
-2. Click the down arrow at the top of the `scientificName` column. Choose `Edit Column` > `Split into several columns...`
+2. Click the down arrow at the top of the `scientificName` column. Choose `Edit column` > `Split into several columns...`
 
     ![OpenRefine Edit Column menu](../fig/OREditColumnMenu.png)
 
