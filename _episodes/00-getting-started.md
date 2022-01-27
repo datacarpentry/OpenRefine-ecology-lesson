@@ -32,11 +32,11 @@ keypoints:
   undone.
 - Some concepts such as clustering algorithms are quite complex, but OpenRefine
   makes it easy to introduce them, use them, and show their power.
-  
+
   >**Note:** You must export your modified dataset to a new file: OpenRefine does **not**
   write back into your original sources. If you don't save it, your OpenRefine
   work will be lost.
- 
+
 ## Before we get started
 
 
@@ -44,19 +44,19 @@ The following setup is necessary before we can get started (see the [instruction
 
 Do you need help with any of the following?
 
-- Download and install OpenRefine 3.4.1 from <https://openrefine.org/download.html>
+- Download and install OpenRefine 3.5.2 from <https://openrefine.org/download.html>
 - Download this [data file](https://ndownloader.figshare.com/files/7823341) and save to your desktop
 - If after installation and running OpenRefine, it does not automatically open for you, point your browser at <http://127.0.0.1:3333/> or <http://localhost:3333/> to launch the program.
-  
-  
+
+
 What is OpenRefine?
 
  - OpenRefine is a Java program that runs on your machine (not in the cloud): it is a desktop application that uses your web browser as a graphical interface. No internet connection is needed, and none of the data or commands you enter in OpenRefine are sent to a remote server.
  - OpenRefine does not modify your original dataset. All actions are easily reversed in OpenRefine and you can capture all the actions applied to your data and share this documentation with your publication as supplemental material.
  - OpenRefine saves as you go. You can return to the project at any time to pick up where you left off or export your data to a new file.
  - OpenRefine can be used to standardise and clean data across your file.
-    
-    
+
+
 It can also help you
 
 - Get an overview of a data set
