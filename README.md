@@ -8,7 +8,7 @@ Lesson on OpenRefine for ecology
 
 ### Current Maintainers
 
-Coming soon...
+ * Luis J. Villanueva (villanueval@si.edu)
 
 ### Past Maintainers
 
