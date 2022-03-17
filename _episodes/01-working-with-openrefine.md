@@ -115,19 +115,19 @@ Facets are intended to group together common values and OpenRefine limits the nu
 >
 > 1. Using faceting, find out how many years are represented in the census.  
 >
-> 2. Is the column formatted as Number, Date, or Text? How does changing the format change the faceting display?
->
 > 3. Which years have the most and least observations?
+>
+> 2. Is the column formatted as Number, Date, or Text? How does changing the format change the faceting display?
 >
 > > ## Solution
 > >
 > > 1. For the column `yr` do `Facet` > `Text facet`. A box will appear in the left panel showing that there are 26 unique entries in
 > > this column.  
+> > 3. After creating a facet, click `Sort by count` in the facet box. The year with the most observations is 1997. The least is 1977.
 > > 2. By default, the column `yr` is formatted as Text. You can change the format by doing `Edit cells` > `Common transforms` >
 > > `To number`. Doing `Facet` > `Numeric facet` creates a box in the left panel that shows a histogram of the number of
 > > entries per year. Notice that the data is shown as a number, not a date. If you instead transform the column to a date, the
 > > program will assume all entries are on January 1st of the year.   
-> > 3. After creating a facet, click `Sort by count` in the facet box. The year with the most observations is 1997. The least is 1977.
 > >
 > {: .solution}
 {: .challenge}
