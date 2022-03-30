@@ -40,15 +40,17 @@ Here we will create a new project:
 
 1. Click `Create Project` and select `Get data from` `This Computer`.  
 
-![OpenRefine starting screen](../fig/ORStartScreen.png)
+    ![OpenRefine starting screen](../fig/ORStartScreen.png)
 
 2. Click `Browse` and select the file `Portal_rodents_19772002_scinameUUIDs.csv`. Click `Open` or double-click on the filename.
 3. Click `Next>>` under the browse button to upload the data into OpenRefine.  
 4. OpenRefine gives you a preview - a chance to show you it understood the file.
 
-![OpenRefine import preview](../fig/ORImportScreen.png)
+    ![OpenRefine import preview](../fig/ORImportScreen.png)
 
-If, for example, your file was really tab-delimited, the preview might look strange, in which case you would choose the correct separator under "Columns are separated by" (bottom left) and click `Update Preview` (bottom right). If this is the wrong file, click `<<Start Over` (upper left).
+    If, for example, your file was really tab-delimited, the preview might look strange, in which case you would choose the correct separator under "Columns are separated by" (bottom left) and click `Update Preview` (bottom right). If this is the wrong file, click `<<Start Over` (upper left).
+
+5. From OpenRefine 3.4 onwards there is an option to Trim leading & trailing whitespace from strings when importing separator-based files. Keeping this checked will ensure that values like `English` and `English `, which differ by a single trailing space, are not treated as different values after the import.
 5. If all looks well, click `Create Project>>` (upper right).
 
 Note that at step 1, you could upload data in a standard form from a web address by selecting `Get data from` `Web Addresses (URLs)`. However, this won't work for all URLs.
