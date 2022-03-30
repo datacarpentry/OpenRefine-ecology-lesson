@@ -141,7 +141,7 @@ In OpenRefine, clustering means "finding groups of different values that might b
 1. In the `scientificName` Text facet we created in the step above, click the `Cluster` button (or select `Edit cells` > `Cluster and edit`).
 2. In the resulting pop-up window, you can change the `Method` and the `Keying Function`. Try different combinations to
  see what different mergers of values are suggested.
-3. Select the `key collision` method and `metaphone3` keying function. It should identify three clusters.
+3. Select the `key collision` method and `metaphone3` keying function. It should identify two clusters.
 
     ![Cluster results on the scientificName column](../fig/ORClusteredScientificName.png)
 
@@ -172,16 +172,7 @@ If data in a column needs to be split into multiple columns, and the parts are s
     ![Split Column screen](../fig/ORSplitColumnScreen.png)
 
 5. Click `OK`. You'll get some new columns called `scientificName 1`, `scientificName 2`, and so on.
-6. Notice that in some cases `scientificName 1` and `scientificName 2` are empty. Why is this? What do you think we
-can do to fix this?
 
-> ## Solution
->
-> The entries that have data in `scientificName 3` and `scientificName 4` but not the first two `scientificName` columns
-> had an extra space at the beginning of the entry. Leading white spaces are very difficult to notice when cleaning data
-> manually. This is another advantage of using OpenRefine to clean your data. We'll look at how to
-> fix leading and trailing white spaces in a later exercise.
-{: .solution}
 
 > ## Exercise
 >
