@@ -46,7 +46,7 @@ Here we will create a new project:
 3. Click `Next>>` under the browse button to upload the data into OpenRefine.  
 4. OpenRefine gives you a preview - a chance to show you it understood the file.
 
-    ![OpenRefine import preview](../fig/ORImportScreen.png)
+    ![OpenRefine import preview](../fig/ORImportScreen2.png)
 
     If, for example, your file was really tab-delimited, the preview might look strange, in which case you would choose the correct separator under "Columns are separated by" (bottom left) and click `Update Preview` (bottom right). If this is the wrong file, click `<<Start Over` (upper left).
 
