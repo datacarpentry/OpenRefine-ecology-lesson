@@ -14,7 +14,9 @@ title: "Instructor Notes"
 
 ### OpenRefine version
 
-The current version of the lesson has been tested with OpenRefine 3.4.1. Using older versions is not recommended, behavior may be different and cause confusion in the learners.
+The current version of the lesson has been tested with OpenRefine 3.5.2. Using older versions is not recommended, behavior may be different and cause confusion in the learners.
+
+Windows users should download the "Windows kit with embedded Java" version to avoid having to install Java. 
 
 ### Creating a Project
 
@@ -23,7 +25,7 @@ Start the program. (Double-click on the openrefine.exe file. Java services will 
 Note the file types OpenRefine handles: TSV, CSF, *SV, Excel (.xls .xlsx), JSON, XML, RDF as XML, Google Data documents. Support for other formats can be added with OpenRefine extensions.
 
 In this first step, we'll browse our computer to the sample data file for this lesson (If you haven't already, download the data from:
-https://ndownloader.figshare.com/files/7823341). In this case, I've modified the Portal_rodents.csv file. I added several columns: scientificName, locality, county, state, country and I generated several more columns in the lesson itself (JSON, decimalLatitude, decimalLongitude). Data in locality, county, country, JSON, decimalLatitude and decimalLongitude are contrived and are in no way related to the original dataset. 
+https://ndownloader.figshare.com/files/7823341). In this case, I've modified the Portal_rodents.csv file. I added several columns: scientificName, locality, county, state, country and I generated several more columns in the lesson itself (JSON, decimalLatitude, decimalLongitude). Data in locality, county, country, JSON, decimalLatitude and decimalLongitude are contrived and are in no way related to the original dataset.
 
 **Once OpenRefine is open, you'll be asked if you want to Create, Open, or Import a Project.**
 
@@ -53,17 +55,17 @@ Typically, you create a facet on a particular column. The facet summarizes the c
 ### Clustering
 In OpenRefine, clustering refers to the operation of "finding groups of different values that might be alternative representations of the same thing". For example, the two strings "New York" and "new york" are very likely to refer to the same concept and just have capitalization differences. Likewise, "Gödel" and "Godel" probably refer to the same person.
 
-One of the most magical bits of OpenRefine, the moment you realize what you've been missing. OpenRefine has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work. 
+One of the most magical bits of OpenRefine, the moment you realize what you've been missing. OpenRefine has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work.
 
 [More on clustering](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth)
 
   - In this example, in the scientificName Text Facet we created in the step above, click the _Cluster_ button.
   - In the resulting pop-up window, you can change the algorithm method, and keying function. Try different combinations to see the difference.
-  - For example, with this dataset, the _nearest neighbor_ method with the _PPM_ keying function shows the power of clustering the best. 
-  - Intentional errors in these scientific names have been introduced to show how errors (typos) in any position can be found with this method. All errors can then be fixed by simply entering the correct value in the box on the right. Often, the algorithm has guessed correctly. 
+  - For example, with this dataset, the _nearest neighbor_ method with the _PPM_ keying function shows the power of clustering the best.
+  - Intentional errors in these scientific names have been introduced to show how errors (typos) in any position can be found with this method. All errors can then be fixed by simply entering the correct value in the box on the right. Often, the algorithm has guessed correctly.
   - After corrections are made in this window, you can either Merge and Close the Cluster pop-up, or Merge and Re-cluster.
 
-### Split / Leading - Trailing Whitespace / Undo - Redo
+### Split / Undo - Redo
 
 If data in a column needs to be split into multiple columns, and the strings in the cells are separated by a common separator (say a comma, or a space), you can use that separator to divide up the bits into their own columns.
 
@@ -72,8 +74,6 @@ If data in a column needs to be split into multiple columns, and the strings in 
   - In the pop-up, for separator, remove the comma, put in a space
   - Remove the check in the box that says "remove column after splitting"
   - You'll get two extra columns called, in this case: scientificName 1, scientificName 2
-  - This will reveal an error in a few names that have spaces at the beginning (so-called leading white space).
-  - These can be easily removed with another OpenRefine feature in the column drop-down choices. See drop-down: Edit cells > Common transforms > Remove leading and trailing whitespace
   - To Undo create columns, look just above the scientificName cluster in the left side of the screen. Click where it says Undo / Redo. Click back one step (all steps, all changes are saved here). Just go back to the previous step and click. The extra columns will be gone.
 
 ## Common problems
