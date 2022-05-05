@@ -2,7 +2,8 @@
 [![Slack Status](https://img.shields.io/badge/Slack_Channel-dc--ecology--openref-E01563.svg)](https://swcarpentry.slack.com/messages/C9Y0RDGPQ) 
 
 # OpenRefine-ecology
-Lesson on OpenRefine for ecology
+
+**Data Cleaning with OpenRefine for Ecologists** Lesson for [Data Carpentry](https://datacarpentry.org/lessons/#ecology-workshop)
 
 ## Maintainers
 
@@ -14,7 +15,7 @@ Lesson on OpenRefine for ecology
 
 Coming soon...
 
-## Version
+## OpenRefine Version
 
 The current version has been tested with OpenRefine 3.5.2.
 
