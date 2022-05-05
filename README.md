@@ -16,7 +16,7 @@ Coming soon...
 
 ## Version
 
-The current version has been tested with OpenRefine 3.4.1.
+The current version has been tested with OpenRefine 3.5.2.
 
 ## Data set notes
 
