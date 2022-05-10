@@ -1,4 +1,4 @@
-[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/) 
+[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)
 [![Slack Status](https://img.shields.io/badge/Slack_Channel-dc--ecology--openref-E01563.svg)](https://swcarpentry.slack.com/messages/C9Y0RDGPQ)
 
 # OpenRefine-ecology
@@ -11,9 +11,49 @@
 
  * Luis J. Villanueva (villanueval@si.edu)
 
-### Past Maintainers
+### Past Authors and Maintainers
 
-Coming soon...
+* Abigail Cabunoc
+*	Aleksandra Nenadic
+*	April M. Wright
+*	Betty Rozum
+*	Bill Mills
+*	Brian Yandell
+*	C. Titus Brown
+*	Cam Macdonell
+*	Dan Mazur
+*	Debbie Paul
+*	Erin Becker
+*	Francois Michonneau
+*	Gabriel A. Devenyi
+*	Greg Wilson
+*	Hilmar Lapp
+*	Hugo Tavares
+*	Ian Carroll
+*	James Allen
+*	James Mickley
+*	Jeffrey W. Hollister
+*	Jon Pipitone
+*	Jonah Duckles
+*	Kari L. Jordan
+*	Lisa Zilinski
+*	Maxim Belkin
+*	Michael Hansen
+*	Nick Young
+*	Piotr Banaszkiewicz
+*	Raniere Silva
+*	Ross Dickson
+*	Ryan E. Johnson
+*	Rémi Emonet
+*	Timothée Poisot
+*	Tracy Teal
+*	W. Trevor King
+*	Zack Brym
+*	dlstrong
+*	evanwill
+* trelogan
+
+See the [Authors](AUTHORS) page for details.
 
 ## OpenRefine Version
 
