@@ -17,7 +17,7 @@ keypoints:
 
 # Lesson
 
-## Scripts
+## Export the Steps to Clean Up the Data
 
 As you conduct your data cleaning and preliminary analysis, OpenRefine saves every change you make to the dataset. These
 changes are saved in a format known as JSON (JavaScript Object Notation). You can export this JSON script and apply it to other data files. If you had 20 files to clean, and they all had the same type of errors (e.g. species name misspellings, leading white spaces), and all

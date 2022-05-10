@@ -6,7 +6,7 @@ title: Setup
 > ## Data
 > **Download** this data file to your computer: [https://ndownloader.figshare.com/files/7823341](https://ndownloader.figshare.com/files/7823341)
 >
-> #### About the data
+> ### About the data
 > The data for this lesson is a part of the Data Carpentry Ecology workshop.
 > It is a teaching version of the Portal Database. The data in this lesson
 > is a subset of the teaching version that has been intentionally 'messed up'
@@ -36,23 +36,23 @@ title: Setup
 >  * Opera
 >  * Microsoft Edge
 >  
-> OpenRefine has some issues with Firefox and Internet Explorer is not supported. Learn how to set your browser as default by clicking on this link for [Google Chrome](https://support.google.com/chrome/answer/95417?co=GENIE.Platform%3DDesktop&hl=en-GB) and this link for [Firefox](https://support.mozilla.org/en-US/kb/make-firefox-your-default-browser).
+> OpenRefine has some issues with Firefox. Internet Explorer is not supported.
 {: .prereq}
 
 
-#### Windows
+### Windows
 
 - Go to your newly created OpenRefine directory.
 - Launch OpenRefine by double clicking on `openrefine.exe` (this will launch a command prompt window first; ignore that, and wait for OpenRefine to launch in the web browser, which is where you will interact with the program).
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
 
-#### Mac
+### Mac
 
 - Go to your newly created OpenRefine directory.
 - Drag the OpenRefine icon into Applications folder, and `Ctrl-click/Open…` it.
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
 
-#### Linux
+### Linux
 
 - Navigate to your newly created OpenRefine directory using the command line.
 - Type `./refine` into the terminal within the OpenRefine directory

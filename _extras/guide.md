@@ -16,11 +16,15 @@ title: "Instructor Notes"
 
 The current version of the lesson has been tested with OpenRefine 3.5.2. Using older versions is not recommended, behavior may be different and cause confusion in the learners.
 
-Windows users should download the "Windows kit with embedded Java" version to avoid having to install Java. 
+Windows users should download the "Windows kit with embedded Java" version from the [Download page](https://openrefine.org/download.html) to avoid having to install Java.
+
+Mac users can use the kit available in the [Download page](https://openrefine.org/download.html), Java does not have to be installed separately.
+
+Linux users must install Java in their system.
 
 ### Creating a Project
 
-Start the program. (Double-click on the openrefine.exe file. Java services will start on your machine, and OpenRefine will open in your browser).
+Start the program. (Double-click on the openrefine.exe file. A command line box might show up, this needs to be left open, and OpenRefine will open in the browser).
 
 Note the file types OpenRefine handles: TSV, CSF, *SV, Excel (.xls .xlsx), JSON, XML, RDF as XML, Google Data documents. Support for other formats can be added with OpenRefine extensions.
 
@@ -83,6 +87,6 @@ If data in a column needs to be split into multiple columns, and the strings in 
 * Mac users with the newest operating system will have to allow this to run by "allowing everything" to run. They can change the setting back after the exercise.
 
 * Some students will run into issues with
-  - unzipping
+  - unzipping, don't run from the zip file
   - finding the .exe file once the software has been unzipped
   - finding the data file on their computers after downloading
