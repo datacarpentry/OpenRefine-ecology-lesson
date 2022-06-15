@@ -33,9 +33,7 @@ keypoints:
 - Some concepts such as clustering algorithms are quite complex, but OpenRefine
   makes it easy to introduce them, use them, and show their power.
 
-  >**Note:** You must export your modified dataset to a new file: OpenRefine does **not**
-  write back into your original sources. If you don't save it, your OpenRefine
-  work will be lost.
+  >**Note:** You must export your modified dataset to a new file: OpenRefine does not save over the original source file. All changes are stored in the OpenRefine project.
 
 ## Before we get started
 
