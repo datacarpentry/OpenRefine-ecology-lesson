@@ -34,3 +34,8 @@ the changes you make to automatically document the data cleaning process.
 > developed software, OpenRefine is adding new features or changing visual elements. Screenshots in this lesson have been made with 
 > OpenRefine 3.3 and may have became out-of-date or not look identical as on your computer.
 {: .callout}
+
+> ## For Instructors
+> If you are teaching this lesson in a workshop, please see the
+> [Instructor Notes](guide/).
+{: .callout}

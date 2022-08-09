@@ -6,8 +6,8 @@
 # swc: Software Carpentry
 # dc: Data Carpentry
 # lc: Library Carpentry
-# cp: Carpentries (to use for instructor traning for instance)
-carpentry: "dc"
+# cp: Carpentries (to use for instructor training for instance)
+carpentry: "softwaresaved"
 
 # Overall title for pages.
 title: "Data Cleaning with OpenRefine"
