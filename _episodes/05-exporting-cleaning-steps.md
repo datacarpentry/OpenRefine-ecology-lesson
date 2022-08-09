@@ -3,16 +3,14 @@ title: "Exporting Data Cleaning Steps"
 teaching: 10
 exercises: 5
 questions:
-- "How can we document the data-cleaning steps we've applied to our data?"
+- "How can we document the cleaning steps we've applied to our data?"
 - "How can we apply these steps to additional data sets?"
 objectives:
-- "Describe how OpenRefine generates JSON code."
-- "Demonstrate ability to export JSON code from OpenRefine."
-- "Save JSON code from an analysis."
-- "Apply saved JSON code to an analysis."
+- "Demonstrate ability to export cleaning steps as JSON code from OpenRefine"
+- "Apply the saved cleaning steps to a different dataset to repeat the cleaning process"
 keypoints:
-- "All changes are being tracked in OpenRefine (apart from individual cell changes and sorting!), and this information can be used for scripts for future analyses or reproducing an analysis."
-- "Scripts can (and should) be published together with the dataset as part of the digital appendix of the research output."
+- "All changes are being tracked in OpenRefine (apart from individual cell changes and sorting!), and this information can be used for scripts for future analyses or reproducing an analysis"
+- "Scripts can (and should) be published together with the dataset as part of the digital appendix of the research output"
 ---
 
 ## Scripts

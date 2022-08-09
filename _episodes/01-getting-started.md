@@ -5,14 +5,14 @@ exercises: 0
 questions:
 - "How is OpenRefine useful?"
 objectives:
-- "Describe OpenRefine’s uses and applications."
-- "Differentiate data cleaning from data organisation."
-- "Experiment with OpenRefine’s user interface."
-- "Locate helpful resources to learn more about OpenRefine."
+- "Describe OpenRefine’s uses and applications"
+- "Differentiate data cleaning from data organisation"
+- "Experiment with OpenRefine’s user interface"
+- "Locate helpful resources to learn more about OpenRefine"
 keypoints:
-- "OpenRefine is a powerful and free, open source tool that can be used for data cleaning."
+- "OpenRefine is a powerful and free, open source tool that can be used for data cleaning"
 - "OpenRefine will automatically track any steps you take in working with your data, and will leave your original 
-data intact."
+data intact"
 ---
 
 ## What is OpenRefine?

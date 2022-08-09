@@ -6,10 +6,10 @@ questions:
 - "How can we select only a subset of our data to work with?"
 - "How can we sort our data?"
 objectives:
-- "Employ text filters or sub-setting options in facets to filter to a subset of rows."
-- "Sort data by one or multiple columns."
+- "Employ text filters or sub-setting options in facets to filter to a subset of rows"
+- "Sort data by one or multiple columns"
 keypoints:
-- "OpenRefine provides various ways to sort and filter data without affecting the raw data."
+- "OpenRefine provides various ways to sort and filter data without affecting the raw data"
 ---
 
 ## Filtering data

@@ -5,8 +5,8 @@ exercises: 0
 questions:
 - "What other resources are available for working with OpenRefine?"
 objectives:
-- "Explore the online resources available for more information on OpenRefine."
-- "Identify other resources about OpenRefine."
+- "Explore the online resources available for more information on OpenRefine"
+- "Identify other resources about OpenRefine"
 keypoints:
 - "Other examples and resources online are good for learning more about OpenRefine"
 ---

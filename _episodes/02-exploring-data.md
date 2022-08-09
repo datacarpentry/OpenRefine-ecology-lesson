@@ -9,10 +9,10 @@ questions:
 - "How can we edit data to fix errors?"
 - "How can we convert column data from one data type to another?"
 objectives:
-- "Create a new OpenRefine project from a CSV file."
-- "Learn about different types of facets and how they can be used to summarise data of different data types."
+- "Create a new OpenRefine project from a CSV file"
+- "Learn about different types of facets and how they can be used to summarise data of different data types"
 keypoints:
-- "Faceting can identify errors or outliers in data."
+- "Faceting can identify errors or outliers in data"
 ---
 
 ## Creating a project

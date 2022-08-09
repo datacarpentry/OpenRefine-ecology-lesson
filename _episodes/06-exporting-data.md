@@ -5,11 +5,11 @@ exercises: 5
 questions:
 - "How can we save and export our cleaned data from OpenRefine?"
 objectives:
-- "Save an OpenRefine project."
-- "Export cleaned data from an OpenRefine project."
+- "Save an OpenRefine project"
+- "Export the cleaned data from an OpenRefine project"
 keypoints:
-- "Cleaned data or entire projects can be exported from OpenRefine."
-- "Projects can be shared with collaborators, enabling them to see, reproduce and check all data cleaning steps you performed."
+- "Cleaned data or entire projects can be exported from OpenRefine"
+- "Projects can be shared with collaborators, enabling them to see, reproduce and check all data cleaning steps you performed"
 ---
 
 OpenRefine saves your project as you work automatically, so you don't need to worry about saving. It saves 

@@ -5,14 +5,14 @@ exercises: 10
 questions:
 - "How can we transform our data to correct errors?"
 objectives:
-- "Learn about clustering and how it is applied to group and edit typos."
-- "Split values from one column into multiple columns."
-- "Manipulate data using previous cleaning steps with undo/redo."
-- "Remove leading and trailing white spaces from cells."
-- "Learn to use GREL (General Refine Expression Language) for advanced data transformations."
+- "Learn about clustering and how it is applied to group and edit typos"
+- "Split values from one column into multiple columns"
+- "Manipulate data using previous cleaning steps with undo/redo"
+- "Remove leading and trailing white spaces from cells"
+- "Learn to use GREL (General Refine Expression Language) for advanced data transformations"
 keypoints:
-- "Clustering can identify outliers in data and help us fix errors in bulk."
-- "GREL (General Refine Expression Language) is a powerful tool for transforming data."
+- "Clustering can identify outliers in data and help us fix errors in bulk"
+- "GREL (General Refine Expression Language) is a powerful tool for transforming data"
 ---
 
 So far we have learned to use various facets to inspect and explore our data. Text facet 
