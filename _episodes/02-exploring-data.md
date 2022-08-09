@@ -41,14 +41,20 @@ project and import our portal rodents data.
 5. If all looks well, click `Create Project>>` in the top right. You will be presented with a view onto your data. This
    is OpenRefine!
 
-Let's now start exploring and getting a higher-level overview of our data - summarising and looking for potential 
-outliers and errors.
+> ## OpenRefine does not modify your original dataset
+> Once your data is imported into a project - OpenRefine leaves your raw data intact and works on a copy which it creates 
+> inside the newly created project. All the data transformation and cleaning steps you apply will be performed on this copy 
+> and you can easily undo any changes too.
+{: .callout}
 
 > ## Data file types supported
 > OpenRefine can import a variety of different file types, including tab separated (`tsv`), 
 > comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, and Google Spreadsheets. 
 > See the [OpenRefine Importers page](https://github.com/OpenRefine/OpenRefine/wiki/Importers) for more information.
-{: .callout}
+{: .testimonial}
+
+Let's now start exploring and getting a higher-level overview of our data - summarising and looking for potential
+outliers and errors.
 
 ## Data faceting
 
