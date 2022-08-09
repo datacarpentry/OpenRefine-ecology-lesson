@@ -65,7 +65,7 @@ One of the most magical bits of OpenRefine, the moment you realize what you've b
   - Intentional errors in these scientific names have been introduced to show how errors (typos) in any position can be found with this method. All errors can then be fixed by simply entering the correct value in the box on the right. Often, the algorithm has guessed correctly.
   - After corrections are made in this window, you can either Merge and Close the Cluster pop-up, or Merge and Re-cluster.
 
-### Split / Undo - Redo
+### Splitting
 
 If data in a column needs to be split into multiple columns, and the strings in the cells are separated by a common separator (say a comma, or a space), you can use that separator to divide up the bits into their own columns.
 
@@ -74,11 +74,15 @@ If data in a column needs to be split into multiple columns, and the strings in 
   - In the pop-up, for separator, remove the comma, put in a space
   - Remove the check in the box that says "remove column after splitting"
   - You'll get two extra columns called, in this case: scientificName 1, scientificName 2
+  - This will reveal an error in a few names that have spaces at the beginning (so-called leading white space).
+  - These can be easily removed with another OpenRefine feature in the column drop-down choices. See drop-down: Edit cells > Common transforms > Remove leading and trailing whitespace
   - To Undo create columns, look just above the scientificName cluster in the left side of the screen. Click where it says Undo / Redo. Click back one step (all steps, all changes are saved here). Just go back to the previous step and click. The extra columns will be gone.
 
 ## Common problems
 
 * If learners are using a browser other than Firefox, or OpenRefine does not automatically open for them when they click the .exe file, have them point their browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
+
+* Some have issues getting OpenRefine to run on Windows. The fix seems to be to install Java (JDK + JRE) and add "JAVA_HOME" and "JDK_HOME" to the environment. This thread includes steps to diagnose possible issues, and links on how to set up environment variables.
 
 * Mac users with the newest operating system will have to allow this to run by "allowing everything" to run. They can change the setting back after the exercise.
 
@@ -86,3 +90,11 @@ If data in a column needs to be split into multiple columns, and the strings in 
   - unzipping
   - finding the .exe file once the software has been unzipped
   - finding the data file on their computers after downloading
+  
+ * If OpenRefine crashes when launched from a network share drive, do the following:
+    - Copy the OpenRefine folder to a local drive not mapped to a network share, e.g. "C:\Users\JaneDoe".
+    - Open cmd, e.g. Windows black screen.
+    - Change the working directory to the OpenRefine folder at "C:\Users\JaneDoe".
+    - Run openrefine.exe.
+    - For unknown reason, double clicking on openrefine.exe at the local drive also result in crash but calling from the command line doesn't.
+    - This bug was reported before at OpenRefine/OpenRefine#1004.
