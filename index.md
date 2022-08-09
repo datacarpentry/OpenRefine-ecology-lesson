@@ -3,33 +3,34 @@ layout: lesson
 root: .
 ---
 
-Before you can analyze data you need to clean it. Data cleaning identifies errors and corrects formatting to create consistent data. This step must be taken with extreme care and attention because without clean data the results of analysis may be false and non-reproducible.
+> ## Credit: Data Carpentry 
+> This lesson is based on [Data Carpentry's](https://datacarpentry.org.) "Data Cleaning In OpenRefine" lessons from the [ecology](https://datacarpentry.org/lessons/#ecology-workshop) and [social 
+> sciences](https://datacarpentry.org/lessons/#social-science-curriculum) curricula.
+{: .testimonial} 
 
-OpenRefine is a powerful free and open source tool for working with messy data: cleaning it and transforming it from one format into another.
+Most, if not all, real world data is messy. It includes errors, corruptions, inaccuracies and inconsistencies. Before
+data analysis can take place, *data cleaning* is needed to identify and correct errors, 
+and make the data structure and formatting consistent. This process has the potential to radically change the data,
+so it must be completed with the same care and attention to reproducibility as the data analysis itself.
 
-This lesson will teach you to use OpenRefine to clean and format
-data effectively and automatically track any changes that you make. Many people comment
-that this tool saves them literally months of work trying to make these
-edits by hand.
+Consistent and transparent manipulation of data is not a task that is well suited to
+spreadsheets. Fortunately, we have [OpenRefine](https://openrefine.org/) (previously known as Google Refine): a powerful
+and free, open-source tool that was purpose-built to help clean messy data. Many people comment
+that using OpenRefine for data cleaning saves them literally months of work.
 
+This lesson will teach you how to use OpenRefine to clean and format data, and will show you how it tracks
+the changes you make to automatically document the data cleaning process. 
 
 > ## Getting Started
+> This lesson assumes no prior knowledge of the computational skills or tools apart from the basic 
+> understanding of tabular data stored in spreadsheets.
 >
-> Data Carpentry's teaching is hands-on, so participants are encouraged to use
-> their own computers to ensure the proper setup of tools for an efficient
-> workflow. <br>**These lessons assume no prior knowledge of the skills or tools.**
->
-> To get started, follow the directions in the "[Setup](setup.html)" tab to
-> download data to your computer and follow any installation instructions.
->
-> #### Prerequisites
->
-> This lesson requires a working copy of OpenRefine 3.5.2.
-> <br>To most effectively use these materials, please make sure to install
-> everything *before* working through this lesson.
+> To get started, follow the directions in the "[Setup](https://southampton-rsg.github.io/openrefine-data-cleaning/setup.html)" section to download the
+> data we will use during the lesson.
 {: .prereq}
 
-> ## For Instructors
-> If you are teaching this lesson in a workshop, please see the
-> [Instructor notes](guide/index.html).
-{: .prereq}
+> ## Screenshots
+> Throughout this lesson we will make use and show content and screenshots from OpenRefine. As an actively 
+> developed software, OpenRefine is adding new features or changing visual elements. Screenshots in this lesson have been made with 
+> OpenRefine 3.3 and may have became out-of-date or not look identical as on your computer.
+{: .callout}
