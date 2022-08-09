@@ -72,6 +72,12 @@ OpenRefine supports a range of facets, including:
 - Timeline facet for working with dates, and
 - number of customized facets (some of which we will cover shortly).
 
+> ## Default data type
+>
+> Be default, all data imported in OpenRefine is treated as text. You have to tell OpenRefine explicitly
+> to treat columns differently, e.g. as numbers or dates, as we will see shortly.
+{: .callout}
+
 ### Text facet
 A 'text facet' groups all the identical text values in a column and lists each value with the number of records in which
 it appears. The facet information always appears in the left hand panel in the OpenRefine interface. We will use text
@@ -125,14 +131,6 @@ misspelled and mistyped entries in a later exercise.
 > > 
 > {: .solution}
 {: .challenge}
-
-> ## Default data type 
->
-> Be default, all data imported in OpenRefine is treated as text. You have to tell OpenRefine explicitly 
-> to treat columns differently via `Edit cells` > `Common transforms`, e.g. as numbers. If you change the 
-> data type - it will appear in green. 
->
-{: .callout}
 
 ### Facets for working with numbers
 
