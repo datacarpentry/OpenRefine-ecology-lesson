@@ -57,7 +57,7 @@ In OpenRefine, clustering refers to the operation of "finding groups of differen
 
 One of the most magical bits of OpenRefine, the moment you realize what you've been missing. OpenRefine has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work.
 
-[More on clustering](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth)
+[More on clustering](https://docs.openrefine.org/next/technical-reference/clustering-in-depth)
 
   - In this example, in the scientificName Text Facet we created in the step above, click the _Cluster_ button.
   - In the resulting pop-up window, you can change the algorithm method, and keying function. Try different combinations to see the difference.
