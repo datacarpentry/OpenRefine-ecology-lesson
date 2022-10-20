@@ -111,8 +111,8 @@ In the `scientificName` text facet box - click the `Cluster` button.
 **Important:** If you `Merge` using a different method or keying function, or more times than described in the instructions above,
 your solutions for later exercises will not be the same as shown in those exercise solutions.
 
-> ## OpenRefine Wiki: Clustering
-> Full documentation on clustering can be found at [OpenRefine Wiki: Clustering](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth)
+> ## Clustering Documentation
+> Full documentation on clustering can be found at the [OpenRefine Clustering Methods In-depth](https://docs.openrefine.org/next/technical-reference/clustering-in-depth) page.
 {: .callout}
 ## Data splitting
 
