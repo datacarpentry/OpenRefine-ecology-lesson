@@ -24,7 +24,7 @@ edits by hand.
 >
 > #### Prerequisites
 >
-> This lesson requires a working copy of OpenRefine 3.5.2.
+> This lesson requires a working copy of OpenRefine 3.6.2.
 > <br>To most effectively use these materials, please make sure to install
 > everything *before* working through this lesson.
 {: .prereq}

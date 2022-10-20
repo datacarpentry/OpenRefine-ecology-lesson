@@ -1,21 +1,20 @@
 ---
-title: "Examining Numbers in OpenRefine"
+title: "Reconciliation of Names"
 teaching: 10
 exercises: 10
 questions:
-- "How can we convert a column from one data type to another?"
-- "How can we visualize relationships among columns?"
+- "How can we reconcile scientific names against a taxonomy?"
 objectives:
-- "Transform a text column into a number column."
-- "Identify and modify non-numeric values in a column using facets."
-- "Use scatterplot facet to examine relationships among columns."
+- "Add external reconciliation services."
+- "Cleanup scientific names by matching them to a taxonomy."
+- "Identify and correct misspelled or incorrect names for a taxon."
 keypoints:
-- "OpenRefine also provides ways to get overviews of numerical data."
+- "FIXME"
 ---
 
 # Lesson
 
-## Numbers
+## Reconciliation of Names
 
 When a table is imported into OpenRefine, all columns are treated as having text values. We saw earlier how we can sort column values as numbers, but this does not change the cells in a column from text to numbers. Rather, this interprets the values as numbers for the purposes of sorting but keeps the underlying data type as is. We can, however, transform columns to other data types (e.g. number or date) using the `Edit cells` > `Common transforms` feature. Here we will experiment changing columns to numbers and see what additional capabilities that grants us.
 
