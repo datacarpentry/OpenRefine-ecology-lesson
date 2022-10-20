@@ -39,41 +39,26 @@ project and import our portal rodents data.
    `Trim leading & trailing whitespace from strings` is not ticked. (We're going to need the leading whitespace in one of our examples.)
 1. If all looks well, click `Create Project>>` in the top right. You will be presented with a view onto your data. This is OpenRefine!
 
-In this first step, we'll browse our computer to the sample data file for this lesson. In this case, we modified the `Portal_rodents` CSV file, adding several columns: `scientificName`, `locality`, `county`, `state`, `country` and generating several more columns in the lesson itself (`JSON`, `decimalLatitude`, `decimalLongitude`). Data in `locality`, `county`, `country`, `JSON`, `decimalLatitude` and `decimalLongitude` are contrived and are in no way related to the original dataset.
+> ## OpenRefine does not modify your original dataset
+> Once your data is imported into a project - OpenRefine leaves your raw data intact and works on a copy which it creates
+> inside the newly created project. All the data transformation and cleaning steps you apply will be performed on this copy
+> and you can easily undo any changes too.
+{: .callout}
+> ## Data file types supported
+> OpenRefine can import a variety of different file types, including tab separated (`tsv`),
+> comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, and Google Spreadsheets.
+> See the [OpenRefine Importers page](https://github.com/OpenRefine/OpenRefine/wiki/Importers) for more information.
+{: .testimonial}
+Let's now start exploring and getting a higher-level overview of our data - summarising and looking for potential
+outliers and errors.
 
-If you haven't already, download the data from:  
-[https://ndownloader.figshare.com/files/7823341](https://ndownloader.figshare.com/files/7823341)
+## Data Faceting
 
-Once OpenRefine is launched in your browser, the left margin has options to `Create Project`, `Open Project`, or `Import Project`.
+Facets are one of the most useful features of OpenRefine. Data faceting is a process of exploring data by applying multiple filters to investigate its composition. It also allows you to identify a subset of data that you wish to change in bulk.
 
-
-Here we will create a new project:
-
-1. Click `Create Project` and select `Get data from` `This Computer`.  
-
-    ![OpenRefine starting screen](../fig/ORStartScreen.png)
-
-2. Click `Browse` and select the file `Portal_rodents_19772002_scinameUUIDs.csv`. Click `Open` or double-click on the filename.
-3. Click `Next>>` under the browse button to upload the data into OpenRefine.  
-4. OpenRefine gives you a preview - a chance to show you it understood the file.
-
-    ![OpenRefine import preview](../fig/ORImportScreen2.png)
-
-    If, for example, your file was really tab-delimited, the preview might look strange, in which case you would choose the correct separator under "Columns are separated by" (bottom left) and click `Update Preview` (bottom right). If this is the wrong file, click `<<Start Over` (upper left).
-
-5. From OpenRefine 3.4 onwards there is an option to Trim leading & trailing whitespace from strings when importing separator-based files. Keeping this checked will ensure that values like `English` and `English `, which differ by a single trailing space, are not treated as different values after the import.
-5. If all looks well, click `Create Project>>` (upper right).
-
-Note that at step 1, you could upload data in a standard form from a web address by selecting `Get data from` `Web Addresses (URLs)`. However, this won't work for all URLs.
-
-## Faceting
-
-*Exploring data by applying multiple filters*
-
-Facets are one of the most useful features of OpenRefine and can help both get an overview of the data in a project as well as helping you bring more consistency to the data. OpenRefine supports faceted browsing as a mechanism for
-
-* seeing a big picture of your data, and
-* filtering down to just the subset of rows that you want to change in bulk.
+> ## OpenRefine Wiki: Faceting
+> Full documentation on faceting can be found at [OpenRefine Wiki: Faceting](https://github.com/OpenRefine/OpenRefine/wiki/Faceting)
+{: .callout}
 
 A `facet` groups all the like values that appear in a column, and allows you to filter the data by those values. It also allows you to edit values across many records at the same time.
 
@@ -196,7 +181,7 @@ If data in a column needs to be split into multiple columns, and the parts are s
 > > `species` column name to `speciesAbbreviation`.
 > {: .solution}
 {: .challenge}
-## Undo / Redo
+## Undoing / Redoing actions
 
 It's common while exploring and cleaning a dataset to discover after you've made a change that you really should have done something else first. OpenRefine provides `Undo` and `Redo` operations to make this easy.
 
@@ -210,5 +195,101 @@ It's common while exploring and cleaning a dataset to discover after you've made
 4. Leave the dataset in the state in which the `scientificNames` were clustered, but not yet split.
 
 
-Important: `Undo` the splitting step before moving on to the next lesson. If you skip this step, your solutions
-for later exercises will not be the same as shown in those exercise solutions.
+Important: `Undo` the splitting step before moving on to the next lesson. If you skip this step, your solutions for later exercises will not be the same as shown in those exercise solutions.
+
+Important: If you skip this step, your solutions for later exercises will not be the same as shown in those exercise solutions.
+
+## Trim Leading and Trailing Whitespace
+Words with spaces at the beginning or end are particularly hard for humans to identify from strings without these
+spaces (as we have seen with the `scientificName` column). However, blank spaces can make a big difference to computers, so we usually want to remove them.
+
+1. In the header for the column `scientificName`, choose `Edit cells` > `Common transforms` > `Trim leading and trailing whitespace`.
+2. Notice that the `Split` step has now disappeared from the `Undo / Redo` pane on the left and is replaced with a `Text transform on 3 cells`
+3. Perform the same `Split` operation on `scientificName` that you undid earlier. This time you should now only get two new columns.
+
+Removing the leading white spaces means that each entry in this column has exactly one space
+(between the genus and species parts of the original `scientificName` data).
+Therefore, when you now split with space as the separator, you should get only two columns. Let's do this as an exercise.
+
+> ## Exercise
+> Repeat the splitting of column `scientificName` exercise.
+> > ## Solution
+> >
+> > On the `scientificName` column, click the down arrow next to the `scientificName` column and
+> > choose `Edit Column` > `Split into several columns...` from the drop down menu. Use a blank character as a separator,
+> > as before. You should now get only two columns `scientificName 1` and `scientificName 2`.
+> {: .solution}
+{: .challenge}
+
+
+## Transforming Data Using GREL
+
+OpenRefine provides a way to write special expressions to accomplish more complex data transformations
+(such as string manipulation or mathematical calculations) to improve the structure of the data.
+These functions are written in a special language called [GREL](https://docs.openrefine.org/manual/grel) (General Refine Expression Language). GREL can be used in several places:
+1. when transforming cells in a column using the transformation function
+2. when adding a column based on another column
+3. when creating a custom Text or Numeric facet
+4. when creating a new column by fetching data from a URL
+
+We will have a look at the first two of these options; you can explore other yourself - the
+principle of using GREL will be the same and all GREL input windows in OpenRefine will have a
+very similar outlook.
+
+Let's have a look at the column `geolocation` - it contains latitude and longitude coordinates of locations
+where observations took place combined together like this: `('30.438056', '-84.247155')`. As can be noted, data contains
+round braces "(" and ")" and single quotes "'" around data making it less useful for any processing.
+We want to get rid of all these characters and split the data in two columns to contain individual values
+for latitude and
+longitude.
+
+1. First we want to create a duplicate of the `geolocation` column where we will perform our operations and keep
+the original `geolocation` intact. To do so, on the `geolocation` column click the down arrow and then
+`Edit column` > `Add column based on this column...`.
+2. You will be presented with a window to enter a GREL expression telling OpenRefine how to transform the current data
+when creating a new column based off it.
+
+   <img src="../fig/grel-duplicate-column.png" alt="Duplicate column functionality" width="600px" />
+
+   GREL `Expression` field contains the expression "value" to begin with. This indicates to use
+   the current "value" of the cell as is when transforming data. In the Preview panel below you can also
+   see the current cell value and what the new value would be after applying the GREL expression to it (in this case -
+   both values will be the same as we are simply duplicating the column). In the `New column name` field type the new
+   new name for our duplicate column, e.g. `geolocation_new`. When finished, click `OK` to apply the action.
+3. After OpenRefine creates the `geolocation_new` column, we want to do further transformations
+   on it to extract longitude and latitude values. To do so, select
+   `Edit cells` > `Transform...` from the drop down menu on the `geolocation_new` column. You will once again be
+   presented with a similar
+   window to enter a GREL expression. This time, we want to chain a few functions in the GREL expression
+   to achieve the desired effect of removing round braces and single quotes,
+   like so: `value.replace("(","").replace(")","").replace("'","")`.
+   We are replacing any occurrence of "(" in the cell data value with a blank character (effectively deleting it), and
+   then repeating (chaining) similar functions on the output value from the previous function until we remove all
+   unwanted characters. Try typing one function at a time to see what effect it has on the data - you can
+   see the result of applying each expression in the Preview panel.
+
+   <img src="../fig/grel-transform-data.png" alt="Transform data using GREL expression" width="800px" />
+
+   When finished, click `OK` to apply the data transformation.
+4. We are now ready to split the `geolocation_new` column using the `Edit Column` > `Split into several columns...`,
+   as we learned earlier in this episode. The separator we want to use in this case is ", " - a comma followed by a blank
+   character. If, in addition, you select the `Guess cell type` checkbox in the split column popup window,
+   OpenRefine will correctly identify that the values in new columns are numeric and
+   transform the data type for us as well.
+
+   <img src="../fig/split-column.png" alt="Splitting column using a separator" width="600px" />
+
+5. You should now have 2 new columns with numeric data named `geolocation_new 1` and `geolocation_new 2`
+   representing the extracted longitude and latitude values respectively.
+6. Rename your new columns to `longitude` and `latitude` accordingly. You can now make further use of the extracted data from
+other applications, e.g. plot geolocations on a map.
+
+GREL offers [rich syntax and a large number of functions](https://docs.openrefine.org/manual/grelfunctions)
+for complex string manipulations (and handling different text formats - JSON, HTML, XML),
+working with numbers, dates and boolean (TRUE/FALSE) values, logical and mathematical operations. We
+strongly recommend learning more on GREL syntax and functionalities.
+
+> ## GREL documentation
+> Check the [official GREL documentation](https://docs.openrefine.org/manual/grel) for the full reference on GREL.
+> Here is [another useful GREL guide](https://guides.library.illinois.edu/openrefine/grel) to check out.
+{: .callout}
