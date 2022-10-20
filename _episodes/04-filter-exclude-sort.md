@@ -10,23 +10,54 @@ objectives:
 - "Sort tables by a column."
 - "Sort tables by multiple columns."
 keypoints:
-- "OpenRefine provides a way to sort and filter data without affecting the raw data."
+- "OpenRefine provides various ways to sort and filter data without affecting the raw data."
 ---
 
 # Lesson
 
 ## Filtering
 
-There are many entries in our data table. We can filter it to work on a subset of the data in the list for the next set of operations. Please ensure you perform this step to save time during the class.
+Sometimes you want to view and work only with a subset of data or apply an operation only to a subset.
+You can do this by applying various filters to your data.
 
-1. Click the down arrow next to `scientificName` > `Text filter`. A `scientificName` facet will appear on the left margin.
-2. Type in `bai` and press return. There are 48 matching rows of the original 35549 rows (and these rows are selected for the subsequent steps). Only a subset of the 48 rows appear.
-3. At the top, click on `50` in the `Show` section. This way you will see all the matching rows.
+### Including/excluding data entries on facets
+
+One way to filter down our data is to use the `include` or `exclude` buttons on the entries in a text facet.
+If you still have your text facet for `scientificName`, you can use it. If you've closed that facet, recreate it by selecting `Facet` >
+`Text facet` on the `scientificName` column.
+
+1. In the text facet, hover over one of the names, e.g. `Baiomys taylori`. Notice that when you hover over it, there are
+   buttons to the right for `edit` and `include`.
+2. Whilst hovering over `Baiomys taylori`, move to the right and click the `include` option. This will include this
+   species, as signified by the name of the species changing from blue to orange, and new options of `edit` and
+   `exclude` will be presented. Note that in the top of the page, "46 matching rows" is now displayed instead of "35549
+   rows".
+3. You can include other species in your current filter - e.g. click on `Chaetodipus baileyi` in the same way to include it in the filter.
+4. Alternatively, you can click the name of the species to include it in the filter instead of clicking the
+`include`/`exclude` buttons. This will include the selected species and exclude all others options in a single step, which can be useful.
+5. Click `include` and `exclude` on the other species and notice how the entries appear and
+   disappear from the data table to the right.
+
+
+### Text filters
+
+One way to filter data is to create a text filter on a column. Close all facets you may have created previously
+and reinstate the text facet on the `scientificName` column.
+
+1. Click the down arrow next to `scientificName` > `Text filter`. A `scientificName` filter will appear on the left margin below the text facet.
+
+2. Type in `bai` into the text box in the filter and press return. At the top of the page it will report that, out of the 35549
+   rows in the raw data, there are 48 rows in which the text has been found within the `scientificName` column (and these rows will be selected for the
+   subsequent steps).
+
+   ![OpenRefine Filtering](../fig/openrefine-filtering.png)
+
+3. Near the top of the screen, change `Show:` to 50. This way, you will see all the matching rows in a single page.
 
 > ## Exercise
 >
-> 1. What scientific names (genus and species) are selected by this procedure?  
-> 2. How would you restrict this to one of the species selected?  
+> 1. What scientific names are selected by this text filter?  
+> 2. How would you restrict the filter to one of the species selected?
 >
 > > ## Solution
 > > 1. Do `Facet` > `Text facet` on the `scientificName` column after filtering. This will show that
@@ -38,34 +69,20 @@ There are many entries in our data table. We can filter it to work on a subset o
 > {: .solution}
 {: .challenge}
 
-### Excluding entries
 
-
-In addition to the solutions included above, another way to narrow our filter is to `include` and/or `exclude` entries in a facet. If you still have your facet for `scientificName`, you can use it, or use drop-down menu > `Facet` > `Text facet` to create a new facet. Only the entries with names that agree with your `Text filter` will be included in this facet.
-
-Faceting and filtering look very similar. A good distinction is that faceting gives you an overview description of all the data that
-is currently selected, while filtering allows you to select a subset of your data for analysis.
-
-
-> ## Exercise
+> ## Filters vs. facets
+> Faceting and filtering look very similar. A good distinction is that faceting gives you an overview of all the data that
+> is currently selected, while filtering allows you to select a subset of your data for further inspection and analysis.
 >
-> Use `include / exclude` to select only entries from one of these two species.
->
-> > ## Solution
-> >
-> > 1. In the facet (left margin), click on one of the names, such as `Baiomys taylori`. Notice that when you click on the name, or hover
-> > over it, there are entries to the right for `edit` and `include`.
-> > 2. Click `include`. This will explicitly include this species, and exclude others that are not expicitly included. Notice that the
-> option now changes to `exclude`.
-> > 3. Click `include` and `exclude` on the other species (`Chaetodipus baileyi`) and notice how the two entries appear and disappear
-> >  from the table.
-> >
-> {: .solution}
-{: .challenge}
+{: .callout}
 
-Important: Select both species for your filtered dataset before continuing with the rest of the exercises.
+**Important:** Make sure both species are included in your filtered dataset before continuing with the rest of the exercises.
+
 
 ## Sort
+
+Sorting data is a useful practice for detecting outliers in data - potential errors and blanks
+will sort to the top or the bottom of your data.
 
 You can sort the data in a column by using the drop-down menu available in that column.
 There you can sort by `text`, `numbers`, `dates` or `booleans` (`TRUE` or `FALSE` values). You can also specify what order to put `Blanks` and `Errors` in the sorted results.
@@ -127,5 +144,5 @@ If you go back to one of the already sorted columns and select > `Sort` > `Remov
 >
 > Sort by `year`, `month` and `day` in some order. Be creative: try sorting as `numbers` or `text`, and in reverse order (`largest to smallest` or `z to a`).
 >
-> Use > `Sort` > `Remove sort` to remove the sort on the second of three columns. Notice how that changes the order.
+> Use `Sort` > `Remove sort` to remove the sort on the second of three columns. Notice how that changes the order.
 {: .challenge}
