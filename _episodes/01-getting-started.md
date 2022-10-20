@@ -41,20 +41,19 @@ The following setup is necessary before we can get started (see the [instruction
 
 Do you need help with any of the following?
 
-- Download and install OpenRefine 3.5.2 from <https://openrefine.org/download.html>
+- Download and install OpenRefine 3.6.2 from <https://openrefine.org/download.html>
 - Download this [data file](https://ndownloader.figshare.com/files/7823341) and save to your desktop
 - If after installation and running OpenRefine, it does not automatically open for you, point your browser at <http://127.0.0.1:3333/> or <http://localhost:3333/> to launch the program.
 
 
-What is OpenRefine?
+## What is OpenRefine?
 
  - OpenRefine is a Java program that runs on your machine (not in the cloud): it is a desktop application that uses your web browser as a graphical interface. No internet connection is needed, and none of the data or commands you enter in OpenRefine are sent to a remote server.
  - OpenRefine does not modify your original dataset. All actions are easily reversed in OpenRefine and you can capture all the actions applied to your data and share this documentation with your publication as supplemental material.
  - OpenRefine saves as you go. You can return to the project at any time to pick up where you left off or export your data to a new file.
  - OpenRefine can be used to standardise and clean data across your file.
 
-
-It can also help you
+### It can also help you
 
 - Get an overview of a data set
 - Resolve inconsistencies in a data set
@@ -63,15 +62,13 @@ It can also help you
 - Enhance a data set with data from other sources
 - Save a set of data cleaning steps to replay on multiple files
 
-
 OpenRefine is a powerful, free, and open source tool with a large growing community of practice. More help can be found at <https://openrefine.org>.
 
-
-## More Information on OpenRefine
-
-You can find out a lot more about OpenRefine at the official user manual [docs.openrefine.org](https://docs.openrefine.org/). There is a [Google Group](https://groups.google.com/g/openrefine) that can answer a lot of beginner questions and problems. [Recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes), scripts, projects, and extensions are available to add functionality to OpenRefine. These can be copied into your OpenRefine instance to run on your dataset.
-
-## Features
+### Features
 
 * Open source ([source on GitHub](https://github.com/OpenRefine/OpenRefine)).
 * A large growing community, from novice to expert, ready to help.
+
+### More Information on OpenRefine
+
+You can find out a lot more about OpenRefine at the official user manual [docs.openrefine.org](https://docs.openrefine.org/). There is a [Google Group](https://groups.google.com/g/openrefine) that can answer a lot of beginner questions and problems. [Recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes), scripts, projects, and extensions are available to add functionality to OpenRefine. These can be copied into your OpenRefine instance to run on your dataset.
