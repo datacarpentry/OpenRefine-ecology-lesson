@@ -1,32 +1,43 @@
 ---
-title: "Working with OpenRefine"
-teaching: 15
-exercises: 20
+title: "Exploring Datawith OpenRefine"
+teaching: 20
+exercises: 15
 questions:
-- "How can we bring our data into OpenRefine?"
-- "How can we sort and summarize our data?"
-- "How can we find and correct errors in our raw data?"
+- "How can we import our data into OpenRefine?"
+- "How can we summarise our data?"
+- "How can we find errors in our data?"
+- "How can we edit data to fix errors?"
+- "How can we convert column data from one data type to another?"
 objectives:
-- "Create a new OpenRefine project from a CSV file."
-- "Recall what facets are and how they are used to sort and summarize data."
-- "Recall what clustering is and how it is applied to group and edit typos."
-- "Manipulate data using previous steps with undo/redo."
-- "Employ drop-downs to split values from one column into multiple columns."
-- "Employ drop-downs to remove white spaces from cells."
+- "Create a new OpenRefine project from a CSV file"
+- "Learn about different types of facets and how they can be used to summarise data of different data types"
 keypoints:
-- "Faceting and clustering approaches can identify errors or outliers in data."
+- "Faceting can identify errors or outliers in data"
 ---
 
 # Lesson
 
 ## Creating a Project
 
+Start OpenRefine, which will open in your browser (at the address `http://127.0.0.0:3333`). Once OpenRefine is launched in your
+browser, the left margin has options to `Create Project`, `Open Project`, or `Import Project`. Here we will create a new
+project and import our portal rodents data.
 
-Start the program. (Double-click on the openrefine.exe file (or google-refine.exe if using an older version). Java services will start on your machine, and OpenRefine will open in your browser).
+![OpenRefine Create Project](../fig/openrefine-create-project.png)
 
-Launch OpenRefine (see [Getting Started with OpenRefine](http://www.datacarpentry.org/OpenRefine-ecology-lesson/00-getting-started/)).
+1. Click `Create Project` from the left margin and select then `This Computer` (because you're uploading data from your
+   computer).  
+1. Click `Choose Files` and browse to where you stored the file `Portal_rodents_19772002_scinameUUIDs.csv`. Select the
+   file and click `Open`, or just double-click on the filename.
+1. Click `Next>>` under the browse button to upload the data into OpenRefine.  
+1. On the next screen, OpenRefine will present you with a preview of your data. You can check here for obvious errors, if, for example, your file was tab-delimited rather than comma-delimited, the preview would look strange (and you
+   could correct it by choosing the correct separator and clicking the `Update Preview` button on the right. If you selected the wrong file, click `<<Start Over` at the top left.
 
-OpenRefine can import a variety of file types, including tab separated (`tsv`), comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, Google Spreadsheets. The [Starting a Project page](https://docs.openrefine.org/manual/starting#create-a-project-by-importing-data) in the OpenRefine Documentation provides more details about importing different data sources.
+    ![OpenRefine Import Data](../fig/openrefine-data-import.png)
+
+1. In the middle of the page, will be a set of options (`Character encoding`, etc.). Make sure the tick box next to
+   `Trim leading & trailing whitespace from strings` is not ticked. (We're going to need the leading whitespace in one of our examples.)
+1. If all looks well, click `Create Project>>` in the top right. You will be presented with a view onto your data. This is OpenRefine!
 
 In this first step, we'll browse our computer to the sample data file for this lesson. In this case, we modified the `Portal_rodents` CSV file, adding several columns: `scientificName`, `locality`, `county`, `state`, `country` and generating several more columns in the lesson itself (`JSON`, `decimalLatitude`, `decimalLongitude`). Data in `locality`, `county`, `country`, `JSON`, `decimalLatitude` and `decimalLongitude` are contrived and are in no way related to the original dataset.
 
@@ -90,7 +101,7 @@ misspelled and mistyped entries in a later exercise.
 
 
 > ## More on Facets
-> 
+>
 > [OpenRefine Documentation: Exploring Facets](https://docs.openrefine.org/manual/facets)
 >
 > As well as 'Text facets' OpenRefine also supports a range of other types of facet. These include:
