@@ -24,7 +24,7 @@ title: Setup
 >
 > Note: OpenRefine is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed.
 >
-> Download OpenRefine version 3.5.2 from [http://openrefine.org/download.html](http://openrefine.org/download.html).
+> Download OpenRefine version 3.6.2 from [http://openrefine.org/download.html](http://openrefine.org/download.html).
 > * Do not select beta versions or the release candidates.
 > * If you are on Windows and do not have Java installed, download the version `Windows kit with embedded Java`.
 > * Unzip the downloaded file into a directory and name that directory something like OpenRefine.
@@ -50,6 +50,7 @@ title: Setup
 
 - Go to your newly created OpenRefine directory.
 - Drag the OpenRefine icon into Applications folder, and `Ctrl-click/Open…` it.
+  - If Mac shows an error that it cannot verify the developer, `Right-click` or `Ctrl-click` the icon and select `Open`. If it does not allow to open the program, repeat the process and there will be an `Open` button the second time. Additional details [here](https://github.com/OpenRefine/OpenRefine/issues/2191).
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
 
 ### Linux
