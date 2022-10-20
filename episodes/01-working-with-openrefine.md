@@ -84,12 +84,10 @@ along with a number representing how many times that value occurs in the column.
 5. Hover the mouse over one of the names in the `facet` list. You should see that you have an `edit` function available.
 6. You could use this to fix an error immediately, and OpenRefine will ask whether you want to make the same correction to every value it finds like that one. But OpenRefine offers even better ways to find and fix these errors, which we'll use instead. We'll learn about these when we talk about clustering.
 
-> ## Solution
->
-> There will be several near-identical entries in `scientificName`. For example, there is one entry for `Ammospermophilis harrisi` and
-> one entry for `Ammospermophilus harrisii`. These are both misspellings of `Ammospermophilus harrisi`. We will see how to correct these
-> misspelled and mistyped entries in a later exercise.  
-{: .solution}
+There will be several near-identical entries in `scientificName`. For example, there is one entry for `Ammospermophilis harrisi` and
+one entry for `Ammospermophilus harrisii`. These are both misspellings of `Ammospermophilus harrisi`. We will see how to correct these
+misspelled and mistyped entries in a later exercise.  
+
 
 > ## More on Facets
 > [OpenRefine Wiki: Faceting](https://github.com/OpenRefine/OpenRefine/wiki/Faceting)
