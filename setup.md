@@ -20,7 +20,7 @@ title: Setup
 
 > ## Software
 >
-> For this lesson you will need **OpenRefine** and a web browser.
+> For this lesson you will need **OpenRefine version 3.6.2** and a web browser.
 >
 > Note: OpenRefine is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed.
 >
@@ -37,6 +37,8 @@ title: Setup
 >  * Microsoft Edge
 >  
 > OpenRefine has some issues with Firefox. Internet Explorer is not supported.
+>
+> Note: Other versions of OpenRefine should work, but the results might be different due to changes in the software or default settings. 
 {: .prereq}
 
 
