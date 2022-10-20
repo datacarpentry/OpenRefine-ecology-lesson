@@ -7,7 +7,7 @@
 
 ## OpenRefine Version
 
-The current version has been tested with OpenRefine 3.5.2.
+The current version has been tested with OpenRefine 3.6.2 on October 2022.
 
 ## Data set notes
 
