@@ -145,7 +145,7 @@ you wish to conduct. OpenRefine provides `Undo` and `Redo` operations to make it
    on the different stages in the process, the step identified in blue will change and, far more importantly, the data
    will revert to that stage in the processing.
 
-   ![OpenRefine Undo/Redo](../fig/openrefine-undo-redo.png)
+   ![OpenRefine Undo/Redo](../fig/ORUndoRedoScreen.png)
 
 2. We want to undo the splitting of the column `scientificName`. Select the stage just
    before the split occurred and the new `scientificName` columns will disappear.
