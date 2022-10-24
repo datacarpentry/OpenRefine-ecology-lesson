@@ -15,15 +15,19 @@ keypoints:
 ## Importing data
 
 >## What kinds of data files can I import?
->There are several options for getting your data set into OpenRefine. You can upload or import files in a variety of formats including:
+>There are several options for getting your data set into OpenRefine. You can import files in a variety of formats including:
 >
->* TSV (tab-separated values)
->* CSV (comma-separated values)
->* TXT
->* Excel
->* JSON (javascript object notation)
->* XML (extensible markup language)
->* Google Spreadsheet
+> * Comma-separated values (CSV) or tab-separated values (TSV)
+> * Text files
+> * Fixed-width columns
+> * JSON
+> * XML
+> * OpenDocument spreadsheet (ODS)
+> * Excel spreadsheet (XLS or XLSX)
+> * RDF data (JSON-LD, N3, N-Triples, Turtle, RDF/XML)
+> * Wikitext
+>
+> See the [Create a project by importing data](https://docs.openrefine.org/manual/starting#create-a-project-by-importing-data) page for more information.
 {: .callout}
 
 ## Create your first OpenRefine project (using provided data)
@@ -53,9 +57,3 @@ project and import our portal rodents data.
 > inside the newly created project. All the data transformation and cleaning steps you apply will be performed on this copy
 > and you can easily undo any changes too.
 {: .callout}
-> ## Data file types supported
-> OpenRefine can import a variety of different file types, including tab separated (`tsv`),
-> comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, and Google Spreadsheets.
-> See the [Create a project by importing data](https://docs.openrefine.org/manual/starting#create-a-project-by-importing-data) page for more information.
-{: .testimonial}
-Let's now start exploring and getting a higher-level overview of our data - summarising and looking for potential outliers and errors.
