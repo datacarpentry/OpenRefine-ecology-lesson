@@ -1,5 +1,5 @@
 ---
-title: "Creating a Project in OpenRefine"
+title: "Importing Data to OpenRefine"
 teaching: 20
 exercises: 15
 questions:
@@ -12,7 +12,21 @@ keypoints:
 - "Several files types may be imported into OpenRefine"
 ---
 
-## Creating a Project
+## Importing data
+
+>## What kinds of data files can I import?
+>There are several options for getting your data set into OpenRefine. You can upload or import files in a variety of formats including:
+>
+>* TSV (tab-separated values)
+>* CSV (comma-separated values)
+>* TXT
+>* Excel
+>* JSON (javascript object notation)
+>* XML (extensible markup language)
+>* Google Spreadsheet
+{: .callout}
+
+## Create your first OpenRefine project (using provided data)
 
 Start OpenRefine, which will open in your browser (at the address `http://127.0.0.0:3333`). Once OpenRefine is launched in your
 browser, the left margin has options to `Create Project`, `Open Project`, or `Import Project`. Here we will create a new
