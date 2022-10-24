@@ -12,11 +12,9 @@ keypoints:
 - "Projects can be shared with collaborators, enabling them to see, reproduce and check all data cleaning steps you performed."
 ---
 
-# Lesson
-
 ## Saving and Exporting a Project
 
-In OpenRefine you can save or export the project. This means you're saving the data and all the 
+In OpenRefine you can save or export the project. This means you're saving the data and all the
 information about the cleaning and data transformation steps you've done. Once you've saved a project, you can
 open it up again and be just where you stopped before.
 
@@ -27,12 +25,12 @@ you'll see a list of your projects. You can click on any one of them to open it 
 
 ### Exporting
 
-You can also export a project. This is helpful, for instance, if you wanted to send your raw data and cleaning steps to a collaborator, 
-or share this information as a supplement to a publication. 
+You can also export a project. This is helpful, for instance, if you wanted to send your raw data and cleaning steps to a collaborator,
+or share this information as a supplement to a publication.
 
 1. Click the `Export` button in the top right and select `OpenRefine project archive to file`.
-2. A `tar.gz` file will download to your default `Download` directory. The `tar.gz` extension tells you that this is a compressed file, which means that this file contains multiple files. 
-  - On Mac and Linux, you can double-click on the `tar.gz` file and it will expand into a directory. A 
+2. A `tar.gz` file will download to your default `Download` directory. The `tar.gz` extension tells you that this is a compressed file, which means that this file contains multiple files.
+  - On Mac and Linux, you can double-click on the `tar.gz` file and it will expand into a directory. A
 folder icon will now appear.
   - On Windows, opening `tar.gz` files requires additional software such as [7-zip](http://www.7-zip.org/) or [WinZip](http://www.winzip.com/).
      - Download and run the installer of your choice.
@@ -45,16 +43,16 @@ folder icon will now appear.
 
 > ## Solution
 > You should see:
-> - a  `history` folder which contains three `zip` files. Each of these files itself contains a `change.txt` file. 
-> These `change.txt` files are the records of each individual transformation that you did to your data. 
+> - a  `history` folder which contains three `zip` files. Each of these files itself contains a `change.txt` file.
+> These `change.txt` files are the records of each individual transformation that you did to your data.
 > - a `data.zip` file. When expanded, this `zip` file includes a file called `data.txt` which is a copy of your raw data.
 > You may also see other files.
 {: .solution}
 
-You can import an existing project into OpenRefine by clicking `Open...` in the upper right > `Import Project` and selecting the `tar.gz` 
+You can import an existing project into OpenRefine by clicking `Open...` in the upper right > `Import Project` and selecting the `tar.gz`
 project file. This project will include all of the raw data and cleaning steps that were part of the original project.
 
-## Exporting Cleaned Data 
+## Exporting Cleaned Data
 
 You can also export just your cleaned data, rather than the entire project.
 
@@ -62,4 +60,4 @@ You can also export just your cleaned data, rather than the entire project.
 2. That file will be exported to your default `Download` directory. That file can then be opened in a spreadsheet program or imported
 into programs like R or Python, which we'll be discussing later in our workshop.
 
-Remember from our lesson on Spreadsheets that using widely-supported, non-proprietary file formats like `tsv` or `csv` improves the ability of yourself and others to use your data. 
+Remember from our lesson on Spreadsheets that using widely-supported, non-proprietary file formats like `tsv` or `csv` improves the ability of yourself and others to use your data.

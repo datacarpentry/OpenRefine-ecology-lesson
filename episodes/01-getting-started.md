@@ -10,16 +10,13 @@ objectives:
 - "Experiment with OpenRefine’s user interface."
 - "Locate helpful resources to learn more about OpenRefine."
 keypoints:
-- OpenRefine is a powerful, free and open source tool for working with messy data
-- OpenRefine works best with data in a simple tabular format
-- OpenRefine can help you split data up into more granular parts
-- OpenRefine can help you match local data up to other data sets
-- OpenRefine will automatically track any steps you take in working with your data
-- OpenRefine can help you enhance a data set with data from other sources
-
+- "OpenRefine is a powerful, free and open source tool for working with messy data"
+- "OpenRefine works best with data in a simple tabular format"
+- "OpenRefine can help you split data up into more granular parts"
+- "OpenRefine can help you match local data up to other data sets"
+- "OpenRefine will automatically track any steps you take in working with your data"
+- "OpenRefine can help you enhance a data set with data from other sources"
 ---
-
-# Lesson
 
 ## Motivations for the OpenRefine Lesson
 
