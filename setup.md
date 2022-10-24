@@ -4,7 +4,7 @@ title: Setup
 ---
 
 > ## Data
-> **Download** this data file to your computer: [https://ndownloader.figshare.com/files/7823341](https://ndownloader.figshare.com/files/7823341)
+> **Download** this data file to your computer: [https://github.com/villanueval/OpenRefine-ecology-lesson/raw/gh-pages/data/Portal_rodents_19772002_simplified.csv](Portal_rodents_19772002_simplified.csv)
 >
 > ### About the data
 > The data for this lesson is a part of the Data Carpentry Ecology workshop.
@@ -38,7 +38,7 @@ title: Setup
 >  
 > OpenRefine has some issues with Firefox. Internet Explorer is not supported.
 >
-> Note: Other versions of OpenRefine should work, but the results might be different due to changes in the software or default settings. 
+> Note: Other versions of OpenRefine should work, but the results might be different due to changes in the software or default settings.
 {: .prereq}
 
 
