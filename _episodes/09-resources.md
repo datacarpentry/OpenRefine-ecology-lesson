@@ -11,8 +11,6 @@ keypoints:
 - "Other examples and resources online are good for learning more about OpenRefine"
 ---
 
-# Lesson
-
 ## Identify other Resources about OpenRefine.
 
 OpenRefine is more than a simple data cleaning tool. People are using it for all sorts of activities. Here are some other resources that might prove useful.

@@ -15,8 +15,6 @@ keypoints:
 - "Scripts can (and should) be published together with the dataset as part of the digital appendix of the research output."
 ---
 
-# Lesson
-
 ## Export the Steps to Clean Up the Data
 
 As you conduct your data cleaning and preliminary analysis, OpenRefine saves every change you make to the dataset. These

@@ -3,53 +3,15 @@ title: "Exploring Data with OpenRefine"
 teaching: 20
 exercises: 15
 questions:
-- "How can we import our data into OpenRefine?"
 - "How can we summarise our data?"
 - "How can we find errors in our data?"
 - "How can we edit data to fix errors?"
 - "How can we convert column data from one data type to another?"
 objectives:
-- "Create a new OpenRefine project from a CSV file"
 - "Learn about different types of facets and how they can be used to summarise data of different data types"
 keypoints:
 - "Faceting can identify errors or outliers in data"
 ---
-
-# Lesson
-
-## Creating a Project
-
-Start OpenRefine, which will open in your browser (at the address `http://127.0.0.0:3333`). Once OpenRefine is launched in your
-browser, the left margin has options to `Create Project`, `Open Project`, or `Import Project`. Here we will create a new
-project and import our portal rodents data.
-
-![OpenRefine Create Project](../fig/openrefine-create-project.png)
-
-1. Click `Create Project` from the left margin and select then `This Computer` (because you're uploading data from your
-   computer).  
-1. Click `Choose Files` and browse to where you stored the file `Portal_rodents_19772002_scinameUUIDs.csv`. Select the
-   file and click `Open`, or just double-click on the filename.
-1. Click `Next>>` under the browse button to upload the data into OpenRefine.  
-1. On the next screen, OpenRefine will present you with a preview of your data. You can check here for obvious errors, if, for example, your file was tab-delimited rather than comma-delimited, the preview would look strange (and you
-   could correct it by choosing the correct separator and clicking the `Update Preview` button on the right. If you selected the wrong file, click `<<Start Over` at the top left.
-
-    ![OpenRefine Import Data](../fig/openrefine-data-import.png)
-
-1. In the middle of the page, will be a set of options (`Character encoding`, etc.). Make sure the tick box next to
-   `Trim leading & trailing whitespace from strings` is not ticked. (We're going to need the leading whitespace in one of our examples.)
-1. If all looks well, click `Create Project>>` in the top right. You will be presented with a view onto your data. This is OpenRefine!
-
-> ## OpenRefine does not modify your original dataset
-> Once your data is imported into a project - OpenRefine leaves your raw data intact and works on a copy which it creates
-> inside the newly created project. All the data transformation and cleaning steps you apply will be performed on this copy
-> and you can easily undo any changes too.
-{: .callout}
-> ## Data file types supported
-> OpenRefine can import a variety of different file types, including tab separated (`tsv`),
-> comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, and Google Spreadsheets.
-> See the [Create a project by importing data](https://docs.openrefine.org/manual/starting#create-a-project-by-importing-data) page for more information.
-{: .testimonial}
-Let's now start exploring and getting a higher-level overview of our data - summarising and looking for potential outliers and errors.
 
 ## Data Faceting
 
@@ -79,10 +41,12 @@ along with a number representing how many times that value occurs in the column.
 5. Hover the mouse over one of the names in the `facet` list. You should see that you have an `edit` function available.
 6. You could use this to fix an error immediately, and OpenRefine will ask whether you want to make the same correction to every value it finds like that one. But OpenRefine offers even better ways to find and fix these errors, which we'll use instead. We'll learn about these when we talk about clustering.
 
-There will be several near-identical entries in `scientificName`. For example, there is one entry for `Ammospermophilis harrisi` and
-one entry for `Ammospermophilus harrisii`. These are both misspellings of `Ammospermophilus harrisi`. We will see how to correct these
-misspelled and mistyped entries in a later exercise.  
+There will be several near-identical entries in `scientificName`. For example, there are two misspellings of `Ammospermophilus harrisii`:
 
+ * `Ammospermophilis harrisi` and
+ * `Ammospermophilus harrisi`
+
+We will see how to correct these misspelled and mistyped entries in a later exercise.  
 
 > ## More on Facets
 >
