@@ -34,17 +34,6 @@ keypoints:
 
   >**Note:** You must export your modified dataset to a new file: OpenRefine does not save over the original source file. All changes are stored in the OpenRefine project.
 
-## Before we get started
-
-
-The following setup is necessary before we can get started (see the [instructions here](../setup.html).)
-
-Do you need help with any of the following?
-
-- Download and install OpenRefine 3.6.2 from <https://openrefine.org/download.html>
-- Download this [data file](https://ndownloader.figshare.com/files/7823341) and save to your desktop
-- If after installation and running OpenRefine, it does not automatically open for you, point your browser at <http://127.0.0.1:3333/> or <http://localhost:3333/> to launch the program.
-
 
 ## What is OpenRefine?
 
@@ -62,7 +51,44 @@ Do you need help with any of the following?
 - Enhance a data set with data from other sources
 - Save a set of data cleaning steps to replay on multiple files
 
-OpenRefine is a powerful, free, and open source tool with a large growing community of practice. More help can be found at <https://openrefine.org>.
+### Common scenarios
+
+* You have a list of dates which are formatted in different ways, and want to change all the dates in the list to a single common date format. For example:
+
+| Data you have   | Desired data |
+|-----------------|:-------------|
+| 1st January 2014| 2014-01-01   |
+| 01/01/2014      | 2014-01-01   |
+| Jan 1 2014      | 2014-01-01   |
+| 2014-01-01      | 2014-01-01   |
+
+* Your data file has a list of names or terms that differ from each other but refer to the same people, places or concepts. For example:
+
+| Data you have   | Desired data |
+|-----------------|:-------------|
+| London          | London       |
+| London]         | London       |
+| London,]        | London       |
+| london          | London       |
+
+* There are several bits of data combined together in a single column, and you want to separate them out into individual bits of data with one column for each bit of the data. For example going from a single address field (in the first column), to each part of the address in a separate field:
+
+| Address in single field | Institution  | Library name  | Address 1 | Address 2 | Town/City | Region | Country | Postcode |
+|-------------------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|
+| University of Wales, Llyfrgell Thomas Parry Library, Llanbadarn Fawr, ABERYSTWYTH, Ceredigion, SY23 3AS, United Kingdom | University of Wales | Llyfrgell Thomas Parry Library | Llanbadarn Fawr | | Aberystwyth | Ceredigion | United Kingdom | SY23 3AS |
+| University of Aberdeen, Queen Mother Library, Meston Walk, ABERDEEN, AB24 3UE, United Kingdom | University of Abderdeen | Queen Mother Library | Meston Walk | | Aberdeen | | United Kingdom | AB24 3UE |
+| University of Birmingham, Barnes Library, Medical School, Edgbaston, BIRMINGHAM, West Midlands, B15 2TT, United Kingdom | University of Birmingham | Barnes Library | Medical School | Edgbaston | Birmingham | West Midlands | United Kingdom | B15 2TT |
+| University of Warwick, Library, Gibbett Hill Road, COVENTRY, CV4 7AL, United Kingdom | University of Warwick | Library | Gibbett Hill Road | | Coventry | | United Kingdom | CV4 7AL |
+
+* Datasets where you want to add data and identifiers from an external data source:
+
+| Data you have   | Date of Birth from VIAF[^1] | Date of Death from VIAF [^1] |
+|-----------------|:-------------|:-------------|
+| Braddon, M. E. (Mary Elizabeth) | 1835 | 1915 |
+| Rossetti, William Michael       | 1829 | 1919 |
+| Prest, Thomas Peckett           | 1810 | 1879 |
+
+[^1]: Virtual International Authority File
 
 ### Features
 
