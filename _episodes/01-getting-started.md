@@ -10,8 +10,13 @@ objectives:
 - "Experiment with OpenRefine’s user interface."
 - "Locate helpful resources to learn more about OpenRefine."
 keypoints:
-- "OpenRefine is a powerful, free and open source tool that can be used for data cleaning."
-- "OpenRefine will automatically track any steps you take in working with your data."
+- OpenRefine is a powerful, free and open source tool for working with messy data
+- OpenRefine works best with data in a simple tabular format
+- OpenRefine can help you split data up into more granular parts
+- OpenRefine can help you match local data up to other data sets
+- OpenRefine will automatically track any steps you take in working with your data
+- OpenRefine can help you enhance a data set with data from other sources
+
 ---
 
 # Lesson
@@ -87,11 +92,8 @@ keypoints:
 
 `* Virtual International Authority File`
 
-### Features
-
-* Open source ([source on GitHub](https://github.com/OpenRefine/OpenRefine)).
-* A large growing community, from novice to expert, ready to help.
-
-### More Information on OpenRefine
-
-You can find out a lot more about OpenRefine at the official user manual [docs.openrefine.org](https://docs.openrefine.org/). There is a [Google Group](https://groups.google.com/g/openrefine) that can answer a lot of beginner questions and problems. [Recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes), scripts, projects, and extensions are available to add functionality to OpenRefine. These can be copied into your OpenRefine instance to run on your dataset.
+## What Should I Know When Working With OpenRefine?
+* No internet connection is needed, and none of the data or commands you enter in OpenRefine are sent to a remote server.
+* You are NOT modifying original/raw data.
+* Projects are autosaved every five minutes and when OpenRefine is properly shut down (Ctrl+C). See [History in User Manual](https://docs.openrefine.org/manual/running/#history-undoredo) for details.
+* Files are saved locally such that if you are working on two computers you will have to export/import files/projects.

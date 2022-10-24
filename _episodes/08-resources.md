@@ -23,6 +23,7 @@ OpenRefine has documentation and other resources:
 * [OpenRefine User Manual](https://docs.openrefine.org/)
 * [OpenRefine Blog](https://openrefine.org/category/blog.html)
 * Official wiki [List of OpenRefine External Resources](https://github.com/OpenRefine/OpenRefine/wiki/External-Resources)
+* [Recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes)
 
 In addition, see these other useful resources:
 
