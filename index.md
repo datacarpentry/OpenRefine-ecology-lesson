@@ -19,7 +19,7 @@ edits by hand.
 > their own computers to ensure the proper setup of tools for an efficient
 > workflow. <br>**These lessons assume no prior knowledge of the skills or tools.**
 >
-> To get started, follow the directions in the "[Setup](setup.html)" tab to
+> To get started, follow the directions in the "[Setup](setup.html)" page to
 > download data to your computer and follow any installation instructions.
 >
 > #### Prerequisites
