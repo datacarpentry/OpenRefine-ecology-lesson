@@ -57,7 +57,7 @@ There are a few services where you can find an OpenRefine Reconciliation option 
 >
 >There are two things that reconciliation can do for you. Firstly it gets a standard form of the name or label for the entity. Secondly it gets an ID for the entity - in this case a page and numeric id for the scientific name in EOL. This is hidden in the default view, but can be extracted:
 >
->* In the scientificName column use the dropdown menu to choose 'Reconcile->Add entity identifiers column...'
+>* In the scientificName column use the dropdown menu to choose 'Reconcile` > `Add entity identifiers column...'
 >* Give the column the name 'EOL-ID'
 >* This will create a new column that contains the EOL ID for the matched entity
 {: .challenge}
