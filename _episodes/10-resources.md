@@ -1,7 +1,7 @@
 ---
 title: "Other Resources in OpenRefine"
 teaching: 5
-exercises: 5
+exercises: 0
 questions:
 - "What other resources are available for working with OpenRefine?"
 objectives:
@@ -33,8 +33,3 @@ In addition, see these other useful resources:
 * [Grateful Data](https://github.com/scottythered/gratefuldata/wiki) is a fun site with many resources devoted to OpenRefine, including a nice tutorial.
 
 There are more advanced uses of OpenRefine, such as bringing in column or cell data using web locators (URLs or APIs). The links above can give you a start on your journey.
-
-> ## Exercise
->
-> Visit one of these sites and share what you find with another person.
-{: .challenge}
