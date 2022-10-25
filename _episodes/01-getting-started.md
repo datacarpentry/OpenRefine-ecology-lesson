@@ -87,10 +87,10 @@ keypoints:
   | Rossetti, William Michael       | 1829 | 1919 |
   | Prest, Thomas Peckett           | 1810 | 1879 |
 
-`* Virtual International Authority File`
+  `* Virtual International Authority File`
 
 ## What Should I Know When Working With OpenRefine?
 * No internet connection is needed, and none of the data or commands you enter in OpenRefine are sent to a remote server.
 * You are NOT modifying original/raw data.
-* Projects are autosaved every five minutes and when OpenRefine is properly shut down (Ctrl+C). See [History in User Manual](https://docs.openrefine.org/manual/running/#history-undoredo) for details.
+* Projects are autosaved every five minutes and when OpenRefine is properly shut down (Ctrl+C).
 * Files are saved locally such that if you are working on two computers you will have to export/import files/projects.
