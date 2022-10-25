@@ -15,9 +15,6 @@ keypoints:
 
 ## Looking up data from a URL
 
-> http://api.gbif.org/v1/species/match?verbose=true&name="+escape(value,'url')
-> value.parseJson().get("family")
-
 OpenRefine can retrieve data from URLs. This can be used in various ways, including looking up additional information from a remote service, based on information in your OpenRefine data. As an example, you can look up the scientific names in a dataset against the taxonomy of the Global Biodiversity Information Facility (GBIF), and retrieve additional information such as higher taxonomy and identifiers.
 
 Typically this is a two step process, firstly a step to retrieve data from a remote service, and secondly to extract the relevant information from the data you have retrieved.
@@ -43,7 +40,7 @@ The syntax for requesting species information from GBIF is ```http://api.gbif.or
 * In the expression box type the GREL ```"http://api.gbif.org/v1/species/match?verbose=true&name="+escape(value,'url')```
 
   At this point, your screen should be similar to this:
-  ![Add column by fetching URLs screen capture](../fig/openrefine-data-from-url.png)
+  ![Add column by fetching URLs screen capture](../fig/or362-data-from-url.png)
 
 * Click 'OK'
 
@@ -51,11 +48,11 @@ You should see a message at the top on the OpenRefine screen indicating it is fe
 
 At this point you should have a new column containing a long text string in a format called 'JSON' (this stands for JavaScript Object Notation, although very rarely spelt out in full). OpenRefine has a function for extracting data from JSON (sometimes referred to as 'parsing' the JSON). The `parseJson()` function is explained in more detail at the [Format-based functions page](https://docs.openrefine.org/manual/grelfunctions/#format-based-functions-json-html-xml).
 
-* In the new column you've just added use the dropdown menu to access `Edit column->Add column based on this column...`
+* In the new column you've just added use the dropdown menu to access `Edit column` > `Add column based on this column...`
 * Add the new column name: "gbif_family"
 * In the Expression box type the GREL ```value.parseJson().get("family")```
 * You should see in the Preview the taxonomic family of the scientific names displays, similar to this screen:
 
-  ![Parse JSON to extract taxonomic family](../fig/openrefine-parse-json.png)
+  ![Parse JSON to extract taxonomic family](../fig/or362-parse-json.png)
 
 The reason for using `Add column based on this column` is that this allows you to retain the full JSON and extract further data from it if you need to. If you only wanted the taxonomic family and did not need any other information from the JSON you could use `Edit cells` > `Transform...` with the same GREL expression.

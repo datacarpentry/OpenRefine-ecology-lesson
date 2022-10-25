@@ -15,8 +15,7 @@ keypoints:
 ## Saving and Exporting a Project
 
 In OpenRefine you can save or export the project. This means you're saving the data and all the
-information about the cleaning and data transformation steps you've done. Once you've saved a project, you can
-open it up again and be just where you stopped before.
+information about the cleaning and data transformation steps you've done. Once you've saved a project, you can open it up again and be just where you stopped before.
 
 ### Saving
 
@@ -25,13 +24,11 @@ you'll see a list of your projects. You can click on any one of them to open it 
 
 ### Exporting
 
-You can also export a project. This is helpful, for instance, if you wanted to send your raw data and cleaning steps to a collaborator,
-or share this information as a supplement to a publication.
+You can also export a project. This is helpful, for instance, if you wanted to send your raw data and cleaning steps to a collaborator, or share this information as a supplement to a publication.
 
 1. Click the `Export` button in the top right and select `OpenRefine project archive to file`.
 2. A `tar.gz` file will download to your default `Download` directory. The `tar.gz` extension tells you that this is a compressed file, which means that this file contains multiple files.
-  - On Mac and Linux, you can double-click on the `tar.gz` file and it will expand into a directory. A
-folder icon will now appear.
+  - On Mac and Linux, you can double-click on the `tar.gz` file and it will expand into a directory. A folder icon will now appear.
   - On Windows, opening `tar.gz` files requires additional software such as [7-zip](http://www.7-zip.org/).
      - Download and run the installer.
      - Double-click the exported `tar.gz` file. If Windows asks how you want to open the file, check the 'Always use this app to open `.gz` files' box, then select "More apps".
@@ -42,9 +39,9 @@ folder icon will now appear.
 
 > ## Solution
 > You should see:
-> - a  `history` folder which contains three `zip` files. Each of these files itself contains a `change.txt` file.
-> These `change.txt` files are the records of each individual transformation that you did to your data.
-> - a `data.zip` file. When expanded, this `zip` file includes a file called `data.txt` which is a copy of your raw data.
+> - A `history` folder which contains several `zip` files. Each of these files itself contains a `change.txt` file.
+>   - These `change.txt` files are the records of each individual transformation that you did to your data.
+> - A `data.zip` file. When expanded, this `zip` file includes a file called `data.txt` which is a copy of your raw data.
 > You may also see other files.
 {: .solution}
 
@@ -56,5 +53,4 @@ project file. This project will include all of the raw data and cleaning steps t
 You can also export just your cleaned data, rather than the entire project.
 
 1. Click `Export` in the top right and select the file type you want to export the data in. `Tab-separated value` (`tsv`) or `Comma-separated value` (`csv`) would be good choices.
-2. That file will be exported to your default `Download` directory. That file can then be opened in a spreadsheet program or imported
-into programs like R or Python.
+2. That file will be exported to your default `Download` directory. That file can then be opened in a spreadsheet program or imported into programs like R or Python.

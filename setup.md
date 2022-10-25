@@ -4,7 +4,7 @@ title: Setup
 ---
 
 > ## Data
-> **Download** the data file [Portal_rodents_19772002_simplified.csv](https://github.com/villanueval/OpenRefine-ecology-lesson/raw/gh-pages/data/Portal_rodents_19772002_simplified.csv), which is a csv file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select `Download linked file`; in Chrome and Firefox, right-click and select `Save link as...`). Make a note of the location (i.e. the folder, your Desktop) to which you save the file.
+> **Download** the data file [Portal_rodents_19772002_simplified.csv](./raw/gh-pages/data/Portal_rodents_19772002_simplified.csv), which is a csv file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select `Download linked file`; in Chrome and Firefox, right-click and select `Save link as...`). Make a note of the location (i.e. the folder, your Desktop) to which you save the file.
 >
 > ### About the data
 > The data for this lesson is a part of the Data Carpentry Ecology workshop.

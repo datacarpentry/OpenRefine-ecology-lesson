@@ -8,4 +8,5 @@ _site
 .Rproj.user
 .Rhistory
 .RData
-OpenRefine-ecology-lesson_villanueval.Rproj
+*.Rproj
+old

@@ -32,20 +32,23 @@ keypoints:
 
 ## Create your first OpenRefine project (using provided data)
 
-Start OpenRefine, which will open in your browser (at the address `[http://127.0.0.0:3333](http://127.0.0.0:3333)`). Once OpenRefine is launched in your
-browser, the left margin has options to `Create Project`, `Open Project`, or `Import Project`. Here we will create a new
-project and import our portal rodents data.
+Start OpenRefine, which will open in your browser (at the address http://127.0.0.0:3333). Once OpenRefine is launched in your
+browser, the left margin has options to:
 
-![OpenRefine Create Project](../fig/openrefine-create-project.png)
+  * `Create Project`
+  * `Open Project`
+  * `Import Project`
+  * `Language Settings`
 
-1. Click `Create Project` from the left margin and select then `This Computer` (because you're uploading data from your
-   computer).  
+  ![OpenRefine Create Project](../fig/or362-create-project.png)
+
+1. Click `Create Project` from the left margin and select then `This Computer` (because you're uploading data from your computer).  
 1. Click `Choose Files` and browse to where you stored the file `Portal_rodents_19772002_simplified.csv`. Select the
    file and click `Open`, or just double-click on the filename.
 1. Click `Next>>` under the browse button to upload the data into OpenRefine.  
 1. On the next screen, OpenRefine will present you with a preview of your data. You can check here for obvious errors, if, for example, your file was tab-delimited rather than comma-delimited, the preview would look strange (and you could correct it by choosing the correct separator and clicking the `Update Preview` button on the right. If you selected the wrong file, click `<<Start Over` at the top left.
 
-    ![OpenRefine Import Data](../fig/openrefine-data-import.png)
+    ![OpenRefine Import Data](../fig/or362-data-import.png)
 
 1. In the middle of the page, will be a set of options (`Character encoding`, etc.). Make sure the tick box next to `Trim leading & trailing whitespace from strings` is not ticked. (We're going to need the leading whitespace in one of our examples.)
 1. If all looks well, click `Create Project>>` in the top right. You will be presented with a view onto your data. This is OpenRefine!
