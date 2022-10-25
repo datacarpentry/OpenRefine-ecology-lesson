@@ -12,7 +12,6 @@ data effectively and automatically track any changes that you make. Many people 
 that this tool saves them literally months of work trying to make these
 edits by hand.
 
-
 > ## Getting Started
 >
 > Data Carpentry's teaching is hands-on, so participants are encouraged to use

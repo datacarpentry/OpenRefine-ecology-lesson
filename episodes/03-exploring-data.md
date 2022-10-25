@@ -28,43 +28,32 @@ Here we will use faceting to look for potential errors in data entry in the `sci
 1. Scroll over to the `scientificName` column.
 2. Click the down arrow and choose `Facet` > `Text facet`.
 
-    ![OpenRefine Facet menu](../fig/ORFacetMenu.png)
+    ![OpenRefine Facet menu](../fig/or362-facet-menu.png)
 
 3. In the left panel, you'll now see a box containing every unique value in the `scientificName` column
 along with a number representing how many times that value occurs in the column.
 
-    ![Faceting results on scientificName column](../fig/ORFacetedScientificName.png)
+    ![Faceting results on scientificName column](../fig/or362-faceted-scientificname.png)
 
 4. Try sorting this facet by name and by count. Do you notice any problems with the data? What are they?
 5. Hover the mouse over one of the names in the `facet` list. You should see that you have an `edit` function available.
 6. You could use this to fix an error immediately, and OpenRefine will ask whether you want to make the same correction to every value it finds like that one. But OpenRefine offers even better ways to find and fix these errors, which we'll use instead. We'll learn about these when we talk about clustering.
 
-There will be several near-identical entries in `scientificName`. For example, there are two misspellings of `Ammospermophilus harrisii`:
-
- * `Ammospermophilis harrisi` and
- * `Ammospermophilus harrisi`
-
-We will see how to correct these misspelled and mistyped entries in a later exercise.  
-
+>## Facets and large datasets
 Facets are intended to group together common values and OpenRefine limits the number of values allowed in a single facet to ensure the software does not perform slowly or run out of memory. If you create a facet where there are many unique values (for example, a facet on a 'book title' column in a data set that has one row per book) the facet created will be very large and may either slow down the application, or OpenRefine will not create the facet.
+{: .callout}
 
 > ## Exercise
 >
 > 1. Using faceting, find out how many years are represented in the census.  
->
-> 3. Which years have the most and least observations?
->
-> 2. Is the column formatted as Number, Date, or Text? How does changing the format change the faceting display?
+> 1. Which years have the most and least observations?
+> 1. Is the column formatted as Number, Date, or Text?
 >
 > > ## Solution
 > >
-> > 1. For the column `yr` do `Facet` > `Text facet`. A box will appear in the left panel showing that there are 26 unique entries in
-> > this column.  
-> > 3. After creating a facet, click `Sort by count` in the facet box. The year with the most observations is 1997. The least is 1977.
-> > 2. By default, the column `yr` is formatted as Text. You can change the format by doing `Edit cells` > `Common transforms` >
-> > `To number`. Doing `Facet` > `Numeric facet` creates a box in the left panel that shows a histogram of the number of
-> > entries per year. Notice that the data is shown as a number, not a date. If you instead transform the column to a date, the
-> > program will assume all entries are on January 1st of the year.   
+> > 1. For the column `yr` do `Facet` > `Text facet`. A box will appear in the left panel showing that there are 16 unique entries in this column.
+> > 1. After creating a facet, click `Sort by count` in the facet box. The year with the most observations is 1978. The least is 1993.
+> > 1. By default, the column `yr` is formatted as Text.
 > >
 > {: .solution}
 {: .challenge}
@@ -73,25 +62,30 @@ Facets are intended to group together common values and OpenRefine limits the nu
 
 When a table is imported into OpenRefine, all columns are treated as having text values. We saw earlier how we can sort column values as numbers, but this does not change the cells in a column from text to numbers. Rather, this interprets the values as numbers for the purposes of sorting but keeps the underlying data type as is. We can, however, transform columns to other data types (e.g. number or date) using the `Edit cells` > `Common transforms` feature. Here we will experiment changing columns to numbers and see what additional capabilities that grants us.
 
-Be sure to remove any `Text filter` facets you have enabled from the left panel so that we can examine our whole dataset. You can remove an existing facet by clicking the `x` in the upper left of that facet window.
+#### Numeric facet
 
-
-### Numeric facet
-
-Sometimes there are non-number values or blanks in a column which may represent errors in data entry and we want to find them.
-We can do that with a `Numeric facet`.
+Sometimes there are non-number values or blanks in a column which may represent errors in data entry and we want to find them. We can do that with a `Numeric facet`.
 
 To transform cells in the `yr` column to numbers, click the down arrow for that column, then `Edit cells` > `Common transforms…` > `To number`. You will notice the `yr` values change from left-justified to right-justified, and black to green color.
 
 > ## Exercise
 >
-> Transform the columns `period`, `plot`, `recordID`, and `plot_id` from text to numbers. Can all columns be transformed to numbers?
+> Transform the columns `period`, `plot`, `recordID`, and `plot_id` from text to numbers.
+>
+> 1. How does changing the format change the faceting display for the `yr` column?
+> 1. Can all columns be transformed to numbers?
 >
 > > ## Solution
 > >
+> > Displaying a `Numeric facet` of `yr` shows a histogram of the number of
+> > entries per year. Notice that the data is shown as a number, not a date. If you instead transform the column to a date, the program will assume all entries are on January 1st of the year.   
+> >
 > > Only observations that include only numerals (0-9) can be transformed to numbers. If you apply a number transformation to
-> > a column that doesn't meet this criteria, in this case `plot_id` you will see a message at the top that  that starts with `Text transform on 0 cells...`. This means that the data in that column was not transformed.
-> >     ![OpenRefine Message](../fig/openrefine-plotid-tonumber.png)
+> > a column that doesn't meet this criteria, in this case `plot_id` you will see a message at the top that starts with `Text transform on 0 cells...`.
+> >
+> >   ![OpenRefine Message](../fig/or362-plotid-tonumber.png)
+> >
+> > This means that the data in that column was not transformed.
 > >
 > {: .solution}
 {: .challenge}
@@ -108,9 +102,11 @@ The next exercise will explore what happens when a numeric column contains value
 
 When done examining the numeric data, remove this facet by clicking the `x` in the upper left corner of its panel. Note that this does not undo the edits you made to the cells in this column.
 
-## Examine a pair of numeric columns using scatterplots
+#### Examine a pair of numeric columns using scatterplots
 
 Now that we have multiple columns representing numbers, we can see how they relate to one another using the scatterplot facet. Select a numeric column, for example `recordID`, and use the pulldown menu to > `Facet` > `Scatterplot facet`. A new window called `Scatterplot Matrix` will appear. There are squares for each pair of numeric columns organized in an upper right triangle. Each square has little dots for the cell values from each row.
+
+    ![Scatterplots between numeric columns](../fig/or362-scatterplots.png)
 
 > ## Exercise
 >

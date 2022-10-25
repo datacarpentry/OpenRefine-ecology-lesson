@@ -35,6 +35,8 @@ There are a few services where you can find an OpenRefine Reconciliation option 
 >* At the bottom of the reconciliation dialogue there is the option to "Auto-match candidates with high confidence". This can be a time saver, but in this case you are going to uncheck it, so you can see the results before a match is made
 >* Now click 'Start Reconciling'
 >
+>   ![Reconciliation Menu](../fig/or362-reconcile.png)
+>
 >Reconciliation is an operation that can take a little time if you have many values to look up.
 >
 >Once the reconciliation has completed two Facets should be created automatically:
@@ -48,11 +50,13 @@ There are a few services where you can find an OpenRefine Reconciliation option 
 >If you look at the scientificName column, you should see some cells have found one or more matches - the potential matches are shown in a list in each cell. Next to each potential match there is a 'tick' and a 'double tick'. To accept a reconciliation match you can use the 'tick' options in cells. The 'tick' accepts the match for the single cell, the 'double tick' accepts the match for all identical cells.
 >
 >* Create a text facet on the scientificName column
->* Choose `Amphispiza bilineata`
+>* Choose *Ammospermophilus harrisii*
 >
 >In the scientificName column you should be able to see the various potential matches. Clicking on a match will take you to the EOL page for that entity.
 >
->* Click a 'double tick' in one of the scientificName column cells for the option `Amphispiza bilineata (Cassin 1850)`
+>   ![Reconciliation menu for each cell](../fig/or362-reconcile-results.png)
+>
+>* Click a 'double tick' in one of the scientificName column cells for the option `*Ammospermophilus harrisii* (Audubon & Bachman 1854)`
 >* This will accept this as a match for all cells - you should see the other options all disappear
 >
 >There are two things that reconciliation can do for you. Firstly it gets a standard form of the name or label for the entity. Secondly it gets an ID for the entity - in this case a page and numeric id for the scientific name in EOL. This is hidden in the default view, but can be extracted:
@@ -60,4 +64,6 @@ There are a few services where you can find an OpenRefine Reconciliation option 
 >* In the scientificName column use the dropdown menu to choose 'Reconcile` > `Add entity identifiers column...'
 >* Give the column the name 'EOL-ID'
 >* This will create a new column that contains the EOL ID for the matched entity
+>
+>   ![Reconciliation identifiers](../fig/or362-reconcile-id.png)
 {: .challenge}
