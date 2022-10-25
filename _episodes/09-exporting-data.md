@@ -12,7 +12,7 @@ keypoints:
 - "Projects can be shared with collaborators, enabling them to see, reproduce and check all data cleaning steps you performed."
 ---
 
-## Saving and Exporting a Project
+## Saving and exporting a project
 
 In OpenRefine you can save or export the project. This means you're saving the data and all the
 information about the cleaning and data transformation steps you've done. Once you've saved a project, you can open it up again and be just where you stopped before.
@@ -48,7 +48,7 @@ You can also export a project. This is helpful, for instance, if you wanted to s
 You can import an existing project into OpenRefine by clicking `Open...` in the upper right > `Import Project` and selecting the `tar.gz`
 project file. This project will include all of the raw data and cleaning steps that were part of the original project.
 
-## Exporting Cleaned Data
+## Exporting cleaned data
 
 You can also export just your cleaned data, rather than the entire project.
 

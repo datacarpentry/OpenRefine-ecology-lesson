@@ -46,7 +46,7 @@ It is common while exploring and cleaning a dataset to make a mistake or decide 
 1. Notice that you can still click on the last stage and make the columns reappear, and toggle back and forth between these states. You can also select the state more than one steps back and revert to that state.
 1. Let's leave the dataset in the state before `scientificNames` was split.
 
-## Trimming Leading and Trailing Whitespace
+## Trimming leading and trailing whitespace
 
 Words with spaces at the beginning or end are particularly hard for humans to identify from strings without these spaces (as we have seen with the `scientificName` column). However, blank spaces can make a big difference to computers, so we usually want to remove them.
 

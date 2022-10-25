@@ -18,7 +18,7 @@ keypoints:
 - "OpenRefine can help you enhance a data set with data from other sources"
 ---
 
-## Motivations for the OpenRefine Lesson
+## Motivations for the OpenRefine lesson
 
 - Data is often very messy, and this tool saves a lot of time on cleaning
   headaches.
@@ -89,7 +89,7 @@ keypoints:
 
   `* Virtual International Authority File`
 
-## What Should I Know When Working With OpenRefine?
+## What should you know when working with OpenRefine?
 * No internet connection is needed, and none of the data or commands you enter in OpenRefine are sent to a remote server.
 * You are NOT modifying original/raw data.
 * Projects are autosaved every five minutes and when OpenRefine is properly shut down (Ctrl+C).

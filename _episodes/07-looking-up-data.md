@@ -28,16 +28,16 @@ This will prompt you for a GREL expression to create a URL. This URL will use ex
 
 The `parseHtml()` function can also be used to extract data from XML.
 
-## Retrieving higher taxonomy from GBIF
+### Retrieving higher taxonomy from GBIF
 
-In this case we are going to use the [GBIF API](https://www.gbif.org/developer/summary). Note that API providers may impose rate limits or have other requirements for using their data, so it's important to check the site's documentation. To reduce the impact on the service, use a value of `500` in the `Throttle Delay` setting to specify the number of milliseconds between URL requests.
+In this case we are going to use the [GBIF API](https://www.gbif.org/developer/summary). Note that API providers may impose rate limits or have other requirements for using their data, so it's important to check the site's documentation. To reduce the impact on the service, use a value of `500` in the `Throttle Delay` setting to specify the number of milliseconds between requests.
 
-The syntax for requesting species information from GBIF is ```http://api.gbif.org/v1/species/match?verbose=true&name={name}``` where {name} is replaced with the scientific name in the dataset.
+The syntax for requesting species information from GBIF is ```http://api.gbif.org/v1/species/match?name={name}``` where {name} is replaced with the scientific name in the dataset.
 
 * Using the dropdown menu of `scientificName`, select `Edit column` > `Add column by fetching URLs...`
 * In the `New column name` field, enter "gbif_JSON"
 * In the field for `Throttle delay` enter 500
-* In the expression box type the GREL ```"http://api.gbif.org/v1/species/match?verbose=true&name="+escape(value,'url')```
+* In the expression box type the GREL ```"http://api.gbif.org/v1/species/match?name="+escape(value,'url')```
 
   At this point, your screen should be similar to this:
   ![Add column by fetching URLs screen capture](../fig/or362-data-from-url.png)
