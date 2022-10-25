@@ -106,7 +106,7 @@ When done examining the numeric data, remove this facet by clicking the `x` in t
 
 Now that we have multiple columns representing numbers, we can see how they relate to one another using the scatterplot facet. Select a numeric column, for example `recordID`, and use the pulldown menu to > `Facet` > `Scatterplot facet`. A new window called `Scatterplot Matrix` will appear. There are squares for each pair of numeric columns organized in an upper right triangle. Each square has little dots for the cell values from each row.
 
-    ![Scatterplots between numeric columns](../fig/or362-scatterplots.png)
+![Scatterplots between numeric columns](../fig/or362-scatterplots.png)
 
 > ## Exercise
 >
