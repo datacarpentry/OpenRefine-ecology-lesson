@@ -111,7 +111,7 @@ Now that we have multiple columns representing numbers, we can see how they rela
 > ## Exercise
 >
 > 1. Examine the scatterplots overall. Do the patterns make sense?
-> 2. Why does the scatterplot for `recordID` vs `period` have the pattern it does?
+> 2. Why does the scatterplot for `recordID` vs `yr` have the pattern it does?
 {: .challenge}
 
 > ## Exercise
