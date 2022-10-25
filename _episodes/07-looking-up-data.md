@@ -22,7 +22,7 @@ OpenRefine can retrieve data from URLs. This can be used in various ways, includ
 
 Typically this is a two step process, firstly a step to retrieve data from a remote service, and secondly to extract the relevant information from the data you have retrieved.
 
-To retrieve data from an external source, use the drop down menu at any column heading and select `Edit column->Add column by fetching URLs...`.
+To retrieve data from an external source, use the drop down menu at any column heading and select `Edit column` > `Add column by fetching URLs...`.
 
 This will prompt you for a GREL expression to create a URL. This URL will use existing values in your data to build a query. When the query runs OpenRefine will request each URL (for each line) and retrieve whatever data is returned (this may often be structured data, but could be HTML). The data retrieved will be stored in a cell in the new column that has been added to the project. You can then use OpenRefine transformations to extract relevant information from the data that has been retrieved. Two specific OpenRefine functions used for this are:
 
@@ -37,7 +37,7 @@ In this case we are going to use the [GBIF API](https://www.gbif.org/developer/s
 
 The syntax for requesting species information from GBIF is ```http://api.gbif.org/v1/species/match?verbose=true&name={name}``` where {name} is replaced with the scientific name in the dataset.
 
-* Using the dropdown menu of `scientificName`, select `Edit column->Add column by fetching URLs...`
+* Using the dropdown menu of `scientificName`, select `Edit column` > `Add column by fetching URLs...`
 * In the `New column name` field, enter "gbif_JSON"
 * In the field for `Throttle delay` enter 500
 * In the expression box type the GREL ```"http://api.gbif.org/v1/species/match?verbose=true&name="+escape(value,'url')```
@@ -58,4 +58,4 @@ At this point you should have a new column containing a long text string in a fo
 
   ![Parse JSON to extract taxonomic family](../fig/openrefine-parse-json.png)
 
-The reason for using `Add column based on this column` is that this allows you to retain the full JSON and extract further data from it if you need to. If you only wanted the taxonomic family and did not need any other information from the JSON you could use `Edit cells->Transform...` with the same GREL expression.
+The reason for using `Add column based on this column` is that this allows you to retain the full JSON and extract further data from it if you need to. If you only wanted the taxonomic family and did not need any other information from the JSON you could use `Edit cells` > `Transform...` with the same GREL expression.
