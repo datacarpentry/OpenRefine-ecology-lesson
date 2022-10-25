@@ -40,6 +40,7 @@ The syntax for requesting species information from GBIF is ```http://api.gbif.or
 * In the expression box type the GREL ```"http://api.gbif.org/v1/species/match?name="+escape(value,'url')```
 
   At this point, your screen should be similar to this:
+  
   ![Add column by fetching URLs screen capture](../fig/or362-data-from-url.png)
 
 * Click 'OK'
