@@ -32,10 +32,9 @@ or share this information as a supplement to a publication.
 2. A `tar.gz` file will download to your default `Download` directory. The `tar.gz` extension tells you that this is a compressed file, which means that this file contains multiple files.
   - On Mac and Linux, you can double-click on the `tar.gz` file and it will expand into a directory. A
 folder icon will now appear.
-  - On Windows, opening `tar.gz` files requires additional software such as [7-zip](http://www.7-zip.org/) or [WinZip](http://www.winzip.com/).
-     - Download and run the installer of your choice.
-     - Double-click the exported `tar.gz` file. If Windows asks how you want to open the file, check the 'Always use this app to open `.gz` files'
-    box, then select "More apps".
+  - On Windows, opening `tar.gz` files requires additional software such as [7-zip](http://www.7-zip.org/).
+     - Download and run the installer.
+     - Double-click the exported `tar.gz` file. If Windows asks how you want to open the file, check the 'Always use this app to open `.gz` files' box, then select "More apps".
      - If your chosen application is not listed, select 'Look for another app on this PC'.
      - In the file browser, navigate to `C:\Program Files`, find the application you installed, and double-click on its executable
     (`7zFM`, for example).
@@ -58,6 +57,4 @@ You can also export just your cleaned data, rather than the entire project.
 
 1. Click `Export` in the top right and select the file type you want to export the data in. `Tab-separated value` (`tsv`) or `Comma-separated value` (`csv`) would be good choices.
 2. That file will be exported to your default `Download` directory. That file can then be opened in a spreadsheet program or imported
-into programs like R or Python, which we'll be discussing later in our workshop.
-
-Remember from our lesson on Spreadsheets that using widely-supported, non-proprietary file formats like `tsv` or `csv` improves the ability of yourself and others to use your data.
+into programs like R or Python.
