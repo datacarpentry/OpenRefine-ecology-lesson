@@ -44,27 +44,6 @@ There will be several near-identical entries in `scientificName`. For example, t
 
 We will see how to correct these misspelled and mistyped entries in a later exercise.  
 
-> ## More on Facets
->
-> [OpenRefine Documentation: Exploring Facets](https://docs.openrefine.org/manual/facets)
->
-> As well as 'Text facets' OpenRefine also supports a range of other types of facet. These include:
->
-> * Numeric facets
-> * Timeline facets (for dates)
-> * Custom facets
-> * Scatterplot facets
->
-> **Numeric and Scatterplot facets** display graphs instead of lists of values. The numeric facet graph includes 'drag and drop' controls you can use to set a start and end range to filter the data displayed. These facets are explored further in [Examining Numbers in OpenRefine](http://www.datacarpentry.org/OpenRefine-ecology-lesson/03-numbers/)
->
-> **Custom facets** are a range of different types of facets. Some of the default custom facets are:
->
-> * Word facet - this breaks down text into words and counts the number of records each word appears in
-> * Duplicates facet - this results in a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if the value in the selected column is an exact match for a value in the same column in another row
-> * Text length facet - creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g. if the values are expected to be years, any row with a text length more than 4 for that column is likely to be incorrect)
-> * Facet by blank - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for rows missing key data.
-{: .callout}
-
 Facets are intended to group together common values and OpenRefine limits the number of values allowed in a single facet to ensure the software does not perform slowly or run out of memory. If you create a facet where there are many unique values (for example, a facet on a 'book title' column in a data set that has one row per book) the facet created will be very large and may either slow down the application, or OpenRefine will not create the facet.
 
 > ## Exercise
