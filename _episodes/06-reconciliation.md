@@ -1,6 +1,6 @@
 ---
 title: "Reconciliation of Values"
-teaching: 10
+teaching: 20
 exercises: 10
 questions:
 - "How can we reconcile scientific names against a taxonomy?"
