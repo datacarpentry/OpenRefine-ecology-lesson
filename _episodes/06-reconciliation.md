@@ -95,8 +95,8 @@ The country field contains several alternative ways to indicate the United State
 > 1. Why do some cells in the `county` column have many options?
 >
 > > ## Solution
-> > * The options may be for the same place, but with different wording, like `Hernando County` for `Hernando`.
-> > * Several county names exist in multiple states. You can mouseover each option and find the correct one that matches the state.
+> > 1. The options may be for the same place, but with different wording, like `Hernando County` for `Hernando`.
+> > 1. Several county names exist in multiple states. You can mouseover each option and find the correct one that matches the state.
 > >
 > {: .solution}
 {: .challenge}

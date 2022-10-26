@@ -1,6 +1,6 @@
 ---
 title: "Exporting Data Cleaning Steps"
-teaching: 5
+teaching: 10
 exercises: 5
 questions:
 - "How can we document the data-cleaning steps we've applied to our data?"

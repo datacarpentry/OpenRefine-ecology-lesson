@@ -1,7 +1,7 @@
 ---
 title: "Transforming Data"
 teaching: 20
-exercises: 10
+exercises: 15
 questions:
 - "How can we transform our data to correct errors?"
 objectives:
@@ -29,6 +29,16 @@ manually. This is another advantage of using OpenRefine to clean your data - thi
 
 In newer versions of OpenRefine (from version 3.4.1) there is now an option to
 clean leading and trailing white spaces from all data when importing the data initially and creating the project.
+
+> ## Exercise
+> Look at the data in the column `coordinates` and split these values to obtain latitude and longitude. Make sure that the option for `Guess cell type` is checked and that `Remove this column` is not. Rename the new columns.
+>
+> What type of data OpenRefine assigns to the new colunms?
+> > ## Solution
+> >
+> > Both new columns will appear with green text, indicating they are numeric. The option for `Guess cell type` allowed OpenRefine to guess that these values were numeric.
+> {: .solution}
+{: .challenge}
 
 ## Undoing / Redoing actions
 
