@@ -40,11 +40,12 @@ browser, the left margin has options to:
   * `Import Project`
   * `Language Settings`
 
-  ![Menu to create a new project](../fig/or362-create-project.png)
-
 1. Click `Create Project` from the left margin and select then `This Computer` (because you're uploading data from your computer).  
 1. Click `Choose Files` and browse to where you stored the file `Portal_rodents_19772002_simplified.csv`. Select the
    file and click `Open`, or just double-click on the filename.
+
+     ![Menu to create a new project](../fig/or362-create-project.png)
+
 1. Click `Next>>` under the browse button to upload the data into OpenRefine.  
 1. On the next screen, OpenRefine will present you with a preview of your data. You can check here for obvious errors, if, for example, your file was tab-delimited rather than comma-delimited, the preview would look strange (and you could correct it by choosing the correct separator and clicking the `Update Preview` button on the right. If you selected the wrong file, click `<<Start Over` at the top left.
 
