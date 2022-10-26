@@ -43,7 +43,7 @@ One way to filter data is to create a text filter on a column. Close all facets 
 2. Type in `bai` into the text box in the filter and press return. At the top of the page it will report that, out of the 790 rows in the raw data, there are 35 rows in which the text has been found within the `scientificName` column (and these rows will be selected for the
    subsequent steps).
 
-   ![OpenRefine Filtering](../fig/or362-filter-scientificname.png)
+   ![OpenRefine filtering example](../fig/or362-filter-scientificname.png)
 
 3. Near the top of the screen, change `Show:` to 50. This way, you will see all the matching rows in a single page.
 
