@@ -66,6 +66,8 @@ When a table is imported into OpenRefine, all columns are treated as having text
 
 Sometimes there are non-number values or blanks in a column which may represent errors in data entry and we want to find them. We can do that with a `Numeric facet`.
 
+Create a `numeric facet` for the column `yr`. The facet will be empty because OpenRefine sees all the values as text.
+
 To transform cells in the `yr` column to numbers, click the down arrow for that column, then `Edit cells` > `Common transforms…` > `To number`. You will notice the `yr` values change from left-justified to right-justified, and black to green color.
 
 > ## Exercise
@@ -83,7 +85,7 @@ To transform cells in the `yr` column to numbers, click the down arrow for that 
 > > Only observations that include only numerals (0-9) can be transformed to numbers. If you apply a number transformation to
 > > a column that doesn't meet this criteria, in this case `plot_id` you will see a message at the top that starts with `Text transform on 0 cells...`.
 > >
-> >   ![OpenRefine Message](../fig/or362-plotid-tonumber.png)
+> >     ![OpenRefine Message](../fig/or362-plotid-tonumber.png)
 > >
 > > This means that the data in that column was not transformed.
 > >
@@ -106,11 +108,13 @@ When done examining the numeric data, remove this facet by clicking the `x` in t
 
 Now that we have multiple columns representing numbers, we can see how they relate to one another using the scatterplot facet. Select a numeric column, for example `recordID`, and use the pulldown menu to > `Facet` > `Scatterplot facet`. A new window called `Scatterplot Matrix` will appear. There are squares for each pair of numeric columns organized in an upper right triangle. Each square has little dots for the cell values from each row.
 
-![Scatterplots between numeric columns](../fig/or362-scatterplots.png)
+  ![Scatterplots between numeric columns](../fig/or362-scatterplots.png)
+
+Click the image of the scatterplot between `recordID` and `yr` to select this one for the facet.
 
 > ## Exercise
 >
-> Click in the scatterplot facet in the left margin and drag to highlight a rectangle. This will subset the data to those entries.
+> Click in the scatterplot facet in the lower left margin and drag to highlight a rectangle. How does this change the data rows displayed?
 {: .challenge}
 
 > ## More Details on Faceting
