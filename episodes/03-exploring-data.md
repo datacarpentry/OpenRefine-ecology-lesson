@@ -1,6 +1,6 @@
 ---
 title: "Exploring Data with OpenRefine"
-teaching: 10
+teaching: 15
 exercises: 20
 questions:
 - "How can we summarise our data?"
