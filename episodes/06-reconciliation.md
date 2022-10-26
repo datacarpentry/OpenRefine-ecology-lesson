@@ -28,7 +28,7 @@ We can use the [Encyclopedia of Life](https://eol.org/) Reconciliation service t
 1. If this is the first time you've used this particular reconciliation service, you'll need to add the details of the service now
     * Click 'Add Standard Service...' and in the dialogue that appears enter:
         * https://eol.org/api/reconciliation
-         ![Add service URL](../fig/or362-reconcile-add.png)
+         ![Prompt to add a service URL for reconciliation](../fig/or362-reconcile-add.png)
 1. You should now see a heading in the list on the left hand side of the Reconciliation dialogue called "Encyclopedia of Life"
 1. Click on this to choose to use this reconciliation service
 1. In the middle box in the reconciliation dialogue you may get asked what type of 'entity' you want to reconcile to - that is, what type of thing are you looking for. The list will vary depending on what reconciliation service you are using.
@@ -37,7 +37,7 @@ We can use the [Encyclopedia of Life](https://eol.org/) Reconciliation service t
 1. At the bottom of the reconciliation dialogue there is the option to "Auto-match candidates with high confidence". This can be a time saver, but in this case you are going to uncheck it, so you can see the results before a match is made
 1. Now click 'Start Reconciling'
 
-   ![Reconciliation Menu](../fig/or362-reconcile.png)
+   ![Reconciliation menu](../fig/or362-reconcile.png)
 
 Reconciliation is an operation that can take a little time if you have many values to look up.
 
@@ -65,4 +65,4 @@ There are two things that reconciliation can do for you. Firstly it gets a stand
 1. Give the column the name 'EOL-ID'
 1. This will create a new column that contains the EOL ID for the matched entity
 
-  ![Reconciliation identifiers](../fig/or362-reconcile-id.png)
+  ![Column with the identifiers from reconciliation](../fig/or362-reconcile-id.png)

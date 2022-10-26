@@ -39,7 +39,7 @@ It is common while exploring and cleaning a dataset to make a mistake or decide 
    on the different stages in the process, the step identified in blue will change and, far more importantly, the data
    will revert to that stage in the processing.
 
-   ![OpenRefine Undo/Redo](../fig/or362-undoredo.png)
+   ![OpenRefine tab for Undo/Redo actions](../fig/or362-undoredo.png)
 
 1. We want to undo the splitting of the column `scientificName`. Select the stage just
    before the split occurred and the new `scientificName` columns will disappear.
@@ -105,14 +105,14 @@ In the `scientificName` text facet box - click the `Cluster` button.
 1. In the resulting pop-up window, you can change the `Method` and the `Keying Function`. Try different combinations to see what different mergers of values are suggested.
 1. If you select the `key collision` method and the `metaphone3` keying function. It should identify one cluster:
 
-   ![OpenRefine Clustering](../fig/or362-clustering.png)
+   ![OpenRefine window for clustering](../fig/or362-clustering.png)
 
 1. Note that the `New Cell Value` column displays the new name that will replace the value in all the cells in the
 group. You can change this if you wish to choose a different value than the suggested one.
 1. Tick the `Merge?` checkbox beside each group, then click `Merge selected & Close` to apply the corrections to the dataset and close the window.
 1. The text facet of `scientificName` will update to show the new summary of the column. It will have now 7 options:
 
-   ![Results After Clustering](../fig/or362-clustering-result.png)
+   ![Facet of scientificName after clustering](../fig/or362-clustering-result.png)
 
 > ## Clustering Documentation
 > Full documentation on clustering can be found at the [OpenRefine Clustering Methods In-depth](https://docs.openrefine.org/next/technical-reference/clustering-in-depth) page.

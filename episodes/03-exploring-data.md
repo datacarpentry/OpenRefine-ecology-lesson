@@ -28,12 +28,12 @@ Here we will use faceting to look for potential errors in data entry in the `sci
 1. Scroll over to the `scientificName` column.
 2. Click the down arrow and choose `Facet` > `Text facet`.
 
-    ![OpenRefine Facet menu](../fig/or362-facet-menu.png)
+    ![Facet menu of a column](../fig/or362-facet-menu.png)
 
 3. In the left panel, you'll now see a box containing every unique value in the `scientificName` column
 along with a number representing how many times that value occurs in the column.
 
-    ![Faceting results on scientificName column](../fig/or362-faceted-scientificname.png)
+    ![Faceting results on the column scientificName](../fig/or362-faceted-scientificname.png)
 
 4. Try sorting this facet by name and by count. Do you notice any problems with the data? What are they?
 5. Hover the mouse over one of the names in the `facet` list. You should see that you have an `edit` function available.
