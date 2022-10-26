@@ -19,6 +19,7 @@ OpenRefine has documentation and other resources:
 
 * [OpenRefine web site](https://openrefine.org/)
 * [OpenRefine User Manual](https://docs.openrefine.org/)
+  * [Exploring Facets](https://docs.openrefine.org/manual/facets)
   * [Reconciling](https://docs.openrefine.org/manual/reconciling)
   * [GREL](https://docs.openrefine.org/manual/grel)
   * [Wikibase](https://docs.openrefine.org/manual/wikibase/overview)

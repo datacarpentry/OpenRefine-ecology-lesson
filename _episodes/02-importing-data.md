@@ -1,7 +1,7 @@
 ---
 title: "Importing Data to OpenRefine"
-teaching: 20
-exercises: 15
+teaching: 10
+exercises: 0
 questions:
 - "How can we import our data into OpenRefine?"
 objectives:

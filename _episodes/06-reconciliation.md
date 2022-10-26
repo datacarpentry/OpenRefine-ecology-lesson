@@ -54,10 +54,10 @@ If you look at the scientificName column, you should see some cells have found o
 
 1. Create a text facet on the scientificName column
 1. Choose *Ammospermophilus harrisii*
-  * In the scientificName column you should be able to see the various potential matches. Clicking on a match will take you to the EOL page for that entity.
+  * In the scientificName column you should be able to see the various potential matches. Clicking on a match will take you to the EOL page for that entity
   ![Reconciliation menu for each cell](../fig/or362-reconcile-results.png)
 1. Click a 'double tick' in one of the scientificName column cells for the option `*Ammospermophilus harrisii* (Audubon & Bachman 1854)`
-1. This will accept this as a match for all cells - you should see the other options all disappear
+1. This will accept this as a match for all cells with this value - you should see the other options disappear
 
 There are two things that reconciliation can do for you. Firstly it gets a standard form of the name or label for the entity. Secondly it gets an ID for the entity - in this case a page and numeric id for the scientific name in EOL. This is hidden in the default view, but can be extracted:
 
@@ -66,3 +66,37 @@ There are two things that reconciliation can do for you. Firstly it gets a stand
 1. This will create a new column that contains the EOL ID for the matched entity
 
   ![Column with the identifiers from reconciliation](../fig/or362-reconcile-id.png)
+
+The country field contains several alternative ways to indicate the United States of America, including:
+
+* `US`
+* `UNITED STATES`
+* `United States of America`
+
+> ## Exercise
+>
+> If Wikidata does not appear in the list of reconciliation services, add the standard service using the URL: `https://wikidata.reconci.link/en/api`
+>
+> * Reconcile the columns `county`, `state`, and `country` using Wikidata.
+>   * If a type does not show in the list, search using the `Reconcile against type` box:
+>     * `country`: `country (Q6256)`
+>     * `state`: `U.S. state (Q35657)`
+>     * `county`: `county of the United States (Q47168)`
+> * Mouseover the options listed to see a preview of the entity suggested
+>   * For the cells with multiple options, choose one of the suggested values and click the double checkmark button to apply to all cells with the same value
+> * Click the menu of the `country` column and select `Edit column` > `Add column based on this column...`
+> * Enter "reconciled_country" in the field for `New column name`
+> * In the `Expression` box, enter the following GREL: `cell.recon.best.name`
+> * Click `OK`
+>
+> This will create a new column with the reconciled names for the countries. Create a text facet to see that there are a single name for each country.
+>
+> 1. In the cases where OpenRefine did not select a match automatically, are the options relevant?
+> 1. Why do some cells in the `county` column have many options?
+>
+> > ## Solution
+> > * The options may be for the same place, but with different wording, like `Hernando County` for `Hernando`.
+> > * Several county names exist in multiple states. You can mouseover each option and find the correct one that matches the state.
+> >
+> {: .solution}
+{: .challenge}

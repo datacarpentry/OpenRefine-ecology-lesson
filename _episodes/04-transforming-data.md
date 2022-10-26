@@ -1,6 +1,6 @@
 ---
 title: "Transforming Data"
-teaching: 30
+teaching: 20
 exercises: 10
 questions:
 - "How can we transform our data to correct errors?"

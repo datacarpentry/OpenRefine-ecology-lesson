@@ -1,7 +1,7 @@
 ---
 title: "Looking Up Data"
-teaching: 20
-exercises: 10
+teaching: 15
+exercises: 0
 questions:
 - "How do I fetch data from an Application Programming Interface (API) to be used in OpenRefine?"
 - "How do I reconcile my data by comparing it to authoritative datasets"
