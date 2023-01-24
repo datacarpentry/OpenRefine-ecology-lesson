@@ -110,7 +110,7 @@ In the `scientificName` text facet box - click the `Cluster` button.
 your solutions for later exercises will not be the same as shown in those exercise solutions.
 
 > ## Clustering Documentation
-> Full documentation on clustering can be found at the [OpenRefine Clustering Methods In-depth](https://docs.openrefine.org/next/technical-reference/clustering-in-depth) page.
+> Full documentation on clustering can be found at the [OpenRefine Clustering Methods In-depth](https://openrefine.org/docs/technical-reference/clustering-in-depth) page.
 {: .callout}
 ## Data splitting
 
