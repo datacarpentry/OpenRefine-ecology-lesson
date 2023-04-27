@@ -1,1 +1,154 @@
-{"contributors":[{"type":"Editor","name":"Deborah Paul"},{"type":"Editor","name":"Cam Macdonell"}],"creators":[{"name":"Greg Wilson"},{"name":"Erin Becker"},{"name":"Raniere Silva"},{"name":"Tracy Teal"},{"name":"Francois Michonneau"},{"name":"Abigail Cabunoc"},{"name":"Debbie Paul"},{"name":"Brian Yandell"},{"name":"Cam Macdonell"},{"name":"Dan Mazur"},{"name":"Kari L. Jordan"},{"name":"Rémi Emonet"},{"name":"Piotr Banaszkiewicz"},{"name":"Ross Dickson"},{"name":"Aleksandra Nenadic"},{"name":"C. Titus Brown"},{"name":"James Allen"},{"name":"Jeffrey W. Hollister"},{"name":"Jon Pipitone"},{"name":"Jonah Duckles"},{"name":"Maxim Belkin"},{"name":"Michael Hansen"},{"name":"Nick Young"},{"name":"evanwill"},{"name":"April M. Wright"},{"name":"Betty Rozum"},{"name":"Bill Mills"},{"name":"Gabriel A. Devenyi"},{"name":"Hilmar Lapp"},{"name":"Hugo Tavares"},{"name":"Ian Carroll"},{"name":"James Mickley"},{"name":"Lisa Zilinski"},{"name":"Ryan E. Johnson"},{"name":"Timothée Poisot"},{"name":"W. Trevor King"},{"name":"Zack Brym"},{"name":"dlstrong"},{"name":"trelogan"}]}
+{
+  "contributors": [
+    {
+      "type": "Editor",
+      "name": "Luis J Villanueva"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Luis J Villanueva"
+    },
+    {
+      "name": "Phillip Doehle",
+      "orcid": "0000-0002-3006-0683"
+    },
+    {
+      "name": "Dorothea Salo"
+    },
+    {
+      "name": "Maneesha Sane"
+    },
+    {
+      "name": "Debbie Paul"
+    },
+    {
+      "name": "Jeanine Finn"
+    },
+    {
+      "name": "JoshuaDull"
+    },
+    {
+      "name": "David LeBauer"
+    },
+    {
+      "name": "Dr. Kari L. Jordan",
+      "orcid": "0000-0003-4121-2432"
+    },
+    {
+      "name": "Nicola Soranzo",
+      "orcid": "0000-0003-3627-5340"
+    },
+    {
+      "name": "Paul R. Pival",
+      "orcid": "0000-0002-1685-0590"
+    },
+    {
+      "name": "Tracy Teal",
+      "orcid": "0000-0002-9180-9598"
+    },
+    {
+      "name": "Cornelia Cronje",
+      "orcid": "0000-0003-2736-6267"
+    },
+    {
+      "name": "Trevor Keller",
+      "orcid": "0000-0002-2920-8302"
+    },
+    {
+      "name": "kdmclean"
+    },
+    {
+      "name": "Aleksandra Nenadic",
+      "orcid": "0000-0002-2269-3894"
+    },
+    {
+      "name": "Alexander Robillard"
+    },
+    {
+      "name": "Andrew Battista"
+    },
+    {
+      "name": "Ariel Deardorff",
+      "orcid": "0000-0001-8930-6089"
+    },
+    {
+      "name": "Ben Companjen"
+    },
+    {
+      "name": "Christopher Erdmann",
+      "orcid": "0000-0003-2554-180X"
+    },
+    {
+      "name": "David Durden"
+    },
+    {
+      "name": "Evan Peter Williamson",
+      "orcid": "0000-0002-7990-9924"
+    },
+    {
+      "name": "Hannah Houts"
+    },
+    {
+      "name": "Jen Hammock",
+      "orcid": "0000-0002-9943-2342"
+    },
+    {
+      "name": "Jennifer Daub"
+    },
+    {
+      "name": "jenniferleeucalgary"
+    },
+    {
+      "name": "John Wright"
+    },
+    {
+      "name": "Jonathan Stoneman"
+    },
+    {
+      "name": "Kate Hertweck",
+      "orcid": "0000-0002-4026-4612"
+    },
+    {
+      "name": "Kelly Barnes"
+    },
+    {
+      "name": "Kelly Rowland"
+    },
+    {
+      "name": "Michele Hayslett",
+      "orcid": "0000-0001-8783-2763"
+    },
+    {
+      "name": "Olubukola Oluranti Babalola"
+    },
+    {
+      "name": "Peace Ossom Williamson"
+    },
+    {
+      "name": "Phil Reed",
+      "orcid": "0000-0002-4479-715X"
+    },
+    {
+      "name": "Raniere Silva"
+    },
+    {
+      "name": "Sarah LR Stevens",
+      "orcid": "0000-0002-7040-548X"
+    },
+    {
+      "name": "Alexandra Alisa Provo",
+      "orcid": "0000-0001-8108-2025"
+    },
+    {
+      "name": "biblioFile"
+    },
+    {
+      "name": "Petra Hermankova",
+      "orcid": "0000-0002-6349-0540"
+    }
+  ],
+  "license": {
+    "id": "CC-BY-4.0"
+  }
+}
