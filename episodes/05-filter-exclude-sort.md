@@ -1,7 +1,7 @@
 ---
 title: "Filtering and Sorting with OpenRefine"
-teaching: 10
-exercises: 10
+teaching: 15
+exercises: 20
 questions:
 - "How can we select only a subset of our data to work with?"
 - "How can we sort our data?"
@@ -13,8 +13,6 @@ keypoints:
 - "OpenRefine provides various ways to sort and filter data without affecting the raw data."
 ---
 
-# Lesson
-
 ## Filtering
 
 Sometimes you want to view and work only with a subset of data or apply an operation only to a subset.
@@ -23,34 +21,29 @@ You can do this by applying various filters to your data.
 ### Including/excluding data entries on facets
 
 One way to filter down our data is to use the `include` or `exclude` buttons on the entries in a text facet.
-If you still have your text facet for `scientificName`, you can use it. If you've closed that facet, recreate it by selecting `Facet` >
-`Text facet` on the `scientificName` column.
+If you still have your text facet for `scientificName`, you can use it. If you've closed that facet, recreate it by selecting `Facet` > `Text facet` on the `scientificName` column.
 
-1. In the text facet, hover over one of the names, e.g. `Baiomys taylori`. Notice that when you hover over it, there are
-   buttons to the right for `edit` and `include`.
-2. Whilst hovering over `Baiomys taylori`, move to the right and click the `include` option. This will include this
-   species, as signified by the name of the species changing from blue to orange, and new options of `edit` and
-   `exclude` will be presented. Note that in the top of the page, "46 matching rows" is now displayed instead of "35549
-   rows".
-3. You can include other species in your current filter - e.g. click on `Chaetodipus baileyi` in the same way to include it in the filter.
+1. In the text facet, hover over one of the names, e.g. *Baiomys taylori*. Notice that when you hover over it, there are buttons to the right for `edit` and `include`.
+2. Whilst hovering over *Baiomys taylori*, move to the right and click the `include` option. This will include this species, as signified by the name of the species changing from blue to orange, and new options of `edit` and
+   `exclude` will be presented. Note that in the top of the page, "33 matching rows" is now displayed instead of "790 rows".
+3. You can include other species in your current filter - e.g. click on *Chaetodipus baileyi* in the same way to include it in the filter.
 4. Alternatively, you can click the name of the species to include it in the filter instead of clicking the
 `include`/`exclude` buttons. This will include the selected species and exclude all others options in a single step, which can be useful.
 5. Click `include` and `exclude` on the other species and notice how the entries appear and
    disappear from the data table to the right.
 
+Click on `Reset` at the top-right of the facet before continuing to the next step.
 
 ### Text filters
 
-One way to filter data is to create a text filter on a column. Close all facets you may have created previously
-and reinstate the text facet on the `scientificName` column.
+One way to filter data is to create a text filter on a column. Close all facets you may have created previously and reinstate the text facet on the `scientificName` column.
 
 1. Click the down arrow next to `scientificName` > `Text filter`. A `scientificName` filter will appear on the left margin below the text facet.
 
-2. Type in `bai` into the text box in the filter and press return. At the top of the page it will report that, out of the 35549
-   rows in the raw data, there are 48 rows in which the text has been found within the `scientificName` column (and these rows will be selected for the
+2. Type in `bai` into the text box in the filter and press return. At the top of the page it will report that, out of the 790 rows in the raw data, there are 35 rows in which the text has been found within the `scientificName` column (and these rows will be selected for the
    subsequent steps).
 
-   ![OpenRefine Filtering](../fig/openrefine-filtering.png)
+   ![OpenRefine filtering example](../fig/or362-filter-scientificname.png)
 
 3. Near the top of the screen, change `Show:` to 50. This way, you will see all the matching rows in a single page.
 
@@ -61,10 +54,10 @@ and reinstate the text facet on the `scientificName` column.
 >
 > > ## Solution
 > > 1. Do `Facet` > `Text facet` on the `scientificName` column after filtering. This will show that
-> > two names match your filter criteria. They are `Baiomys taylori` and `Chaetodipus baileyi`.   
+> > two names match your filter criteria. They are *Baiomys taylori* and *Chaetodipus baileyi*.   
 > > 2. To restrict to only one of these two species, you could:
-> > * Check the `case sensitive` box within the `scientificName` facet. Once you do this, you will see that using the upper-case `Bai` will only > > return `Baiomys taylori`, while using lower-case `bai` will only return `Chaetodipus baileyi`.
-> > * You could include more letters in your filter (i.e. typing `baio` will exclusively return `Baiomys taylori`, while `bail` will only return `Chaetodipus baileyi`).
+> > * Check the `case sensitive` box within the `scientificName` facet. Once you do this, you will see that using the upper-case `Bai` will only > > return *Baiomys taylori*, while using lower-case `bai` will only return *Chaetodipus baileyi*.
+> > * You could include more letters in your filter (i.e. typing `baio` will exclusively return *Baiomys taylori*, while `bail` will only return *Chaetodipus baileyi*).
 > >
 > {: .solution}
 {: .challenge}
@@ -76,7 +69,7 @@ and reinstate the text facet on the `scientificName` column.
 >
 {: .callout}
 
-**Important:** Make sure both species are included in your filtered dataset before continuing with the rest of the exercises.
+**Important:** Make sure both species (*Baiomys taylori* and *Chaetodipus baileyi*) are included in your filtered dataset before continuing with the rest of the exercises.
 
 
 ## Sort
@@ -110,7 +103,7 @@ If you try to re-sort a column that you have already used, the drop-down menu ch
 > Sort the data by `plot`. What year(s) were observations recorded for plot 1 in this filtered dataset?
 >
 > > ## Solution
-> > In the `plot` column, select `Sort...` > `numbers` and select `smallest first`. The years represented are between 1989 and 1995.
+> > In the `plot` column, select `Sort...` > `numbers` and select `smallest first`. The years represented include 1990 and 1995.
 > >
 > {: .solution}
 {: .challenge}

@@ -1,0 +1,791 @@
+recordID,species,scientificName,mo,dy,yr,period,plot_id,plot,note1,stake,locality,coordinates,county,state,country,sex
+6545,AB,  Amphispiza bilineata,9,18,1982,62,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,13,36,"Winterthur Gardens, Delaware",,NULL,NULL,UNITED STATES,
+5220,AB,  Amphispiza bilineata  ,1,24,1982,54,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,27,"Winterthur Gardens, Delaware",,NULL,NULL,UNITED STATES,
+7020,AH,Ammospermophilis harrisi,11,21,1982,63,f24f2db6-eadd-4de9-9d2f-95aea376c013,24,13,72,Muscogee-Rerdido [Perdido] River.,30.44972|-87.38167,Escambia,Florida,United States of America,
+7645,AH,Ammospermophilus harrisii,4,16,1983,67,f24f2db6-eadd-4de9-9d2f-95aea376c013,24,13,21,near Lake Lindsey.,28.63444|-82.35944,Hernando,Florida,United States of America,
+8641,AH,Ammospermophilus harrisi,11,13,1983,74,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,25,road to St. Mark's lighthouse; St. Mark's Wildlife Refuge.,,Wakulla,Florida,United States of America,
+9495,AH,Ammospermophilus harrisii,8,26,1984,82,aab65971-f64b-425e-9a78-17d7ec63423c,9,13,21,3.5 miles north of Allicance Cross Road on Fla. Rt. 71.,,Jackson,Florida,United States of America,
+9583,AH,Ammospermophilus harrisii,9,30,1984,83,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,37,"St. Vincent Island, wet swale",,NULL,NULL,UNITED STATES,
+9862,AH,Ammospermophilus harrisii,1,20,1985,86,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,13,11,"Eagle Mountain Trailhead, Clearwater National Forest",46.33778|-115.11639,Idaho,Idaho,UNITED STATES,
+9882,AH,Ammospermophilus harrisii,1,20,1985,86,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,31,"Eagle Mountain Trailhead, Clearwater National Forest",46.33778|-115.11639,Idaho,Idaho,UNITED STATES,
+9891,AH,Ammospermophilus harrisii,1,20,1985,86,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,13,43,"Split Creek Trail, Nez Perce National Forest",45.45|-115.91667,Idaho,Idaho,UNITED STATES,
+9939,AH,Ammospermophilus harrisii,2,16,1985,87,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,25,"Split Creek Trail, Nez Perce National Forest",45.45|-115.91667,Idaho,Idaho,UNITED STATES,
+10153,AH,Ammospermophilus harrisii,4,20,1985,-88,f24f2db6-eadd-4de9-9d2f-95aea376c013,24,13,15,"Split Creek Trail, Nez Perce National Forest",45.45|-115.91667,Idaho,Idaho,UNITED STATES,
+10450,AH,Ammospermophilus harrisii,6,15,1985,90,1e87b11b-4795-4f41-bdff-2d5c4412be25,19,13,13,"Canyon Creek Trailhead, Clearwater National Forest",45.389905|-114.804434,Idaho,Idaho,UNITED STATES,
+10498,AH,Ammospermophilus harrisii,6,16,1985,90,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,13,24,"FS Rd 25 4.6 mi S of FS Rd 300, Gifford Pinchot National Forest",,Lewis,Washington,UNITED STATES,
+10509,AH,Ammospermophilus harrisii,6,16,1985,90,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,33,"FS Rd 25 4.6 mi S of FS Rd 300, Gifford Pinchot National Forest",,Lewis,Washington,UNITED STATES,
+10694,AH,Ammospermophilus harrisii,8,20,1985,92,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,33,"FS Rd 25 4.6 mi S of FS Rd 300, Gifford Pinchot National Forest",,Lewis,Washington,UNITED STATES,
+15510,AH,Ammospermophilus harrisii,2,4,1989,131,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,27,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15588,AH,Ammospermophilus harrisii,2,5,1989,131,a7498949-7b94-4f8e-b253-3e26bbf80710,7,13,22,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15624,AH,Ammospermophilus harrisii,2,5,1989,131,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,44,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15784,AH,Ammospermophilus harrisii,3,13,1989,132,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,13,76,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15950,AH,Ammospermophilus harrisii,4,2,1989,133,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,53,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15974,AH,Ammospermophilus harrisii,5,9,1989,134,f24f2db6-eadd-4de9-9d2f-95aea376c013,24,13,14,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16098,AH,Ammospermophilus harrisii,6,3,1989,135,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,13,16,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16121,AH,Ammospermophilus harrisii,6,3,1989,135,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,13,47,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16128,AH,Ammospermophilus harrisii,6,3,1989,135,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,13,56,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16175,AH,Ammospermophilus harrisii,6,4,1989,135,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,34,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16184,AH,Ammospermophilus harrisii,6,4,1989,135,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,43,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16230,AH,Ammospermophilus harrisii,7,3,1989,136,a7498949-7b94-4f8e-b253-3e26bbf80710,7,13,32,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16240,AH,Ammospermophilus harrisii,7,3,1989,136,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,51,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16242,AH,Ammospermophilus harrisii,7,3,1989,136,a7498949-7b94-4f8e-b253-3e26bbf80710,7,13,51,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16260,AH,Ammospermophilus harrisii,7,3,1989,136,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,72,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16263,AH,Ammospermophilus harrisii,7,3,1989,136,bd967227-b528-4374-87fc-8769a15c7f58,23,13,73,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16288,AH,Ammospermophilus harrisii,7,4,1989,136,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,25,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16294,AH,Ammospermophilus harrisii,7,4,1989,136,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,13,33,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16404,AH,Ammospermophilus harrisii,7,30,1989,137,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,13,61,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16481,AH,Ammospermophilus harrisii,9,4,1989,138,486c68ed-972c-4baf-beea-f8a72216e580,14,13,65,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16496,AH,Ammospermophilus harrisii,10,7,1989,139,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,13,15,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16564,AH,Ammospermophilus harrisii,10,8,1989,139,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,45,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16572,AH,Ammospermophilus harrisii,10,8,1989,139,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,13,61,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16678,AH,Ammospermophilus harrisii,11,5,1989,140,486c68ed-972c-4baf-beea-f8a72216e580,14,13,32,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16688,AH,Ammospermophilus harrisii,11,5,1989,140,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,42,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16901,AH,Ammospermophilus harrisii,1,6,1990,142,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,37,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+17020,AH,Ammospermophilus harrisii,1,29,1990,143,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,47,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+17026,AH,Ammospermophilus harrisii,1,29,1990,143,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,52,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+17204,AH,Ammospermophilus harrisii,2,25,1990,144,486c68ed-972c-4baf-beea-f8a72216e580,14,13,41,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+17373,AH,Ammospermophilus harrisii,4,24,1990,146,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,13,15,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+17416,AH,Ammospermophilus harrisii,4,25,1990,146,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,25,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+17488,AH,Ammospermophilus harrisii,5,23,1990,147,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,13,15,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+17513,AH,Ammospermophilus harrisii,5,24,1990,147,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,11,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+17532,AH,Ammospermophilus harrisii,5,24,1990,147,85292288-e747-42ca-9a53-e8ee8e187cd7,17,13,53,Reserva Biológica San Francisco-NUMEX (2070m-R2),,NULL,Loja Province,ECUADOR,
+17533,AH,Ammospermophilus harrisii,5,24,1990,147,85292288-e747-42ca-9a53-e8ee8e187cd7,17,13,54,Reserva Biológica San Francisco-NUMEX (2070m-R2),,NULL,Loja Province,ECUADOR,
+17535,AH,Ammospermophilus harrisii,5,24,1990,147,85292288-e747-42ca-9a53-e8ee8e187cd7,17,13,55,Reserva Biológica San Francisco-NUMEX (2070m-R2),,NULL,Loja Province,ECUADOR,
+17557,AH,Ammospermophilus harrisii,5,25,1990,147,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,26,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+17577,AH,Ammospermophilus harrisii,5,25,1990,147,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,13,76,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+17804,AH,Ammospermophilus harrisii,8,17,1990,150,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,13,64,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+17813,AH,Ammospermophilus harrisii,8,17,1990,150,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,74,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+17828,AH,Ammospermophilus harrisii,9,22,1990,151,a7498949-7b94-4f8e-b253-3e26bbf80710,7,13,41,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+17836,AH,Ammospermophilus harrisii,9,22,1990,151,a7498949-7b94-4f8e-b253-3e26bbf80710,7,13,53,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+17865,AH,Ammospermophilus harrisii,9,25,1990,151,486c68ed-972c-4baf-beea-f8a72216e580,14,13,45,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+17897,AH,Ammospermophilus harrisii,10,15,1990,152,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,33,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+17969,AH,Ammospermophilus harrisii,10,17,1990,152,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,64,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+18002,AH,Ammospermophilus harrisii,11,10,1990,153,bd967227-b528-4374-87fc-8769a15c7f58,23,13,51,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+5204,AB,Amphispiza bilineata,1,24,1982,54,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,17,near Lake Lindsey.,28.63444|-82.35944,Hernando,Florida,United States of America,
+5313,AB,Amphispiza bilineata,1,25,1982,54,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,13,63,road to St. Mark's lighthouse; St. Mark's Wildlife Refuge.,,Wakulla,Florida,United States of America,
+5387,AB,Amphispiza bilineata,2,23,1982,55,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,13,12,3.5 miles north of Allicance Cross Road on Fla. Rt. 71.,,Jackson,Florida,United States of America,
+5488,AB,Amphispiza bilineata,2,24,1982,55,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,13,53,"St. Vincent Island, wet swale",,NULL,NULL,UNITED STATES,
+5496,AB,Amphispiza bilineata,2,24,1982,55,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,13,71,"Eagle Mountain Trailhead, Clearwater National Forest",46.33778|-115.11639,Idaho,Idaho,UNITED STATES,
+5535,AB,Amphispiza bilineata,3,29,1982,56,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,13,31,"Eagle Mountain Trailhead, Clearwater National Forest",46.33778|-115.11639,Idaho,Idaho,UNITED STATES,
+5643,AB,Amphispiza bilineata,3,30,1982,56,aab65971-f64b-425e-9a78-17d7ec63423c,9,13,44,"Split Creek Trail, Nez Perce National Forest",45.45|-115.91667,Idaho,Idaho,UNITED STATES,
+5687,AB,Amphispiza bilineata,4,28,1982,57,1e87b11b-4795-4f41-bdff-2d5c4412be25,19,13,12,"Split Creek Trail, Nez Perce National Forest",45.45|-115.91667,Idaho,Idaho,UNITED STATES,
+5741,AB,Amphispiza bilineata,4,28,1982,57,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,62,"Split Creek Trail, Nez Perce National Forest",45.45|-115.91667,Idaho,Idaho,UNITED STATES,
+5759,AB,Amphispiza bilineata,4,28,1982,57,bd967227-b528-4374-87fc-8769a15c7f58,23,13,77,"Canyon Creek Trailhead, Clearwater National Forest",45.389905|-114.804434,Idaho,Idaho,UNITED STATES,
+5784,AB,Amphispiza bilineata,4,29,1982,57,a609589e-f097-4e41-877d-3cd0490845b4,16,13,34,"FS Rd 25 4.6 mi S of FS Rd 300, Gifford Pinchot National Forest",,Lewis,Washington,UNITED STATES,
+5821,AB,Amphispiza bilineata,4,29,1982,57,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,13,67,"FS Rd 25 4.6 mi S of FS Rd 300, Gifford Pinchot National Forest",,Lewis,Washington,UNITED STATES,
+5899,AB,Amphispiza bilineata,5,21,1982,58,bd967227-b528-4374-87fc-8769a15c7f58,23,13,72,"FS Rd 25 4.6 mi S of FS Rd 300, Gifford Pinchot National Forest",,Lewis,Washington,UNITED STATES,
+6051,AB,Amphispiza bilineata,6,28,1982,59,c85de67c-1590-4129-8953-0c530a565585,10,13,74,Upper Hoh Rd 8.3 mi E of US 101,,Jefferson,Washington,UNITED STATES,
+6370,AB,Amphispiza bilineata,8,15,1982,61,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,13,44,Upper Hoh Rd 8.3 mi E of US 101,,Jefferson,Washington,UNITED STATES,
+6377,AB,Amphispiza bilineata,8,15,1982,61,bd967227-b528-4374-87fc-8769a15c7f58,23,13,47,Upper Hoh Rd 8.3 mi E of US 101,,Jefferson,Washington,UNITED STATES,
+6398,AB,Amphispiza bilineata,8,15,1982,61,bd967227-b528-4374-87fc-8769a15c7f58,23,13,62,Upper Hoh Rd 8.3 mi E of US 101,,Jefferson,Washington,UNITED STATES,
+6404,AB,Amphispiza bilineata,8,15,1982,61,bd967227-b528-4374-87fc-8769a15c7f58,23,13,66,"FS Rd 443 0.8 mi S of Selway River Rd, Nez Perce National Forest",46.082289|-115.425324,Idaho,Idaho,UNITED STATES,
+6407,AB,Amphispiza bilineata,8,15,1982,61,bd967227-b528-4374-87fc-8769a15c7f58,23,13,67,"Trib of Meadow Creek, FS Rd 443 2.6 mi S of FS Rd 223, Nez Perce National Forest",45.481902|-115.931183,Idaho,Idaho,UNITED STATES,
+6415,AB,Amphispiza bilineata,8,15,1982,61,bd967227-b528-4374-87fc-8769a15c7f58,23,13,75,"Trib of Meadow Creek, FS Rd 443 2.6 mi S of FS Rd 223, Nez Perce National Forest",45.481902|-115.931183,Idaho,Idaho,UNITED STATES,
+6531,AB,Amphispiza bilineata,9,18,1982,62,aab65971-f64b-425e-9a78-17d7ec63423c,9,13,26,"near Red River Hotsprings, Nez Perce National Forest",45.809081|-115.473482,Idaho,Idaho,UNITED STATES,
+6540,AB,Amphispiza bilineata,9,18,1982,62,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,13,32,"Slate Creek Rd 10.2 mi E of US 95, Nez Perce National Forest",45.597618|-115.9427,Idaho,Idaho,UNITED STATES,
+6580,AB,Amphispiza bilineata,9,18,1982,62,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,13,67,"Slate Creek Rd 10.2 mi E of US 95, Nez Perce National Forest",45.597618|-115.9427,Idaho,Idaho,UNITED STATES,
+6724,AB,Amphispiza bilineata,10,23,1982,-62,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,5,51,"Slate Creek Rd 10.2 mi E of US 95, Nez Perce National Forest",45.597618|-115.9427,Idaho,Idaho,UNITED STATES,
+7137,AB,Amphispiza bilineata,1,12,1983,64,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,11,Burgdorf Rd 12.4 mi NW of Warren Wagon Rd,45.390995|-115.855953,Idaho,Idaho,UNITED STATES,
+7138,AB,Amphispiza bilineata,1,12,1983,64,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,12,Burgdorf Rd 12.4 mi NW of Warren Wagon Rd,45.390995|-115.855953,Idaho,Idaho,UNITED STATES,
+7140,AB,Amphispiza bilineata,1,12,1983,64,f24f2db6-eadd-4de9-9d2f-95aea376c013,24,13,14,Burgdorf Rd 12.4 mi NW of Warren Wagon Rd,45.390995|-115.855953,Idaho,Idaho,UNITED STATES,
+7143,AB,Amphispiza bilineata,1,12,1983,64,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,14,FL; Franklin Co.; Apalachicola National Estuarine Sanctuary; near the Marshall House on bayside of island.,,NULL,NULL,UNITED STATES,
+7146,AB,Amphispiza bilineata,1,12,1983,64,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,16,FL; Palm Beach Co.; Sand pine scrub just W of DuBois Park on south side of Jupiter Inlet. Naturalized.,,NULL,NULL,UNITED STATES,
+7150,AB,Amphispiza bilineata,1,12,1983,64,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,17,"Florida; Pasco County; Just west of Blanton on FLA 41, ca. 2 miles east of US 75",,NULL,NULL,UNITED STATES,
+7151,AB,Amphispiza bilineata,1,12,1983,64,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,21,Florida; Leon County; near human habitation but in old hardwood forest with much beech and magnolia in ravine; on Ireland property near the Indian Mounds near Lake Jackson.,,NULL,NULL,UNITED STATES,
+7171,AB,Amphispiza bilineata,1,12,1983,64,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,33,"Florida; Leon County; in heavily wooded area, ca 1/2 mile N of entrance to Maclay Gardens State Park, Tallahassee.",,NULL,NULL,UNITED STATES,
+7176,AB,Amphispiza bilineata,1,12,1983,64,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,35,"Florida; Leon County; on wooded natural levee by the Apalachicola River, between Jim Woodruff Dam and U.S. Rt. 90 bridge, E of Sneads.",,NULL,NULL,UNITED STATES,
+7180,AB,Amphispiza bilineata,1,12,1983,64,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,36,Florida; Leon County; vicinity of the boat landing at the end of Rhoden Cove Road; west of Meridian road; on the SE shore of Lake Jackson; North of Tallahassee.,,NULL,NULL,UNITED STATES,
+7183,AB,Amphispiza bilineata,1,12,1983,64,1e87b11b-4795-4f41-bdff-2d5c4412be25,19,13,42,"Florida; Jefferson County; by E edge of West Lake Rd.; near NE shore of Lake Miccosukee; 1.6 mi. S of jctn. with paved Green Rd.; SW 1/4 of NW 1/4 Sec 6, T2N R4E",,NULL,NULL,UNITED STATES,
+7188,AB,Amphispiza bilineata,1,12,1983,64,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,44,"Florida; Franklin County; floodplain of Cow Creek Landing just S of Ochlockonee River, ca. 1 mi E of hiway 319 at terminus of C-370, ca. 4.5 air mi S of town of Sopchoppy.",,NULL,NULL,UNITED STATES,
+7207,AB,Amphispiza bilineata,1,12,1983,64,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,55,"Florida; Alachua County; Mixed hardwood forest next to Williston Rd. (Hwy 331), South of Gainesville, FL, about 0.2 miles east of Hwy 121 (SW 34th Street) and 1 mile SW of Hwy 441 (Sec 3, T6S, R19E)",,NULL,NULL,UNITED STATES,
+7303,AB,Amphispiza bilineata,1,13,1983,64,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,13,72,Florida; Leon County; Tallahassee,,NULL,NULL,UNITED STATES,
+7342,AB,Amphispiza bilineata,2,26,1983,65,f24f2db6-eadd-4de9-9d2f-95aea376c013,24,13,37,"at Waikamoi trail, Maui, Hawaii",,NULL,NULL,UNITED STATES,
+7346,AB,Amphispiza bilineata,2,26,1983,65,f24f2db6-eadd-4de9-9d2f-95aea376c013,24,13,46,"at Keopuka, Maui, Hawaii",,NULL,NULL,UNITED STATES,
+7360,AB,Amphispiza bilineata,2,26,1983,65,f24f2db6-eadd-4de9-9d2f-95aea376c013,24,13,67,"at Keanae Arboretum, Maui, Hawaii",,NULL,NULL,UNITED STATES,
+7377,AB,Amphispiza bilineata,2,27,1983,65,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,13,15,Florida; Dade County; in Miami Beach,,NULL,NULL,UNITED STATES,
+7379,AB,Amphispiza bilineata,2,27,1983,65,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,16,Florida; Brevard County; Erna Nixon Hammock; property owned by Melbourne Village.,,NULL,NULL,UNITED STATES,
+7397,AB,Amphispiza bilineata,2,27,1983,65,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,33,Florida; Martin County; Jonathan Dickinson State Park,,NULL,NULL,UNITED STATES,
+7405,AB,Amphispiza bilineata,2,27,1983,65,bd967227-b528-4374-87fc-8769a15c7f58,23,13,41,Florida; Lee County; Caloosahatchee Regional Park,,NULL,NULL,UNITED STATES,
+7436,AB,Amphispiza bilineata,2,27,1983,65,bd967227-b528-4374-87fc-8769a15c7f58,23,13,66,FL; Franklin Co.; between hiway 98 and the river opposite 3rd Street W in Carrabelle.,,NULL,NULL,UNITED STATES,
+7441,AB,Amphispiza bilineata,2,27,1983,65,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,13,71,FL; Bay Co.; outside fence row bordering roadside dep.,,NULL,NULL,UNITED STATES,
+7465,AB,Amphispiza bilineata,3,14,1983,66,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,13,14,Denkanikota,,Krishnagiri,Tamil Name,INDIA,
+7527,AB,Amphispiza bilineata,3,14,1983,66,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,13,72,"Kings Park & Botanic Garden, Fraser Avenue, West Perth WA 6005",,NULL,NULL,AUSTRALIA,
+7547,AB,Amphispiza bilineata,3,15,1983,66,aab65971-f64b-425e-9a78-17d7ec63423c,9,13,13,"Kings Park & Botanic Garden, Fraser Avenue, West Perth WA 6005",,NULL,NULL,AUSTRALIA,
+7550,AB,Amphispiza bilineata,3,15,1983,66,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,13,14,"Kings Park & Botanic Garden, Fraser Avenue, West Perth WA 6005",,NULL,NULL,AUSTRALIA,
+7594,AB,Amphispiza bilineata,3,15,1983,66,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,13,46,"Kings Park & Botanic Garden, Fraser Avenue, West Perth WA 6005",,NULL,NULL,AUSTRALIA,
+7595,AB,Amphispiza bilineata,3,15,1983,66,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,13,47,"Banksia Farm, Pearce Road, Mount Barker, Western Australia",,NULL,NULL,AUSTRALIA,
+7597,AB,Amphispiza bilineata,3,15,1983,66,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,13,47,"Banksia Farm, Pearce Road, Mount Barker, Western Australia",,NULL,NULL,AUSTRALIA,
+7611,AB,Amphispiza bilineata,3,15,1983,66,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,13,63,"Banksia Farm, Pearce Road, Mount Barker, Western Australia",,NULL,NULL,AUSTRALIA,
+7614,AB,Amphispiza bilineata,3,15,1983,66,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,13,64,"Banksia Farm, Pearce Road, Mount Barker, Western Australia",,NULL,NULL,AUSTRALIA,
+7711,AB,Amphispiza bilineata,4,16,1983,67,bd967227-b528-4374-87fc-8769a15c7f58,23,13,76,"Banksia Farm, Pearce Road, Mount Barker, Western Australia",,NULL,NULL,AUSTRALIA,
+7911,AB,Amphispiza bilineata,5,15,1983,68,c85de67c-1590-4129-8953-0c530a565585,10,13,53,"Banksia Farm, Pearce Road, Mount Barker, Western Australia",,NULL,NULL,AUSTRALIA,
+8052,AB,Amphispiza bilineata,6,18,1983,69,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,13,77,"Banksia Farm, Pearce Road, Mount Barker, Western Australia",,NULL,NULL,AUSTRALIA,
+8056,AB,Amphispiza bilineata,7,16,1983,70,f24f2db6-eadd-4de9-9d2f-95aea376c013,24,13,12,"Banksia Farm, Pearce Road, Mount Barker, Western Australia",,NULL,NULL,AUSTRALIA,
+8193,AB,Amphispiza bilineata,8,15,1983,71,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,13,55,"Banksia Farm, Pearce Road, Mount Barker, Western Australia",,NULL,NULL,AUSTRALIA,
+8289,AB,Amphispiza bilineata,9,10,1983,72,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,23,"Bush, W side of Albany Highway, ca. 50 km N of Mount Barker, N of turn-off to Cranbrook, in neighborhood of Trevelen Farm Winery, Western Australia",,NULL,NULL,AUSTRALIA,
+8403,AB,Amphispiza bilineata,9,11,1983,72,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,13,67,"Bush, W side of Albany Highway, ca. 50 km N of Mount Barker, N of turn-off to Cranbrook, in neighborhood of Trevelen Farm Winery, Western Australia",,NULL,NULL,AUSTRALIA,
+8697,AB,Amphispiza bilineata,12,8,1983,75,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,14,,,Franklin,Florida,United States of America,
+8750,AB,Amphispiza bilineata,12,9,1983,75,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,13,12,FL; Lee Co.; hammock forest; west of Bonita Beach.,,NULL,NULL,UNITED STATES,
+8882,AB,Amphispiza bilineata,2,5,1984,76,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,13,27,FL; Franklin Co.; St.Vincent Island,,NULL,NULL,UNITED STATES,
+9015,AB,Amphispiza bilineata,4,9,1984,78,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,67,FL; Leon Co.; Elinor Klapp-Phipps Park,,NULL,NULL,UNITED STATES,
+9248,AB,Amphispiza bilineata,5,28,1984,79,a7498949-7b94-4f8e-b253-3e26bbf80710,7,13,17,"FL; Wakulla Co.; woods; sect 7, T4S, R3W, Tallahassee meridian; 30 mi. sw Tallahassee.",,NULL,NULL,UNITED STATES,
+9287,AB,Amphispiza bilineata,7,3,1984,80,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,11,"(Camporee Field) at Wallwood Boy Scout Reservation on Ocklawaha Arm of Lake Talquin, ca. 10 air mi S of Quincy.",30.441776|-84.58333,Gadsden,Florida,United States of America,
+9370,AB,Amphispiza bilineata,7,4,1984,80,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,13,77,FL; Franklin Co.; Tates Hell Swamp; Big Slough Branch of Whiskey George Creek; along North Boundary Rd,,NULL,NULL,UNITED STATES,
+9386,AB,Amphispiza bilineata,7,31,1984,81,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,13,36,"Florida; ; Floating in Withlachoochee River at Istachatta, Florida.",,NULL,NULL,UNITED STATES,
+9389,AB,Amphispiza bilineata,7,31,1984,81,bd967227-b528-4374-87fc-8769a15c7f58,23,13,47,valley,,Siligury,West bengal,INDIA,
+9416,AB,Amphispiza bilineata,8,1,1984,81,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,13,11,FL; Franklin Co.; just N of Avenue B in town of Apalachicola.,,NULL,NULL,UNITED STATES,
+9484,AB,Amphispiza bilineata,8,25,1984,82,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,13,71,"FL; Bay Co.; bordering Moccasin Creek at Blue Springs Road bridge, N of Bennett (1.8 mi S of Rte 20)",,NULL,NULL,UNITED STATES,
+9569,AB,Amphispiza bilineata,9,30,1984,83,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,14,"FL; Bay Co.; pasture; just E of Rte 77 on N side of Southport; T2S, R14W, NE1/4 SE1/4 Sec 21",,NULL,NULL,UNITED STATES,
+9602,AB,Amphispiza bilineata,9,30,1984,83,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,13,71,"FL; Manatee Co.; Dunes, Anna Maria Key",,NULL,NULL,UNITED STATES,
+9690,AB,Amphispiza bilineata,10,21,1984,84,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,13,47,"FL; Leon Co.; Elinor Klapp-Phipps Park (W of Meridian Rd, N of Tallahassee)",,NULL,NULL,UNITED STATES,
+9828,AB,Amphispiza bilineata,1,19,1985,86,486c68ed-972c-4baf-beea-f8a72216e580,14,13,43,FL; Franklin Co.; Dog Island; bordering large inland marsh between old dump area and the powerstation.,,NULL,NULL,UNITED STATES,
+9861,AB,Amphispiza bilineata,1,20,1985,86,c85de67c-1590-4129-8953-0c530a565585,10,13,11,"FL; Orange Co.; in lowland woods and around clearings of bay forests, east of taxiways at McCoy Field, Orlando.",,NULL,NULL,UNITED STATES,
+9895,AB,Amphispiza bilineata,1,20,1985,86,aab65971-f64b-425e-9a78-17d7ec63423c,9,13,45,"FL; Hernando Co.; Along US 41, 2 miles n. of Brooksville; low, grazed meadow at Croom Road; fence row along US 41.",,NULL,NULL,UNITED STATES,
+9941,AB,Amphispiza bilineata,2,16,1985,87,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,27,Florida; Gulf County; E side of,,NULL,NULL,UNITED STATES,
+10474,AB,Amphispiza bilineata,6,15,1985,90,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,13,64,Florida; Gulf County; E side of,,NULL,NULL,UNITED STATES,
+10609,AB,Amphispiza bilineata,7,24,1985,91,c85de67c-1590-4129-8953-0c530a565585,10,13,53,Florida; Gulf County; E side of,,NULL,NULL,UNITED STATES,
+10765,AB,Amphispiza bilineata,9,21,1985,93,1e87b11b-4795-4f41-bdff-2d5c4412be25,19,13,55,Florida; Gulf County; E side of,,NULL,NULL,UNITED STATES,
+10963,AB,Amphispiza bilineata,11,16,1985,95,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,16,Florida; Gulf County; E side of,,NULL,NULL,UNITED STATES,
+10970,AB,Amphispiza bilineata,11,16,1985,95,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,24,Florida; Gulf County; E side of,,NULL,NULL,UNITED STATES,
+10975,AB,Amphispiza bilineata,11,16,1985,95,f24f2db6-eadd-4de9-9d2f-95aea376c013,24,13,32,"Damien, Haiti",,NULL,NULL,HT,
+11095,AB,Amphispiza bilineata,12,7,1985,96,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,15,"Damien, Haiti",,NULL,NULL,HT,
+11130,AB,Amphispiza bilineata,12,7,1985,96,85292288-e747-42ca-9a53-e8ee8e187cd7,17,13,61,"Damien, Haiti",,NULL,NULL,HT,
+11200,AB,Amphispiza bilineata,12,8,1985,96,a7498949-7b94-4f8e-b253-3e26bbf80710,7,13,55,"Damien, Haiti",,NULL,NULL,HT,
+11222,AB,Amphispiza bilineata,12,8,1985,96,a7498949-7b94-4f8e-b253-3e26bbf80710,7,13,74,"Damien, Haiti",,NULL,NULL,HT,
+11301,AB,Amphispiza bilineata,3,9,1986,97,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,13,31,"New Orleans, La.",,NULL,NULL,US,
+11342,AB,Amphispiza bilineata,4,12,1986,98,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,13,13,"New Orleans, La.",,NULL,NULL,US,
+11449,AB,Amphispiza bilineata,5,10,1986,99,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,13,23,"New Orleans, La.",,NULL,NULL,US,
+11487,AB,Amphispiza bilineata,5,10,1986,99,486c68ed-972c-4baf-beea-f8a72216e580,14,13,75,"New Orleans, La.",,NULL,NULL,US,
+12081,AB,Amphispiza bilineata,12,14,1986,106,a609589e-f097-4e41-877d-3cd0490845b4,16,13,22,"New Orleans, La.",,NULL,NULL,US,
+12211,AB,Amphispiza bilineata,1,31,1987,107,bd967227-b528-4374-87fc-8769a15c7f58,23,13,53,"Port-au-Prince, Haiti",,NULL,NULL,HT,
+12246,AB,Amphispiza bilineata,2,1,1987,107,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,13,16,"Port-au-Prince, Haiti",,NULL,NULL,HT,
+12254,AB,Amphispiza bilineata,2,1,1987,107,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,13,24,"Port-au-Prince, Haiti",,NULL,NULL,HT,
+12260,AB,Amphispiza bilineata,2,1,1987,107,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,31,"Port-au-Prince, Haiti",,NULL,NULL,HT,
+12293,AB,Amphispiza bilineata,2,1,1987,107,a7498949-7b94-4f8e-b253-3e26bbf80710,7,13,64,"Port-au-Prince, Haiti",,NULL,NULL,HT,
+12345,AB,Amphispiza bilineata,3,1,1987,108,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,31,"Port-au-Prince, Haiti",,NULL,NULL,HT,
+12354,AB,Amphispiza bilineata,3,1,1987,108,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,37,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+12368,AB,Amphispiza bilineata,3,1,1987,108,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,51,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+12374,AB,Amphispiza bilineata,3,1,1987,108,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,62,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+12382,AB,Amphispiza bilineata,3,1,1987,108,bd967227-b528-4374-87fc-8769a15c7f58,23,13,67,Bombuscaro - Podocarpus National Park (1050m-B),,NULL,Zamora-Chinchipe Province,ECUADOR,
+12387,AB,Amphispiza bilineata,3,1,1987,108,486c68ed-972c-4baf-beea-f8a72216e580,14,13,76,Bombuscaro - Podocarpus National Park (1050m-B),,NULL,Zamora-Chinchipe Province,ECUADOR,
+12405,AB,Amphispiza bilineata,3,2,1987,108,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,13,16,Bombuscaro - Podocarpus National Park (1050m-B),,NULL,Zamora-Chinchipe Province,ECUADOR,
+12418,AB,Amphispiza bilineata,3,2,1987,108,a7498949-7b94-4f8e-b253-3e26bbf80710,7,13,27,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+12444,AB,Amphispiza bilineata,3,2,1987,108,a7498949-7b94-4f8e-b253-3e26bbf80710,7,13,51,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+12510,AB,Amphispiza bilineata,4,4,1987,109,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,51,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+12525,AB,Amphispiza bilineata,4,4,1987,109,a609589e-f097-4e41-877d-3cd0490845b4,16,13,71,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+12537,AB,Amphispiza bilineata,4,6,1987,109,aab65971-f64b-425e-9a78-17d7ec63423c,9,13,13,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+12542,AB,Amphispiza bilineata,4,6,1987,109,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,15,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+12575,AB,Amphispiza bilineata,4,6,1987,109,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,45,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+12594,AB,Amphispiza bilineata,4,6,1987,109,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,65,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+12600,AB,Amphispiza bilineata,4,6,1987,109,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,67,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+12669,AB,Amphispiza bilineata,4,25,1987,110,f24f2db6-eadd-4de9-9d2f-95aea376c013,24,13,77,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+12768,AB,Amphispiza bilineata,5,28,1987,111,a609589e-f097-4e41-877d-3cd0490845b4,16,13,23,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+12794,AB,Amphispiza bilineata,5,28,1987,111,f24f2db6-eadd-4de9-9d2f-95aea376c013,24,13,36,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+12884,AB,Amphispiza bilineata,5,28,1987,111,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,13,77,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+13321,AB,Amphispiza bilineata,8,26,1987,114,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,13,65,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+13328,AB,Amphispiza bilineata,8,26,1987,114,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,13,72,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+13442,AB,Amphispiza bilineata,9,27,1987,115,a7498949-7b94-4f8e-b253-3e26bbf80710,7,13,37,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+13636,AB,Amphispiza bilineata,10,25,1987,116,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,13,74,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+13659,AB,Amphispiza bilineata,11,21,1987,117,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,13,16,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+13684,AB,Amphispiza bilineata,11,21,1987,117,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,41,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+13775,AB,Amphispiza bilineata,11,22,1987,117,a7498949-7b94-4f8e-b253-3e26bbf80710,7,13,35,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+13790,AB,Amphispiza bilineata,11,22,1987,117,a7498949-7b94-4f8e-b253-3e26bbf80710,7,13,45,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+13829,AB,Amphispiza bilineata,11,22,1987,117,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,13,73,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+13832,AB,Amphispiza bilineata,11,22,1987,117,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,74,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+13856,AB,Amphispiza bilineata,1,23,1988,118,312118f6-f394-4c17-a4ee-869a14ba5d75,21,13,25,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+13897,AB,Amphispiza bilineata,1,23,1988,118,f24f2db6-eadd-4de9-9d2f-95aea376c013,24,13,67,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+13901,AB,Amphispiza bilineata,1,23,1988,118,85292288-e747-42ca-9a53-e8ee8e187cd7,17,13,73,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+13923,AB,Amphispiza bilineata,1,24,1988,118,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,13,13,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+13979,AB,Amphispiza bilineata,1,24,1988,118,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,13,64,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+14008,AB,Amphispiza bilineata,2,21,1988,119,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,11,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+14010,AB,Amphispiza bilineata,2,21,1988,119,f24f2db6-eadd-4de9-9d2f-95aea376c013,24,13,12,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+14016,AB,Amphispiza bilineata,2,21,1988,119,312118f6-f394-4c17-a4ee-869a14ba5d75,21,13,16,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+14017,AB,Amphispiza bilineata,2,21,1988,119,1e87b11b-4795-4f41-bdff-2d5c4412be25,19,13,16,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+14034,AB,Amphispiza bilineata,2,21,1988,119,bd967227-b528-4374-87fc-8769a15c7f58,23,13,33,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+14039,AB,Amphispiza bilineata,2,21,1988,119,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,13,37,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+14054,AB,Amphispiza bilineata,2,21,1988,119,bd967227-b528-4374-87fc-8769a15c7f58,23,13,51,Reserva Biológica San Francisco-NUMEX (2070m-R2),,NULL,Loja Province,ECUADOR,
+14055,AB,Amphispiza bilineata,2,21,1988,119,bd967227-b528-4374-87fc-8769a15c7f58,23,13,53,Reserva Biológica San Francisco-NUMEX (2070m-R2),,NULL,Loja Province,ECUADOR,
+14060,AB,Amphispiza bilineata,2,21,1988,119,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,54,Reserva Biológica San Francisco-NUMEX (2070m-R2),,NULL,Loja Province,ECUADOR,
+14072,AB,Amphispiza bilineata,2,21,1988,119,bd967227-b528-4374-87fc-8769a15c7f58,23,13,63,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+14073,AB,Amphispiza bilineata,2,21,1988,119,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,13,64,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+14077,AB,Amphispiza bilineata,2,21,1988,119,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,66,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+14078,AB,Amphispiza bilineata,2,21,1988,119,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,13,67,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+14083,AB,Amphispiza bilineata,2,21,1988,119,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,71,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+14087,AB,Amphispiza bilineata,2,21,1988,119,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,13,73,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+14090,AB,Amphispiza bilineata,2,21,1988,119,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,13,74,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+14106,AB,Amphispiza bilineata,2,22,1988,119,486c68ed-972c-4baf-beea-f8a72216e580,14,13,14,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+14122,AB,Amphispiza bilineata,2,22,1988,119,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,13,22,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+14156,AB,Amphispiza bilineata,2,22,1988,119,c85de67c-1590-4129-8953-0c530a565585,10,13,47,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+14158,AB,Amphispiza bilineata,2,22,1988,119,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,13,51,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+14182,AB,Amphispiza bilineata,2,22,1988,119,aab65971-f64b-425e-9a78-17d7ec63423c,9,13,73,Reserva Biológica San Francisco-Transect T1 (2070m-R1),,NULL,Loja Province,ECUADOR,
+14196,AB,Amphispiza bilineata,3,20,1988,120,f24f2db6-eadd-4de9-9d2f-95aea376c013,24,13,15,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+14213,AB,Amphispiza bilineata,3,20,1988,120,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,31,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+14223,AB,Amphispiza bilineata,3,20,1988,120,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,13,37,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+14224,AB,Amphispiza bilineata,3,20,1988,120,1e87b11b-4795-4f41-bdff-2d5c4412be25,19,13,42,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+14233,AB,Amphispiza bilineata,3,20,1988,120,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,13,56,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+14278,AB,Amphispiza bilineata,3,21,1988,120,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,13,22,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+14298,AB,Amphispiza bilineata,3,21,1988,120,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,13,41,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15030,AB,Amphispiza bilineata,11,5,1988,128,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,11,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15229,AB,Amphispiza bilineata,12,14,1988,129,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,13,15,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15247,AB,Amphispiza bilineata,12,14,1988,129,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,13,31,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15263,AB,Amphispiza bilineata,12,14,1988,129,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,43,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15276,AB,Amphispiza bilineata,12,14,1988,129,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,13,51,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15277,AB,Amphispiza bilineata,12,14,1988,129,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,52,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15312,AB,Amphispiza bilineata,1,10,1989,130,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,14,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15314,AB,Amphispiza bilineata,1,10,1989,130,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,13,15,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15315,AB,Amphispiza bilineata,1,10,1989,130,f24f2db6-eadd-4de9-9d2f-95aea376c013,24,13,17,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15341,AB,Amphispiza bilineata,1,10,1989,130,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,13,43,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15353,AB,Amphispiza bilineata,1,10,1989,130,a609589e-f097-4e41-877d-3cd0490845b4,16,13,51,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15356,AB,Amphispiza bilineata,1,10,1989,130,85292288-e747-42ca-9a53-e8ee8e187cd7,17,13,56,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15386,AB,Amphispiza bilineata,1,11,1989,130,486c68ed-972c-4baf-beea-f8a72216e580,14,13,12,Reserva Biológica San Francisco-NUMEX (2070m-R2),,NULL,Loja Province,ECUADOR,
+15426,AB,Amphispiza bilineata,1,11,1989,130,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,13,41,Reserva Biológica San Francisco-NUMEX (2070m-R2),,NULL,Loja Province,ECUADOR,
+15429,AB,Amphispiza bilineata,1,11,1989,130,486c68ed-972c-4baf-beea-f8a72216e580,14,13,42,Reserva Biológica San Francisco-NUMEX (2070m-R2),,NULL,Loja Province,ECUADOR,
+15432,AB,Amphispiza bilineata,1,11,1989,130,a7498949-7b94-4f8e-b253-3e26bbf80710,7,13,45,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15461,AB,Amphispiza bilineata,1,11,1989,130,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,13,65,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15475,AB,Amphispiza bilineata,1,11,1989,130,a7498949-7b94-4f8e-b253-3e26bbf80710,7,13,73,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15488,AB,Amphispiza bilineata,2,4,1989,131,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,13,11,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15738,AB,Amphispiza bilineata,3,13,1989,132,312118f6-f394-4c17-a4ee-869a14ba5d75,21,13,22,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15767,AB,Amphispiza bilineata,3,13,1989,132,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,13,57,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+15803,AB,Amphispiza bilineata,3,14,1989,132,aab65971-f64b-425e-9a78-17d7ec63423c,9,13,23,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16525,AB,Amphispiza bilineata,10,7,1989,139,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,13,61,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16557,AB,Amphispiza bilineata,10,8,1989,139,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,35,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16566,AB,Amphispiza bilineata,10,8,1989,139,a7498949-7b94-4f8e-b253-3e26bbf80710,7,13,52,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16611,AB,Amphispiza bilineata,11,4,1989,140,312118f6-f394-4c17-a4ee-869a14ba5d75,21,13,31,Copalinga Private Reserve-red trail (1350m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16618,AB,Amphispiza bilineata,11,4,1989,140,312118f6-f394-4c17-a4ee-869a14ba5d75,21,13,37,Copalinga Private Reserve-red trail (1350m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16691,AB,Amphispiza bilineata,11,5,1989,140,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,13,44,Copalinga Private Reserve-red trail (1350m),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16732,AB,Amphispiza bilineata,12,4,1989,141,1e87b11b-4795-4f41-bdff-2d5c4412be25,19,13,14,FL; Leon Co.; ditch along Domingo Avenue near corner of Solano Avenue in Tallahassee,,NULL,NULL,UNITED STATES,
+16739,AB,Amphispiza bilineata,12,4,1989,141,bd967227-b528-4374-87fc-8769a15c7f58,23,13,21,FL; Leon Co.; ditch along Domingo Avenue near corner of Solano Avenue in Tallahassee,,NULL,NULL,UNITED STATES,
+16759,AB,Amphispiza bilineata,12,4,1989,141,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,13,37,"FL; Monroe Co.; weedy vacant waterfront lot, Key West.",,NULL,NULL,UNITED STATES,
+16769,AB,Amphispiza bilineata,12,4,1989,141,a7498949-7b94-4f8e-b253-3e26bbf80710,7,13,45,"ca. 20 km N of Kojonup, Western Australia",,NULL,NULL,AUSTRALIA,
+16771,AB,Amphispiza bilineata,12,4,1989,141,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,13,47,"ca. 20 km N of Kojonup, Western Australia",,NULL,NULL,AUSTRALIA,
+16772,AB,Amphispiza bilineata,12,4,1989,141,91829d58-c12e-47e8-ae31-185f46be21d2,12,13,47,"ca. 20 km N of Kojonup, Western Australia",,NULL,NULL,AUSTRALIA,
+16777,AB,Amphispiza bilineata,12,4,1989,141,a7498949-7b94-4f8e-b253-3e26bbf80710,7,13,55,"ca. 20 km N of Kojonup, Western Australia",,NULL,NULL,AUSTRALIA,
+16808,AB,Amphispiza bilineata,12,5,1989,141,c85de67c-1590-4129-8953-0c530a565585,10,13,13,"ca. 20 km N of Kojonup, Western Australia",,NULL,NULL,AUSTRALIA,
+16846,AB,Amphispiza bilineata,12,5,1989,141,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,13,45,"ca. 20 km N of Kojonup, Western Australia",,NULL,NULL,AUSTRALIA,
+16892,AB,Amphispiza bilineata,1,6,1990,142,312118f6-f394-4c17-a4ee-869a14ba5d75,21,13,23,"Bush on Hi-Vallee Farm, Tootbardi Road, Badgingarra, Western Australia 6521",,NULL,NULL,AUSTRALIA,
+270,DM,Dipodomys merriami,10,16,1977,4,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,56,,,,,,F
+273,DM,Dipodomys merriami,10,16,1977,4,aab65971-f64b-425e-9a78-17d7ec63423c,9,,61,,,,,,M
+275,DM,Dipodomys merriami,10,16,1977,4,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,62,,,,,,M
+280,DM,Dipodomys merriami,10,16,1977,4,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,67,,,,,,M
+283,DM,Dipodomys merriami,10,16,1977,4,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,,74,,,,,,M
+284,DM,Dipodomys merriami,10,16,1977,4,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,74,,,,,,M
+285,DM,Dipodomys merriami,10,16,1977,4,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,75,,,,,,M
+287,DM,Dipodomys merriami,10,17,1977,4,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,11,,,,,,M
+288,DM,Dipodomys merriami,10,17,1977,4,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,14,,,,,,M
+289,DM,Dipodomys merriami,10,17,1977,4,486c68ed-972c-4baf-beea-f8a72216e580,14,,15,,,,,,M
+290,DM,Dipodomys merriami,10,17,1977,4,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,15,,,,,,F
+293,DM,Dipodomys merriami,10,17,1977,4,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,23,,,,,,F
+295,DM,Dipodomys merriami,10,17,1977,4,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,24,,,,,,M
+298,DM,Dipodomys merriami,10,17,1977,4,1e87b11b-4795-4f41-bdff-2d5c4412be25,19,,26,,,,,,M
+302,DM,Dipodomys merriami,10,17,1977,4,1e87b11b-4795-4f41-bdff-2d5c4412be25,19,,35,,,,,,F
+303,DM,Dipodomys merriami,10,17,1977,4,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,,36,,,,,,M
+304,DM,Dipodomys merriami,10,17,1977,4,312118f6-f394-4c17-a4ee-869a14ba5d75,21,,41,,,,,,M
+305,DM,Dipodomys merriami,10,17,1977,4,486c68ed-972c-4baf-beea-f8a72216e580,14,,42,,,,,,F
+306,DM,Dipodomys merriami,10,17,1977,4,a609589e-f097-4e41-877d-3cd0490845b4,16,,42,,,,,,M
+307,DM,Dipodomys merriami,10,17,1977,4,1e87b11b-4795-4f41-bdff-2d5c4412be25,19,,46,,,,,,M
+312,DM,Dipodomys merriami,10,17,1977,4,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,53,,,,,,F
+313,DM,Dipodomys merriami,10,17,1977,4,1e87b11b-4795-4f41-bdff-2d5c4412be25,19,,53,,,,,,M
+315,DM,Dipodomys merriami,10,17,1977,4,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,,62,,,,,,M
+316,DM,Dipodomys merriami,10,17,1977,4,6a090985-a7ce-4c04-b146-9b401d1dd796,15,,62,,,,,,M
+318,DM,Dipodomys merriami,10,17,1977,4,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,66,,,,,,M
+319,DM,Dipodomys merriami,10,17,1977,4,486c68ed-972c-4baf-beea-f8a72216e580,14,,72,,,,,,M
+320,DM,Dipodomys merriami,10,17,1977,4,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,72,,,,,,F
+328,DM,Dipodomys merriami,10,18,1977,4,a609589e-f097-4e41-877d-3cd0490845b4,16,,11,,,,,,F
+330,DM,Dipodomys merriami,10,18,1977,4,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,21,,,,,,M
+334,DM,Dipodomys merriami,10,18,1977,4,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,24,,,,,,F
+336,DM,Dipodomys merriami,10,18,1977,4,91829d58-c12e-47e8-ae31-185f46be21d2,12,,27,,,,,,M
+338,DM,Dipodomys merriami,10,18,1977,4,91829d58-c12e-47e8-ae31-185f46be21d2,12,,51,,,,,,M
+340,DM,Dipodomys merriami,10,18,1977,4,91829d58-c12e-47e8-ae31-185f46be21d2,12,,54,,,,,,F
+342,DM,Dipodomys merriami,10,18,1977,4,a609589e-f097-4e41-877d-3cd0490845b4,16,,57,,,,,,M
+345,DM,Dipodomys merriami,11,12,1977,5,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,11,,,,,,F
+346,DM,Dipodomys merriami,11,12,1977,5,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,13,,,,,,F
+347,DM,Dipodomys merriami,11,12,1977,5,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,,14,,,,,,F
+348,DM,Dipodomys merriami,11,12,1977,5,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,14,,,,,,M
+350,DM,Dipodomys merriami,11,12,1977,5,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,17,,,,,,M
+352,DM,Dipodomys merriami,11,12,1977,5,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,23,,,,,,M
+354,DM,Dipodomys merriami,11,12,1977,5,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,34,,,,,,M
+359,DM,Dipodomys merriami,11,12,1977,5,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,43,,,,,,M
+360,DM,Dipodomys merriami,11,12,1977,5,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,43,,,,,,F
+361,DM,Dipodomys merriami,11,12,1977,5,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,47,,,,,,F
+364,DM,Dipodomys merriami,11,12,1977,5,aab65971-f64b-425e-9a78-17d7ec63423c,9,,54,,,,,,M
+365,DM,Dipodomys merriami,11,12,1977,5,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,56,,,,,,F
+369,DM,Dipodomys merriami,11,12,1977,5,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,57,,,,,,F
+370,DM,Dipodomys merriami,11,12,1977,5,aab65971-f64b-425e-9a78-17d7ec63423c,9,,61,,,,,,M
+371,DM,Dipodomys merriami,11,12,1977,5,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,62,,,,,,M
+372,DM,Dipodomys merriami,11,12,1977,5,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,62,,,,,,F
+373,DM,Dipodomys merriami,11,12,1977,5,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,,64,,,,,,M
+374,DM,Dipodomys merriami,11,12,1977,5,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,65,,,,,,M
+379,DM,Dipodomys merriami,11,13,1977,5,486c68ed-972c-4baf-beea-f8a72216e580,14,,12,,,,,,M
+380,DM,Dipodomys merriami,11,13,1977,5,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,15,,,,,,F
+382,DM,Dipodomys merriami,11,13,1977,5,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,21,,,,,,M
+384,DM,Dipodomys merriami,11,13,1977,5,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,31,,,,,,M
+388,DM,Dipodomys merriami,11,13,1977,5,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,45,,,,,,F
+395,DM,Dipodomys merriami,11,13,1977,5,486c68ed-972c-4baf-beea-f8a72216e580,14,,63,,,,,,M
+396,DM,Dipodomys merriami,11,13,1977,5,486c68ed-972c-4baf-beea-f8a72216e580,14,,64,,,,,,F
+399,DM,Dipodomys merriami,11,13,1977,5,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,72,,,,,,F
+404,DM,Dipodomys merriami,11,14,1977,5,91829d58-c12e-47e8-ae31-185f46be21d2,12,,17,,,,,,M
+409,DM,Dipodomys merriami,11,14,1977,5,91829d58-c12e-47e8-ae31-185f46be21d2,12,,33,,,,,,F
+411,DM,Dipodomys merriami,11,14,1977,5,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,52,,,,,,M
+415,DM,Dipodomys merriami,11,14,1977,5,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,66,,,,,,F
+420,DM,Dipodomys merriami,12,10,1977,6,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,11,,,,,,F
+422,DM,Dipodomys merriami,12,10,1977,6,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,13,,,,,,F
+423,DM,Dipodomys merriami,12,10,1977,6,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,15,,,,,,M
+424,DM,Dipodomys merriami,12,10,1977,6,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,16,,,,,,M
+425,DM,Dipodomys merriami,12,10,1977,6,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,17,,,,,,F
+426,DM,Dipodomys merriami,12,10,1977,6,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,17,,,,,,M
+427,DM,Dipodomys merriami,12,10,1977,6,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,22,,,,,,F
+429,DM,Dipodomys merriami,12,10,1977,6,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,24,,,,,,M
+433,DM,Dipodomys merriami,12,10,1977,6,aab65971-f64b-425e-9a78-17d7ec63423c,9,,34,,,,,,M
+436,DM,Dipodomys merriami,12,10,1977,6,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,47,,,,,,F
+437,DM,Dipodomys merriami,12,10,1977,6,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,52,,,,,,F
+438,DM,Dipodomys merriami,12,10,1977,6,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,53,,,,,,M
+439,DM,Dipodomys merriami,12,10,1977,6,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,53,,,,,,F
+443,DM,Dipodomys merriami,12,10,1977,6,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,63,,,,,,M
+444,DM,Dipodomys merriami,12,10,1977,6,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,,64,,,,,,M
+447,DM,Dipodomys merriami,12,10,1977,6,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,67,,,,,,M
+449,DM,Dipodomys merriami,12,10,1977,6,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,71,,,,,,M
+453,DM,Dipodomys merriami,12,10,1977,6,aab65971-f64b-425e-9a78-17d7ec63423c,9,,76,,,,,,M
+454,DM,Dipodomys merriami,12,10,1977,6,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,77,,,,,,F
+461,DM,Dipodomys merriami,12,11,1977,6,486c68ed-972c-4baf-beea-f8a72216e580,14,,12,,,,,,M
+462,DM,Dipodomys merriami,12,11,1977,6,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,13,,,,,,M
+468,DM,Dipodomys merriami,12,11,1977,6,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,22,,,,,,M
+479,DM,Dipodomys merriami,12,11,1977,6,486c68ed-972c-4baf-beea-f8a72216e580,14,,34,,,,,,F
+481,DM,Dipodomys merriami,12,11,1977,6,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,36,,,,,,F
+482,DM,Dipodomys merriami,12,11,1977,6,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,41,,,,,,M
+484,DM,Dipodomys merriami,12,11,1977,6,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,43,,,,,,F
+487,DM,Dipodomys merriami,12,11,1977,6,91829d58-c12e-47e8-ae31-185f46be21d2,12,,54,,,,,,F
+488,DM,Dipodomys merriami,12,11,1977,6,91829d58-c12e-47e8-ae31-185f46be21d2,12,,56,,,,,,M
+490,DM,Dipodomys merriami,12,11,1977,6,486c68ed-972c-4baf-beea-f8a72216e580,14,,63,,,,,,M
+496,DM,Dipodomys merriami,12,11,1977,6,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,71,,,,,,F
+502,DM,Dipodomys merriami,12,11,1977,6,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,77,,,,,,F
+505,DM,Dipodomys merriami,1,8,1978,7,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,13,,,,,,M
+507,DM,Dipodomys merriami,1,8,1978,7,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,17,,,,,,M
+508,DM,Dipodomys merriami,1,8,1978,7,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,17,,,,,,F
+511,DM,Dipodomys merriami,1,8,1978,7,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,25,,,,,,M
+516,DM,Dipodomys merriami,1,8,1978,7,aab65971-f64b-425e-9a78-17d7ec63423c,9,,43,,,,,,M
+518,DM,Dipodomys merriami,1,8,1978,7,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,47,,,,,,M
+519,DM,Dipodomys merriami,1,8,1978,7,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,54,,,,,,M
+521,DM,Dipodomys merriami,1,8,1978,7,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,55,,,,,,M
+522,DM,Dipodomys merriami,1,8,1978,7,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,61,,,,,,F
+523,DM,Dipodomys merriami,1,8,1978,7,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,62,,,,,,M
+524,DM,Dipodomys merriami,1,8,1978,7,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,62,,,,,,
+525,DM,Dipodomys merriami,1,8,1978,7,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,,64,,,,,,M
+527,DM,Dipodomys merriami,1,8,1978,7,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,66,,,,,,F
+529,DM,Dipodomys merriami,1,8,1978,7,aab65971-f64b-425e-9a78-17d7ec63423c,9,,67,,,,,,M
+530,DM,Dipodomys merriami,1,8,1978,7,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,74,,,,,,M
+533,DM,Dipodomys merriami,1,8,1978,7,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,76,,,,,,M
+538,DM,Dipodomys merriami,1,9,1978,7,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,14,,,,,,M
+539,DM,Dipodomys merriami,1,9,1978,7,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,16,,,,,,F
+541,DM,Dipodomys merriami,1,9,1978,7,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,31,,,,,,M
+542,DM,Dipodomys merriami,1,9,1978,7,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,32,,,,,,M
+545,DM,Dipodomys merriami,1,9,1978,7,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,36,,,,,,F
+549,DM,Dipodomys merriami,1,9,1978,7,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,44,,,,,,M
+550,DM,Dipodomys merriami,1,9,1978,7,486c68ed-972c-4baf-beea-f8a72216e580,14,,46,,,,,,F
+556,DM,Dipodomys merriami,1,9,1978,7,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,62,,,,,,F
+557,DM,Dipodomys merriami,1,9,1978,7,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,67,,,,,,F
+559,DM,Dipodomys merriami,1,9,1978,7,486c68ed-972c-4baf-beea-f8a72216e580,14,,72,,,,,,M
+566,DM,Dipodomys merriami,1,10,1978,7,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,22,,,,,,F
+567,DM,Dipodomys merriami,1,10,1978,7,91829d58-c12e-47e8-ae31-185f46be21d2,12,,23,,,,,,F
+571,DM,Dipodomys merriami,1,10,1978,7,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,27,,,,,,F
+572,DM,Dipodomys merriami,1,10,1978,7,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,33,,,,,,M
+574,DM,Dipodomys merriami,1,10,1978,7,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,37,,,,,,F
+575,DM,Dipodomys merriami,1,10,1978,7,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,41,,,,,,M
+576,DM,Dipodomys merriami,1,10,1978,7,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,44,,,,,,M
+578,DM,Dipodomys merriami,1,10,1978,7,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,46,,,,,,M
+579,DM,Dipodomys merriami,1,10,1978,7,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,55,,,,,,F
+580,DM,Dipodomys merriami,1,10,1978,7,91829d58-c12e-47e8-ae31-185f46be21d2,12,,67,,,,,,M
+586,DM,Dipodomys merriami,2,18,1978,8,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,15,,,,,,M
+589,DM,Dipodomys merriami,2,18,1978,8,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,17,,,,,,F
+591,DM,Dipodomys merriami,2,18,1978,8,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,,31,,,,,,F
+592,DM,Dipodomys merriami,2,18,1978,8,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,31,,,,,,M
+593,DM,Dipodomys merriami,2,18,1978,8,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,46,,,,,,M
+594,DM,Dipodomys merriami,2,18,1978,8,aab65971-f64b-425e-9a78-17d7ec63423c,9,,52,,,,,,M
+595,DM,Dipodomys merriami,2,18,1978,8,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,53,,,,,,M
+597,DM,Dipodomys merriami,2,18,1978,8,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,53,,,,,,F
+600,DM,Dipodomys merriami,2,18,1978,8,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,56,,,,,,F
+601,DM,Dipodomys merriami,2,18,1978,8,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,63,,,,,,M
+602,DM,Dipodomys merriami,2,18,1978,8,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,63,,,,,,M
+607,DM,Dipodomys merriami,2,19,1978,8,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,12,,,,,,F
+608,DM,Dipodomys merriami,2,19,1978,8,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,16,,,,,,F
+610,DM,Dipodomys merriami,2,19,1978,8,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,21,,,,,,M
+616,DM,Dipodomys merriami,2,19,1978,8,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,43,,,,,,M
+617,DM,Dipodomys merriami,2,19,1978,8,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,44,,,,,,M
+619,DM,Dipodomys merriami,2,19,1978,8,486c68ed-972c-4baf-beea-f8a72216e580,14,,46,,,,,,F
+624,DM,Dipodomys merriami,2,19,1978,8,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,61,,,,,,M
+625,DM,Dipodomys merriami,2,19,1978,8,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,62,,,,,,F
+627,DM,Dipodomys merriami,2,19,1978,8,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,63,,,,,,
+628,DM,Dipodomys merriami,2,19,1978,8,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,65,,,,,,
+635,DM,Dipodomys merriami,2,20,1978,8,6a090985-a7ce-4c04-b146-9b401d1dd796,15,,24,,,,,,M
+636,DM,Dipodomys merriami,2,20,1978,8,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,24,,,,,,F
+637,DM,Dipodomys merriami,2,20,1978,8,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,27,,,,,,F
+638,DM,Dipodomys merriami,2,20,1978,8,91829d58-c12e-47e8-ae31-185f46be21d2,12,,34,,,,,,F
+639,DM,Dipodomys merriami,2,20,1978,8,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,37,,,,,,F
+641,DM,Dipodomys merriami,2,20,1978,8,6a090985-a7ce-4c04-b146-9b401d1dd796,15,,42,,,,,,M
+642,DM,Dipodomys merriami,2,20,1978,8,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,44,,,,,,M
+643,DM,Dipodomys merriami,2,20,1978,8,6a090985-a7ce-4c04-b146-9b401d1dd796,15,,44,,,,,,F
+644,DM,Dipodomys merriami,2,20,1978,8,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,44,,,,,,M
+645,DM,Dipodomys merriami,2,20,1978,8,91829d58-c12e-47e8-ae31-185f46be21d2,12,,56,,,,,,M
+648,DM,Dipodomys merriami,2,20,1978,8,a609589e-f097-4e41-877d-3cd0490845b4,16,1,-99,,,,,,F
+649,DM,Dipodomys merriami,2,20,1978,8,a609589e-f097-4e41-877d-3cd0490845b4,16,1,-99,,,,,,M
+651,DM,Dipodomys merriami,3,11,1978,9,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,11,,,,,,M
+654,DM,Dipodomys merriami,3,11,1978,9,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,21,,,,,,F
+660,DM,Dipodomys merriami,3,11,1978,9,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,35,,,,,,M
+664,DM,Dipodomys merriami,3,11,1978,9,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,63,,,,,,M
+665,DM,Dipodomys merriami,3,11,1978,9,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,64,,,,,,F
+667,DM,Dipodomys merriami,3,11,1978,9,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,67,,,,,,F
+680,DM,Dipodomys merriami,3,12,1978,9,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,21,,,,,,M
+684,DM,Dipodomys merriami,3,12,1978,9,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,32,,,,,,M
+690,DM,Dipodomys merriami,3,12,1978,9,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,44,,,,,,M
+692,DM,Dipodomys merriami,3,12,1978,9,486c68ed-972c-4baf-beea-f8a72216e580,14,,45,,,,,,
+694,DM,Dipodomys merriami,3,12,1978,9,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,46,,,,,,F
+696,DM,Dipodomys merriami,3,12,1978,9,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,52,,,,,,F
+697,DM,Dipodomys merriami,3,12,1978,9,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,54,,,,,,M
+698,DM,Dipodomys merriami,3,12,1978,9,486c68ed-972c-4baf-beea-f8a72216e580,14,,54,,,,,,F
+699,DM,Dipodomys merriami,3,12,1978,9,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,55,,,,,,F
+700,DM,Dipodomys merriami,3,12,1978,9,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,56,,,,,,M
+702,DM,Dipodomys merriami,3,12,1978,9,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,61,,,,,,M
+704,DM,Dipodomys merriami,3,12,1978,9,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,67,,,,,,M
+707,DM,Dipodomys merriami,3,12,1978,9,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,74,,,,,,F
+711,DM,Dipodomys merriami,3,13,1978,9,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,12,,,,,,F
+712,DM,Dipodomys merriami,3,13,1978,9,6a090985-a7ce-4c04-b146-9b401d1dd796,15,,21,,,,,,M
+714,DM,Dipodomys merriami,3,13,1978,9,6a090985-a7ce-4c04-b146-9b401d1dd796,15,,26,,,,,,F
+715,DM,Dipodomys merriami,3,13,1978,9,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,26,,,,,,M
+716,DM,Dipodomys merriami,3,13,1978,9,6a090985-a7ce-4c04-b146-9b401d1dd796,15,,27,,,,,,M
+717,DM,Dipodomys merriami,3,13,1978,9,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,32,,,,,,F
+719,DM,Dipodomys merriami,3,13,1978,9,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,41,,,,,,M
+721,DM,Dipodomys merriami,3,13,1978,9,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,56,,,,,,F
+724,DM,Dipodomys merriami,3,13,1978,9,6a090985-a7ce-4c04-b146-9b401d1dd796,15,,63,,,,,,M
+726,DM,Dipodomys merriami,3,13,1978,9,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,66,,,,,,F
+729,DM,Dipodomys merriami,3,13,1978,9,6a090985-a7ce-4c04-b146-9b401d1dd796,15,1,-99,,,,,,M
+733,DM,Dipodomys merriami,4,8,1978,-10,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,9,-99,,,,,,M
+734,DM,Dipodomys merriami,4,8,1978,-10,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,9,-99,,,,,,M
+737,DM,Dipodomys merriami,4,8,1978,-10,aab65971-f64b-425e-9a78-17d7ec63423c,9,9,-99,,,,,,F
+743,DM,Dipodomys merriami,4,8,1978,-10,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,9,-99,,,,,,M
+745,DM,Dipodomys merriami,4,8,1978,-10,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,9,-99,,,,,,F
+1103,DS,Dipodomys spectabilis,7,8,1978,13,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,67,,,,,,F
+1105,DS,Dipodomys spectabilis,7,8,1978,13,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,72,,,,,,F
+1106,DS,Dipodomys spectabilis,7,8,1978,13,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,73,,,,,,M
+1107,DS,Dipodomys spectabilis,8,4,1978,14,91829d58-c12e-47e8-ae31-185f46be21d2,12,,12,,,,,,F
+1111,DS,Dipodomys spectabilis,8,4,1978,14,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,,15,,,,,,F
+1115,DS,Dipodomys spectabilis,8,4,1978,14,91829d58-c12e-47e8-ae31-185f46be21d2,12,,21,,,,,,F
+1118,DS,Dipodomys spectabilis,8,4,1978,14,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,24,,,,,,F
+1122,DS,Dipodomys spectabilis,8,4,1978,14,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,31,,,,,,M
+1128,DS,Dipodomys spectabilis,8,4,1978,14,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,42,,,,,,F
+1130,DS,Dipodomys spectabilis,8,4,1978,14,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,51,,,,,,M
+1133,DS,Dipodomys spectabilis,8,4,1978,14,91829d58-c12e-47e8-ae31-185f46be21d2,12,,55,,,,,,M
+1141,DS,Dipodomys spectabilis,8,4,1978,14,aab65971-f64b-425e-9a78-17d7ec63423c,9,,71,,,,,,F
+1143,DS,Dipodomys spectabilis,8,4,1978,14,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,76,,,,,,F
+1151,DS,Dipodomys spectabilis,8,5,1978,14,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,14,,,,,,M
+1153,DS,Dipodomys spectabilis,8,5,1978,14,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,14,,,,,,M
+1155,DS,Dipodomys spectabilis,8,5,1978,14,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,,15,,,,,,F
+1156,DS,Dipodomys spectabilis,8,5,1978,14,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,16,,,,,,M
+1158,DS,Dipodomys spectabilis,8,5,1978,14,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,17,,,,,,F
+1160,DS,Dipodomys spectabilis,8,5,1978,14,486c68ed-972c-4baf-beea-f8a72216e580,14,,25,,,,,,F
+1162,DS,Dipodomys spectabilis,8,5,1978,14,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,34,,,,,,M
+1163,DS,Dipodomys spectabilis,8,5,1978,14,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,35,,,,,,F
+1165,DS,Dipodomys spectabilis,8,5,1978,14,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,41,,,,,,F
+1166,DS,Dipodomys spectabilis,8,5,1978,14,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,42,,,,,,M
+1169,DS,Dipodomys spectabilis,8,5,1978,14,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,44,,,,,,M
+1171,DS,Dipodomys spectabilis,8,5,1978,14,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,46,,,,,,
+1172,DS,Dipodomys spectabilis,8,5,1978,14,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,,52,,,,,,F
+1180,DS,Dipodomys spectabilis,8,5,1978,14,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,61,,,,,,F
+1182,DS,Dipodomys spectabilis,8,5,1978,14,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,64,,,,,,F
+1185,DS,Dipodomys spectabilis,8,5,1978,14,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,66,,,,,,F
+1186,DS,Dipodomys spectabilis,8,5,1978,14,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,66,,,,,,F
+1188,DS,Dipodomys spectabilis,8,5,1978,14,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,67,,,,,,M
+1189,DS,Dipodomys spectabilis,8,5,1978,14,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,71,,,,,,F
+1191,DS,Dipodomys spectabilis,8,5,1978,14,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,76,,,,,,F
+1199,DS,Dipodomys spectabilis,9,3,1978,15,91829d58-c12e-47e8-ae31-185f46be21d2,12,,21,,,,,,M
+1200,DS,Dipodomys spectabilis,9,3,1978,15,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,22,,,,,,M
+1205,DS,Dipodomys spectabilis,9,3,1978,15,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,,25,,,,,,F
+1209,DS,Dipodomys spectabilis,9,3,1978,15,91829d58-c12e-47e8-ae31-185f46be21d2,12,,31,,,,,,F
+1211,DS,Dipodomys spectabilis,9,3,1978,15,aab65971-f64b-425e-9a78-17d7ec63423c,9,,32,,,,,,F
+1212,DS,Dipodomys spectabilis,9,3,1978,15,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,32,,,,,,F
+1213,DS,Dipodomys spectabilis,9,3,1978,15,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,32,,,,,,F
+1223,DS,Dipodomys spectabilis,9,3,1978,15,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,45,,,,,,F
+1224,DS,Dipodomys spectabilis,9,3,1978,15,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,52,,,,,,M
+1225,DS,Dipodomys spectabilis,9,3,1978,15,aab65971-f64b-425e-9a78-17d7ec63423c,9,,53,,,,,,F
+1231,DS,Dipodomys spectabilis,9,3,1978,15,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,56,,,,,,M
+1234,DS,Dipodomys spectabilis,9,3,1978,15,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,,63,,,,,,F
+1238,DS,Dipodomys spectabilis,9,3,1978,15,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,67,,,,,,F
+1239,DS,Dipodomys spectabilis,9,3,1978,15,91829d58-c12e-47e8-ae31-185f46be21d2,12,,71,,,,,,F
+1243,DS,Dipodomys spectabilis,9,3,1978,15,aab65971-f64b-425e-9a78-17d7ec63423c,9,,73,,,,,,F
+1244,DS,Dipodomys spectabilis,9,3,1978,15,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,73,,,,,,F
+1254,DS,Dipodomys spectabilis,9,4,1978,15,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,16,,,,,,M
+1260,DS,Dipodomys spectabilis,9,4,1978,15,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,25,,,,,,F
+1263,DS,Dipodomys spectabilis,9,4,1978,15,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,27,,,,,,F
+1266,DS,Dipodomys spectabilis,9,4,1978,15,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,34,,,,,,M
+1267,DS,Dipodomys spectabilis,9,4,1978,15,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,35,,,,,,M
+1268,DS,Dipodomys spectabilis,9,4,1978,15,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,37,,,,,,F
+1271,DS,Dipodomys spectabilis,9,4,1978,15,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,43,,,,,,M
+1273,DS,Dipodomys spectabilis,9,4,1978,15,486c68ed-972c-4baf-beea-f8a72216e580,14,,44,,,,,,F
+1274,DS,Dipodomys spectabilis,9,4,1978,15,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,,46,,,,,,F
+1278,DS,Dipodomys spectabilis,9,4,1978,15,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,,51,,,,,,F
+1280,DS,Dipodomys spectabilis,9,4,1978,15,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,54,,,,,,M
+1287,DS,Dipodomys spectabilis,9,4,1978,15,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,61,,,,,,F
+1292,DS,Dipodomys spectabilis,9,4,1978,15,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,67,,,,,,F
+1293,DS,Dipodomys spectabilis,9,4,1978,15,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,67,,,,,,F
+1296,DS,Dipodomys spectabilis,9,4,1978,15,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,73,,,,,,F
+1297,DS,Dipodomys spectabilis,9,4,1978,15,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,73,,,,,,F
+1298,DS,Dipodomys spectabilis,9,4,1978,15,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,73,,,,,,F
+1305,DS,Dipodomys spectabilis,10,6,1978,16,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,36,,,,,,F
+1307,DS,Dipodomys spectabilis,10,6,1978,16,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,43,,,,,,M
+1308,DS,Dipodomys spectabilis,10,6,1978,16,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,74,,,,,,F
+1314,DS,Dipodomys spectabilis,10,7,1978,16,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,,15,,,,,,F
+1315,DS,Dipodomys spectabilis,10,7,1978,16,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,15,,,,,,M
+1323,DS,Dipodomys spectabilis,10,7,1978,16,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,31,,,,,,F
+1325,DS,Dipodomys spectabilis,10,7,1978,16,aab65971-f64b-425e-9a78-17d7ec63423c,9,,33,,,,,,F
+1326,DS,Dipodomys spectabilis,10,7,1978,16,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,34,,,,,,M
+1330,DS,Dipodomys spectabilis,10,7,1978,16,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,41,,,,,,M
+1331,DS,Dipodomys spectabilis,10,7,1978,16,aab65971-f64b-425e-9a78-17d7ec63423c,9,,46,,,,,,M
+1333,DS,Dipodomys spectabilis,10,7,1978,16,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,53,,,,,,F
+1334,DS,Dipodomys spectabilis,10,7,1978,16,91829d58-c12e-47e8-ae31-185f46be21d2,12,,54,,,,,,F
+1335,DS,Dipodomys spectabilis,10,7,1978,16,aab65971-f64b-425e-9a78-17d7ec63423c,9,,55,,,,,,F
+1336,DS,Dipodomys spectabilis,10,7,1978,16,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,56,,,,,,F
+1338,DS,Dipodomys spectabilis,10,7,1978,16,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,,63,,,,,,F
+1340,DS,Dipodomys spectabilis,10,7,1978,16,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,66,,,,,,F
+1342,DS,Dipodomys spectabilis,10,7,1978,16,aab65971-f64b-425e-9a78-17d7ec63423c,9,,72,,,,,,F
+1358,DS,Dipodomys spectabilis,10,8,1978,16,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,17,,,,,,M
+1360,DS,Dipodomys spectabilis,10,8,1978,16,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,17,,,,,,M
+1363,DS,Dipodomys spectabilis,10,8,1978,16,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,33,,,,,,M
+1364,DS,Dipodomys spectabilis,10,8,1978,16,486c68ed-972c-4baf-beea-f8a72216e580,14,,34,,,,,,F
+1365,DS,Dipodomys spectabilis,10,8,1978,16,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,35,,,,,,M
+1367,DS,Dipodomys spectabilis,10,8,1978,16,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,,37,,,,,,F
+1371,DS,Dipodomys spectabilis,10,8,1978,16,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,44,,,,,,M
+1373,DS,Dipodomys spectabilis,10,8,1978,16,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,44,,,,,,F
+1376,DS,Dipodomys spectabilis,10,8,1978,16,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,,52,,,,,,F
+1384,DS,Dipodomys spectabilis,10,8,1978,16,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,64,,,,,,F
+1387,DS,Dipodomys spectabilis,10,8,1978,16,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,71,,,,,,F
+1398,DS,Dipodomys spectabilis,11,4,1978,17,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,11,,,,,,F
+1399,DS,Dipodomys spectabilis,11,4,1978,17,91829d58-c12e-47e8-ae31-185f46be21d2,12,,12,,,,,,F
+1401,DS,Dipodomys spectabilis,11,4,1978,17,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,,16,,,,,,F
+1403,DS,Dipodomys spectabilis,11,4,1978,17,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,23,,,,,,M
+1404,DS,Dipodomys spectabilis,11,4,1978,17,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,25,,,,,,F
+1411,DS,Dipodomys spectabilis,11,4,1978,17,aab65971-f64b-425e-9a78-17d7ec63423c,9,,43,,,,,,F
+1412,DS,Dipodomys spectabilis,11,4,1978,17,aab65971-f64b-425e-9a78-17d7ec63423c,9,,46,,,,,,M
+1414,DS,Dipodomys spectabilis,11,4,1978,17,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,52,,,,,,M
+1422,DS,Dipodomys spectabilis,11,4,1978,17,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,64,,,,,,M
+1423,DS,Dipodomys spectabilis,11,4,1978,17,aab65971-f64b-425e-9a78-17d7ec63423c,9,,64,,,,,,F
+1425,DS,Dipodomys spectabilis,11,4,1978,17,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,65,,,,,,F
+1429,DS,Dipodomys spectabilis,11,4,1978,17,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,72,,,,,,M
+1431,DS,Dipodomys spectabilis,11,4,1978,17,aab65971-f64b-425e-9a78-17d7ec63423c,9,,74,,,,,,F
+1447,DS,Dipodomys spectabilis,11,5,1978,17,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,,25,,,,,,F
+1449,DS,Dipodomys spectabilis,11,5,1978,17,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,33,,,,,,M
+1450,DS,Dipodomys spectabilis,11,5,1978,17,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,33,,,,,,F
+1451,DS,Dipodomys spectabilis,11,5,1978,17,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,34,,,,,,M
+1452,DS,Dipodomys spectabilis,11,5,1978,17,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,35,,,,,,F
+1454,DS,Dipodomys spectabilis,11,5,1978,17,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,37,,,,,,M
+1459,DS,Dipodomys spectabilis,11,5,1978,17,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,,52,,,,,,F
+1463,DS,Dipodomys spectabilis,11,5,1978,17,486c68ed-972c-4baf-beea-f8a72216e580,14,,63,,,,,,F
+1484,DS,Dipodomys spectabilis,12,2,1978,18,aab65971-f64b-425e-9a78-17d7ec63423c,9,,16,,,,,,F
+1488,DS,Dipodomys spectabilis,12,2,1978,18,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,23,,,,,,F
+1497,DS,Dipodomys spectabilis,12,2,1978,18,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,35,,,,,,M
+1499,DS,Dipodomys spectabilis,12,2,1978,18,aab65971-f64b-425e-9a78-17d7ec63423c,9,,45,,,,,,F
+1501,DS,Dipodomys spectabilis,12,2,1978,18,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,,53,,,,,,F
+1502,DS,Dipodomys spectabilis,12,2,1978,18,aab65971-f64b-425e-9a78-17d7ec63423c,9,,53,,,,,,F
+1503,DS,Dipodomys spectabilis,12,2,1978,18,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,53,,,,,,F
+1504,DS,Dipodomys spectabilis,12,2,1978,18,91829d58-c12e-47e8-ae31-185f46be21d2,12,,55,,,,,,F
+1509,DS,Dipodomys spectabilis,12,2,1978,18,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,66,,,,,,F
+1520,DS,Dipodomys spectabilis,12,3,1978,18,486c68ed-972c-4baf-beea-f8a72216e580,14,,14,,,,,,F
+1521,DS,Dipodomys spectabilis,12,3,1978,18,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,,15,,,,,,F
+1525,DS,Dipodomys spectabilis,12,3,1978,18,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,41,,,,,,M
+1526,DS,Dipodomys spectabilis,12,3,1978,18,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,46,,,,,,F
+1527,DS,Dipodomys spectabilis,12,3,1978,18,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,,52,,,,,,F
+1531,DS,Dipodomys spectabilis,12,3,1978,18,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,57,,,,,,M
+1537,DS,Dipodomys spectabilis,12,3,1978,18,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,65,,,,,,M
+1540,DS,Dipodomys spectabilis,12,3,1978,18,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,66,,,,,,F
+1553,DS,Dipodomys spectabilis,1,28,1979,19,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,,14,,,,,,F
+1582,DS,Dipodomys spectabilis,1,29,1979,19,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,,33,,,,,,F
+1588,DS,Dipodomys spectabilis,1,29,1979,19,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,44,,,,,,M
+1589,DS,Dipodomys spectabilis,1,29,1979,19,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,45,,,,,,M
+1592,DS,Dipodomys spectabilis,1,29,1979,19,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,55,,,,,,F
+1601,DS,Dipodomys spectabilis,1,29,1979,19,486c68ed-972c-4baf-beea-f8a72216e580,14,,65,,,,,,F
+1625,DS,Dipodomys spectabilis,2,24,1979,20,91829d58-c12e-47e8-ae31-185f46be21d2,12,,35,,,,,,F
+1627,DS,Dipodomys spectabilis,2,24,1979,20,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,,37,,,,,,M
+1630,DS,Dipodomys spectabilis,2,24,1979,20,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,,53,,,,,,F
+1631,DS,Dipodomys spectabilis,2,24,1979,20,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,53,,,,,,F
+1633,DS,Dipodomys spectabilis,2,24,1979,20,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,55,,,,,,F
+1637,DS,Dipodomys spectabilis,2,24,1979,20,aab65971-f64b-425e-9a78-17d7ec63423c,9,,73,,,,,,F
+1638,DS,Dipodomys spectabilis,2,24,1979,20,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,77,,,,,,F
+1647,DS,Dipodomys spectabilis,2,25,1979,20,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,26,,,,,,M
+1649,DS,Dipodomys spectabilis,2,25,1979,20,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,31,,,,,,M
+1652,DS,Dipodomys spectabilis,2,25,1979,20,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,43,,,,,,F
+1655,DS,Dipodomys spectabilis,2,25,1979,20,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,,52,,,,,,F
+1656,DS,Dipodomys spectabilis,2,25,1979,20,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,53,,,,,,M
+1658,DS,Dipodomys spectabilis,2,25,1979,20,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,57,,,,,,M
+1659,DS,Dipodomys spectabilis,2,25,1979,20,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,61,,,,,,M
+1660,DS,Dipodomys spectabilis,2,25,1979,20,486c68ed-972c-4baf-beea-f8a72216e580,14,,62,,,,,,F
+1671,DS,Dipodomys spectabilis,3,31,1979,21,91829d58-c12e-47e8-ae31-185f46be21d2,12,,12,,,,,,M
+1673,DS,Dipodomys spectabilis,3,31,1979,21,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,15,,,,,,F
+1678,DS,Dipodomys spectabilis,3,31,1979,21,486c68ed-972c-4baf-beea-f8a72216e580,14,,22,,,,,,F
+1680,DS,Dipodomys spectabilis,3,31,1979,21,486c68ed-972c-4baf-beea-f8a72216e580,14,,24,,,,,,F
+1681,DS,Dipodomys spectabilis,3,31,1979,21,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,26,,,,,,M
+1683,DS,Dipodomys spectabilis,3,31,1979,21,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,31,,,,,,M
+1684,DS,Dipodomys spectabilis,3,31,1979,21,91829d58-c12e-47e8-ae31-185f46be21d2,12,,32,,,,,,F
+1685,DS,Dipodomys spectabilis,3,31,1979,21,486c68ed-972c-4baf-beea-f8a72216e580,14,,33,,,,,,F
+1689,DS,Dipodomys spectabilis,3,31,1979,21,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,42,,,,,,M
+1690,DS,Dipodomys spectabilis,3,31,1979,21,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,45,,,,,,M
+1693,DS,Dipodomys spectabilis,3,31,1979,21,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,52,,,,,,F
+1694,DS,Dipodomys spectabilis,3,31,1979,21,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,,53,,,,,,F
+1695,DS,Dipodomys spectabilis,3,31,1979,21,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,54,,,,,,M
+1696,DS,Dipodomys spectabilis,3,31,1979,21,aab65971-f64b-425e-9a78-17d7ec63423c,9,,54,,,,,,F
+1697,DS,Dipodomys spectabilis,3,31,1979,21,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,56,,,,,,M
+1698,DS,Dipodomys spectabilis,3,31,1979,21,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,56,,,,,,M
+1703,DS,Dipodomys spectabilis,3,31,1979,21,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,63,,,,,,F
+1704,DS,Dipodomys spectabilis,3,31,1979,21,aab65971-f64b-425e-9a78-17d7ec63423c,9,,64,,,,,,F
+1705,DS,Dipodomys spectabilis,3,31,1979,21,aab65971-f64b-425e-9a78-17d7ec63423c,9,,66,,,,,,F
+1708,DS,Dipodomys spectabilis,3,31,1979,21,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,71,,,,,,F
+1710,DS,Dipodomys spectabilis,3,31,1979,21,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,74,,,,,,M
+1713,DS,Dipodomys spectabilis,3,31,1979,21,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,76,,,,,,F
+1714,DS,Dipodomys spectabilis,3,31,1979,21,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,77,,,,,,M
+1726,DS,Dipodomys spectabilis,4,28,1979,22,91829d58-c12e-47e8-ae31-185f46be21d2,12,,12,,,,,,M
+1727,DS,Dipodomys spectabilis,4,28,1979,22,91829d58-c12e-47e8-ae31-185f46be21d2,12,,13,,,,,,F
+1728,DS,Dipodomys spectabilis,4,28,1979,22,91829d58-c12e-47e8-ae31-185f46be21d2,12,,14,,,,,,F
+1732,DS,Dipodomys spectabilis,4,28,1979,22,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,41,,,,,,F
+1733,DS,Dipodomys spectabilis,4,28,1979,22,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,42,,,,,,M
+1735,DS,Dipodomys spectabilis,4,28,1979,22,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,46,,,,,,F
+1736,DS,Dipodomys spectabilis,4,28,1979,22,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,46,,,,,,M
+1737,DS,Dipodomys spectabilis,4,28,1979,22,aab65971-f64b-425e-9a78-17d7ec63423c,9,,47,,,,,,F
+1738,DS,Dipodomys spectabilis,4,28,1979,22,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,,52,,,,,,F
+1739,DS,Dipodomys spectabilis,4,28,1979,22,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,52,,,,,,M
+1740,DS,Dipodomys spectabilis,4,28,1979,22,aab65971-f64b-425e-9a78-17d7ec63423c,9,,54,,,,,,M
+1741,DS,Dipodomys spectabilis,4,28,1979,22,aab65971-f64b-425e-9a78-17d7ec63423c,9,,56,,,,,,F
+1742,DS,Dipodomys spectabilis,4,28,1979,22,aab65971-f64b-425e-9a78-17d7ec63423c,9,,57,,,,,,F
+1744,DS,Dipodomys spectabilis,4,28,1979,22,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,62,,,,,,M
+1745,DS,Dipodomys spectabilis,4,28,1979,22,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,63,,,,,,F
+1747,DS,Dipodomys spectabilis,4,28,1979,22,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,67,,,,,,F
+1748,DS,Dipodomys spectabilis,4,28,1979,22,aab65971-f64b-425e-9a78-17d7ec63423c,9,,71,,,,,,M
+1749,DS,Dipodomys spectabilis,4,28,1979,22,aab65971-f64b-425e-9a78-17d7ec63423c,9,,74,,,,,,F
+1759,DS,Dipodomys spectabilis,4,29,1979,22,486c68ed-972c-4baf-beea-f8a72216e580,14,,33,,,,,,M
+1761,DS,Dipodomys spectabilis,4,29,1979,22,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,37,,,,,,M
+1764,DS,Dipodomys spectabilis,4,29,1979,22,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,41,,,,,,M
+1766,DS,Dipodomys spectabilis,4,29,1979,22,486c68ed-972c-4baf-beea-f8a72216e580,14,,43,,,,,,M
+1770,DS,Dipodomys spectabilis,4,29,1979,22,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,54,,,,,,M
+1772,DS,Dipodomys spectabilis,4,29,1979,22,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,61,,,,,,F
+1773,DS,Dipodomys spectabilis,4,29,1979,22,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,71,,,,,,F
+1774,DS,Dipodomys spectabilis,4,29,1979,22,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,73,,,,,,M
+1781,DS,Dipodomys spectabilis,5,29,1979,23,aab65971-f64b-425e-9a78-17d7ec63423c,9,,12,,,,,,F
+1783,DS,Dipodomys spectabilis,5,29,1979,23,91829d58-c12e-47e8-ae31-185f46be21d2,12,,21,,,,,,M
+1786,DS,Dipodomys spectabilis,5,29,1979,23,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,26,,,,,,M
+1787,DS,Dipodomys spectabilis,5,29,1979,23,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,31,,,,,,F
+1791,DS,Dipodomys spectabilis,5,29,1979,23,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,34,,,,,,M
+1792,DS,Dipodomys spectabilis,5,29,1979,23,aab65971-f64b-425e-9a78-17d7ec63423c,9,,36,,,,,,F
+1793,DS,Dipodomys spectabilis,5,29,1979,23,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,37,,,,,,M
+1794,DS,Dipodomys spectabilis,5,29,1979,23,aab65971-f64b-425e-9a78-17d7ec63423c,9,,43,,,,,,F
+1795,DS,Dipodomys spectabilis,5,29,1979,23,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,43,,,,,,F
+1797,DS,Dipodomys spectabilis,5,29,1979,23,aab65971-f64b-425e-9a78-17d7ec63423c,9,,46,,,,,,F
+1799,DS,Dipodomys spectabilis,5,29,1979,23,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,51,,,,,,M
+1800,DS,Dipodomys spectabilis,5,29,1979,23,aab65971-f64b-425e-9a78-17d7ec63423c,9,,53,,,,,,F
+1801,DS,Dipodomys spectabilis,5,29,1979,23,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,53,,,,,,
+1802,DS,Dipodomys spectabilis,5,29,1979,23,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,53,,,,,,F
+1803,DS,Dipodomys spectabilis,5,29,1979,23,aab65971-f64b-425e-9a78-17d7ec63423c,9,,54,,,,,,M
+1804,DS,Dipodomys spectabilis,5,29,1979,23,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,55,,,,,,M
+1806,DS,Dipodomys spectabilis,5,29,1979,23,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,,61,,,,,,F
+1810,DS,Dipodomys spectabilis,5,29,1979,23,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,67,,,,,,F
+1812,DS,Dipodomys spectabilis,5,29,1979,23,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,75,,,,,,M
+1814,DS,Dipodomys spectabilis,5,29,1979,23,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,77,,,,,,F
+1821,DS,Dipodomys spectabilis,5,30,1979,23,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,25,,,,,,F
+1824,DS,Dipodomys spectabilis,5,30,1979,23,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,35,,,,,,F
+1827,DS,Dipodomys spectabilis,5,30,1979,23,486c68ed-972c-4baf-beea-f8a72216e580,14,,43,,,,,,
+1828,DS,Dipodomys spectabilis,5,30,1979,23,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,43,,,,,,M
+1829,DS,Dipodomys spectabilis,5,30,1979,23,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,47,,,,,,F
+1832,DS,Dipodomys spectabilis,5,30,1979,23,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,53,,,,,,F
+1835,DS,Dipodomys spectabilis,5,30,1979,23,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,61,,,,,,M
+1836,DS,Dipodomys spectabilis,5,30,1979,23,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,62,,,,,,M
+1837,DS,Dipodomys spectabilis,5,30,1979,23,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,62,,,,,,F
+1838,DS,Dipodomys spectabilis,5,30,1979,23,486c68ed-972c-4baf-beea-f8a72216e580,14,,62,,,,,,F
+1840,DS,Dipodomys spectabilis,5,30,1979,23,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,66,,,,,,M
+1841,DS,Dipodomys spectabilis,5,30,1979,23,486c68ed-972c-4baf-beea-f8a72216e580,14,,66,,,,,,M
+1853,DS,Dipodomys spectabilis,7,3,1979,24,91829d58-c12e-47e8-ae31-185f46be21d2,12,,11,,,,,,M
+1857,DS,Dipodomys spectabilis,7,3,1979,24,aab65971-f64b-425e-9a78-17d7ec63423c,9,,45,,,,,,F
+1859,DS,Dipodomys spectabilis,7,3,1979,24,d0365ef1-4c58-4b9d-9499-1e3f5bb0ba9d,22,,46,,,,,,M
+1861,DS,Dipodomys spectabilis,7,3,1979,24,aab65971-f64b-425e-9a78-17d7ec63423c,9,,51,,,,,,F
+1862,DS,Dipodomys spectabilis,7,3,1979,24,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,51,,,,,,M
+1864,DS,Dipodomys spectabilis,7,3,1979,24,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,,53,,,,,,F
+35097,OT,Onychomys torridus,11,10,2002,293,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,24,,,,,,M
+35099,OT,Onychomys torridus,11,10,2002,293,aab65971-f64b-425e-9a78-17d7ec63423c,9,,62,,,,,,F
+35123,OT,Onychomys torridus,11,10,2002,293,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,22,,,,,,M
+35132,OT,Onychomys torridus,11,10,2002,293,aab65971-f64b-425e-9a78-17d7ec63423c,9,,11,,,,,,M
+35140,OT,Onychomys torridus,11,10,2002,293,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,,21,,,,,,F
+35146,OT,Onychomys torridus,11,10,2002,293,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,,16,,,,,,M
+35156,OT,Onychomys torridus,11,10,2002,293,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,45,,,,,,M
+35161,OT,Onychomys torridus,11,10,2002,293,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,13,,,,,,F
+35163,OT,Onychomys torridus,11,10,2002,293,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,22,,,,,,M
+35185,OT,Onychomys torridus,11,10,2002,293,a609589e-f097-4e41-877d-3cd0490845b4,16,,62,,,,,,F
+35187,OT,Onychomys torridus,11,10,2002,293,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,21,,,,,,F
+35190,OT,Onychomys torridus,12,7,2002,294,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,14,,,,,,M
+35192,OT,Onychomys torridus,12,7,2002,294,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,21,,,,,,F
+35198,OT,Onychomys torridus,12,7,2002,294,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,57,,,,,,M
+35204,OT,Onychomys torridus,12,7,2002,294,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,3,29,,,,,,M
+35213,OT,Onychomys torridus,12,7,2002,294,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,77,,,,,,M
+35269,OT,Onychomys torridus,12,7,2002,294,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,53,,,,,,M
+35279,OT,Onychomys torridus,12,7,2002,294,a609589e-f097-4e41-877d-3cd0490845b4,16,,45,,,,,,F
+35282,OT,Onychomys torridus,12,7,2002,294,bd967227-b528-4374-87fc-8769a15c7f58,23,,32,,,,,,M
+35305,OT,Onychomys torridus,12,8,2002,294,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,26,,,,,,M
+35306,OT,Onychomys torridus,12,8,2002,294,7dcaddf5-d272-4b69-a49c-d4f3cf000084,4,,17,,,,,,F
+35307,OT,Onychomys torridus,12,8,2002,294,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,,54,,,,,,M
+35320,OT,Onychomys torridus,12,8,2002,294,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,,37,,,,,,F
+35330,OT,Onychomys torridus,12,8,2002,294,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,,45,,,,,,F
+35337,OT,Onychomys torridus,12,8,2002,294,aab65971-f64b-425e-9a78-17d7ec63423c,9,,71,,,,,,M
+35342,OT,Onychomys torridus,12,8,2002,294,aab65971-f64b-425e-9a78-17d7ec63423c,9,,67,,,,,,F
+35354,OT,Onychomys torridus,12,8,2002,294,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,,21,,,,,,M
+35360,OT,Onychomys torridus,12,8,2002,294,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,62,,,,,,M
+35384,OT,Onychomys torridus,12,8,2002,294,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,75,,,,,,F
+35387,OT,Onychomys torridus,12,29,2002,295,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,51,,,,,,M
+35395,OT,Onychomys torridus,12,29,2002,295,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,57,,,,,,M
+35449,OT,Onychomys torridus,12,29,2002,295,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,16,,,,,,F
+35480,OT,Onychomys torridus,12,29,2002,295,a609589e-f097-4e41-877d-3cd0490845b4,16,,37,,,,,,F
+35484,OT,Onychomys torridus,12,29,2002,295,a609589e-f097-4e41-877d-3cd0490845b4,16,,54,,,,,,M
+35495,OT,Onychomys torridus,12,31,2002,295,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,,72,,,,,,F
+35505,OT,Onychomys torridus,12,31,2002,295,74992ac6-3c8f-4547-b5f9-d4b3f6793a85,6,,57,,,,,,F
+35526,OT,Onychomys torridus,12,31,2002,295,5c4fd793-b31b-4a99-8d9c-65f19e358dec,8,,12,,,,,,F
+35530,OT,Onychomys torridus,12,31,2002,295,4dc16022-f28d-4b9d-9062-c7bc3ad43362,13,,22,,,,,,F
+70,OX,Onychomys�sp.,8,19,1977,2,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,,57,,,,,,F
+117,OX,Onychomys�sp.,8,21,1977,2,312118f6-f394-4c17-a4ee-869a14ba5d75,21,,13,,,,,,F
+166,OX,Onychomys�sp.,9,11,1977,3,312118f6-f394-4c17-a4ee-869a14ba5d75,21,,27,,,,,,M
+177,OX,Onychomys�sp.,9,11,1977,3,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,63,,,,,,F
+185,OX,Onychomys�sp.,9,11,1977,3,91829d58-c12e-47e8-ae31-185f46be21d2,12,,77,,,,,,F
+242,OX,Onychomys�sp.,9,13,1977,3,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,77,,,,,,M
+333,OX,Onychomys�sp.,10,18,1977,4,1e87b11b-4795-4f41-bdff-2d5c4412be25,19,,22,,,,,,
+587,OX,Onychomys�sp.,2,18,1978,8,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,16,,,,,,
+6609,OX,Onychomys�sp.,9,19,1982,62,1e87b11b-4795-4f41-bdff-2d5c4412be25,19,,21,,,,,,M
+9209,OX,Onychomys�sp.,5,27,1984,79,486c68ed-972c-4baf-beea-f8a72216e580,14,,33,,,,,,M
+16235,OX,Onychomys�sp.,7,3,1989,136,91829d58-c12e-47e8-ae31-185f46be21d2,12,,42,,,,,,M
+20654,OX,Onychomys�sp.,2,19,1993,180,85292288-e747-42ca-9a53-e8ee8e187cd7,17,,57,,,,,,
+16854,BA,Baiomys taylori,12,5,1989,141,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,,56,,,,,,M
+16951,BA,Baiomys taylori,1,7,1990,142,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,41,,,,,,F
+17174,BA,Baiomys taylori,2,25,1990,144,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,13,,,,,,M
+17190,BA,Baiomys taylori,2,25,1990,144,c5e12154-6677-4d6c-8feb-52355cbc1f78,5,,24,,,,,,F
+17374,BA,Baiomys taylori,4,24,1990,146,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,17,,,,,,M
+17486,BA,Baiomys taylori,4,26,1990,146,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,,77,,,,,,M
+17566,BA,Baiomys taylori,5,25,1990,147,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,,46,,,,,,F
+17616,BA,Baiomys taylori,6,22,1990,148,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,,17,,,,,,F
+17773,BA,Baiomys taylori,8,17,1990,150,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,,12,,,,,,F
+17935,BA,Baiomys taylori,10,16,1990,152,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,,63,,,,,,F
+18085,BA,Baiomys taylori,12,15,1990,154,1e87b11b-4795-4f41-bdff-2d5c4412be25,19,,36,,,,,,F
+18132,BA,Baiomys taylori,12,16,1990,154,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,,22,,,,,,F
+18252,BA,Baiomys taylori,1,12,1991,155,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,,11,,,,,,F
+18323,BA,Baiomys taylori,2,16,1991,156,1e87b11b-4795-4f41-bdff-2d5c4412be25,19,,21,,,,,,F
+18509,BA,Baiomys taylori,3,14,1991,157,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,,24,,,,,,F
+18574,BA,Baiomys taylori,4,19,1991,158,1e87b11b-4795-4f41-bdff-2d5c4412be25,19,,46,,,,,,F
+18604,BA,Baiomys taylori,4,21,1991,158,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,,12,,,,,,F
+18666,BA,Baiomys taylori,5,13,1991,159,1e87b11b-4795-4f41-bdff-2d5c4412be25,19,,45,,,,,,F
+18687,BA,Baiomys taylori,5,14,1991,159,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,,13,,,,,,F
+18768,BA,Baiomys taylori,6,13,1991,160,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,65,,,,,,F
+18778,BA,Baiomys taylori,6,14,1991,160,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,,21,,,,,,F
+18828,BA,Baiomys taylori,7,12,1991,161,1e87b11b-4795-4f41-bdff-2d5c4412be25,19,,27,,,,,,F
+18855,BA,Baiomys taylori,7,13,1991,161,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,,11,,,,,,F
+18935,BA,Baiomys taylori,8,7,1991,162,01f5316e-7875-47a2-9ebe-088ae7239d4f,18,,37,,,,,,F
+19015,BA,Baiomys taylori,9,9,1991,163,1e87b11b-4795-4f41-bdff-2d5c4412be25,19,,16,,,,,,F
+19109,BA,Baiomys taylori,10,10,1991,164,dcbbd373-c22e-46ef-ae8b-ad88f5cf7475,20,,27,,,,,,F
+19121,BA,Baiomys taylori,10,10,1991,164,aeece3f0-4acf-4aaa-87cd-e04ac6c8ad2c,2,,46,,,,,,M
+19144,BA,Baiomys taylori,10,11,1991,164,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,1,13,,,,,,
+19220,BA,Baiomys taylori,11,13,1991,165,1e87b11b-4795-4f41-bdff-2d5c4412be25,19,,42,,,,,,F
+19249,BA,Baiomys taylori,11,13,1991,165,1e87b11b-4795-4f41-bdff-2d5c4412be25,19,,76,,,,,,M
+19256,BA,Baiomys taylori,11,14,1991,165,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,,14,,,,,,F
+19260,BA,Baiomys taylori,11,14,1991,165,312118f6-f394-4c17-a4ee-869a14ba5d75,21,,17,,,,,,M
+19274,BA,Baiomys taylori,11,14,1991,165,b564c1fc-bd87-4525-92ee-8bb36928fc10,3,,34,,,,,,F
+22711,PB,Chaetodipus baileyi,9,23,1995,212,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,54,,,,,,F
+22868,PB,Chaetodipus baileyi,10,28,1995,213,b7eb122e-a7c4-4982-97a0-fa67e45e6faf,1,,41,,,,,,F
+15878,CS,Crotalus scutalatus,4,1,1989,133,0453e08f-14f0-48c8-b72b-f0e3e57917e6,11,13,47,,,,,,
+13313,CV,Crotalus viridis,8,26,1987,114,6a090985-a7ce-4c04-b146-9b401d1dd796,15,13,61,,,,,,
