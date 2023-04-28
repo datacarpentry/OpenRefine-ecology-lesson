@@ -2,43 +2,36 @@
 
 [Software Carpentry][swc-site] and [Data Carpentry][dc-site] are open source projects,
 and we welcome contributions of all kinds:
-new lessons,
-fixes to existing material,
-bug reports,
-and reviews of proposed changes are all welcome.
+
+* new lessons
+* fixes to existing material
+* bug reports
+* reviews of proposed changes
 
 ## Contributor Agreement
 
-By contributing,
-you agree that we may redistribute your work under [our license](LICENSE.md).
-In exchange,
-we will address your issues and/or assess your change proposal as promptly as we can,
-and help you become a member of our community.
+By contributing, you agree that we may redistribute your work under [our license](LICENSE.md).
+In exchange, we will address your issues and/or assess your change proposal as promptly as we can, and help you become a member of our community.
 Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-site]
 agrees to abide by our [code of conduct](http://www.datacarpentry.org/code-of-conduct/).
 
 ## How to Contribute
 
 The easiest way to get started is to file an issue
-to tell us about a spelling mistake,
-some awkward wording,
-or a factual error.
-This is a good way to introduce yourself
+to tell us about a spelling mistake, some awkward wording,
+or a factual error. This is a good way to introduce yourself
 and to meet some of our community members.
 
 1.  If you do not have a [GitHub][github] account,
     you can [send us comments by email][contact].
-    However,
-    we will be able to respond more quickly if you use one of the other methods described below.
-
-2.  If you have a [GitHub][github] account,
+    However, we will be able to respond more quickly if you use one of the other methods described below.
+1.  If you have a [GitHub][github] account,
     or are willing to [create one][github-join],
     but do not know how to use Git,
     you can report problems or suggest improvements by [creating an issue][issues].
     This allows us to assign the item to someone
     and to respond to it in a threaded discussion.
-
-3.  If you are comfortable with Git,
+1.  If you are comfortable with Git,
     and would like to add or change material,
     you can submit a pull request (PR).
     Instructions for doing this are [included below](#using-github).
@@ -48,19 +41,16 @@ and to meet some of our community members.
 1.  If you wish to change this lesson,
     please work in <https://github.com/datacarpentry/OpenRefine-ecology-lesson>,
     which can be viewed at <http://www.datacarpentry.org/OpenRefine-ecology-lesson/>.
-
-2.  If you wish to change the example lesson,
+1.  If you wish to change the example lesson,
     please work in <https://github.com/carpentries/lesson-example>,
     which documents the format of our lessons
     and can be viewed at <https://carpentries.github.io/lesson-example>.
-
-3.  If you wish to change the template used for workshop websites,
+1.  If you wish to change the template used for workshop websites,
     please work in <https://github.com/carpentries/workshop-template>.
     The home page of that repository explains how to set up workshop websites,
     while the extra pages in <https://carpentries.github.io/workshop-template>
     provide more background on our design choices.
-
-4.  If you wish to change CSS style files, tools,
+1.  If you wish to change CSS style files, tools,
     or HTML boilerplate for lessons or workshops stored in `_includes` or `_layouts`,
     please work in <https://github.com/carpentries/styles>.
 
@@ -87,8 +77,7 @@ so fresh eyes are always welcome.
 
 Our lessons already contain more material than we can cover in a typical workshop,
 so we are usually *not* looking for more concepts or tools to add to them.
-As a rule,
-if you want to introduce a new idea,
+As a rule, if you want to introduce a new idea,
 you must (a) estimate how long it will take to teach
 and (b) explain what you would take out to make room for it.
 The first encourages contributors to be honest about requirements;
