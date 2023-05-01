@@ -16,9 +16,9 @@ Ask the learners to install and test running the program before the workshop. Th
 
 ### OpenRefine version
 
-The current version of the lesson has been tested with OpenRefine 3.6.2. Using older versions is not recommended, behavior may be different and cause confusion in the learners.
+The current version of the lesson has been tested with OpenRefine 3.7.2. Using older versions is not recommended, behavior may be different and cause confusion in the learners.
 
-Windows users should download the "Windows kit with embedded Java" version from the [Download page](https://openrefine.org/download.html) to avoid having to install Java.
+Windows users should download the "Windows (with Java)" version from the [Download page](https://openrefine.org/download.html) to avoid having to install Java.
 
 Mac users can use the kit available in the [Download page](https://openrefine.org/download.html), Java does not have to be installed separately.
 

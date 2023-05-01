@@ -4,7 +4,7 @@ title: Setup
 ---
 
 > ## Data
-> **Download** the data file [Portal_rodents_19772002_simplified.csv](https://raw.githubusercontent.com/villanueval/OpenRefine-ecology-lesson/gh-pages/data/Portal_rodents_19772002_simplified.csv), which is a csv file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select `Download linked file`; in Chrome and Firefox, right-click and select `Save link as...`). Make a note of the location (i.e. the folder, your Desktop) to which you save the file.
+> **Download** the data file [Portal_rodents_19772002_simplified.csv](data/Portal_rodents_19772002_simplified.csv), which is a csv file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select `Download linked file`; in Chrome and Firefox, right-click and select `Save link as...`). Make a note of the location (i.e. the folder, your Desktop) to which you save the file.
 >
 > ### About the data
 > The data for this lesson is a part of the Data Carpentry Ecology workshop.
@@ -20,13 +20,13 @@ title: Setup
 
 > ## Software
 >
-> For this lesson you will need **OpenRefine version 3.6.2** and a web browser.
+> For this lesson you will need **OpenRefine version 3.7.2** and a web browser.
 >
 > Note: OpenRefine is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed.
 >
-> Download OpenRefine version 3.6.2 from [http://openrefine.org/download.html](http://openrefine.org/download.html).
+> Download OpenRefine version 3.7.2 from [https://openrefine.org/download](https://openrefine.org/download).
 > * Do not download beta versions or the release candidates. These are only for development and testing of the software.
-> * If you are on Windows and do not have Java installed, download the version `Windows kit with embedded Java`.
+> * If you are on Windows and do not have Java installed, download the version `Windows (including Java)`.
 > * Unzip the downloaded file into a directory and name that directory something like OpenRefine.
 > * Check below for further instructions depending on your operating system.
 >
