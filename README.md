@@ -8,7 +8,7 @@
 
 ## OpenRefine Version
 
-The current version has been tested with OpenRefine 3.6.2 on October 2022.
+The current version has been tested with OpenRefine 3.7.2 on May 2023.
 
 ## Data set notes
 
@@ -37,43 +37,43 @@ Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%
 ### Past Authors and Maintainers
 
 * Abigail Cabunoc
-*	Aleksandra Nenadic
-*	April M. Wright
-*	Betty Rozum
-*	Bill Mills
-*	Brian Yandell
-*	C. Titus Brown
-*	Cam Macdonell
-*	Dan Mazur
-*	Debbie Paul
-*	Erin Becker
-*	Francois Michonneau
-*	Gabriel A. Devenyi
-*	Greg Wilson
-*	Hilmar Lapp
-*	Hugo Tavares
-*	Ian Carroll
-*	James Allen
-*	James Mickley
-*	Jeffrey W. Hollister
-*	Jon Pipitone
-*	Jonah Duckles
-*	Kari L. Jordan
-*	Lisa Zilinski
-*	Maxim Belkin
-*	Michael Hansen
-*	Nick Young
-*	Piotr Banaszkiewicz
-*	Raniere Silva
-*	Ross Dickson
-*	Ryan E. Johnson
-*	Rémi Emonet
-*	Timothée Poisot
-*	Tracy Teal
-*	W. Trevor King
-*	Zack Brym
-*	dlstrong
-*	evanwill
-* trelogan
+* Aleksandra Nenadic
+* April M. Wright
+* Betty Rozum
+* Bill Mills
+* Brian Yandell
+* C. Titus Brown
+* Cam Macdonell
+* Dan Mazur
+* Debbie Paul
+* Erin Becker
+* Francois Michonneau
+* Gabriel A. Devenyi
+* Greg Wilson
+* Hilmar Lapp
+* Hugo Tavares
+* Ian Carroll
+* James Allen
+* James Mickley
+* Jeffrey W. Hollister
+* Jon Pipitone
+* Jonah Duckles
+* Kari L. Jordan
+* Lisa Zilinski
+* Maxim Belkin
+* Michael Hansen
+* Nick Young
+* Piotr Banaszkiewicz
+* Raniere Silva
+* Ross Dickson
+* Ryan E. Johnson
+* Rémi Emonet
+* Timothée Poisot
+* Tracy Teal
+* W. Trevor King
+* Zack Brym
+* dlstrong
+* evanwill
+*   trelogan
 
 See the [Authors](AUTHORS) page for details.
