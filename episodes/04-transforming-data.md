@@ -95,6 +95,22 @@ We want to rename these as `genus` and `species`, respectively.
 
 Edit the name of the `species` column to `species_abbreviation`. Then, rename `scientificName 2` to `species`.
 
+## Combining columns to create new ones
+
+The date for each row in the data file is split in three columns: `dy` (day), `mo` (month), and `yr` (year). We can create a new column with the date in the format we want by combining these columns. 
+
+ * Click on the menu for the `yr` column and select `Edit column` > `Join columns...`. 
+ * In the window that opens up, select the columns `yr`, `mo`, and `dy`. 
+ * Enter `-` as a separator.
+ * Select the option `Write result in new column named` and write `date` as the name for the new column.
+ * Click `OK`
+
+   ![OpenRefine window for joining columns](../fig/or372-joincols.png)
+
+You can change the order of the columns by dragging the columns in the left side of the window. 
+
+Once the new column is created, convert it to date using `Edit cells` > `Common transforms` > `To date`. Now you can explore the data using a timeline facet. Create the new facet by clicking on the menu for the column `date` and select `Facet` > `Timeline facet`. 
+
 ## Data clustering
 
 Clustering allows you to find groups of entries that are not identical but are
