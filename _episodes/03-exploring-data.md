@@ -72,7 +72,13 @@ To transform cells in the `yr` column to numbers, click the down arrow for that 
 
 > ## Exercise
 >
-> Transform the columns `period`, `plot`, `recordID`, and `plot_id` from text to numbers.
+> The dataset included other numeric columns that we will explore in this exercise:
+> 
+> * `period` - Unique number assigned to each survey period
+> * `plot` - Plot number animal was caught on, from 1 to 24
+> * `recordID` - Unique record ID number to facilitate quick reference to particular entry
+> 
+> Transform the columns `period`, `plot`, `yr`, and `recordID` from text to numbers.
 >
 > 1. How does changing the format change the faceting display for the `yr` column?
 > 1. Can all columns be transformed to numbers?
@@ -81,11 +87,6 @@ To transform cells in the `yr` column to numbers, click the down arrow for that 
 > >
 > > Displaying a `Numeric facet` of `yr` shows a histogram of the number of
 > > entries per year. Notice that the data is shown as a number, not a date. If you instead transform the column to a date, the program will assume all entries are on January 1st of the year.   
-> >
-> > Only observations that include only numerals (0-9) can be transformed to numbers. If you apply a number transformation to
-> > a column that doesn't meet this criteria, in this case `plot_id` you will see a message at the top that starts with `Text transform on 0 cells...`.
-> >
-> >     ![OpenRefine Message](../fig/or362-plotid-tonumber.png)
 > >
 > > This means that the data in that column was not transformed.
 > >
@@ -108,7 +109,7 @@ When done examining the numeric data, remove this facet by clicking the `x` in t
 
 Now that we have multiple columns representing numbers, we can see how they relate to one another using the scatterplot facet. Select a numeric column, for example `recordID`, and use the pulldown menu to > `Facet` > `Scatterplot facet`. A new window called `Scatterplot Matrix` will appear. There are squares for each pair of numeric columns organized in an upper right triangle. Each square has little dots for the cell values from each row.
 
-  ![Scatterplots between numeric columns](../fig/or362-scatterplots.png)
+  ![Scatterplots between numeric columns](../fig/or372-scatterplots.png)
 
 Click the image of the scatterplot between `recordID` and `yr` to select this one for the facet.
 
