@@ -78,7 +78,7 @@ To transform cells in the `yr` column to numbers, click the down arrow for that 
 > * `plot` - Plot number animal was caught on, from 1 to 24
 > * `recordID` - Unique record ID number to facilitate quick reference to particular entry
 > 
-> Transform the columns `period`, `plot`, `yr`, and `recordID` from text to numbers.
+> Transform the columns `period`, `plot`, and `recordID` from text to numbers.
 >
 > 1. How does changing the format change the faceting display for the `yr` column?
 > 1. Can all columns be transformed to numbers?

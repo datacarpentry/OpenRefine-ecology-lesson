@@ -36,15 +36,7 @@ keypoints:
 
 ## Before we get started
 
-
 The following setup is necessary before we can get started (see the [instructions here](../setup.html).)
-
-Do you need help with any of the following?
-
-- Download and install OpenRefine 3.6.2 from <https://openrefine.org/download.html>
-- Download this [data file](https://ndownloader.figshare.com/files/7823341) and save to your desktop
-- If after installation and running OpenRefine, it does not automatically open for you, point your browser at <http://127.0.0.1:3333/> or <http://localhost:3333/> to launch the program.
-
 
 ## What is OpenRefine?
 

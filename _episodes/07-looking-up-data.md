@@ -47,7 +47,11 @@ The syntax for requesting species information from GBIF is ```http://api.gbif.or
 
 You should see a message at the top on the OpenRefine screen indicating it is fetching some data, with progress showing the percentage of the proportion of rows of data successfully being fetched. Wait for this to complete.
 
-At this point you should have a new column containing a long text string in a format called 'JSON' (this stands for JavaScript Object Notation, although very rarely spelt out in full). OpenRefine has a function for extracting data from JSON (sometimes referred to as 'parsing' the JSON). The `parseJson()` function is explained in more detail at the [Format-based functions page](https://docs.openrefine.org/manual/grelfunctions/#format-based-functions-json-html-xml).
+  At this point you should have a new column containing a long text string in a format called 'JSON' (this stands for JavaScript Object Notation, although very rarely spelt out in full). The results should look like this figure:
+
+  ![Example of the results of fetching data from GBIF](../fig/or372-fetch-gbifjson.png)
+
+OpenRefine has a function for extracting data from JSON (sometimes referred to as 'parsing' the JSON). The `parseJson()` function is explained in more detail at the [Format-based functions page](https://docs.openrefine.org/manual/grelfunctions/#format-based-functions-json-html-xml).
 
 * In the new column you've just added use the dropdown menu to access `Edit column` > `Add column based on this column...`
 * Add the new column name: "gbif_family"

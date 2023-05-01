@@ -14,7 +14,7 @@ keypoints:
 
 ## Reconciliation of names
 
-Reconciliation services allow you to lookup terms from your data in OpenRefine against external services, and use values from the external services in your data. The official User Manual provides [detailed information about the reconciliation feature](https://docs.openrefine.org/manual/reconciling).
+Reconciliation services allow you to lookup terms from your data in OpenRefine against external services, and use values from the external services in your data. The OpenRefine manual provides [more information about the reconciliation feature](https://docs.openrefine.org/manual/reconciling).
 
 Reconciliation services can be more sophisticated and often quicker than using the method described above to retrieve data from a URL. However, to use the `Reconciliation` function in OpenRefine requires the external resource to support the necessary service for OpenRefine to work with, which means unless the service you wish to use supports such a service you cannot use the `Reconciliation` approach.
 
@@ -27,7 +27,7 @@ We can use the [Encyclopedia of Life](https://eol.org/) Reconciliation service t
 1. In the `scientificName` column use the dropdown menu to choose 'Reconcile->Start Reconciling'
 1. If this is the first time you've used this particular reconciliation service, you'll need to add the details of the service now
     * Click 'Add Standard Service...' and in the dialogue that appears enter:
-        * https://eol.org/api/reconciliation
+        * `https://eol.org/api/reconciliation`
          ![Prompt to add a service URL for reconciliation](../fig/or362-reconcile-add.png)
 1. You should now see a heading in the list on the left hand side of the Reconciliation dialogue called "Encyclopedia of Life"
 1. Click on this to choose to use this reconciliation service
@@ -55,17 +55,19 @@ If you look at the scientificName column, you should see some cells have found o
 1. Create a text facet on the scientificName column
 1. Choose *Ammospermophilus harrisii*
   * In the scientificName column you should be able to see the various potential matches. Clicking on a match will take you to the EOL page for that entity
-  ![Reconciliation menu for each cell](../fig/or362-reconcile-results.png)
-1. Click a 'double tick' in one of the scientificName column cells for the option `*Ammospermophilus harrisii* (Audubon & Bachman 1854)`
+  ![Reconciliation menu for each cell](../fig/or372-reconcile-results.png)
+1. Click a 'double tick' in one of the scientificName column cells for the option "*Ammospermophilus harrisii* (Audubon & Bachman 1854)"
 1. This will accept this as a match for all cells with this value - you should see the other options disappear
 
 There are two things that reconciliation can do for you. Firstly it gets a standard form of the name or label for the entity. Secondly it gets an ID for the entity - in this case a page and numeric id for the scientific name in EOL. This is hidden in the default view, but can be extracted:
 
-1. In the scientificName column use the dropdown menu to choose 'Reconcile` > `Add entity identifiers column...'
-1. Give the column the name 'EOL-ID'
+1. In the scientificName column use the dropdown menu to choose `Reconcile` > `Add entity identifiers column...`
+1. Give the column the name "EOL-ID"
 1. This will create a new column that contains the EOL ID for the matched entity
 
   ![Column with the identifiers from reconciliation](../fig/or362-reconcile-id.png)
+
+## Reconcile country, state, and counties against Wikidata
 
 The country field contains several alternative ways to indicate the United States of America, including:
 

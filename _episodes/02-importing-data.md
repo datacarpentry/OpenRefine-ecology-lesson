@@ -27,7 +27,7 @@ keypoints:
 > * RDF data (JSON-LD, N3, N-Triples, Turtle, RDF/XML)
 > * Wikitext
 >
-> See the [Create a project by importing data](https://docs.openrefine.org/manual/starting#create-a-project-by-importing-data) page for more information.
+> See the [Create a project by importing data](https://docs.openrefine.org/manual/starting#create-a-project-by-importing-data) page in the OpenRefine manual for more information.
 {: .callout}
 
 ## Create your first OpenRefine project (using provided data)

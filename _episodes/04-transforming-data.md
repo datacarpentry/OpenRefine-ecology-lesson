@@ -100,7 +100,7 @@ Edit the name of the `species` column to `species_abbreviation`. Then, rename `s
 The date for each row in the data file is split in three columns: `dy` (day), `mo` (month), and `yr` (year). We can create a new column with the date in the format we want by combining these columns. 
 
  * Click on the menu for the `yr` column and select `Edit column` > `Join columns...`. 
- * In the window that opens up, select the columns `yr`, `mo`, and `dy`. 
+ * In the window that opens up, check the boxes next to the columns `yr`, `mo`, and `dy`. 
  * Enter `-` as a separator.
  * Select the option `Write result in new column named` and write `date` as the name for the new column.
  * Click `OK`
@@ -141,5 +141,5 @@ group. You can change this if you wish to choose a different value than the sugg
    ![Facet of scientificName after clustering](../fig/or362-clustering-result.png)
 
 > ## Clustering Documentation
-> Full documentation on clustering can be found at the [OpenRefine Clustering Methods In-depth](https://docs.openrefine.org/next/technical-reference/clustering-in-depth) page.
+> Full documentation on clustering can be found at the [OpenRefine Clustering Methods In-depth](https://docs.openrefine.org/next/technical-reference/clustering-in-depth) page of the OpenRefine manual.
 {: .callout}
