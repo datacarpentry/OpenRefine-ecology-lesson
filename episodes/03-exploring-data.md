@@ -88,7 +88,7 @@ To transform cells in the `yr` column to numbers, click the down arrow for that 
 > > Displaying a `Numeric facet` of `yr` shows a histogram of the number of
 > > entries per year. Notice that the data is shown as a number, not a date. If you instead transform the column to a date, the program will assume all entries are on January 1st of the year.   
 > >
-> > This means that the data in that column was not transformed.
+> > Only observations that include only numerals (0-9) can be transformed to numbers. If you apply a number transformation to a column that doesn't meet this criteria, and then click the Undo / Redo tab, you will see a step that starts with Text transform on 0 cells. This means that the data in that column was not transformed.
 > >
 > {: .solution}
 {: .challenge}
