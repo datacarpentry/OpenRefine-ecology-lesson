@@ -1,17 +1,23 @@
 ---
-title: "Transforming Data"
+title: Transforming Data
 teaching: 20
 exercises: 15
-questions:
-- "How can we transform our data to correct errors?"
-objectives:
-- "Learn about clustering and how it is applied to group and edit typos"
-- "Split values from one column into multiple columns"
-- "Manipulate data using previous cleaning steps with undo/redo"
-- "Remove leading and trailing white spaces from cells"
-keypoints:
-- "Clustering can identify outliers in data and help us fix errors in bulk"
 ---
+
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Learn about clustering and how it is applied to group and edit typos
+- Split values from one column into multiple columns
+- Manipulate data using previous cleaning steps with undo/redo
+- Remove leading and trailing white spaces from cells
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- How can we transform our data to correct errors?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Data splitting
 
@@ -30,31 +36,43 @@ manually. This is another advantage of using OpenRefine to clean your data - thi
 In newer versions of OpenRefine (from version 3.4.1) there is now an option to
 clean leading and trailing white spaces from all data when importing the data initially and creating the project.
 
-> ## Exercise
-> Look at the data in the column `coordinates` and split these values to obtain latitude and longitude. Make sure that the option for `Guess cell type` is checked and that `Remove this column` is not. Rename the new columns.
->
-> What type of data OpenRefine assigns to the new colunms?
-> > ## Solution
-> >
-> > Both new columns will appear with green text, indicating they are numeric. The option for `Guess cell type` allowed OpenRefine to guess that these values were numeric.
-> {: .solution}
-{: .challenge}
+:::::::::::::::::::::::::::::::::::::::  challenge
+
+## Exercise
+
+Look at the data in the column `coordinates` and split these values to obtain latitude and longitude. Make sure that the option for `Guess cell type` is checked and that `Remove this column` is not. Rename the new columns.
+
+What type of data OpenRefine assigns to the new colunms?
+
+:::::::::::::::  solution
+
+## Solution
+
+Both new columns will appear with green text, indicating they are numeric. The option for `Guess cell type` allowed OpenRefine to guess that these values were numeric.
+
+
+
+:::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Undoing / Redoing actions
 
 It is common while exploring and cleaning a dataset to make a mistake or decide to change the order of the process you wish to conduct. OpenRefine provides `Undo` and `Redo` operations to make it easy to roll back your changes.
 
 1. Click `Undo / Redo` in the left side of the screen. All the changes you have made will appear in the left-hand panel.
-   The current stage in the data processing is highlighted in blue (i.e. step 4. in the screenshot below). As you click
-   on the different stages in the process, the step identified in blue will change and, far more importantly, the data
-   will revert to that stage in the processing.
+  The current stage in the data processing is highlighted in blue (i.e. step 4. in the screenshot below). As you click
+  on the different stages in the process, the step identified in blue will change and, far more importantly, the data
+  will revert to that stage in the processing.
+  
+  ![](fig/or362-undoredo.png){alt='OpenRefine tab for Undo/Redo actions'}
 
-   ![OpenRefine tab for Undo/Redo actions](../fig/or362-undoredo.png)
+2. We want to undo the splitting of the column `scientificName`. Select the stage just
+  before the split occurred and the new `scientificName` columns will disappear.
 
-1. We want to undo the splitting of the column `scientificName`. Select the stage just
-   before the split occurred and the new `scientificName` columns will disappear.
-1. Notice that you can still click on the last stage and make the columns reappear, and toggle back and forth between these states. You can also select the state more than one steps back and revert to that state.
-1. Let's leave the dataset in the state before `scientificNames` was split.
+3. Notice that you can still click on the last stage and make the columns reappear, and toggle back and forth between these states. You can also select the state more than one steps back and revert to that state.
+
+4. Let's leave the dataset in the state before `scientificNames` was split.
 
 ## Trimming leading and trailing whitespace
 
@@ -63,53 +81,76 @@ Words with spaces at the beginning or end are particularly hard for humans to id
 1. In the header for the column `scientificName`, choose `Edit cells` > `Common transforms` > `Trim leading and trailing whitespace`.
 2. Notice that the `Split` step has now disappeared from the `Undo / Redo` pane on the left and is replaced with a `Text transform on 2 cells`
 
-> ## Exercise
-> Repeat the splitting of column `scientificName` exercise after trimming the whitespace.
-> > ## Solution
-> >
-> > On the `scientificName` column, click the down arrow next to the `scientificName` column and
-> > choose `Edit Column` > `Split into several columns...` from the drop down menu. Use a blank character as a separator,
-> > as before. You should now get only two columns `scientificName 1` and `scientificName 2`.
-> {: .solution}
-{: .challenge}
+:::::::::::::::::::::::::::::::::::::::  challenge
+
+## Exercise
+
+Repeat the splitting of column `scientificName` exercise after trimming the whitespace.
+
+:::::::::::::::  solution
+
+## Solution
+
+On the `scientificName` column, click the down arrow next to the `scientificName` column and
+choose `Edit Column` > `Split into several columns...` from the drop down menu. Use a blank character as a separator,
+as before. You should now get only two columns `scientificName 1` and `scientificName 2`.
+
+
+
+:::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Renaming columns
 
 We now have the genus and species parts neatly separated into 2 columns - `scientificName 1` and `scientificName 2`.
 We want to rename these as `genus` and `species`, respectively.
-1. Let's first rename the `scientificName 1` column. On the column, click the down arrow and then `Edit column` > `Rename this column`.
-3. Type "genus" into the box that appears.
 
-> ## Exercise
->
-> Try to change the name of the `scientificName 2` column to `species`. What problem do you encounter? How can you fix the problem?
->
-> > ## Solution
-> >
-> > 1. On the `scientificName 2` column, click the down arrow and then `Edit column` > `Rename this column`.
-> > 1. Type "species" into the box that appears.
-> > 1. A pop-up will appear that says `Another column already named species`. This is because there is another column with the same name where we've recorded the species abbreviation.
-> > 1. You can use another name for the `scientificName 2` or change the name of the `species` column and then rename the `scientificName 2` column.
-> {: .solution}
-{: .challenge}
+1. Let's first rename the `scientificName 1` column. On the column, click the down arrow and then `Edit column` > `Rename this column`.
+2. Type "genus" into the box that appears.
+
+:::::::::::::::::::::::::::::::::::::::  challenge
+
+## Exercise
+
+Try to change the name of the `scientificName 2` column to `species`. What problem do you encounter? How can you fix the problem?
+
+:::::::::::::::  solution
+
+## Solution
+
+1. On the `scientificName 2` column, click the down arrow and then `Edit column` > `Rename this column`.
+2. Type "species" into the box that appears.
+3. A pop-up will appear that says `Another column already named species`. This is because there is another column with the same name where we've recorded the species abbreviation.
+4. You can use another name for the `scientificName 2` or change the name of the `species` column and then rename the `scientificName 2` column.
+  
+  
+
+:::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Edit the name of the `species` column to `species_abbreviation`. Then, rename `scientificName 2` to `species`.
 
 ## Combining columns to create new ones
 
-The date for each row in the data file is split in three columns: `dy` (day), `mo` (month), and `yr` (year). We can create a new column with the date in the format we want by combining these columns. 
+The date for each row in the data file is split in three columns: `dy` (day), `mo` (month), and `yr` (year). We can create a new column with the date in the format we want by combining these columns.
 
- * Click on the menu for the `yr` column and select `Edit column` > `Join columns...`. 
- * In the window that opens up, check the boxes next to the columns `yr`, `mo`, and `dy`. 
- * Enter `-` as a separator.
- * Select the option `Write result in new column named` and write `date` as the name for the new column.
- * Click `OK`
+- Click on the menu for the `yr` column and select `Edit column` > `Join columns...`.
 
-   ![OpenRefine window for joining columns](../fig/or372-joincols.png)
+- In the window that opens up, check the boxes next to the columns `yr`, `mo`, and `dy`.
 
-You can change the order of the columns by dragging the columns in the left side of the window. 
+- Enter `-` as a separator.
 
-Once the new column is created, convert it to date using `Edit cells` > `Common transforms` > `To date`. Now you can explore the data using a timeline facet. Create the new facet by clicking on the menu for the column `date` and select `Facet` > `Timeline facet`. 
+- Select the option `Write result in new column named` and write `date` as the name for the new column.
+
+- Click `OK`
+  
+  ![](fig/or372-joincols.png){alt='OpenRefine window for joining columns'}
+
+You can change the order of the columns by dragging the columns in the left side of the window.
+
+Once the new column is created, convert it to date using `Edit cells` > `Common transforms` > `To date`. Now you can explore the data using a timeline facet. Create the new facet by clicking on the menu for the column `date` and select `Facet` > `Timeline facet`.
 
 ## Data clustering
 
@@ -123,23 +164,40 @@ OpenRefine provides different clustering algorithms. The best way to understand 
 
 The dataset has several near-identical entries in `scientificName`. For example, there are two misspellings of *Ammospermophilus harrisii*:
 
- * *Ammospermophilis harrisi* and
- * *Ammospermophilus harrisi*
+- *Ammospermophilis harrisi* and
+- *Ammospermophilus harrisi*
 
 1. If you removed it, reinstate the `scientificName` text facet (you can also remove all the other facets to gain some space).
-In the `scientificName` text facet box - click the `Cluster` button.
-1. In the resulting pop-up window, you can change the `Method` and the `Keying Function`. Try different combinations to see what different mergers of values are suggested.
-1. If you select the `key collision` method and the `metaphone3` keying function. It should identify one cluster:
+  In the `scientificName` text facet box - click the `Cluster` button.
 
-   ![OpenRefine window for clustering](../fig/or362-clustering.png)
+2. In the resulting pop-up window, you can change the `Method` and the `Keying Function`. Try different combinations to see what different mergers of values are suggested.
 
-1. Note that the `New Cell Value` column displays the new name that will replace the value in all the cells in the
-group. You can change this if you wish to choose a different value than the suggested one.
-1. Tick the `Merge?` checkbox beside each group, then click `Merge selected & Close` to apply the corrections to the dataset and close the window.
-1. The text facet of `scientificName` will update to show the new summary of the column. It will have now 7 options:
+3. If you select the `key collision` method and the `metaphone3` keying function. It should identify one cluster:
+  
+  ![](fig/or362-clustering.png){alt='OpenRefine window for clustering'}
 
-   ![Facet of scientificName after clustering](../fig/or362-clustering-result.png)
+4. Note that the `New Cell Value` column displays the new name that will replace the value in all the cells in the
+  group. You can change this if you wish to choose a different value than the suggested one.
 
-> ## Clustering Documentation
-> Full documentation on clustering can be found at the [OpenRefine Clustering Methods In-depth](https://docs.openrefine.org/next/technical-reference/clustering-in-depth) page of the OpenRefine manual.
-{: .callout}
+5. Tick the `Merge?` checkbox beside each group, then click `Merge selected & Close` to apply the corrections to the dataset and close the window.
+
+6. The text facet of `scientificName` will update to show the new summary of the column. It will have now 7 options:
+  
+  ![](fig/or362-clustering-result.png){alt='Facet of scientificName after clustering'}
+
+:::::::::::::::::::::::::::::::::::::::::  callout
+
+## Clustering Documentation
+
+Full documentation on clustering can be found at the [OpenRefine Clustering Methods In-depth](https://docs.openrefine.org/next/technical-reference/clustering-in-depth) page of the OpenRefine manual.
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: keypoints
+
+- Clustering can identify outliers in data and help us fix errors in bulk
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
