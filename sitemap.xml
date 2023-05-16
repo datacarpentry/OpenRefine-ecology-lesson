@@ -46,7 +46,13 @@
     <loc>https://datacarpentry.github.io/OpenRefine-ecology-lesson/NEWS.html</loc>
   </url>
   <url>
+    <loc>https://datacarpentry.github.io/OpenRefine-ecology-lesson/aio.html</loc>
+  </url>
+  <url>
     <loc>https://datacarpentry.github.io/OpenRefine-ecology-lesson/discuss.html</loc>
+  </url>
+  <url>
+    <loc>https://datacarpentry.github.io/OpenRefine-ecology-lesson/images.html</loc>
   </url>
   <url>
     <loc>https://datacarpentry.github.io/OpenRefine-ecology-lesson/index.html</loc>
@@ -97,16 +103,34 @@
     <loc>https://datacarpentry.github.io/OpenRefine-ecology-lesson/instructor/NEWS.html</loc>
   </url>
   <url>
+    <loc>https://datacarpentry.github.io/OpenRefine-ecology-lesson/instructor/aio.html</loc>
+  </url>
+  <url>
     <loc>https://datacarpentry.github.io/OpenRefine-ecology-lesson/instructor/discuss.html</loc>
   </url>
   <url>
+    <loc>https://datacarpentry.github.io/OpenRefine-ecology-lesson/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://datacarpentry.github.io/OpenRefine-ecology-lesson/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://datacarpentry.github.io/OpenRefine-ecology-lesson/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://datacarpentry.github.io/OpenRefine-ecology-lesson/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://datacarpentry.github.io/OpenRefine-ecology-lesson/instructor/profiles.html</loc>
   </url>
   <url>
     <loc>https://datacarpentry.github.io/OpenRefine-ecology-lesson/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://datacarpentry.github.io/OpenRefine-ecology-lesson/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://datacarpentry.github.io/OpenRefine-ecology-lesson/key-points.html</loc>
   </url>
   <url>
     <loc>https://datacarpentry.github.io/OpenRefine-ecology-lesson/profiles.html</loc>
