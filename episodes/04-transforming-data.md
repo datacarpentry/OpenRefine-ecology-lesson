@@ -189,7 +189,7 @@ The dataset has several near-identical entries in `scientificName`. For example,
 
 ## Clustering Documentation
 
-Full documentation on clustering can be found at the [OpenRefine Clustering Methods In-depth](https://docs.openrefine.org/next/technical-reference/clustering-in-depth) page of the OpenRefine manual.
+Full documentation on clustering can be found at the [OpenRefine Clustering Methods In-depth](https://openrefine.org/docs/technical-reference/clustering-in-depth) page of the OpenRefine manual.
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
