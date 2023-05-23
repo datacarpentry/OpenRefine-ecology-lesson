@@ -357,12 +357,12 @@ will ask whether you want to make the same correction to every value it
 finds like that one. But OpenRefine offers even better ways to find and
 fix these errors, which we’ll use instead. We’ll learn about these when
 we talk about clustering.</p></li>
-</ol><div id="callout1" class="callout callout">
+</ol><div id="facets-and-large-datasets" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="facets-and-large-datasets" class="callout-inner">
-<h3 class="callout-title">Facets and large datasets<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">Facets and large datasets<a class="anchor" aria-label="anchor" href="#facets-and-large-datasets"></a>
 </h3>
 <div class="callout-content">
 <p>Facets are intended to group together common values and OpenRefine
@@ -375,12 +375,12 @@ OpenRefine will not create the facet.</p>
 </div>
 </div>
 </div>
-<div id="challenge1" class="callout challenge">
+<div id="exercise" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal"><li>Using faceting, find out how many years are represented in the
@@ -397,7 +397,7 @@ census.</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal"><li>For the column <code>yr</code> do <code>Facet</code> &gt;
 <code>Text facet</code>. A box will appear in the left panel showing
@@ -435,12 +435,12 @@ the down arrow for that column, then <code>Edit cells</code> &gt;
 <code>Common transforms…</code> &gt; <code>To number</code>. You will
 notice the <code>yr</code> values change from left-justified to
 right-justified, and black to green color.</p>
-<div id="challenge2" class="callout challenge">
+<div id="exercise-1" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise-1" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#challenge2"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-1"></a>
 </h3>
 <div class="callout-content">
 <p>The dataset included other numeric columns that we will explore in
@@ -469,7 +469,7 @@ reference to particular entry</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>Displaying a <code>Numeric facet</code> of <code>yr</code> shows a
 histogram of the number of entries per year. Notice that the data is
@@ -487,12 +487,12 @@ the data in that column was not transformed.</p>
 </div>
 <p>The next exercise will explore what happens when a numeric column
 contains values that are not numbers.</p>
-<div id="discussion1" class="callout discussion">
+<div id="exercise-2" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="exercise-2" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-2"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal"><li>For a column you transformed to numbers, edit one or two cells,
@@ -526,12 +526,12 @@ triangle. Each square has little dots for the cell values from each
 row.</p>
 <figure><img src="../fig/or372-scatterplots.png" alt="Scatterplots between numeric columns" class="figure mx-auto d-block"></figure><p>Click the image of the scatterplot between <code>recordID</code> and
 <code>yr</code> to select this one for the facet.</p>
-<div id="discussion2" class="callout discussion">
+<div id="exercise-3" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="exercise-3" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-3"></a>
 </h3>
 <div class="callout-content">
 <p>Click in the scatterplot facet in the lower left margin and drag to
@@ -539,12 +539,12 @@ highlight a rectangle. How does this change the data rows displayed?</p>
 </div>
 </div>
 </div>
-<div id="callout2" class="callout callout">
+<div id="more-details-on-faceting" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="more-details-on-faceting" class="callout-inner">
-<h3 class="callout-title">More Details on Faceting<a class="anchor" aria-label="anchor" href="#callout2"></a>
+<h3 class="callout-title">More Details on Faceting<a class="anchor" aria-label="anchor" href="#more-details-on-faceting"></a>
 </h3>
 <div class="callout-content">
 <p>Full documentation on faceting can be found at <a href="https://docs.openrefine.org/manual/facets" class="external-link">Exploring facets:
@@ -596,7 +596,7 @@ Faceting</a></p>
         <p>Materials licensed under <a href="../LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.11.17" class="external-link">sandpaper (0.11.17)</a>,
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.12.0" class="external-link">sandpaper (0.12.0)</a>,
         <a href="https://github.com/carpentries/pegboard" class="external-link">pegboard (0.5.3)</a>,
       and <a href="https://github.com/carpentries/varnish/tree/0.2.16" class="external-link">varnish (0.2.16)</a>.</p>
 			</div>
@@ -620,7 +620,7 @@ Faceting</a></p>
   "identifier": "https://datacarpentry.github.io/OpenRefine-ecology-lesson/instructor/03-exploring-data.html",
   "dateCreated": "2015-04-04",
   "dateModified": "2023-05-09",
-  "datePublished": "2023-05-18"
+  "datePublished": "2023-05-23"
 }
 
   </script><script>

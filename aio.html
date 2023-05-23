@@ -522,12 +522,12 @@ with your data.</li>
 <section id="importing-data"><h2 class="section-heading">Importing data<a class="anchor" aria-label="anchor" href="#importing-data"></a>
 </h2>
 <hr class="half-width">
-<div id="callout1" class="callout callout">
+<div id="what-kinds-of-data-files-can-i-import" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="what-kinds-of-data-files-can-i-import" class="callout-inner">
-<h3 class="callout-title">What kinds of data files can I import?<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">What kinds of data files can I import?<a class="anchor" aria-label="anchor" href="#what-kinds-of-data-files-can-i-import"></a>
 </h3>
 <div class="callout-content">
 <p>There are several options for getting your data set into OpenRefine.
@@ -593,13 +593,13 @@ OpenRefine!</li>
 </ol>
 <p>The columns are all imported as text, even the columns with numbers.
 We will see how to format the numeric columns in the next episode.</p>
-<div id="callout2" class="callout callout">
+<div id="openrefine-does-not-modify-your-original-dataset" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="openrefine-does-not-modify-your-original-dataset" class="callout-inner">
 <h3 class="callout-title">OpenRefine does not modify your original
-dataset<a class="anchor" aria-label="anchor" href="#callout2"></a>
+dataset<a class="anchor" aria-label="anchor" href="#openrefine-does-not-modify-your-original-dataset"></a>
 </h3>
 <div class="callout-content">
 <p>Once your data is imported into a project - OpenRefine leaves your
@@ -705,12 +705,12 @@ finds like that one. But OpenRefine offers even better ways to find and
 fix these errors, which we’ll use instead. We’ll learn about these when
 we talk about clustering.</p></li>
 </ol>
-<div id="callout1" class="callout callout">
+<div id="facets-and-large-datasets" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="facets-and-large-datasets" class="callout-inner">
-<h3 class="callout-title">Facets and large datasets<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">Facets and large datasets<a class="anchor" aria-label="anchor" href="#facets-and-large-datasets"></a>
 </h3>
 <div class="callout-content">
 <p>Facets are intended to group together common values and OpenRefine
@@ -723,12 +723,12 @@ OpenRefine will not create the facet.</p>
 </div>
 </div>
 </div>
-<div id="challenge1" class="callout challenge">
+<div id="exercise" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
@@ -747,7 +747,7 @@ census.</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>For the column <code>yr</code> do <code>Facet</code> &gt;
@@ -789,12 +789,12 @@ the down arrow for that column, then <code>Edit cells</code> &gt;
 <code>Common transforms…</code> &gt; <code>To number</code>. You will
 notice the <code>yr</code> values change from left-justified to
 right-justified, and black to green color.</p>
-<div id="challenge2" class="callout challenge">
+<div id="exercise-1" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise-1" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#challenge2"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-1"></a>
 </h3>
 <div class="callout-content">
 <p>The dataset included other numeric columns that we will explore in
@@ -827,7 +827,7 @@ reference to particular entry</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>Displaying a <code>Numeric facet</code> of <code>yr</code> shows a
 histogram of the number of entries per year. Notice that the data is
@@ -845,12 +845,12 @@ the data in that column was not transformed.</p>
 </div>
 <p>The next exercise will explore what happens when a numeric column
 contains values that are not numbers.</p>
-<div id="discussion1" class="callout discussion">
+<div id="exercise-2" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="exercise-2" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-2"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
@@ -887,12 +887,12 @@ triangle. Each square has little dots for the cell values from each
 row.</p>
 <figure><img src="fig/or372-scatterplots.png" alt="Scatterplots between numeric columns" class="figure mx-auto d-block"></figure><p>Click the image of the scatterplot between <code>recordID</code> and
 <code>yr</code> to select this one for the facet.</p>
-<div id="discussion2" class="callout discussion">
+<div id="exercise-3" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="exercise-3" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-3"></a>
 </h3>
 <div class="callout-content">
 <p>Click in the scatterplot facet in the lower left margin and drag to
@@ -900,12 +900,12 @@ highlight a rectangle. How does this change the data rows displayed?</p>
 </div>
 </div>
 </div>
-<div id="callout2" class="callout callout">
+<div id="more-details-on-faceting" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="more-details-on-faceting" class="callout-inner">
-<h3 class="callout-title">More Details on Faceting<a class="anchor" aria-label="anchor" href="#callout2"></a>
+<h3 class="callout-title">More Details on Faceting<a class="anchor" aria-label="anchor" href="#more-details-on-faceting"></a>
 </h3>
 <div class="callout-content">
 <p>Full documentation on faceting can be found at <a href="https://docs.openrefine.org/manual/facets" class="external-link">Exploring facets:
@@ -998,12 +998,12 @@ OpenRefine to clean your data - this process can be automated.</p>
 <p>In newer versions of OpenRefine (from version 3.4.1) there is now an
 option to clean leading and trailing white spaces from all data when
 importing the data initially and creating the project.</p>
-<div id="challenge1" class="callout challenge">
+<div id="exercise" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise"></a>
 </h3>
 <div class="callout-content">
 <p>Look at the data in the column <code>coordinates</code> and split
@@ -1073,12 +1073,12 @@ them.</p>
 <code>Text transform on 2 cells</code>
 </li>
 </ol>
-<div id="challenge2" class="callout challenge">
+<div id="exercise-1" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise-1" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#challenge2"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-1"></a>
 </h3>
 <div class="callout-content">
 <p>Repeat the splitting of column <code>scientificName</code> exercise
@@ -1118,12 +1118,12 @@ column, click the down arrow and then <code>Edit column</code> &gt;
 <code>Rename this column</code>.</li>
 <li>Type “genus” into the box that appears.</li>
 </ol>
-<div id="challenge3" class="callout challenge">
+<div id="exercise-2" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise-2" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#challenge3"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-2"></a>
 </h3>
 <div class="callout-content">
 <p>Try to change the name of the <code>scientificName 2</code> column to
@@ -1234,12 +1234,12 @@ to the dataset and close the window.</p></li>
 <li><p>The text facet of <code>scientificName</code> will update to show
 the new summary of the column. It will have now 7 options:</p></li>
 </ol>
-<figure><img src="fig/or362-clustering-result.png" alt="Facet of scientificName after clustering" class="figure mx-auto d-block"></figure><div id="callout1" class="callout callout">
+<figure><img src="fig/or362-clustering-result.png" alt="Facet of scientificName after clustering" class="figure mx-auto d-block"></figure><div id="clustering-documentation" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="clustering-documentation" class="callout-inner">
-<h3 class="callout-title">Clustering Documentation<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">Clustering Documentation<a class="anchor" aria-label="anchor" href="#clustering-documentation"></a>
 </h3>
 <div class="callout-content">
 <p>Full documentation on clustering can be found at the <a href="https://openrefine.org/docs/technical-reference/clustering-in-depth" class="external-link">OpenRefine
@@ -1359,12 +1359,12 @@ selected for the subsequent steps).</p></li>
 <li>Near the top of the screen, change <code>Show:</code> to 50. This
 way, you will see all the matching rows in a single page.</li>
 </ol>
-<div id="challenge1" class="callout challenge">
+<div id="exercise" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
@@ -1382,7 +1382,7 @@ selected?</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>Do <code>Facet</code> &gt; <code>Text facet</code> on the
@@ -1406,12 +1406,12 @@ baileyi</em>).</li>
 </div>
 </div>
 </div>
-<div id="callout1" class="callout callout">
+<div id="filters-vs.-facets" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="filters-vs.-facets" class="callout-inner">
-<h3 class="callout-title">Filters vs. facets<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">Filters vs. facets<a class="anchor" aria-label="anchor" href="#filters-vs.-facets"></a>
 </h3>
 <div class="callout-content">
 <p>Faceting and filtering look very similar. A good distinction is that
@@ -1441,12 +1441,12 @@ sorted results.</p>
 menu for the selected column shows <code>Sort...</code>. Select what you
 would like to sort by (such as <code>numbers</code>). Additional options
 will then appear for you to fine-tune your sorting.</p>
-<div id="challenge2" class="callout challenge">
+<div id="exercise-1" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise-1" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#challenge2"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-1"></a>
 </h3>
 <div class="callout-content">
 <p>Sort by month. How can you ensure that months are in order?</p>
@@ -1460,7 +1460,7 @@ will then appear for you to fine-tune your sorting.</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>In the <code>mo</code> column, select <code>Sort...</code> &gt;
 <code>numbers</code> and select <code>smallest first</code>. The months
@@ -1487,12 +1487,12 @@ to reverse the order of the sort.</p>
 you to undo your sort.</p>
 </blockquote></li>
 </ul>
-<div id="challenge3" class="callout challenge">
+<div id="exercise-2" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise-2" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#challenge3"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-2"></a>
 </h3>
 <div class="callout-content">
 <p>Sort the data by <code>plot</code>. What year(s) were observations
@@ -1507,7 +1507,7 @@ recorded for plot 1 in this filtered dataset?</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <p>In the <code>plot</code> column, select <code>Sort...</code> &gt;
 <code>numbers</code> and select <code>smallest first</code>. The years
@@ -1524,12 +1524,12 @@ columns. The sort will depend on the order in which you select columns
 to sort. To restart the sorting process with a particular column, check
 the <code>sort by this column alone</code> box in the <code>Sort</code>
 pop-up menu.</p>
-<div id="challenge4" class="callout challenge">
+<div id="exercise-3" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise-3" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#challenge4"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-3"></a>
 </h3>
 <div class="callout-content">
 <p>You might like to look for trends in your data by month of collection
@@ -1549,7 +1549,7 @@ all of your entries in chronological order?</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>For the <code>mo</code> column, click on <code>Sort...</code> and
@@ -1577,12 +1577,12 @@ order.</li>
 <code>Sort</code> &gt; <code>Remove sort</code>, that column is removed
 from your multiple sort. If it is the only column sorted, then data
 reverts to its original order.</p>
-<div id="discussion1" class="callout discussion">
+<div id="exercise-4" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="exercise-4" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-4"></a>
 </h3>
 <div class="callout-content">
 <p>Sort by <code>year</code>, <code>month</code> and <code>day</code> in
@@ -1679,7 +1679,11 @@ now</p></li>
 <ul>
 <li>Click ‘Add Standard Service…’ and in the dialogue that appears
 enter:
-<ul><figure><code>https://eol.org/api/reconciliation</code> <img src="fig/or362-reconcile-add.png" alt="Prompt to add a service URL for reconciliation" class="figure mx-auto d-block"></figure></ul>
+<ul>
+<li>
+<code>https://eol.org/api/reconciliation</code> <img src="fig/or362-reconcile-add.png" alt="Prompt to add a service URL for reconciliation" class="figure">
+</li>
+</ul>
 </li>
 </ul>
 <ol start="3" style="list-style-type: decimal">
@@ -1731,9 +1735,12 @@ options in cells. The ‘tick’ accepts the match for the single cell, the
 <li>Choose <em>Ammospermophilus harrisii</em>
 </li>
 </ol>
-<ul><figure>In the scientificName column you should be able to see the various
+<ul>
+<li>In the scientificName column you should be able to see the various
 potential matches. Clicking on a match will take you to the EOL page for
-that entity <img src="fig/or372-reconcile-results.png" alt="Reconciliation menu for each cell" class="figure mx-auto d-block"></figure></ul>
+that entity <img src="fig/or372-reconcile-results.png" alt="Reconciliation menu for each cell" class="figure">
+</li>
+</ul>
 <ol style="list-style-type: decimal">
 <li>Click a ‘double tick’ in one of the scientificName column cells for
 the option “<em>Ammospermophilus harrisii</em> (Audubon &amp; Bachman
@@ -1765,12 +1772,12 @@ United States of America, including:</p>
 <li><code>UNITED STATES</code></li>
 <li><code>United States of America</code></li>
 </ul>
-<div id="challenge1" class="callout challenge">
+<div id="exercise" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise"></a>
 </h3>
 <div class="callout-content">
 <p>If Wikidata does not appear in the list of reconciliation services,
@@ -1837,7 +1844,7 @@ options?</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>The options may be for the same place, but with different wording,
@@ -2068,12 +2075,12 @@ as a <code>txt</code> file.</li>
 </ol>
 <p>Let’s practice running these steps on a new dataset. We’ll test this
 on an uncleaned version of the dataset we’ve been working with.</p>
-<div id="discussion1" class="callout discussion">
+<div id="exercise" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="exercise" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
@@ -2374,7 +2381,7 @@ OpenRefine</li>
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.11.17" class="external-link">sandpaper (0.11.17)</a>,
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.12.0" class="external-link">sandpaper (0.12.0)</a>,
         <a href="https://github.com/carpentries/pegboard" class="external-link">pegboard (0.5.3)</a>,
       and <a href="https://github.com/carpentries/varnish/tree/0.2.16" class="external-link">varnish (0.2.16)</a>.</p>
 			</div>
@@ -2398,8 +2405,8 @@ OpenRefine</li>
   "url": "https://datacarpentry.github.io/OpenRefine-ecology-lesson/aio.html",
   "identifier": "https://datacarpentry.github.io/OpenRefine-ecology-lesson/aio.html",
   "dateCreated": "2015-04-04",
-  "dateModified": "2023-05-18",
-  "datePublished": "2023-05-18"
+  "dateModified": "2023-05-23",
+  "datePublished": "2023-05-23"
 }
 
   </script><script>
