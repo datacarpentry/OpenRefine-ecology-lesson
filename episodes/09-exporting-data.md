@@ -19,7 +19,7 @@ exercises: 0
 
 ## Exporting cleaned data
 
-You can also export just your cleaned data, rather than the entire project.
+Once you are done cleaning your data, you will likely want to export it.
 
 Click `Export` in the top right and select the file type you want to export the data in. `Tab-separated value` (`tsv`) or `Comma-separated value` (`csv`) would be good choices.
 
