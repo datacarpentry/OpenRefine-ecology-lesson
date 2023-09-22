@@ -123,14 +123,13 @@ Try to change the name of the `scientificName 2` column to `species`. What probl
 2. Type "species" into the box that appears.
 3. A pop-up will appear that says `Another column already named species`. This is because there is another column with the same name where we've recorded the species abbreviation.
 4. You can use another name for the `scientificName 2` or change the name of the `species` column and then rename the `scientificName 2` column.
-  
-  
+5. Edit the name of the `species` column to `species_abbreviation`. Then, rename `scientificName 2` to `species`.
+    
 
 :::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Edit the name of the `species` column to `species_abbreviation`. Then, rename `scientificName 2` to `species`.
 
 ## Combining columns to create new ones
 
