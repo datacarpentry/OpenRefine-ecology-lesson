@@ -181,7 +181,7 @@ The dataset has several near-identical entries in `scientificName`. For example,
 
 5. Tick the `Merge?` checkbox beside each group, then click `Merge selected & Close` to apply the corrections to the dataset and close the window.
 
-6. The text facet of `scientificName` will update to show the new summary of the column. It will have now 7 options:
+6. The text facet of `scientificName` will update to show the new summary of the column. It will now have ten options:
   
   ![](fig/or362-clustering-result.png){alt='Facet of scientificName after clustering'}
 
