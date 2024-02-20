@@ -21,7 +21,7 @@ exercises: 15
 
 ## Data splitting
 
-It is easy to split data from one column into multiple columns if the parts are separated by a common separator (say a comma, or a space).
+We can split data from one column into multiple columns if the parts are separated by a common separator (say a comma, or a space).
 
 1. Let us suppose we want to split the `scientificName` column into separate columns, one for genus and one for species.
 2. Click the down arrow next to the `scientificName` column. Choose `Edit Column` > `Split into several columns...`
@@ -58,7 +58,7 @@ Both new columns will appear with green text, indicating they are numeric. The o
 
 ## Undoing / Redoing actions
 
-It is common while exploring and cleaning a dataset to make a mistake or decide to change the order of the process you wish to conduct. OpenRefine provides `Undo` and `Redo` operations to make it easy to roll back your changes.
+It is common while exploring and cleaning a dataset to make a mistake or decide to change the order of the process you wish to conduct. OpenRefine provides `Undo` and `Redo` operations to roll back your changes.
 
 1. Click `Undo / Redo` in the left side of the screen. All the changes you have made will appear in the left-hand panel.
   The current stage in the data processing is highlighted in blue (i.e. step 4. in the screenshot below). As you click
