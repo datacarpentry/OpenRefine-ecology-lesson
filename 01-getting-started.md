@@ -26,7 +26,7 @@ exercises: 0
 - Data is often very messy, and this tool saves a lot of time on cleaning
   headaches.
 
-- Data cleaning steps often need repeating with multiple files. It is important to know what you did to your data. This makes it easy for you to repeat these steps again with similarly structured data. OpenRefine is
+- Data cleaning steps often need repeating with multiple files. It is important to know what you did to your data. This makes it possible for you to repeat these steps again with similarly structured data. OpenRefine is
   perfect for speeding up repetitive tasks by replaying previous actions on
   multiple datasets.
 
@@ -35,11 +35,11 @@ exercises: 0
   all actions applied to your raw data and share them with your publication as
   supplemental material.
 
-- Any operation that changes the data in OpenRefine can be easily reversed or
+- Any operation that changes the data in OpenRefine can be reversed or
   undone.
 
-- Some concepts such as clustering algorithms are quite complex, but OpenRefine
-  makes it easy to introduce them, use them, and show their power.
+- Some concepts such as clustering algorithms are quite complex, but with OpenRefine
+  we can introduce them, use them, and show their power.
   
   > **Note:** You must export your modified dataset to a new file: OpenRefine does not save over the original source file. All changes are stored in the OpenRefine project.
 
@@ -50,7 +50,7 @@ The following setup is necessary before we can get started (see the [instruction
 ## What is OpenRefine?
 
 - OpenRefine is a Java program that runs on your machine (not in the cloud): it is a desktop application that uses your web browser as a graphical interface. No internet connection is needed, and none of the data or commands you enter in OpenRefine are sent to a remote server.
-- OpenRefine does not modify your original dataset. All actions are easily reversed in OpenRefine and you can capture all the actions applied to your data and share this documentation with your publication as supplemental material.
+- OpenRefine does not modify your original dataset. All actions can be reversed in OpenRefine and you can capture all the actions applied to your data and share this documentation with your publication as supplemental material.
 - OpenRefine saves as you go. You can return to the project at any time to pick up where you left off or export your data to a new file.
 - OpenRefine can be used to standardise and clean data across your file.
 
