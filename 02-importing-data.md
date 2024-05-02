@@ -74,7 +74,7 @@ The columns are all imported as text, even the columns with numbers. We will see
 
 Once your data is imported into a project - OpenRefine leaves your raw data intact and works on a copy which it creates
 inside the newly created project. All the data transformation and cleaning steps you apply will be performed on this copy
-and you can easily undo any changes too.
+and you can undo any changes too.
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
