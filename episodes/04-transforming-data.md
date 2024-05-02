@@ -42,7 +42,7 @@ clean leading and trailing white spaces from all data when importing the data in
 
 Look at the data in the column `coordinates` and split these values to obtain latitude and longitude. Make sure that the option for `Guess cell type` is checked and that `Remove this column` is not. Rename the new columns.
 
-What type of data OpenRefine assigns to the new colunms?
+What type of data does OpenRefine assign to the new colunms?
 
 :::::::::::::::  solution
 
