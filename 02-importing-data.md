@@ -83,7 +83,7 @@ and you can undo any changes too.
 
 - Use the Create Project option to import data
 - You can control how data imports using options on the import screen
-- Several files types may be imported into OpenRefine
+- Several file types may be imported into OpenRefine
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 

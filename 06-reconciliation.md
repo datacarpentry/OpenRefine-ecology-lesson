@@ -110,7 +110,7 @@ If Wikidata does not appear in the list of reconciliation services, add the stan
 - In the `Expression` box, enter the following GREL: `cell.recon.best.name`
 - Click `OK`
 
-This will create a new column with the reconciled names for the countries. Create a text facet to see that there are a single name for each country.
+This will create a new column with the reconciled names for the countries. Create a text facet to see that there is a single name for each country.
 
 1. In the cases where OpenRefine did not select a match automatically, are the options relevant?
 2. Why do some cells in the `county` column have many options?

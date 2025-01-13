@@ -42,7 +42,7 @@ clean leading and trailing white spaces from all data when importing the data in
 
 Look at the data in the column `coordinates` and split these values to obtain latitude and longitude. Make sure that the option for `Guess cell type` is checked and that `Remove this column` is not. Rename the new columns.
 
-What type of data does OpenRefine assign to the new colunms?
+What type of data does OpenRefine assign to the new columns?
 
 :::::::::::::::  solution
 
@@ -157,7 +157,7 @@ Once the new column is created, convert it to date using `Edit cells` > `Common 
 Clustering allows you to find groups of entries that are not identical but are
 sufficiently similar that they may be alternative representations of the same thing (term or data value).
 For example, the two strings `New York` and `new york` are very likely to refer to the same concept and just have a
-capitalization differences. Likewise, `Björk` and `Bjork` probably refer to the same person. These kinds of variations
+capitalization difference. Likewise, `Björk` and `Bjork` probably refer to the same person. These kinds of variations
 occur a lot in scientific data. Clustering gives us a tool to resolve them.
 
 OpenRefine provides different clustering algorithms. The best way to understand how they work is to experiment with them.
@@ -172,7 +172,7 @@ The dataset has several near-identical entries in `scientificName`. For example,
 
 2. In the resulting pop-up window, you can change the `Method` and the `Keying Function`. Try different combinations to see what different mergers of values are suggested.
 
-3. If you select the `key collision` method and the `metaphone3` keying function. It should identify one cluster:
+3. If you select the `key collision` method and the `metaphone3` keying function, it should identify one cluster:
   
   ![](fig/or362-clustering.png){alt='OpenRefine window for clustering'}
 
