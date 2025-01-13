@@ -34,7 +34,7 @@ If you still have your text facet for `scientificName`, you can use it. If you'v
   `exclude` will be presented. Note that in the top of the page, "33 matching rows" is now displayed instead of "790 rows".
 3. You can include other species in your current filter - e.g. click on *Chaetodipus baileyi* in the same way to include it in the filter.
 4. Alternatively, you can click the name of the species to include it in the filter instead of clicking the
-  `include`/`exclude` buttons. This will include the selected species and exclude all others options in a single step, which can be useful.
+  `include`/`exclude` buttons. This will include the selected species and exclude all other options in a single step, which can be useful.
 5. Click `include` and `exclude` on the other species and notice how the entries appear and
   disappear from the data table to the right.
 
