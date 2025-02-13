@@ -61,7 +61,7 @@ Both new columns will appear with green text, indicating they are numeric. The o
 It is common while exploring and cleaning a dataset to make a mistake or decide to change the order of the process you wish to conduct. OpenRefine provides `Undo` and `Redo` operations to roll back your changes.
 
 1. Click `Undo / Redo` in the left side of the screen. All the changes you have made will appear in the left-hand panel.
-  The current stage in the data processing is highlighted in blue (i.e. step 4. in the screenshot below). As you click
+  The current stage in the data processing is highlighted in blue (i.e. in the screenshot below). As you click
   on the different stages in the process, the step identified in blue will change and, far more importantly, the data
   will revert to that stage in the processing.
   
