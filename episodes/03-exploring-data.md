@@ -123,7 +123,7 @@ The next exercise will explore what happens when a numeric column contains value
 
 ## Exercise
 
-1. For a column you transformed to numbers, edit one or two cells, replacing the numbers with text (such as `abc`) or blank (no number or text).
+1. For a column you have not yet transformed to numbers, edit one or two cells, replacing a few numbers with text (such as `abc`) or blank (no number or text).
 2. Use the pulldown menu to apply a numeric facet to the column you edited. The facet will appear in the left panel.
 3. Notice that there are several checkboxes in this facet: `Numeric`, `Non-numeric`, `Blank`, and `Error`. Below these are counts of the number of cells in each category. You should see checks for `Non-numeric` and `Blank` if you changed some values.
 4. Experiment with checking or unchecking these boxes to select subsets of your data.
