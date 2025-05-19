@@ -26,7 +26,7 @@ We can split data from one column into multiple columns if the parts are separat
 1. Let us suppose we want to split the `scientificName` column into separate columns, one for genus and one for species.
 2. Click the down arrow next to the `scientificName` column. Choose `Edit Column` > `Split into several columns...`
 3. In the pop-up, in the `Separator` box, replace the comma with a space (the box will look empty when you're done).
-4. Important! Uncheck the box that says `Remove this column`.
+4. **Important!** Uncheck the box that says `Remove this column`.
 5. Click `OK`. You should get some new columns called `scientificName 1`, `scientificName 2`, `scientificName 3`, and `scientificName 4`.
 6. Notice that in some cases these newly created columns are empty (you can check by text faceting the column). Why? What do you think we can do to fix it?
 
@@ -162,7 +162,7 @@ occur a lot in scientific data. Clustering gives us a tool to resolve them.
 
 OpenRefine provides different clustering algorithms. The best way to understand how they work is to experiment with them.
 
-The dataset has several near-identical entries in `scientificName`. For example, there are two misspellings of *Ammospermophilus harrisii*:
+The original dataset has several near-identical entries in `scientificName`. Lets undo back to the step before splitting the `scientificName` column, but after the Text transform to trim leading and trailing white spaces. For example, there are two misspellings of *Ammospermophilus harrisii*:
 
 - *Ammospermophilis harrisi* and
 - *Ammospermophilus harrisi*
