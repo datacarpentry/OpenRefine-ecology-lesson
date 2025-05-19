@@ -162,7 +162,7 @@ occur a lot in scientific data. Clustering gives us a tool to resolve them.
 
 OpenRefine provides different clustering algorithms. The best way to understand how they work is to experiment with them.
 
-The dataset has several near-identical entries in `scientificName`. For example, there are two misspellings of *Ammospermophilus harrisii*:
+The original dataset has several near-identical entries in `scientificName`. Lets undo back to the step before splitting the `scientificName` column, but after the Text transform to trim leading and trailing white spaces. For example, there are two misspellings of *Ammospermophilus harrisii*:
 
 - *Ammospermophilis harrisi* and
 - *Ammospermophilus harrisi*
