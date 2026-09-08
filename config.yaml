@@ -11,29 +11,29 @@
 carpentry: 'dc'
 
 # Overall title for pages.
-title: 'Data Cleaning with OpenRefine for Ecologists'
+title: 'Data Cleaning with OpenRefine for Health Scientists'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: '2015-04-04'
+created: '2026-09-08'
 
 # Comma-separated list of keywords for the lesson
 keywords: 'software, data, lesson, The Carpentries'
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'stable'
+life_cycle: 'pre-alpha'
 
 # License of the lesson materials (recommended CC-BY 4.0)
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/datacarpentry/OpenRefine-ecology-lesson'
+source: 'https://github.com/UW-Madison-DataScience/OpenRefine-hsdc-lesson'
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org'
+contact: 'facilitator@datascience.wisc.edu'
 
 # Navigation ------------------------------------------------
 #
@@ -85,6 +85,6 @@ profiles:
 # sandpaper and varnish versions) should live
 
 
-url: 'https://datacarpentry.github.io/OpenRefine-ecology-lesson'
+url: 'https://UW-Madison-DataScience.github.io/OpenRefine-hsdc-lesson'
 analytics: carpentries
 lang: en
