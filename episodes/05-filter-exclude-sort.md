@@ -42,7 +42,7 @@ Click on `Reset` at the top-right of the facet before continuing to the next ste
 
 ### Text filters
 
-One way to filter data is to create a text filter on a column. Close all facets you may have created previously and reinstate the text facet on the `scientificName` column.
+One way to filter data is to create a text filter on a column. Close all facets you may have created previously.
 
 1. Click the down arrow next to `scientificName` > `Text filter`. A `scientificName` filter will appear on the left margin below the text facet.
 
