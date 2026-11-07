@@ -17,7 +17,7 @@ for this lesson.
 
 The data for this lesson and the workshop are in the
 [Portal Project Teaching Database](https://figshare.com/articles/Portal_Project_Teaching_Database/1314459)
-available on FigShare, with a CC-BY license
+available on FigShare, with a CC-O license
 available for reuse.
 
 
@@ -27,11 +27,11 @@ available for reuse.
 
 ## Software
 
-For this lesson you will need **OpenRefine version 3.7.2** and a web browser.
+For this lesson you will need **OpenRefine version 3.7.2 and above** and a web browser.
 
 Note: OpenRefine is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed.
 
-Download OpenRefine version 3.7.2 from [https://openrefine.org/download](https://openrefine.org/download).
+Download OpenRefine version 3.7.2 and above from [https://openrefine.org/download](https://openrefine.org/download).
 
 - Do not download beta versions or the release candidates. These are only for development and testing of the software.
 - If you are on Windows and do not have Java installed, download the version `Windows (including Java)`.
